@@ -72,6 +72,24 @@ def cmd_fetch(url: str, srt_path: Optional[str] = None) -> int:
     return 0
 
 
+def cmd_grammar() -> int:
+    """CLI mode: jalankan stage 3 grammar fix."""
+    from src.stages.grammar import fix_grammar
+    work_dir = Path("work")
+    kamus = Path("kamus_jawa.json")
+    print(f"[+] Stage 3: grammar fix (kamus: {kamus})")
+    try:
+        r = fix_grammar(work_dir, kamus_path=kamus, log=lambda m: print(m))
+    except Exception as e:
+        print(f"[!] ERROR: {e}")
+        return 1
+    print()
+    print(f"[+] Done. {r.subs_with_changes}/{r.total_subs} subs changed.")
+    print(f"[+] Typos: {r.total_typos_fixed}, Punct: {r.total_punct_added}, Cap: {r.total_capitalized}")
+    print(f"[+] Output: {r.srt_out_path}")
+    return 0
+
+
 def cmd_translate(limit: Optional[int] = None, batch_size: int = 20) -> int:
     """CLI mode: jalankan stage 2 translate."""
     from src.stages.translate import translate_srt
@@ -114,6 +132,7 @@ def main() -> int:
     parser.add_argument("--fetch", metavar="URL", help="CLI mode: langsung fetch URL tanpa TUI")
     parser.add_argument("--srt", metavar="PATH", help="Path SRT lokal (downsub.com). Pakai dengan --fetch, atau sendiri untuk mode SRT-only")
     parser.add_argument("--translate", action="store_true", help="CLI mode: jalankan stage 2 translate")
+    parser.add_argument("--grammar", action="store_true", help="CLI mode: jalankan stage 3 grammar fix")
     parser.add_argument("--limit", type=int, help="Untuk --translate: hanya N baris pertama (testing)")
     parser.add_argument("--batch-size", type=int, default=20, help="Untuk --translate: ukuran batch (default 20)")
     parser.add_argument("--list-voices", action="store_true", help="List voice Edge-TTS jv/id/su")
@@ -122,6 +141,8 @@ def main() -> int:
 
     if args.list_voices:
         return cmd_list_voices()
+    if args.grammar:
+        return cmd_grammar()
     if args.translate:
         return cmd_translate(limit=args.limit, batch_size=args.batch_size)
     if args.fetch or args.srt:

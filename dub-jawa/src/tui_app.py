@@ -334,11 +334,92 @@ class TranslatePane(StagePane):
 
 
 class GrammarPane(StagePane):
+    """Stage 3: Fix typo, tata bahasa, tanda baca."""
+
     def __init__(self):
         super().__init__("3", "Grammar Fix")
+
     def compose(self) -> ComposeResult:
         yield Static("Stage 3: Fix typo, tata bahasa, tanda baca (kamus JSON + pysrt)", classes="stage-title")
-        yield Static("Coming in Tahap 3.", classes="stage-placeholder")
+        yield Static(
+            "Ringan, no LLM call. Hanya regex + kamus_jawa.json. "
+            "Substitusi typo + tambah tanda baca akhir kalimat + kapitalisasi.",
+            classes="hint",
+        )
+        yield Horizontal(
+            Button("Run Grammar Fix", id="grammar-btn", variant="primary"),
+            Button("Approve (Y)", id="approve-btn", variant="success"),
+            Button("Reject (N)", id="reject-btn", variant="error"),
+            Button("View report", id="view-report-btn", variant="default"),
+            Button("Edit kamus", id="edit-kamus-btn", variant="default"),
+            classes="row",
+        )
+        yield Label("Log:")
+        yield Log(id="grammar-log", max_lines=200, classes="log")
+        yield Label("Report:")
+        yield Static(id="grammar-report", classes="report-box")
+
+    def on_button_pressed(self, event: Button.Pressed) -> None:
+        if event.button.id == "grammar-btn":
+            asyncio.run(self._do_grammar())
+        elif event.button.id == "approve-btn":
+            self.query_one("#grammar-log", Log).write_line("[Y] Stage 3 approved. Lanjut ke Stage 4 (Split).")
+        elif event.button.id == "reject-btn":
+            self.query_one("#grammar-log", Log).write_line("[N] Stage 3 ditolak. Edit kamus lalu retry.")
+        elif event.button.id == "view-report-btn":
+            self._view_report()
+        elif event.button.id == "edit-kamus-btn":
+            self._edit_kamus()
+
+    async def _do_grammar(self) -> None:
+        log_widget = self.query_one("#grammar-log", Log)
+        log_widget.write_line("[+] Stage 3: grammar fix (no LLM, fast)")
+        import threading
+
+        def _run():
+            from src.stages.grammar import fix_grammar
+            try:
+                result = fix_grammar(
+                    WORK_DIR,
+                    kamus_path=ROOT / "kamus_jawa.json",
+                    log=lambda m: log_widget.write_line(m),
+                )
+                log_widget.write_line(f"[+] Done. {result.subs_with_changes}/{result.total_subs} subs changed.")
+                log_widget.write_line(f"[+] Typos fixed: {result.total_typos_fixed}")
+                log_widget.write_line(f"[+] Punct added: {result.total_punct_added}")
+                log_widget.write_line(f"[+] Capitalized: {result.total_capitalized}")
+                log_widget.write_line(f"[+] Output: {result.srt_out_path}")
+                # tampilkan report
+                report_path = WORK_DIR / "reports" / "stage3_report.md"
+                if report_path.exists():
+                    self.query_one("#grammar-report", Static).update(
+                        report_path.read_text(encoding="utf-8")
+                    )
+            except Exception as e:
+                log_widget.write_line(f"[!] ERROR: {e}")
+
+        t = threading.Thread(target=_run, daemon=True)
+        t.start()
+
+    def _view_report(self) -> None:
+        report_path = WORK_DIR / "reports" / "stage3_report.md"
+        if report_path.exists():
+            self.query_one("#grammar-report", Static).update(
+                report_path.read_text(encoding="utf-8")
+            )
+        else:
+            self.query_one("#grammar-log", Log).write_line("[!] Report belum ada. Run grammar dulu.")
+
+    def _edit_kamus(self) -> None:
+        kamus_path = ROOT / "kamus_jawa.json"
+        if not kamus_path.exists():
+            self.query_one("#grammar-log", Log).write_line(f"[!] {kamus_path} tidak ada.")
+            return
+        editor = os.environ.get("EDITOR", "nano")
+        try:
+            subprocess.run([editor, str(kamus_path)], check=False)
+        except Exception as e:
+            self.query_one("#grammar-log", Log).write_line(f"[!] Tidak bisa buka editor: {e}")
 
 
 class SplitPane(StagePane):

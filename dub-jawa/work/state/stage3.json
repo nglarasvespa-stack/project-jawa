@@ -1,0 +1,62 @@
+{
+  "srt_in_path": "work/translated.srt",
+  "srt_out_path": "work/grammar_fixed.srt",
+  "total_subs": 2877,
+  "subs_with_changes": 2875,
+  "total_typos_fixed": 0,
+  "total_punct_added": 2873,
+  "total_capitalized": 21,
+  "total_whitespace_stripped": 1,
+  "sample_diffs": [
+    {
+      "i": 1,
+      "before": "ah",
+      "after": "Ah."
+    },
+    {
+      "i": 2,
+      "before": "kowe teko saka ngendi",
+      "after": "Kowe teko saka ngendi?"
+    },
+    {
+      "i": 3,
+      "before": "iki ing nagara maneh?",
+      "after": "Iki ing nagara maneh?"
+    },
+    {
+      "i": 4,
+      "before": "muncul tanpa jejak",
+      "after": "Muncul tanpa jejak."
+    },
+    {
+      "i": 5,
+      "before": "satoe gerak ngalahaken wong kuwat",
+      "after": "Satoe gerak ngalahaken wong kuwat."
+    },
+    {
+      "i": 2873,
+      "before": "欽此",
+      "after": "欽此."
+    },
+    {
+      "i": 2874,
+      "before": "沒想到三殿下動作挺快",
+      "after": "沒想到三殿下動作挺快."
+    },
+    {
+      "i": 2875,
+      "before": "老爺子",
+      "after": "老爺子."
+    },
+    {
+      "i": 2876,
+      "before": "收拾東西",
+      "after": "收拾東西."
+    },
+    {
+      "i": 2877,
+      "before": "咱們去京城了",
+      "after": "咱們去京城了."
+    }
+  ]
+}

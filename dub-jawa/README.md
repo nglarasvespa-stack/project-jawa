@@ -4,8 +4,8 @@ TUI Python ringan untuk dubbing film/drama internasional ke **Bahasa Jawa** (ver
 
 ## Status
 - **Tahap 1**: Stage 1 Fetch berfungsi (3 mode), TUI 6-tab jalan, voice Jawa terdeteksi.
-- **Tahap 2** (saat ini): Stage 2 Translate berfungsi (LLM GLM via z-ai CLI, auto-detect source, batching 20/batch).
-- Tahap 3: Stage 3 Grammar fix (kamus JSON)
+- **Tahap 2**: Stage 2 Translate berfungsi (LLM GLM via z-ai CLI, auto-detect source, batching 20/batch).
+- **Tahap 3** (saat ini): Stage 3 Grammar fix berfungsi (regex + kamus_jawa.json, no LLM, fast).
 - Tahap 4: Stage 4 Split ngoko/krama
 - Tahap 5: Stage 5 TTS + output
 
@@ -30,16 +30,21 @@ python main.py --translate                              # translate semua
 python main.py --translate --limit 50                  # testing: 50 baris pertama
 python main.py --translate --limit 100 --batch-size 10 # batch lebih kecil kalau error
 
+# Stage 3 - grammar fix (no LLM, fast)
+python main.py --grammar
+
 # list voice Edge-TTS untuk jv/id/su
 python main.py --list-voices
 ```
 
-## Estimasi Stage 2 (LLM translate)
-| Baris | Batch (size=20) | Estimasi waktu |
-|-------|----------------|----------------|
-| 50    | 3              | ~15 detik |
-| 500   | 25             | ~2 menit |
-| 2877  | 144            | ~12 menit |
+## Estimasi waktu
+| Stage | Total baris | Estimasi |
+|-------|-------------|----------|
+| 1 Fetch (SRT only) | - | <1 detik |
+| 2 Translate | 2877 | ~12 menit (144 batch LLM call) |
+| 3 Grammar | 2877 | <2 detik (regex, no LLM) |
+| 4 Split | - | <1 detik (regex, no LLM) |
+| 5 TTS | 2877 x 2 | ~10 menit (edge-tts parallel) |
 
 ## Mode Input Stage 1
 | Mode | URL | SRT lokal | Hasil |
