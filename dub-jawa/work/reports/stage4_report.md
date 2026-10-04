@@ -1,9 +1,9 @@
 # Stage 4: Split ngoko/krama Report
 
 ## Summary
-- **Total subtitles**: 2877
-- **Ngoko substitutions**: 8 (di 6 subs)
-- **Krama substitutions**: 54 (di 33 subs)
+- **Total subtitles**: 2831
+- **Ngoko substitutions**: 849 (di 718 subs)
+- **Krama substitutions**: 4757 (di 2112 subs)
 
 ## Files
 - Input: `work/grammar_fixed.srt`
@@ -11,26 +11,26 @@
 - Output krama: `output/krama.srt`
 
 ## Sample Diffs (first 5 with changes)
+  - **#1**
+    - Original: `Aku iki tekan ngendi?`
+    - Ngoko:    `Aku iki tekan ngendi?`
+    - Krama:    `Kula punika tekan pundi?`
   - **#2**
-    - Original: `Kowe teko saka ngendi?`
-    - Ngoko:    `Kowe teko saka ngendi?`
-    - Krama:    `Panjenengan teko saka pundi?`
-  - **#3**
-    - Original: `Iki ing nagara maneh?`
-    - Ngoko:    `Iki ing nagara maneh?`
-    - Krama:    `Punika ing nagara malih?`
+    - Original: `Apa iki isih negara kita?`
+    - Ngoko:    `Apa iki isih negara kita?`
+    - Krama:    `Menapa punika masih negara kita?`
+  - **#4**
+    - Original: `Ngalahake ahli Body Tempering Realm tahap pungkasan mung nganggo siji gerakan.`
+    - Ngoko:    `Ngalahake ahli Body Tempering Realm tahap pungkasan mung nganggo siji gerakan.`
+    - Krama:    `Ngalahake ahli Body Tempering Realm tahap pungkasan namung ngginakaken setunggal gerakan.`
   - **#5**
-    - Original: `Satoe gerak ngalahaken wong kuwat.`
-    - Ngoko:    `Satoe gerak ngalahaken wong kuwat.`
-    - Krama:    `Satoe gerak ngalahaken wong kukuwat.`
-  - **#7**
-    - Original: `Kowe.`
-    - Ngoko:    `Kowe.`
-    - Krama:    `Panjenengan.`
-  - **#9**
-    - Original: `Aku ora ngerti kawasa sampeyan.`
-    - Ngoko:    `Aku ora ngerti kawasa sampeyan.`
-    - Krama:    `Kula boten sumerep kawasa sampeyan.`
+    - Original: `Apa iki saged dadi master kultivasi sing nyendiri?`
+    - Ngoko:    `Apa iki bisa dadi master kultivasi sing nyendiri?`
+    - Krama:    `Menapa punika saged dados master kultivasi ingkang nyendiri?`
+  - **#6**
+    - Original: `Kowé—.`
+    - Ngoko:    `Ko—.`
+    - Krama:    `Kowé—.`
 
 
 ## Limitasi dictionary-only

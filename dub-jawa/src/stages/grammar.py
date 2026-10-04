@@ -179,12 +179,19 @@ def fix_grammar(
     if log is None:
         log = lambda msg: None
 
-    # cari input SRT
+    # cari input SRT - chain resolution:
+    #   1. work/translated.srt          (output stage 2, jika stage 2 dijalankan)
+    #   2. work/source_video.<lang>.srt  (output stage 1, jika stage 2 di-skip)
     srt_in_path = work_dir / "translated.srt"
     if not srt_in_path.exists():
-        raise FileNotFoundError(
-            f"{srt_in_path} tidak ada. Jalankan stage 2 (translate) dulu."
-        )
+        # fallback ke source SRT (kasus user sudah punya SRT Jawa dari downsub)
+        candidates = sorted(work_dir.glob("source_video.*.srt"))
+        if not candidates:
+            raise FileNotFoundError(
+                f"{srt_in_path} tidak ada, dan tidak ada source_video.*.srt di {work_dir}. "
+                "Jalankan stage 1 (fetch) dulu."
+            )
+        srt_in_path = candidates[0]
 
     # cari kamus
     if kamus_path is None:

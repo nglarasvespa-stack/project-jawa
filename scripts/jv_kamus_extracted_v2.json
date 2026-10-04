@@ -1,0 +1,409 @@
+{
+  "ngoko_to_krama_extracted": {
+    "gedhang": "pisang",
+    "lagi": "saweg",
+    "kuru": "kera",
+    "kaya": "kados",
+    "mangan": "nedha",
+    "cilik": "alit",
+    "dhemen": "remen",
+    "seneng": "remen",
+    "alis": "imba",
+    "kuning": "jené",
+    "dadi": "dados",
+    "rahina": "rahinten",
+    "raina": "rainten",
+    "wengi": "dalu",
+    "pajeg": "paos",
+    "ala": "awon",
+    "mambu": "mambet",
+    "iwak": "ulam",
+    "inep": "sipeng",
+    "tai": "tinja",
+    "wetu": "wedal",
+    "wong_wadon": "lugu_tiyang_èstri",
+    "buwang": "buncal",
+    "iki": "punika",
+    "iku": "punika",
+    "ika": "punika",
+    "didongèngi": "dipundongèngi",
+    "lor_wétan": "lèr_wétan",
+    "kidul_kulon": "kidul_kilèn",
+    "lor_kulon": "lèr_kilèn",
+    "buwangan": "buncalan",
+    "ising": "wawratan",
+    "pring": "deling",
+    "bapak_kuwalon": "lugu_bapak_kuwalon",
+    "dhèwèké": "piyambakipun",
+    "amarga": "amargi",
+    "garwa_putri": "rabi",
+    "digawa": "lugu_dipunbekta",
+    "ndhahar": "nedha",
+    "bocah_wadon": "lugu_laré_èstri",
+    "rama_kuwalon": "lugu_bapak_kuwalon",
+    "karang_ulu": "kajang_sirah",
+    "narasunya": "lèr_wétan",
+    "byabya": "kidul_wétan",
+    "nurwitri": "lèr_kilèn",
+    "abang": "abrit",
+    "amerga": "amergi",
+    "amêrga": "amêrgi",
+    "plandhungan": "konthol",
+    "putih": "pethak",
+    "bobotan": "wawratan",
+    "iwak_babi": "ulam_babi",
+    "iwak_loh": "ulam_loh",
+    "iwak_daging": "ulam_daging",
+    "iwak_sagara": "ulam_saganten",
+    "rina": "rinten",
+    "rahinten": "rainten",
+    "kali": "lèpèn",
+    "sagara": "saganten",
+    "sega": "sekul",
+    "jeneng_cilik": "nama_alit",
+    "asma_timur": "nama_alit",
+    "jeneng_tuwa": "nama_sepuh",
+    "asma_sepuh": "nama_sepuh",
+    "enom": "enèm",
+    "nom": "nèm",
+    "anom": "anèm",
+    "udan": "jawah",
+    "réma": "rambut",
+    "rikma": "rambut",
+    "asu": "sagawon",
+    "werna": "werni",
+    "wong-wongan_catur": "tiyang-tiyangan_catur",
+    "kecoh": "idu",
+    "apa_manèh": "punapa_malih",
+    "apa_menèh": "menapa_melih",
+    "aja_manèh": "sampun_malih",
+    "aja_menèh": "sampun_melih",
+    "jengku": "dhengkul",
+    "singeb": "kemul",
+    "suwarga": "suwargi",
+    "warga_pajeg": "warga_paos",
+    "pajeg_sirah": "paos_sirah",
+    "pajeg_opahan": "paos_opahan",
+    "panarik_pajeg": "panarik_paos",
+    "krambil": "klapa",
+    "banget": "sanget"
+  },
+  "ngoko_to_krama_inggil_extracted": {
+    "konthol": "plandhungan",
+    "ising": "bobotan",
+    "jeneng_cilik": "asma_timur",
+    "jeneng_tuwa": "asma_sepuh",
+    "rambut": "réma",
+    "idu": "kecoh",
+    "dhengkul": "jengku",
+    "kemul": "singeb"
+  },
+  "ngoko_to_krama_madya_extracted": {},
+  "stats": {
+    "gloss_krama": 28,
+    "forms_krama": 59,
+    "gloss_krama_inggil": 8
+  },
+  "raw_samples": [
+    [
+      "gloss_krama",
+      "gedhang",
+      "pisang",
+      "Krama of gedhang."
+    ],
+    [
+      "forms_krama",
+      "lagi",
+      "saweg",
+      "saweg"
+    ],
+    [
+      "forms_krama",
+      "kuru",
+      "kera",
+      "kera"
+    ],
+    [
+      "forms_krama",
+      "kaya",
+      "kados",
+      "kados"
+    ],
+    [
+      "forms_krama",
+      "mangan",
+      "nedha",
+      "nedha"
+    ],
+    [
+      "gloss_krama",
+      "cilik",
+      "alit",
+      "Krama of cilik."
+    ],
+    [
+      "gloss_krama",
+      "dhemen",
+      "remen",
+      "Krama of dhemen."
+    ],
+    [
+      "gloss_krama",
+      "seneng",
+      "remen",
+      "Krama of seneng."
+    ],
+    [
+      "forms_krama",
+      "alis",
+      "imba",
+      "imba"
+    ],
+    [
+      "forms_krama",
+      "kuning",
+      "jené",
+      "jené"
+    ],
+    [
+      "gloss_krama",
+      "dadi",
+      "dados",
+      "Krama of dadi."
+    ],
+    [
+      "forms_krama",
+      "rahina",
+      "rahinten",
+      "rahinten"
+    ],
+    [
+      "forms_krama",
+      "raina",
+      "rainten",
+      "rainten"
+    ],
+    [
+      "forms_krama",
+      "wengi",
+      "dalu",
+      "dalu"
+    ],
+    [
+      "gloss_krama",
+      "pajeg",
+      "paos",
+      "Krama of pajeg."
+    ],
+    [
+      "gloss_krama",
+      "ala",
+      "awon",
+      "Krama of ala."
+    ],
+    [
+      "forms_krama",
+      "mambu",
+      "mambet",
+      "mambet"
+    ],
+    [
+      "gloss_krama",
+      "iwak",
+      "ulam",
+      "Krama of iwak."
+    ],
+    [
+      "forms_krama",
+      "inep",
+      "sipeng",
+      "sipeng"
+    ],
+    [
+      "gloss_krama",
+      "tai",
+      "tinja",
+      "Krama of tai."
+    ],
+    [
+      "forms_krama",
+      "wetu",
+      "wedal",
+      "wedal"
+    ],
+    [
+      "forms_krama",
+      "wong wadon",
+      "lugu tiyang èstri",
+      "lugu tiyang èstri"
+    ],
+    [
+      "forms_krama",
+      "buwang",
+      "buncal",
+      "buncal"
+    ],
+    [
+      "gloss_krama",
+      "iki",
+      "punika",
+      "Krama of iki (“this; these”)."
+    ],
+    [
+      "gloss_krama",
+      "iku",
+      "punika",
+      "Krama of iku (“that; those”)."
+    ],
+    [
+      "gloss_krama",
+      "ika",
+      "punika",
+      "Krama of ika (“that over there; yonder”)."
+    ],
+    [
+      "forms_krama",
+      "didongèngi",
+      "dipundongèngi",
+      "dipundongèngi"
+    ],
+    [
+      "forms_krama",
+      "lor wétan",
+      "lèr wétan",
+      "lèr wétan"
+    ],
+    [
+      "forms_krama",
+      "kidul kulon",
+      "kidul kilèn",
+      "kidul kilèn"
+    ],
+    [
+      "forms_krama",
+      "lor kulon",
+      "lèr kilèn",
+      "lèr kilèn"
+    ],
+    [
+      "forms_krama",
+      "buwangan",
+      "buncalan",
+      "buncalan"
+    ],
+    [
+      "forms_krama",
+      "ising",
+      "wawratan",
+      "wawratan"
+    ],
+    [
+      "gloss_krama",
+      "pring",
+      "deling",
+      "Krama of pring."
+    ],
+    [
+      "forms_krama",
+      "bapak kuwalon",
+      "lugu bapak kuwalon",
+      "lugu bapak kuwalon"
+    ],
+    [
+      "forms_krama",
+      "dhèwèké",
+      "piyambakipun",
+      "piyambakipun"
+    ],
+    [
+      "gloss_krama",
+      "amarga",
+      "amargi",
+      "Krama of amarga."
+    ],
+    [
+      "forms_krama",
+      "garwa putri",
+      "rabi",
+      "rabi"
+    ],
+    [
+      "forms_krama",
+      "digawa",
+      "lugu dipunbekta",
+      "lugu dipunbekta"
+    ],
+    [
+      "forms_krama",
+      "ndhahar",
+      "nedha",
+      "nedha"
+    ],
+    [
+      "forms_krama",
+      "bocah wadon",
+      "lugu laré èstri",
+      "lugu laré èstri"
+    ],
+    [
+      "forms_krama",
+      "rama kuwalon",
+      "lugu bapak kuwalon",
+      "lugu bapak kuwalon"
+    ],
+    [
+      "forms_krama",
+      "karang ulu",
+      "kajang sirah",
+      "kajang sirah"
+    ],
+    [
+      "forms_krama",
+      "narasunya",
+      "lèr wétan",
+      "lèr wétan"
+    ],
+    [
+      "forms_krama",
+      "byabya",
+      "kidul wétan",
+      "kidul wétan"
+    ],
+    [
+      "forms_krama",
+      "nurwitri",
+      "lèr kilèn",
+      "lèr kilèn"
+    ],
+    [
+      "gloss_krama",
+      "abang",
+      "abrit",
+      "Krama of abang."
+    ],
+    [
+      "forms_krama",
+      "amerga",
+      "amergi",
+      "amergi"
+    ],
+    [
+      "gloss_krama",
+      "amêrga",
+      "amêrgi",
+      "dated spelling of amergi, krama of amêrga."
+    ],
+    [
+      "forms_krama",
+      "plandhungan",
+      "konthol",
+      "konthol"
+    ],
+    [
+      "gloss_krama_inggil",
+      "konthol",
+      "plandhungan",
+      "Krama inggil of konthol."
+    ]
+  ]
+}

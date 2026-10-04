@@ -1,48 +1,50 @@
 # Stage 3: Grammar Fix Report
 
 ## Summary
-- **Total subtitles**: 2877
-- **Subs with changes**: 2875 (99.9%)
-- **Total typos fixed**: 3
-- **Punctuation added**: 2873
-- **Capitalized**: 21
-- **Whitespace stripped**: 1
+- **Total subtitles**: 2831
+- **Subs with changes**: 1997 (70.5%)
+- **Total typos fixed**: 166
+- **Punctuation added**: 1374
+- **Capitalized**: 810
+- **Whitespace stripped**: 225
 
 ## Files
-- Input: `work/translated.srt`
+- Input: `work/source_video.jv.srt`
 - Output: `work/grammar_fixed.srt`
 
 ## Sample Diffs (first 5 + last 5 changed)
-  - **#1**
-    - Before: `ah`
-    - After:  `Ah.`
-  - **#2**
-    - Before: `kowe teko saka ngendi`
-    - After:  `Kowe teko saka ngendi?`
   - **#3**
-    - Before: `iki ing nagara maneh?`
-    - After:  `Iki ing nagara maneh?`
+    - Before: `Muncul saka awang-awang,`
+    - After:  `Muncul saka awang-awang.`
   - **#4**
-    - Before: `muncul tanpa jejak`
-    - After:  `Muncul tanpa jejak.`
+    - Before: `ngalahake
+ahli Body Tempering Realm tahap pungkasan mung nganggo siji gerakan,`
+    - After:  `Ngalahake ahli Body Tempering Realm tahap pungkasan mung nganggo siji gerakan.`
   - **#5**
-    - Before: `satoe gerak ngalahaken wong kuwat`
-    - After:  `Satoe gerak ngalahaken wong kuwat.`
-  - **#2873**
-    - Before: `欽此`
-    - After:  `欽此.`
-  - **#2874**
-    - Before: `沒想到三殿下動作挺快`
-    - After:  `沒想到三殿下動作挺快.`
-  - **#2875**
-    - Before: `老爺子`
-    - After:  `老爺子.`
-  - **#2876**
-    - Before: `收拾東西`
-    - After:  `收拾東西.`
-  - **#2877**
-    - Before: `咱們去京城了`
-    - After:  `咱們去京城了.`
+    - Before: `apa iki bisa dadi master kultivasi sing nyendiri?`
+    - After:  `Apa iki saged dadi master kultivasi sing nyendiri?`
+  - **#6**
+    - Before: `Kowé—`
+    - After:  `Kowé—.`
+  - **#8**
+    - Before: `Aku ora ngakoni kaluhuranmu`
+    - After:  `Aku ora ngakoni kaluhuranmu.`
+  - **#2826**
+    - Before: `Prentahake Song Yi supaya nggawa keluargane menyang
+ibukutha kanggo ketemu langsung.`
+    - After:  `Prentahake Song Yi supaya nggawa keluargane menyang ibukutha kanggo ketemu langsung.`
+  - **#2827**
+    - Before: `Miturut dekrit kekaisaran`
+    - After:  `Miturut dekrit kekaisaran.`
+  - **#2829**
+    - Before: `Wong tuwa,`
+    - After:  `Wong tuwa.`
+  - **#2830**
+    - Before: `kemasi barang-barangmu,`
+    - After:  `Kemasi barang-barangmu.`
+  - **#2831**
+    - Before: `kita arep menyang ibukutha.`
+    - After:  `Kita arep menyang ibukutha.`
 
 
 ## Next step

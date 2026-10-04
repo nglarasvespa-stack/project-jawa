@@ -1,12 +1,12 @@
 {
   "video_path": "(skipped - SRT only mode)",
-  "srt_path": "work/source_video.zh-Hant.srt",
-  "subtitle_lang": "zh-Hant",
-  "title": "[Chinese (Traditional)] 新剧首发！📢送外卖的穷小伙，穿越古代意外获得百年人参，不断穿越两界，卖人参逆袭成为千亿富翁！#aivideo #穿越 [DownSub.com]",
+  "srt_path": "work/source_video.jv.srt",
+  "subtitle_lang": "jv",
+  "title": "[Javanese] 新剧首发！📢送外卖的穷小伙，穿越古代意外获得百年人参，不断穿越两界，卖人参逆袭成为千亿富翁！#aivideo #穿越 [DownSub.com]",
   "duration_sec": 6974,
   "uploader": "(local file)",
   "original_url": "(local file)",
   "available_subs": [
-    "zh-Hant"
+    "jv"
   ]
 }

@@ -29,6 +29,7 @@ FILENAME_PATTERNS = [
     (re.compile(r"\[Chinese\s*\(\s*Simplified[^]]*\]\s*", re.I), "zh-Hans"),
     (re.compile(r"\[Chinese[^]]*\]", re.I), "zh"),
     (re.compile(r"\[English[^]]*\]", re.I), "en"),
+    (re.compile(r"\[Javanese[^]]*\]", re.I), "jv"),
     (re.compile(r"\[Indonesian[^]]*\]", re.I), "id"),
     (re.compile(r"\[Malay[^]]*\]", re.I), "ms"),
     (re.compile(r"\[Japanese[^]]*\]", re.I), "ja"),

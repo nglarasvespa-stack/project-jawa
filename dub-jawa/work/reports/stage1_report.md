@@ -5,9 +5,9 @@
 
 ## Output Files
 - Video: `(skipped - SRT only mode)`
-- Subtitle: `work/source_video.zh-Hant.srt`
-- Subtitle language: `zh-Hant` (source: local (filename))
-- Available subtitles: zh-Hant
+- Subtitle: `work/source_video.jv.srt`
+- Subtitle language: `jv` (source: local (filename))
+- Available subtitles: jv
 
 ## Status
 - [ ] Video skipped (SRT-only mode)
@@ -20,6 +20,6 @@ User review: apakah subtitle yang dipilih sudah benar? Jika ada bahasa lain yang
 Klik **[Y] Approve** di TUI untuk lanjut ke Stage 2 (Translate).
 
 ## SRT Detection Detail
-- Filename match: `zh-Hant`
-- Subtitle count: 2877
+- Filename match: `jv`
+- Subtitle count: 2831
 - Encoding used: `utf-8-sig`
