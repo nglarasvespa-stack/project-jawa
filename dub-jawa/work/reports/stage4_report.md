@@ -2,8 +2,8 @@
 
 ## Summary
 - **Total subtitles**: 2831
-- **Ngoko substitutions**: 849 (di 718 subs)
-- **Krama substitutions**: 4760 (di 2112 subs)
+- **Ngoko substitutions**: 1110 (di 885 subs)
+- **Krama substitutions**: 6432 (di 2323 subs)
 
 ## Files
 - Input: `work/grammar_fixed.srt`
@@ -19,6 +19,10 @@
     - Original: `Apa iki isih negara kita?`
     - Ngoko:    `Apa iki isih negara kita?`
     - Krama:    `Menapa punika masih negara kita?`
+  - **#3**
+    - Original: `Muncul saka awang-awang.`
+    - Ngoko:    `Muncul saka awang-awang.`
+    - Krama:    `Muncul saking awang-awang.`
   - **#4**
     - Original: `Ngalahake ahli Body Tempering Realm tahap pungkasan mung nganggo siji gerakan.`
     - Ngoko:    `Ngalahake ahli Body Tempering Realm tahap pungkasan mung nganggo siji gerakan.`
@@ -27,10 +31,6 @@
     - Original: `Apa iki saged dadi master kultivasi sing nyendiri?`
     - Ngoko:    `Apa iki bisa dadi master kultivasi sing nyendiri?`
     - Krama:    `Menapa punika saged dados master kultivasi ingkang nyendiri?`
-  - **#6**
-    - Original: `Kowé—.`
-    - Ngoko:    `Ko—.`
-    - Krama:    `Kowé—.`
 
 
 ## Limitasi dictionary-only

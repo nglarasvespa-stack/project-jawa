@@ -36,7 +36,7 @@ Lan_lan wis nglarani atimu, Senior.
 
 10
 00:00:21,066 --> 00:00:22,000
-Tulung, Senior, mugi kowe kersa paring pangapunten lan_lan kersa paring pangapunten.
+Tulung, Senior, mugi ko kersa paring pangapunten lan_lan kersa paring pangapunten.
 
 11
 00:00:22,333 --> 00:00:23,000
@@ -48,7 +48,7 @@ Aku mung pengin takon pituduh.
 
 13
 00:00:25,900 --> 00:00:26,700
-Kok kowe mlayu?
+Kok ko mlayu?
 
 14
 00:00:27,366 --> 00:00:28,366
@@ -80,7 +80,7 @@ Dewa Abadi, amarga wis nylametake nyawaku.
 
 21
 00:00:34,566 --> 00:00:35,066
-Aku ora duwe cara kanggo males budi marang kowe.
+Aku ora duwe cara kanggo males budi marang ko.
 
 22
 00:00:35,333 --> 00:00:36,366
@@ -96,7 +96,7 @@ Mung 50 taun_e.
 
 25
 00:00:38,166 --> 00:00:38,833
-Kowe ngomong apa?
+Ko ngomong apa?
 
 26
 00:00:39,200 --> 00:00:40,500
@@ -216,7 +216,7 @@ Xiaoyu.
 
 55
 00:01:55,833 --> 00:01:56,966
-Enteni kakangmu sing nylametake kowe.
+Enteni kakangmu sing nylametake ko.
 
 56
 00:01:58,466 --> 00:02:00,433
@@ -276,7 +276,7 @@ Sampeyan bisa lali babagan dadi direktur. Apa?
 
 70
 00:02:19,966 --> 00:02:21,133
-Kowe wis nemokake wonge?
+Ko wis nemokake wonge?
 
 71
 00:02:21,166 --> 00:02:22,833
@@ -304,7 +304,7 @@ Aku, Xiao Bing, sing bakal tanggung jawab sak kabèhé uripé.
 
 77
 00:02:38,100 --> 00:02:40,266
-Pak, kowe mriki arep konsultasi utawa arep nyuwun obat?
+Pak, ko kene arep konsultasi utawa arep njaluk obat?
 
 78
 00:02:40,466 --> 00:02:41,766
@@ -564,7 +564,7 @@ Direktur Li.
 
 142
 00:04:32,566 --> 00:04:33,566
-Kowe tuku ginseng menika ana ngendi?
+Ko tuku ginseng menika ana ngendi?
 
 143
 00:04:33,833 --> 00:04:34,966
@@ -628,11 +628,11 @@ Pawarta kasebut ngomong yen sampeyan ngalami kacilakan montor.
 
 158
 00:04:55,566 --> 00:04:56,833
-Aku terus nelpon kowe, nanging_kae telponmu mati.
+Aku terus nelpon ko, nanging_kae telponmu mati.
 
 159
 00:04:56,933 --> 00:04:57,700
-Aku mikir kowe...
+Aku mikir ko...
 
 160
 00:04:57,900 --> 00:04:58,366
@@ -648,7 +648,7 @@ Iki salah Kakang_lanang.
 
 163
 00:05:00,066 --> 00:05:00,600
-Sing nggawe kowe kuwatir.
+Sing nggawe ko kuwatir.
 
 164
 00:05:01,200 --> 00:05:02,066
@@ -672,11 +672,11 @@ Kepiye kuwi bisa mbuwang-mbuwang dhuwit?
 
 169
 00:05:06,733 --> 00:05:07,733
-Sedulur lanang golek dhuwit mung supaya kowe bisa nggunakake.
+Sedulur lanang golek dhuwit mung supaya ko bisa nggunakake.
 
 170
 00:05:07,900 --> 00:05:08,533
-Apa iku isa nggawe kowe seneng?
+Apa iku isa nggawe ko seneng?
 
 171
 00:05:09,033 --> 00:05:09,333
@@ -776,7 +776,7 @@ Limang atus ewu.
 
 195
 00:05:46,066 --> 00:05:47,766
-Bro, kowe ora ngrampok bank, ta?
+Bro, ko ora ngrampok bank, ta?
 
 196
 00:05:48,300 --> 00:05:49,300
@@ -808,7 +808,7 @@ IOU ora ngomong lusa?
 
 203
 00:06:08,033 --> 00:06:08,766
-Aku sing nggawe aturan ing kene.
+Aku sing nggawe kandhan ing kene.
 
 204
 00:06:08,800 --> 00:06:10,133
@@ -820,7 +820,7 @@ Sejatine.
 
 206
 00:06:13,166 --> 00:06:15,000
-Kakang_lanang Dong ora tau percaya yen kowe bisa mbayar maneh dhuwit iki.
+Kakang_lanang Dong ora tau percaya yen ko bisa mbayar maneh dhuwit iki.
 
 207
 00:06:15,166 --> 00:06:16,033
@@ -876,7 +876,7 @@ Ya, ya, ya Sapa?
 
 220
 00:06:42,533 --> 00:06:43,100
-Kowe? Pak.
+Ko? Pak.
 
 221
 00:06:44,000 --> 00:06:44,766
@@ -1068,7 +1068,7 @@ Kok lunga maneh?
 
 268
 00:08:11,566 --> 00:08:12,166
-Apa kowe isih kelingan?
+Apa ko isih kelingan?
 
 269
 00:08:12,200 --> 00:08:12,833
@@ -1188,7 +1188,7 @@ Sing lawas nang njero omah.
 
 298
 00:08:58,133 --> 00:08:59,500
-Kowe loro urus wae.
+Ko loro urus wae.
 
 299
 00:09:02,533 --> 00:09:04,133
@@ -1200,7 +1200,7 @@ Ya,?
 
 301
 00:09:13,300 --> 00:09:15,400
-Dewa Agung, pungkasane kowe muncul.
+Dewa Agung, pungkasane ko muncul.
 
 302
 00:09:15,433 --> 00:09:16,933
@@ -1288,19 +1288,19 @@ Hahaha, sisa-sisa saka Kulawarga Song.
 
 323
 00:09:45,300 --> 00:09:46,266
-Dadi kowe iki lho.
+Dadi ko iki lho.
 
 324
 00:09:46,966 --> 00:09:48,933
-Kowe salah sawijining anak buahe Pangeran.
+Ko salah sawijining anak buahe Pangeran.
 
 325
 00:09:49,066 --> 00:09:50,166
-Ngapa kowe ana ing kene.
+Ngapa ko ana ing kene.
 
 326
 00:09:50,433 --> 00:09:52,833
-Mesthi wae, kanggo ngirim kowe lan_lan wong tuwamu ing perjalanan pungkasan.
+Mesthi wae, kanggo ngirim ko lan_lan wong tuwamu ing perjalanan pungkasan.
 
 327
 00:09:52,900 --> 00:09:53,733
@@ -1324,7 +1324,7 @@ Apa sing kesusu?
 
 332
 00:09:58,933 --> 00:10:00,933
-Ora suwe maneh kowe bakal ketemu maneh karo bapakmu.
+Ora suwe maneh ko bakal ketemu maneh karo bapakmu.
 
 333
 00:10:05,900 --> 00:10:07,766
@@ -1336,7 +1336,7 @@ Lan_lan saliyane kuwi, dheweke iku wit dhuwitku.
 
 335
 00:10:10,066 --> 00:10:10,900
-Yen kowe wani, mending aku wae sing nembak! Dasar.
+Yen ko wani, mending aku wae sing nembak! Dasar.
 
 336
 00:10:12,733 --> 00:10:14,533
@@ -1348,7 +1348,7 @@ Dadi iki dhukungan sing ditemokake Kulawarga Song.
 
 338
 00:10:24,533 --> 00:10:25,666
-Aku ngelingake kowe.
+Aku ngelingake ko.
 
 339
 00:10:25,700 --> 00:10:26,766
@@ -1364,7 +1364,7 @@ Kothak wesi sing elek.
 
 342
 00:10:29,700 --> 00:10:31,666
-Dolanan manungsa, lan_lan kowe wani pamer?
+Dolanan manungsa, lan_lan ko wani pamer?
 
 343
 00:10:32,266 --> 00:10:33,433
@@ -1468,7 +1468,7 @@ Aku kudu nylametake bapakku.
 
 368
 00:11:46,900 --> 00:11:47,666
-Yen kowe lunga saiki.
+Yen ko lunga saiki.
 
 369
 00:11:48,066 --> 00:11:49,033
@@ -1488,7 +1488,7 @@ Kenapa dheweke kudu repot-repot njupuk bapakmu?
 
 373
 00:11:54,333 --> 00:11:55,666
-Kejaba iku, apa sing bisa koklakoni yen kowe kesusu saiki?
+Kejaba iku, apa sing bisa koklakoni yen ko kesusu saiki?
 
 374
 00:11:55,800 --> 00:11:56,366
@@ -1544,7 +1544,7 @@ Aku bisa ngerti endi sing luwih penting. Apik.
 
 387
 00:12:17,733 --> 00:12:18,333
-Aku gelem mbantu kowe.
+Aku gelem mbantu ko.
 
 388
 00:12:19,566 --> 00:12:20,366
@@ -1564,7 +1564,7 @@ Elinga supaya luwih akeh tumindak becik_dudu.
 
 392
 00:12:40,566 --> 00:12:42,600
-Aku bakal nyimpen iki kanggo kowe saiki.
+Aku bakal nyimpen iki kanggo ko saiki.
 
 393
 00:12:50,466 --> 00:12:51,533
@@ -1652,7 +1652,7 @@ Marang tukang antar barang sing ko ora kenal. Apa?
 
 414
 00:13:29,966 --> 00:13:31,733
-Kowe ngerti iki jam pira?
+Ko ngerti iki jam pira?
 
 415
 00:13:32,300 --> 00:13:33,200
@@ -1696,7 +1696,7 @@ Lan_lan pas ing wayah kritis nalika wong tuwa kasebut lara.
 
 425
 00:13:47,133 --> 00:13:48,366
-Apa kowe ora mikir yen iki kebetulan banget?
+Apa ko ora mikir yen iki kebetulan banget?
 
 426
 00:13:49,433 --> 00:13:50,066
@@ -1780,7 +1780,7 @@ Aku mrene ora arep nonton peragaan busana.
 
 446
 00:14:22,466 --> 00:14:23,300
-Yen kowe pengin mriksa barang-barange, ya wis.
+Yen ko pengin mriksa barang-barange, ya wis.
 
 447
 00:14:23,500 --> 00:14:24,133
@@ -1796,7 +1796,7 @@ Kapisan.
 
 450
 00:14:26,100 --> 00:14:26,900
-Kepiye carane wong pangiriman kaya kowe bisa entuk.
+Kepiye carane wong pangiriman kaya ko bisa entuk.
 
 451
 00:14:26,933 --> 00:14:28,200
@@ -1816,7 +1816,7 @@ Ora apa-apa.
 
 455
 00:14:33,833 --> 00:14:34,533
-Aku wis nyelidiki kowe.
+Aku wis nyelidiki ko.
 
 456
 00:14:35,100 --> 00:14:35,966
@@ -1832,11 +1832,11 @@ Kulawargane kebak utang.
 
 459
 00:14:40,033 --> 00:14:40,966
-Yen pancen kowe duwe bandha kaya ngono.
+Yen pancen ko duwe bandha kaya ngono.
 
 460
 00:14:41,000 --> 00:14:42,333
-Kenapa kowe ora ngedol dhisik kanggo golek dhuwit?
+Kenapa ko ora ngedol dhisik kanggo golek dhuwit?
 
 461
 00:14:42,866 --> 00:14:44,000
@@ -1848,7 +1848,7 @@ Wis cedhak karo ambang pati? Apa?
 
 463
 00:14:46,166 --> 00:14:47,400
-Kowe ora mikir yen iki kebetulan sing gedhe banget?
+Ko ora mikir yen iki kebetulan sing gedhe banget?
 
 464
 00:14:48,866 --> 00:14:49,200
@@ -1860,7 +1860,7 @@ Meneng wae.
 
 466
 00:14:50,200 --> 00:14:51,533
-Aku wis ndeleng akeh wong kaya kowe.
+Aku wis ndeleng akeh wong kaya ko.
 
 467
 00:14:51,833 --> 00:14:53,466
@@ -1876,7 +1876,7 @@ Aku yakin ana.
 
 470
 00:14:55,200 --> 00:14:56,200
-Wong sing ndhukung kowe.
+Wong sing ndhukung ko.
 
 471
 00:14:56,566 --> 00:14:56,866
@@ -1908,7 +1908,7 @@ Kondisine Juragan Tua lagi wae kritis.
 
 478
 00:15:03,933 --> 00:15:04,866
-Lan_lan kowe mlayu-mlayu nggawa obat.
+Lan_lan ko mlayu-mlayu nggawa obat.
 
 479
 00:15:05,066 --> 00:15:05,966
@@ -1916,7 +1916,7 @@ Kepiye carane kebetulan kaya ngono bisa ana ing jagad iki?
 
 480
 00:15:06,233 --> 00:15:07,066
-Aja ngomong yen kowe nyoba nyamar dadi ganja sing ora ana gunane.
+Aja ngomong yen ko nyoba nyamar dadi ganja sing ora ana gunane.
 
 481
 00:15:07,100 --> 00:15:07,733
@@ -1932,7 +1932,7 @@ Sedulur.
 
 484
 00:15:10,166 --> 00:15:10,833
-Kenapa kowe ora ngongkon dheweke.
+Kenapa ko ora ngongkon dheweke.
 
 485
 00:15:10,866 --> 00:15:11,866
@@ -2024,7 +2024,7 @@ Tangani masalah internal kulawargamu.
 
 507
 00:15:57,200 --> 00:15:58,166
-Kowe dhewe sing ngrampungake.
+Ko dhewe sing ngrampungake.
 
 508
 00:15:58,333 --> 00:15:59,033
@@ -2040,7 +2040,7 @@ Mangga, tetep ana. Saiki wae.
 
 511
 00:16:02,900 --> 00:16:04,366
-, aku dadi wong bodo sing ngremehake kowe.
+, aku dadi wong bodo sing ngremehake ko.
 
 512
 00:16:05,000 --> 00:16:05,800
@@ -2172,7 +2172,7 @@ Ko kudune nampani waé.
 
 544
 00:16:53,333 --> 00:16:54,100
-Yen kowe ora njupuk.
+Yen ko ora njupuk.
 
 545
 00:16:54,200 --> 00:16:54,933
@@ -2196,7 +2196,7 @@ Lan_lan wiwit saiki, ing Kutha Chang'an.
 
 550
 00:16:58,966 --> 00:16:59,966
-Yen kowe nemoni masalah, sowana aku.
+Yen ko nemoni masalah, sowana aku.
 
 551
 00:17:00,233 --> 00:17:01,433
@@ -2216,7 +2216,7 @@ Aku wis njupuk dhuwite.
 
 555
 00:17:04,133 --> 00:17:05,133
-Saiki apa kowe isa nglilani aku lunga?
+Saiki apa ko isa nglilani aku lunga?
 
 556
 00:17:05,300 --> 00:17:05,800
@@ -2360,7 +2360,7 @@ Nanging_kae, Pak Shen.
 
 591
 00:18:04,500 --> 00:18:05,866
-Kowe kedah nyiapaken mental luwih biyen.
+Ko kedah nyiapaken mental luwih biyen.
 
 592
 00:18:13,100 --> 00:18:14,333
@@ -2428,7 +2428,7 @@ Kudu metu sedhela.
 
 608
 00:18:46,166 --> 00:18:46,966
-Aku arep nemoni kowe bengi iki. Ati-ati.
+Aku arep nemoni ko bengi iki. Ati-ati.
 
 609
 00:18:48,333 --> 00:18:49,300
@@ -2468,11 +2468,11 @@ Masalah nindhes para bandit.
 
 618
 00:19:38,466 --> 00:19:39,600
-Banjur aku bakal masrahake marang kowe.
+Banjur aku bakal masrahake marang ko.
 
 619
 00:19:39,766 --> 00:19:40,800
-Menawi kowe kasil.
+Yen ko kasil.
 
 620
 00:19:40,933 --> 00:19:42,466
@@ -2500,7 +2500,7 @@ Matur nuwun, Gusti Sing Maha Agung.
 
 626
 00:20:13,400 --> 00:20:14,366
-Aku pengin takon marang kowe.
+Aku pengin takon marang ko.
 
 627
 00:20:15,500 --> 00:20:16,366
@@ -2508,7 +2508,7 @@ Mangga dipun lajengaken, Immortal.
 
 628
 00:20:16,966 --> 00:20:18,100
-Apa kowe ngerti Pil Pembersih Sumsum?
+Apa ko ngerti Pil Pembersih Sumsum?
 
 629
 00:20:18,633 --> 00:20:19,266
@@ -2668,7 +2668,7 @@ Ora apa-apa.
 
 668
 00:21:15,400 --> 00:21:15,800
-Kowe terusna mangan Sing.
+Ko terusna mangan Sing.
 
 669
 00:21:16,266 --> 00:21:17,466
@@ -2724,7 +2724,7 @@ Akeh sing isih ana. Apa?
 
 682
 00:21:43,800 --> 00:21:44,366
-Kowe ora arep mangan?
+Ko ora arep mangan?
 
 683
 00:21:44,633 --> 00:21:45,300
@@ -2800,7 +2800,7 @@ Aku mung nglakoni iki kanggo awakku dhewe.
 
 701
 00:22:15,766 --> 00:22:17,133
-Kejaba iku, apa kowe durung menehi aku ganjaranmu?
+Kejaba iku, apa ko durung menehi aku ganjaranmu?
 
 702
 00:22:17,966 --> 00:22:19,466
@@ -2860,7 +2860,7 @@ Aku arep metu sedhela.
 
 716
 00:22:43,800 --> 00:22:44,533
-Dewa Agung, kowe arep lunga dhateng ngendi?
+Dewa Agung, ko arep lunga dhateng ngendi?
 
 717
 00:22:44,633 --> 00:22:45,400
@@ -2872,7 +2872,7 @@ Ayo padha ngumpulaké informasi.
 
 719
 00:22:46,600 --> 00:22:47,600
-Yongci bakal melu kowe. Ora mungkin.
+Yongci bakal melu ko. Ora mungkin.
 
 720
 00:22:47,633 --> 00:22:47,933
@@ -3156,7 +3156,7 @@ Aku wis janji karo Dewa Agung kanggo ngladeni ing sisihane.
 
 790
 00:25:13,366 --> 00:25:14,433
-Sakjane, kowe mung pembantu.
+Sakjane, ko mung pembantu.
 
 791
 00:25:14,733 --> 00:25:15,600
@@ -3172,7 +3172,7 @@ Abadi sing Agung, sugeng dhahar.
 
 794
 00:25:18,000 --> 00:25:19,033
-Aku mung bakal ngenteni kowe saka sisih.
+Aku mung bakal ngenteni ko saka sisih.
 
 795
 00:25:20,033 --> 00:25:20,633
@@ -3180,7 +3180,7 @@ Ko nganggur merga apa?
 
 796
 00:25:20,966 --> 00:25:21,666
-Yen aku ngongkon kowe lungguh, ya lungguha.
+Yen aku ngongkon ko lungguh, ya lungguha.
 
 797
 00:25:23,366 --> 00:25:23,866
@@ -3192,7 +3192,7 @@ Tindakake aku.
 
 799
 00:25:24,833 --> 00:25:25,833
-Nalika aku ngomong wetan, kowe lungaa menyang wetan.
+Nalika aku ngomong wetan, ko lungaa menyang wetan.
 
 800
 00:25:26,166 --> 00:25:27,100
@@ -3200,7 +3200,7 @@ Nalika aku ngandhani ko supaya nindakké apa-apa, ko kudu nindakké.
 
 801
 00:25:27,366 --> 00:25:28,000
-Yen kowe ora nurut.
+Yen ko ora nurut.
 
 802
 00:25:28,333 --> 00:25:28,866
@@ -3240,7 +3240,7 @@ Ora usah kesusu Apa?
 
 811
 00:25:47,533 --> 00:25:48,833
-Kowe mung arep ngadeg wae.
+Ko mung arep ngadeg wae.
 
 812
 00:25:49,166 --> 00:25:50,200
@@ -3284,7 +3284,7 @@ Apa sing koklakoni?
 
 822
 00:26:17,300 --> 00:26:17,800
-Ko nglanggar aturan.
+Ko nglanggar kandhan.
 
 823
 00:26:19,900 --> 00:26:20,366
@@ -3400,7 +3400,7 @@ Serang dhisik, serang banter-banter.
 
 851
 00:27:27,066 --> 00:27:28,700
-Kowe wong bodo, kabeh benteng mung duwe 80 wong.
+Ko wong bodo, kabeh benteng mung duwe 80 wong.
 
 852
 00:27:28,733 --> 00:27:29,400
@@ -3572,7 +3572,7 @@ Guru Tua Song.
 
 894
 00:29:03,733 --> 00:29:04,466
-Kowe.
+Ko.
 
 895
 00:29:06,966 --> 00:29:07,766
@@ -3580,7 +3580,7 @@ Kancane Yongci.
 
 896
 00:29:08,433 --> 00:29:09,300
-Aku ana ing kene kanggo nylametake kowe.
+Aku ana ing kene kanggo nylametake ko.
 
 897
 00:29:09,733 --> 00:29:12,233
@@ -3656,7 +3656,7 @@ Yongci.
 
 915
 00:30:07,833 --> 00:30:10,000
-Bapak_e ngira dheweke ora bakal ketemu kowe maneh ing urip iki.
+Bapak_e ngira dheweke ora bakal ketemu ko maneh ing urip iki.
 
 916
 00:30:15,166 --> 00:30:15,800
@@ -3668,15 +3668,15 @@ Yongci uga wis mbantu aku akeh.
 
 918
 00:30:17,866 --> 00:30:19,166
-Menawi kowe ora keberatan, Gusti.
+Yen ko ora keberatan, Gusti.
 
 919
 00:30:20,000 --> 00:30:21,533
-Kapan kemawon kowe mbetahaken Kidung iki, sumangga?
+Kapan wae ko mbetahaken Kidung iki, sumangga?
 
 920
 00:30:22,033 --> 00:30:23,000
-Dipunucapaken kemawon.
+Dipunucapaken wae.
 
 921
 00:30:23,533 --> 00:30:25,666
@@ -3776,7 +3776,7 @@ Luwih saka cukup kanggo set lengkap. Ya,?
 
 945
 00:30:58,166 --> 00:30:59,833
-Kowe kabeh nyiapake bahan alkimia.
+Ko kabeh nyiapake bahan alkimia.
 
 946
 00:31:00,233 --> 00:31:01,500
@@ -3788,11 +3788,11 @@ Ati-ati, Gusti Kang Maha Agung.
 
 948
 00:31:05,666 --> 00:31:07,300
-Hmph, kowe seneng karo dheweke utawa apa?
+Hmph, ko seneng karo dheweke utawa apa?
 
 949
 00:31:07,866 --> 00:31:09,166
-Bapak_e, kowe lagi ngomong apa?
+Bapak_e, ko lagi ngomong apa?
 
 950
 00:31:09,400 --> 00:31:09,933
@@ -3940,11 +3940,11 @@ Aja nyedhak-nyedhak.
 
 986
 00:33:17,966 --> 00:33:18,966
-Yen kowe ora pengin bocah wadon iki mati.
+Yen ko ora pengin bocah wadon iki mati.
 
 987
 00:33:19,266 --> 00:33:20,233
-Kowe kabeh kudu metu saka neraka.
+Ko kabeh kudu metu saka neraka.
 
 988
 00:33:24,433 --> 00:33:26,233
@@ -4048,7 +4048,7 @@ Lan_lan ora tega ndeleng wong iki terus nglakoni dosa.
 
 1013
 00:34:32,866 --> 00:34:34,200
-Wiwit kowe, bendara enom, entuk jasa paling dhuwur.
+Wiwit ko, bendara enom, entuk jasa paling dhuwur.
 
 1014
 00:34:34,500 --> 00:34:35,700
@@ -4064,7 +4064,7 @@ Yamen nduweni akeh.
 
 1017
 00:34:37,733 --> 00:34:38,533
-Kowe kakehan loman, dermawan.
+Ko kakehan loman, dermawan.
 
 1018
 00:34:38,866 --> 00:34:40,133
@@ -4140,7 +4140,7 @@ Nyoba ngajak biksu gabung karo tentara?
 
 1036
 00:35:03,300 --> 00:35:04,133
-Matur nuwun kanggo kabecikan kowe, donatur.
+Matur nuwun kanggo kabecikan ko, donatur.
 
 1037
 00:35:04,400 --> 00:35:05,233
@@ -4148,7 +4148,7 @@ Biksu sing andhap asor iki wis biasa urip santai.
 
 1038
 00:35:05,266 --> 00:35:06,100
-Lan_lan ora tahan karo aturan militer.
+Lan_lan ora tahan karo kandhan militer.
 
 1039
 00:35:06,666 --> 00:35:06,933
@@ -4196,7 +4196,7 @@ Biro Jinxiu ora ana hubungane karo Batalyon Patroli kita.
 
 1050
 00:35:23,600 --> 00:35:24,766
-Tuan enom, amarga kowe nylametake dheweke.
+Tuan enom, amarga ko nylametake dheweke.
 
 1051
 00:35:24,933 --> 00:35:25,900
@@ -4244,7 +4244,7 @@ Kak.
 
 1062
 00:36:20,033 --> 00:36:21,100
-Kowe kesusu banget.
+Ko kesusu banget.
 
 1063
 00:36:21,133 --> 00:36:22,233
@@ -4264,7 +4264,7 @@ Mung sawetara jam, aku kira. Apa?
 
 1067
 00:36:32,533 --> 00:36:34,166
-Kowe ora kandha yen bakal bali sore?
+Ko ora kandha yen bakal bali sore?
 
 1068
 00:36:36,900 --> 00:36:37,866
@@ -4408,7 +4408,7 @@ Apa-apa, tenan.
 
 1103
 00:37:46,533 --> 00:37:47,866
-Mbak Xiao Bing wis apik banget karo kowe.
+Mbak Xiao Bing wis apik banget karo ko.
 
 1104
 00:37:48,100 --> 00:37:49,000
@@ -4444,7 +4444,7 @@ Lan_lan loman atine.
 
 1112
 00:37:58,366 --> 00:37:59,200
-Kowe loro pancen cocok banget.
+Ko loro pancen cocok banget.
 
 1113
 00:38:01,866 --> 00:38:02,833
@@ -4492,7 +4492,7 @@ Iki.
 
 1124
 00:38:28,633 --> 00:38:29,066
-Iku kowe Aku ana ing.
+Iku ko Aku ana ing.
 
 1125
 00:38:29,900 --> 00:38:30,566
@@ -4504,7 +4504,7 @@ Desa Liu.
 
 1127
 00:38:32,333 --> 00:38:33,633
-Saiki mung kowe lan_lan aku ing kene.
+Saiki mung ko lan_lan aku ing kene.
 
 1128
 00:38:34,033 --> 00:38:34,833
@@ -4544,7 +4544,7 @@ Ora perlu Apa?
 
 1137
 00:39:01,700 --> 00:39:02,800
-Kowe ora nggoleki wiwit biyen? Iki.
+Ko ora nggoleki wiwit biyen? Iki.
 
 1138
 00:39:03,200 --> 00:39:03,700
@@ -4568,7 +4568,7 @@ Juragan enom, nylametake nyawaku wis dadi kabecikan sing gedhe.
 
 1143
 00:39:13,666 --> 00:39:14,666
-Yen aku njupuk luwih saka kowe.
+Yen aku njupuk luwih saka ko.
 
 1144
 00:39:15,000 --> 00:39:16,600
@@ -4652,7 +4652,7 @@ Ko memuji kita, dermawan.
 
 1164
 00:40:50,500 --> 00:40:51,366
-Dermawan, kowe nylametake nyawa aku.
+Dermawan, ko nylametake nyawa aku.
 
 1165
 00:40:51,666 --> 00:40:52,866
@@ -4680,11 +4680,11 @@ Ko pinter banget crita.
 
 1171
 00:41:56,200 --> 00:41:58,000
-Lan_lan manis omongé. Sawise kowe mari.
+Lan_lan manis omongé. Sawise ko mari.
 
 1172
 00:41:58,066 --> 00:41:59,300
-Aku bakal ngajak kowe metu mangan sing enak.
+Aku bakal ngajak ko metu mangan sing enak.
 
 1173
 00:41:59,500 --> 00:42:00,366
@@ -4748,7 +4748,7 @@ Apa sing kok omongke mau?
 
 1188
 00:43:31,200 --> 00:43:32,100
-Apa kowe kulawargane pasien?
+Apa ko kulawargane pasien?
 
 1189
 00:43:32,200 --> 00:43:32,833
@@ -4780,7 +4780,7 @@ Adhimu ana ing kene.
 
 1196
 00:43:57,066 --> 00:43:57,800
-Aku duwe cara kanggo nylametake kowe.
+Aku duwe cara kanggo nylametake ko.
 
 1197
 00:43:58,400 --> 00:43:58,700
@@ -4808,7 +4808,7 @@ Aja ngomong sing ora penting.
 
 1203
 00:44:07,733 --> 00:44:08,366
-Kowe ora bakal mati.
+Ko ora bakal mati.
 
 1204
 00:44:08,466 --> 00:44:09,300
@@ -4864,7 +4864,7 @@ Pak.
 
 1217
 00:45:06,333 --> 00:45:07,033
-Kowe lagi ngapa?
+Ko lagi ngapa?
 
 1218
 00:45:07,733 --> 00:45:08,200
@@ -4876,7 +4876,7 @@ Aku kudu nylametake adhiku.
 
 1220
 00:45:10,166 --> 00:45:11,233
-Aku ngerti kowe ora bisa nampa iki.
+Aku ngerti ko ora bisa nampa iki.
 
 1221
 00:45:11,633 --> 00:45:12,566
@@ -4968,7 +4968,7 @@ Pak Shen, adhimu wis pulih kabeh.
 
 1243
 00:47:21,000 --> 00:47:23,833
-Pak Shen, apa sejatine sing kowe wenehake marang?
+Pak Shen, apa sejatine sing ko wenehake marang?
 
 1244
 00:47:23,866 --> 00:47:24,833
@@ -5000,7 +5000,7 @@ Yaiku pil sing padha persis karo sing diombe.
 
 1251
 00:47:42,200 --> 00:47:44,333
-Pak Shen, apa kowe yakin iki dudu guyonan?
+Pak Shen, apa ko yakin iki dudu guyonan?
 
 1252
 00:47:44,566 --> 00:47:45,700
@@ -5176,11 +5176,11 @@ Wong akeh ing ngarep lawang.
 
 1295
 00:49:23,800 --> 00:49:24,866
-Yen kowe ora teka njupuk aku lan_lan.
+Yen ko ora teka njupuk aku lan_lan.
 
 1296
 00:49:25,033 --> 00:49:26,000
-Kowe mesthi bakal angel lunga.
+Ko mesthi bakal angel lunga.
 
 1297
 00:49:26,533 --> 00:49:27,466
@@ -5196,7 +5196,7 @@ Dheweke ora kena diganggu dening wartawan kuwi. Aku lagi arep menyang kana.
 
 1300
 00:49:30,033 --> 00:49:31,000
-Dadi ayo aku ngeterake kowe bali.
+Dadi ayo aku ngeterake ko bali.
 
 1301
 00:49:43,366 --> 00:49:44,866
@@ -5228,7 +5228,7 @@ Panggonan kuwi wis kebak wartawan.
 
 1308
 00:49:53,800 --> 00:49:54,966
-Apa miturutmu yen kowe bali mrana,?
+Apa miturutmu yen ko bali mrana,?
 
 1309
 00:49:55,000 --> 00:49:56,000
@@ -5240,7 +5240,7 @@ Xiaoyu isa ngaso kanthi tentrem? Cukup.
 
 1311
 00:49:57,000 --> 00:49:58,866
-Vila aku ing mriki kosong kemawon.
+Vila aku ing kene kosong wae.
 
 1312
 00:49:58,966 --> 00:49:59,366
@@ -5264,7 +5264,7 @@ Apa-apa, mrene sedhela.
 
 1317
 00:50:05,733 --> 00:50:06,533
-Aku duwe sing arep dakkandhakake marang kowe.
+Aku duwe sing arep dakkandhakake marang ko.
 
 1318
 00:50:13,133 --> 00:50:13,600
@@ -5332,7 +5332,7 @@ Kanca.
 
 1334
 00:50:47,466 --> 00:50:48,366
-Kok kowe ngempet?
+Kok ko ngempet?
 
 1335
 00:50:48,600 --> 00:50:49,433
@@ -5352,15 +5352,15 @@ Pestane mbah kakungku lusa.
 
 1339
 00:50:52,866 --> 00:50:53,600
-Yen kowe wani telat.
+Yen ko wani telat.
 
 1340
 00:50:53,666 --> 00:50:54,266
-Aku ora bakal nglilani kowe lolos. Ana.
+Aku ora bakal nglilani ko lolos. Ana.
 
 1341
 00:50:55,700 --> 00:50:56,400
-Apa karo kowe?
+Apa karo ko?
 
 1342
 00:50:59,366 --> 00:51:00,000
@@ -5392,7 +5392,7 @@ Pil Pembersih Sumsum Tulang kuwi.
 
 1349
 00:51:20,300 --> 00:51:21,400
-Apa kowe isa ngalusake sawetara batch maneh?
+Apa ko isa ngalusake sawetara batch maneh?
 
 1350
 00:51:22,033 --> 00:51:22,766
@@ -5432,7 +5432,7 @@ Sanajan ora.
 
 1359
 00:51:39,433 --> 00:51:41,400
-Aku bakal munggah gunung kanggo nglumpukake seger lan_lan ngolah kanggo kowe.
+Aku bakal munggah gunung kanggo nglumpukake seger lan_lan ngolah kanggo ko.
 
 1360
 00:51:43,533 --> 00:51:44,866
@@ -5464,7 +5464,7 @@ Lan_lan ngolah pil kanggo aku.
 
 1367
 00:51:55,100 --> 00:51:56,033
-Aku ora duwe akeh kanggo ngucapke matur nuwun marang kowe.
+Aku ora duwe akeh kanggo ngucapke matur nuwun marang ko.
 
 1368
 00:51:57,033 --> 00:51:58,833
@@ -5472,7 +5472,7 @@ Dadi aku nggawa kabutuhan saben dina saka omahku.
 
 1369
 00:51:59,433 --> 00:52:00,400
-Coba delengen apa kowe isa nggunakake?
+Coba delengen apa ko isa nggunakake?
 
 1370
 00:52:05,366 --> 00:52:05,833
@@ -5752,7 +5752,7 @@ Iku ora ana gunane.
 
 1439
 00:54:08,700 --> 00:54:09,333
-Nang endi wae kowe.
+Nang endi wae ko.
 
 1440
 00:54:09,533 --> 00:54:10,066
@@ -5864,7 +5864,7 @@ Kanthi prestasi militer sing luar biasa.
 
 1467
 00:55:27,266 --> 00:55:29,733
-Paduka kang Mulia ngutus kowe kanggo mriksa tanah-tanah barbar iki.
+Paduka kang Mulia ngutus ko kanggo mriksa tanah-tanah barbar iki.
 
 1468
 00:55:29,966 --> 00:55:31,733
@@ -6036,7 +6036,7 @@ Lan_lan atiku kebak kagum.
 
 1510
 00:57:29,366 --> 00:57:31,166
-Aku kepareng nyuwun pirsa, kowe ngibadah ana ing candhi ngendi, Guru?
+Aku kepareng njaluk pirsa, ko ngibadah ana ing candhi ngendi, Guru?
 
 1511
 00:57:31,400 --> 00:57:32,700
@@ -6052,7 +6052,7 @@ Aku duwé urusan penting sing kudu diurus.
 
 1514
 00:57:38,733 --> 00:57:40,633
-Tuan Muda aku pribadi takon dhateng kowe.
+Tuan Muda aku pribadi takon dhateng ko.
 
 1515
 00:57:40,866 --> 00:57:42,366
@@ -6104,11 +6104,11 @@ Mikir aku iki penyelundup gandum resmi?
 
 1527
 00:58:23,833 --> 00:58:25,533
-Menawi Gusti ngrasa mboten trep celathu, menika uga mboten ngapa-ngapa.
+Yen Gusti ngrasa mboten trep celathu, menika uga mboten ngapa-ngapa.
 
 1528
 00:58:25,966 --> 00:58:27,666
-Aku mung pengin kenal karo kowe, Guru.
+Aku mung pengin kenal karo ko, Guru.
 
 1529
 00:58:27,700 --> 00:58:28,600
@@ -6116,7 +6116,7 @@ Lan_lan dadi kanca.
 
 1530
 00:58:28,733 --> 00:58:31,266
-Apa kowe kersa ngurmati aku kanthi mangan bareng?
+Apa ko kersa ngurmati aku kanthi mangan bareng?
 
 1531
 00:58:31,800 --> 00:58:33,433
@@ -6212,15 +6212,15 @@ Ing Kutha Yangguan. Apa?
 
 1554
 00:59:26,900 --> 00:59:27,566
-Kowe wis nemokake?
+Ko wis nemokake?
 
 1555
 00:59:28,566 --> 00:59:29,700
-Paduka Paduka, tiyang tuwa bodo kuwi wangkot banget.
+Paduka Paduka, wong tuwa bodo kuwi wangkot banget.
 
 1556
 00:59:30,033 --> 00:59:31,266
-Aku ora gadhah wekdal kanggo alesan kowe.
+Aku ora gadhah nalika kanggo alesan ko.
 
 1557
 00:59:31,566 --> 00:59:32,366
@@ -6228,7 +6228,7 @@ Anggere Song Yi isih urip.
 
 1558
 00:59:32,533 --> 00:59:34,066
-Dhèwèké gadhah luwih akeh wekdal kanggo ngasilaken rekam medis.
+Dhèwèké gadhah luwih akeh nalika kanggo ngasilaken rekam medis.
 
 1559
 00:59:34,366 --> 00:59:35,400
@@ -6296,7 +6296,7 @@ Paduka.
 
 1575
 00:59:56,766 --> 00:59:57,700
-Ana sing nyuwun ngadhep.
+Ana sing njaluk ngadhep.
 
 1576
 01:00:03,633 --> 01:00:05,100
@@ -6312,7 +6312,7 @@ Kak.
 
 1579
 01:00:12,933 --> 01:00:14,500
-Yagene kowe nggawa kayu bakar akeh banget?
+Yagene ko nggawa kayu bakar akeh banget?
 
 1580
 01:00:17,066 --> 01:00:17,666
@@ -6520,7 +6520,7 @@ Ko malah saya ayu_rupané sawisé pirang-pirang wektu iki.
 
 1631
 01:02:20,933 --> 01:02:21,866
-Ayo Paman Kapindho ndeleng kowe kanthi becik_dudu.
+Ayo Paman Kapindho ndeleng ko kanthi becik_dudu.
 
 1632
 01:02:28,266 --> 01:02:28,800
@@ -6568,11 +6568,11 @@ Sing nylametake nyawane Juragan Tua mung nganggo siji gerakan.
 
 1643
 01:02:53,566 --> 01:02:54,500
-Aku wis krungu akeh babagan kowe.
+Aku wis krungu akeh babagan ko.
 
 1644
 01:02:55,666 --> 01:02:56,066
-Kowe nyanjung aku.
+Ko nyanjung aku.
 
 1645
 01:02:56,900 --> 01:02:57,533
@@ -6636,7 +6636,7 @@ Shen Hao iku kanca sing tak gawa mrene.
 
 1660
 01:03:31,100 --> 01:03:32,333
-Lan_lan kowe mburu dheweke ing ngarepku.
+Lan_lan ko mburu dheweke ing ngarepku.
 
 1661
 01:03:32,633 --> 01:03:33,433
@@ -6704,7 +6704,7 @@ Sanajan ing luar negeri, aku duwe akeh koneksi.
 
 1677
 01:04:04,766 --> 01:04:05,766
-Anggere kowe kerja bareng karo aku.
+Anggere ko kerja bareng karo aku.
 
 1678
 01:04:06,033 --> 01:04:06,900
@@ -6764,7 +6764,7 @@ Kandha ora dakdol?
 
 1692
 01:04:44,633 --> 01:04:45,300
-Apa kowe krungu kanthi cetha?
+Apa ko krungu kanthi cetha?
 
 1693
 01:04:45,433 --> 01:04:45,933
@@ -6772,7 +6772,7 @@ Lagian.
 
 1694
 01:04:47,000 --> 01:04:48,100
-Kowe ki mung dolanan karo aku.
+Ko ki mung dolanan karo aku.
 
 1695
 01:04:52,366 --> 01:04:52,966
@@ -6804,7 +6804,7 @@ Aku mung guyon karo Pak Shen.
 
 1702
 01:05:07,566 --> 01:05:08,700
-Kowe Pak Shen. Halo.
+Ko Pak Shen. Halo.
 
 1703
 01:05:09,033 --> 01:05:09,600
@@ -6892,7 +6892,7 @@ Guru Tua.
 
 1724
 01:06:00,100 --> 01:06:01,933
-Aku ora oleh kesempatan niliki kowe sawise kowe ninggalake rumah sakit.
+Aku ora oleh kesempatan niliki ko sawise ko ninggalake rumah sakit.
 
 1725
 01:06:02,400 --> 01:06:03,733
@@ -6944,7 +6944,7 @@ Bos Xiao celathu yen Juragan Tua seneng barang antik.
 
 1737
 01:06:34,200 --> 01:06:35,466
-Mula aku mikir kowe mesthi ngerti barang-barangmu.
+Mula aku mikir ko mesthi ngerti barang-barangmu.
 
 1738
 01:06:35,533 --> 01:06:36,133
@@ -6956,7 +6956,7 @@ Pak Shen.
 
 1740
 01:06:38,033 --> 01:06:40,000
-Apa omah gedhong lawas kowe isih duwe kayu sing kualitase kaya ngene?
+Apa omah gedhong lawas ko isih duwe kayu sing kualitase kaya ngene?
 
 1741
 01:06:41,733 --> 01:06:42,700
@@ -7036,7 +7036,7 @@ Kepiye yen ngono?
 
 1760
 01:07:19,500 --> 01:07:20,566
-Yen ngono aku bakal masrahake marang kowe, wong tuwa.
+Yen ngono aku bakal masrahake marang ko, wong tuwa.
 
 1761
 01:07:22,166 --> 01:07:23,833
@@ -7136,7 +7136,7 @@ Ko tetep ing njero montor, ngerti?
 
 1785
 01:08:57,266 --> 01:08:58,900
-Shen Hao, apa kowe ora apa-apa? Apa?
+Shen Hao, apa ko ora apa-apa? Apa?
 
 1786
 01:09:03,433 --> 01:09:05,233
@@ -7192,7 +7192,7 @@ Demek wae rambutku dina iki.
 
 1799
 01:09:47,066 --> 01:09:49,000
-Lan_lan kabeh Grup Xiao bakal teka kanggo kowe sesuk. Dadiya wong sing.
+Lan_lan kabeh Grup Xiao bakal teka kanggo ko sesuk. Dadiya wong sing.
 
 1800
 01:09:50,166 --> 01:09:50,966
@@ -7224,7 +7224,7 @@ Ko péngin ngrampungké masalah?
 
 1807
 01:09:59,366 --> 01:10:01,166
-Yen ngono luwih becik_dudu kowe urip nganti sesuk.
+Yen ngono luwih becik_dudu ko urip nganti sesuk.
 
 1808
 01:10:01,866 --> 01:10:03,300
@@ -7236,15 +7236,15 @@ Pengawasan uga wis diurus luwih dhisik.
 
 1810
 01:10:05,400 --> 01:10:06,333
-Kita wis ngenteni kowe.
+Kita wis ngenteni ko.
 
 1811
 01:10:08,500 --> 01:10:10,266
-Nalika petugas penegak hukum nemokake kowe.
+Nalika petugas penegak hukum nemokake ko.
 
 1812
 01:10:10,500 --> 01:10:11,766
-Dheweke mung bakal mancing kowe metu saka kali. Ora ana.
+Dheweke mung bakal mancing ko metu saka kali. Ora ana.
 
 1813
 01:10:13,166 --> 01:10:13,966
@@ -7272,7 +7272,7 @@ Piye yen ngene iki?
 
 1819
 01:10:19,033 --> 01:10:20,266
-Aku ngerti kowe mrene mung golek dhuwit.
+Aku ngerti ko mrene mung golek dhuwit.
 
 1820
 01:10:20,500 --> 01:10:21,600
@@ -7360,7 +7360,7 @@ Pasrahna iki marang aku.
 
 1841
 01:11:10,400 --> 01:11:10,933
-Nanging_kae kowe—.
+Nanging_kae ko—.
 
 1842
 01:11:12,366 --> 01:11:13,000
@@ -7368,7 +7368,7 @@ Aja kuwatir karo aku.
 
 1843
 01:11:14,033 --> 01:11:15,433
-Kanthi kowe ing kene, aku ora bisa perang kanthi bebas.
+Kanthi ko ing kene, aku ora bisa perang kanthi bebas.
 
 1844
 01:11:26,633 --> 01:11:27,133
@@ -7404,11 +7404,11 @@ Aku duwe bojo lan_lan anak ing omah.
 
 1852
 01:12:06,766 --> 01:12:07,833
-Nalika kowe nabrak montor kuwi.
+Nalika ko nabrak montor kuwi.
 
 1853
 01:12:07,866 --> 01:12:09,366
-Kenapa kowe ora mikir babagan keluargamu?
+Kenapa ko ora mikir babagan keluargamu?
 
 1854
 01:12:15,533 --> 01:12:16,866
@@ -7440,7 +7440,7 @@ Pak Xiao.
 
 1861
 01:13:01,133 --> 01:13:02,266
-Conto sing kowe kirim iki.
+Conto sing ko kirim iki.
 
 1862
 01:13:02,766 --> 01:13:03,400
@@ -7532,7 +7532,7 @@ Kendharaan kasebut cacat parah.
 
 1884
 01:13:55,866 --> 01:13:56,500
-Kowe ngomong apa? Dhèwèké ketabrak?
+Ko ngomong apa? Dhèwèké ketabrak?
 
 1885
 01:13:57,233 --> 01:13:58,100
@@ -7560,7 +7560,7 @@ Kakang_lanang Shen.
 
 1891
 01:14:24,333 --> 01:14:25,866
-Yagene kowe lunga cepet banget?
+Yagene ko lunga cepet banget?
 
 1892
 01:14:28,333 --> 01:14:29,366
@@ -7576,7 +7576,7 @@ Lan_lan saiki ko turu ing kéné.
 
 1895
 01:14:31,966 --> 01:14:33,133
-Aku isih utang budi marang kowe.
+Aku isih utang budi marang ko.
 
 1896
 01:14:33,233 --> 01:14:33,700
@@ -7588,7 +7588,7 @@ Kakang_lanang Xiao Jun, ana.
 
 1898
 01:14:39,100 --> 01:14:39,766
-Apa karo kowe?
+Apa karo ko?
 
 1899
 01:14:43,433 --> 01:14:44,266
@@ -7616,7 +7616,7 @@ Aku sing bakal mbayar sekolahmu.
 
 1905
 01:14:57,233 --> 01:14:58,266
-Aku sing bakal mbayar mas kawinmu nalika kowe nikah.
+Aku sing bakal mbayar mas kawinmu nalika ko nikah.
 
 1906
 01:14:59,666 --> 01:15:01,600
@@ -7688,7 +7688,7 @@ Ora ana hubungane karo aku.
 
 1923
 01:16:11,533 --> 01:16:12,566
-Mesthi ora ana hubungane karo kowe.
+Mesthi ora ana hubungane karo ko.
 
 1924
 01:16:13,400 --> 01:16:13,733
@@ -7696,7 +7696,7 @@ Ora, ngenteni.
 
 1925
 01:16:14,266 --> 01:16:16,500
-Kowe ngalahake enem preman bersenjata dhewe.
+Ko ngalahake enem preman bersenjata dhewe.
 
 1926
 01:16:17,166 --> 01:16:18,333
@@ -7744,7 +7744,7 @@ Aja kesusu nindakake iki.
 
 1937
 01:16:34,566 --> 01:16:35,333
-Kowe ora duwe bukti.
+Ko ora duwe bukti.
 
 1938
 01:16:35,566 --> 01:16:36,900
@@ -7756,11 +7756,11 @@ Ora bisa mbuktekake wektu iki yen kuwi tumindake Paman Kapindho.
 
 1940
 01:16:39,200 --> 01:16:40,200
-Yen kowe ngadhepi Paman Kapindho.
+Yen ko ngadhepi Paman Kapindho.
 
 1941
 01:16:40,233 --> 01:16:41,466
-Dheweke bakal malik lan_lan nuduh kowe fitnah.
+Dheweke bakal malik lan_lan nuduh ko fitnah.
 
 1942
 01:16:41,833 --> 01:16:43,033
@@ -7784,7 +7784,7 @@ Iki durung wayahé.
 
 1947
 01:16:51,100 --> 01:16:53,033
-Nalika awaké dhéwé njupuk tindakan, mesthi wis nemtokake.
+Nalika awaké dhéwé njupuk lungaan, mesthi wis nemtokake.
 
 1948
 01:16:53,600 --> 01:16:54,633
@@ -7908,7 +7908,7 @@ Aku wis pirang-pirang taun_e ora weruh dheweke ndhingkluk. Apa?
 
 1978
 01:18:20,833 --> 01:18:21,733
-Kowe ora nggatekake?
+Ko ora nggatekake?
 
 1979
 01:18:22,666 --> 01:18:23,466
@@ -7972,7 +7972,7 @@ Wong tuwa.
 
 1994
 01:19:30,200 --> 01:19:31,233
-Kowe loro tetep ing njero omah, aja metu.
+Ko loro tetep ing njero omah, aja metu.
 
 1995
 01:19:58,900 --> 01:19:59,433
@@ -8000,7 +8000,7 @@ Mandheg.
 
 2001
 01:20:56,933 --> 01:20:57,766
-Kok kowe ana ing kene?
+Kok ko ana ing kene?
 
 2002
 01:21:01,566 --> 01:21:02,700
@@ -8020,11 +8020,11 @@ Zhao Chuang.
 
 2006
 01:21:07,900 --> 01:21:09,533
-Kowe mung Kepala Perwira Patroli Kutha Yangguan.
+Ko mung Kepala Perwira Patroli Kutha Yangguan.
 
 2007
 01:21:10,100 --> 01:21:11,566
-Lan_lan kowe wani nyegah wong saka omahe Pangeran Xuan?
+Lan_lan ko wani nyegah wong saka omahe Pangeran Xuan?
 
 2008
 01:21:15,200 --> 01:21:16,000
@@ -8068,7 +8068,7 @@ Aja ngomong yen.
 
 2018
 01:21:44,566 --> 01:21:45,333
-Kowe wis ngerti.
+Ko wis ngerti.
 
 2019
 01:21:46,833 --> 01:21:47,866
@@ -8076,7 +8076,7 @@ Hahaha.
 
 2020
 01:21:49,433 --> 01:21:51,000
-Apa kowe tau ndeleng biksu kaya dheweke,?
+Apa ko tau ndeleng biksu kaya dheweke,?
 
 2021
 01:21:51,500 --> 01:21:53,033
@@ -8108,7 +8108,7 @@ Kepala Perwira Patroli Zhao Apa?
 
 2028
 01:22:04,000 --> 01:22:05,033
-Kowe ana mriki kanggo nulungi.
+Ko ana kene kanggo nulungi.
 
 2029
 01:22:05,066 --> 01:22:06,000
@@ -8116,7 +8116,7 @@ Utawa kanggo ngrusak aku?
 
 2030
 01:22:21,500 --> 01:22:22,300
-Kira-kira kowe lagi ngapa?
+Kira-kira ko lagi ngapa?
 
 2031
 01:22:23,200 --> 01:22:24,233
@@ -8140,7 +8140,7 @@ Apa sing kedadeyan karo Pangeran Xuan?
 
 2036
 01:22:36,400 --> 01:22:37,166
-Nyuwun pangapunten babagan iki.
+Njaluk pangapunten babagan iki.
 
 2037
 01:22:39,666 --> 01:22:40,533
@@ -8156,11 +8156,11 @@ Ko ora isa ngalahké aku.
 
 2040
 01:22:44,200 --> 01:22:44,966
-Aku ora isa ngalahake kowe.
+Aku ora isa ngalahake ko.
 
 2041
 01:22:45,433 --> 01:22:46,633
-Nanging_kae aku isa nahan kowe nganti dheweke lolos. Lali wae.
+Nanging_kae aku isa nahan ko nganti dheweke lolos. Lali wae.
 
 2042
 01:23:00,633 --> 01:23:01,166
@@ -8172,7 +8172,7 @@ Ko loro, lungaa.
 
 2044
 01:23:03,266 --> 01:23:04,233
-Umpamane aku ora tau weruh kowe.
+Umpamane aku ora tau weruh ko.
 
 2045
 01:23:07,433 --> 01:23:08,500
@@ -8296,7 +8296,7 @@ Inti setan. Apa?
 
 2075
 01:24:22,400 --> 01:24:23,466
-Kowe ora nggoleki iku wiwit biyen? Iki.
+Ko ora nggoleki iku wiwit biyen? Iki.
 
 2076
 01:24:23,866 --> 01:24:24,200
@@ -8320,7 +8320,7 @@ Aku iki, Wenren Yiyi, bakal dadi wong sing kaya apa?
 
 2081
 01:24:34,266 --> 01:24:35,833
-Aku sejatine arep ngedol iku marang kowe nalika semana.
+Aku sejatine arep ngedol iku marang ko nalika semana.
 
 2082
 01:24:36,066 --> 01:24:37,400
@@ -8376,7 +8376,7 @@ Bisa nylametake awakmu dhewe. Matur nuwun.
 
 2095
 01:25:05,600 --> 01:25:06,800
-Pangeran Katelu isih ngenteni kowe.
+Pangeran Katelu isih ngenteni ko.
 
 2096
 01:25:07,666 --> 01:25:08,133
@@ -8408,11 +8408,11 @@ Apa sejatine hubunganmu karo Pangeran Katelu?
 
 2103
 01:25:19,100 --> 01:25:20,200
-Kowe Kepala Perwira Patroli Kutha Yangguan.
+Ko Kepala Perwira Patroli Kutha Yangguan.
 
 2104
 01:25:20,233 --> 01:25:21,033
-Kenapa kowe ngurusi dheweke?
+Kenapa ko ngurusi dheweke?
 
 2105
 01:25:21,266 --> 01:25:22,566
@@ -8824,7 +8824,7 @@ Hah, undang pasukanku, dasar bokongku.
 
 2207
 01:28:56,100 --> 01:28:58,033
-Kabeh iki wis diatur dening Pangeran Pambarep.
+Kabeh iki wis dikandha dening Pangeran Pambarep.
 
 2208
 01:29:02,033 --> 01:29:03,100
@@ -8964,7 +8964,7 @@ Paduka.
 
 2242
 01:29:56,866 --> 01:29:57,833
-Kesepakatan iki sing kowe usulake.
+Kesepakatan iki sing ko usulake.
 
 2243
 01:29:59,133 --> 01:29:59,733
@@ -9124,7 +9124,7 @@ Lan_lan meh ngalahake aku nganti mati ing Lapisan Kesembilan.
 
 2282
 01:31:28,633 --> 01:31:29,700
-Saiki kowe wis tekan Alam Bawaan Sugeng.
+Saiki ko wis tekan Alam Bawaan Sugeng.
 
 2283
 01:31:31,533 --> 01:31:32,366
@@ -9144,7 +9144,7 @@ Kaya sing wis disepakati sadurunge.
 
 2287
 01:31:40,633 --> 01:31:41,666
-Inti iblis, aku utang budi marang kowe.
+Inti iblis, aku utang budi marang ko.
 
 2288
 01:31:41,933 --> 01:31:42,866
@@ -9212,7 +9212,7 @@ Dideleng saka rupamu.
 
 2304
 01:32:19,200 --> 01:32:20,033
-Kowe mbokmenawa ora duwe dhuwit semono.
+Ko mbokmenawa ora duwe dhuwit semono.
 
 2305
 01:32:20,066 --> 01:32:21,100
@@ -9228,11 +9228,11 @@ Ngerti.
 
 2308
 01:32:24,600 --> 01:32:25,533
-Yen ngono kowe bakal mbayar nganggo awakmu dhewe.
+Yen ngono ko bakal mbayar nganggo awakmu dhewe.
 
 2309
 01:32:28,966 --> 01:32:29,533
-Aku janji marang kowe.
+Aku janji marang ko.
 
 2310
 01:32:48,666 --> 01:32:49,066
@@ -9264,11 +9264,11 @@ Bakal tahan setaun kanggo kabeh institut.
 
 2317
 01:33:00,433 --> 01:33:02,333
-Dadi nalika kowe kandha males nganggo awakmu.
+Dadi nalika ko kandha males nganggo awakmu.
 
 2318
 01:33:02,833 --> 01:33:04,200
-Tegese kowe dadi pengawalku.
+Tegese ko dadi pengawalku.
 
 2319
 01:33:07,933 --> 01:33:08,466
@@ -9280,7 +9280,7 @@ Lan_lan siji maneh.
 
 2321
 01:33:13,033 --> 01:33:14,066
-Aku kudu nerangake marang kowe luwih dhisik.
+Aku kudu nerangake marang ko luwih dhisik.
 
 2322
 01:33:14,433 --> 01:33:15,000
@@ -9288,11 +9288,11 @@ Wiwit saiki.
 
 2323
 01:33:15,033 --> 01:33:16,300
-Nalika aku ana ing kene, kowe ngetutake aku.
+Nalika aku ana ing kene, ko ngetutake aku.
 
 2324
 01:33:16,666 --> 01:33:17,466
-Nalika aku ora ana, kowe njaga.
+Nalika aku ora ana, ko njaga.
 
 2325
 01:33:17,500 --> 01:33:18,633
@@ -9440,11 +9440,11 @@ Putra sing ora ngerti matur nuwun kuwi.
 
 2361
 01:36:56,433 --> 01:36:58,566
-Aku kepingin weruh apa kowe saiki getun?
+Aku kepingin weruh apa ko saiki getun?
 
 2362
 01:37:07,566 --> 01:37:08,866
-Aku bakal nglawan kowe nganti mati.
+Aku bakal nglawan ko nganti mati.
 
 2363
 01:37:17,033 --> 01:37:17,800
@@ -9456,7 +9456,7 @@ Oh?
 
 2365
 01:37:19,500 --> 01:37:20,366
-Meh lali karo kowe.
+Meh lali karo ko.
 
 2366
 01:37:22,533 --> 01:37:23,800
@@ -9468,7 +9468,7 @@ Kanggo transfer ekuitas, aku mung bisa njupuk patang puluh persen.
 
 2368
 01:37:25,933 --> 01:37:26,900
-Aku bakal ninggalake saham pengendali kanggo kowe.
+Aku bakal ninggalake saham pengendali kanggo ko.
 
 2369
 01:37:27,233 --> 01:37:28,066
@@ -9480,11 +9480,11 @@ Bingbing.
 
 2371
 01:37:28,900 --> 01:37:30,333
-Kowe kudu lunga njaga kancaku Apa?
+Ko kudu lunga njaga kancaku Apa?
 
 2372
 01:37:35,833 --> 01:37:37,133
-Kowe pancen manungsa?
+Ko pancen manungsa?
 
 2373
 01:37:37,266 --> 01:37:39,166
@@ -9536,11 +9536,11 @@ Ko lagi ngapa ing kéné?
 
 2385
 01:38:33,933 --> 01:38:35,666
-Aku wis nelpon kowe ping rolas pirang-pirang dina iki.
+Aku wis nelpon ko ping rolas pirang-pirang dina iki.
 
 2386
 01:38:35,700 --> 01:38:38,533
-Kabeh mlebu voicemail, aku kira ana apa-apa karo kowe.
+Kabeh mlebu voicemail, aku kira ana apa-apa karo ko.
 
 2387
 01:38:38,766 --> 01:38:41,400
@@ -9552,7 +9552,7 @@ Aku.
 
 2389
 01:38:43,500 --> 01:38:45,333
-Aku bakal masrahake marang kowe, Pak Shen. Kuwi.
+Aku bakal masrahake marang ko, Pak Shen. Kuwi.
 
 2390
 01:38:45,366 --> 01:38:47,366
@@ -9580,7 +9580,7 @@ Aku bakal nutupi dhuwit iki.
 
 2396
 01:39:07,666 --> 01:39:09,733
-Ko bakal nutupi? Apa kowe ngerti apa sing kok omongke?
+Ko bakal nutupi? Apa ko ngerti apa sing kok omongke?
 
 2397
 01:39:09,766 --> 01:39:11,666
@@ -9612,7 +9612,7 @@ Saiki isine rolas pasien sing lagi lara ing rumah sakit. Apa?
 
 2404
 01:39:23,933 --> 01:39:25,966
-Kowe mikir isih isa entuk dhuwit saka iki?
+Ko mikir isih isa entuk dhuwit saka iki?
 
 2405
 01:39:26,200 --> 01:39:27,466
@@ -9632,7 +9632,7 @@ Dhèwèké wis ngrusak pasar obat palsu.
 
 2409
 01:39:31,500 --> 01:39:33,500
-Sanajan kowe nggawa sing asli saiki, ora ana sing wani tuku.
+Sanajan ko nggawa sing asli saiki, ora ana sing wani tuku.
 
 2410
 01:39:34,500 --> 01:39:34,900
@@ -9688,7 +9688,7 @@ Pak Shen, barang-barangmu kuwi apik banget.
 
 2423
 01:39:58,600 --> 01:40:02,566
-Aku wis nransfer 2 milyar menyang kowe. Kuwi.
+Aku wis nransfer 2 milyar menyang ko. Kuwi.
 
 2424
 01:40:05,733 --> 01:40:06,466
@@ -9836,7 +9836,7 @@ Mm.
 
 2460
 01:41:27,033 --> 01:41:28,133
-Apa sing menehi hak marang kowe?
+Apa sing menehi hak marang ko?
 
 2461
 01:41:28,500 --> 01:41:29,766
@@ -9872,7 +9872,7 @@ Kuwi kabeh dhuwit sing kok duweni.
 
 2469
 01:41:53,200 --> 01:41:54,533
-Lan_lan kowe mung mbuwang kabeh. Ora apa-apa.
+Lan_lan ko mung mbuwang kabeh. Ora apa-apa.
 
 2470
 01:41:58,166 --> 01:41:59,100
@@ -9884,7 +9884,7 @@ Maksudku.
 
 2472
 01:42:00,400 --> 01:42:01,666
-Kowe ora kudune melu-melu ing kekacauan iki.
+Ko ora kudune melu-melu ing kekacauan iki.
 
 2473
 01:42:01,900 --> 01:42:03,033
@@ -9936,7 +9936,7 @@ Nanging_kae saiki pasar lagi ngendhegake barang palsu.
 
 2485
 01:42:41,466 --> 01:42:43,866
-Sanajan saiki kowe ngedol barang sing asli , ora ana sing bakal percaya.
+Sanajan saiki ko ngedol barang sing asli , ora ana sing bakal percaya.
 
 2486
 01:42:49,400 --> 01:42:50,366
@@ -10020,7 +10020,7 @@ Puluhan pasien isih lara ing rumah sakit.
 
 2506
 01:43:23,300 --> 01:43:24,500
-Kepriye carane kowe bisa mbuktekake yen obatmu iku asli?
+Kepriye carane ko bisa mbuktekake yen obatmu iku asli?
 
 2507
 01:43:25,500 --> 01:43:26,333
@@ -10064,7 +10064,7 @@ Pak Zhou.
 
 2517
 01:43:44,066 --> 01:43:45,133
-Apa kowe gelem mangan Pil Pembersih Sumsum iki?
+Apa ko gelem mangan Pil Pembersih Sumsum iki?
 
 2518
 01:43:45,166 --> 01:43:46,833
@@ -10100,7 +10100,7 @@ Kita gelem menehi kesempatan marang Grup Xiao.
 
 2526
 01:44:23,300 --> 01:44:24,400
-Mangga uga wenehana wangsulan langsung.
+Mangga uga wenehana balian langsung.
 
 2527
 01:44:24,433 --> 01:44:25,266
@@ -10232,7 +10232,7 @@ Aku weruh yen.
 
 2559
 01:45:04,300 --> 01:45:05,066
-Kowe ngapusi.
+Ko ngapusi.
 
 2560
 01:45:08,400 --> 01:45:08,866
@@ -10244,7 +10244,7 @@ Wiwit saiki.
 
 2562
 01:45:09,633 --> 01:45:10,700
-Uripku dadi duweke kowe.
+Uripku dadi duweke ko.
 
 2563
 01:45:10,966 --> 01:45:11,600
@@ -10256,7 +10256,7 @@ Lan_lan aku ora bakal lunga menyang kulon.
 
 2565
 01:45:12,100 --> 01:45:12,300
-Kowe pengin aku.
+Ko pengin aku.
 
 2566
 01:45:12,333 --> 01:45:13,233
@@ -10268,7 +10268,7 @@ Ing ngarep umum, saka kabeh panggonan.
 
 2568
 01:45:14,466 --> 01:45:16,033
-Kenapa kowe, wong diwasa, nesu banget marang aku?
+Kenapa ko, wong diwasa, nesu banget marang aku?
 
 2569
 01:45:16,600 --> 01:45:17,066
@@ -10296,7 +10296,7 @@ Aku isih ora bisa nonjok dheweke.
 
 2575
 01:45:21,900 --> 01:45:22,966
-Dina iki kowe nendhang lawang lan_lan mlebu.
+Dina iki ko nendhang lawang lan_lan mlebu.
 
 2576
 01:45:23,000 --> 01:45:23,433
@@ -10304,7 +10304,7 @@ Kanthi anane kaya ngono.
 
 2577
 01:45:23,633 --> 01:45:24,600
-Aku meh wae sujud lan_lan sujud marang kowe.
+Aku meh wae sujud lan_lan sujud marang ko.
 
 2578
 01:45:24,933 --> 01:45:25,566
@@ -10420,7 +10420,7 @@ Kuncine.
 
 2606
 01:46:04,266 --> 01:46:05,133
-Aku bakal ngongkon Bingbing ngeterake menyang kowe.
+Aku bakal ngongkon Bingbing ngeterake menyang ko.
 
 2607
 01:46:06,633 --> 01:46:06,866
@@ -10460,11 +10460,11 @@ Aku kudu lunga.
 
 2616
 01:46:38,433 --> 01:46:38,966
-Kok kowe ana ing kene? Apa?
+Kok ko ana ing kene? Apa?
 
 2617
 01:46:39,500 --> 01:46:40,400
-Kowe ora menehake kuncine?
+Ko ora menehake kuncine?
 
 2618
 01:46:40,800 --> 01:46:41,366
@@ -10496,7 +10496,7 @@ Kuwi kabeh.
 
 2625
 01:46:50,566 --> 01:46:51,566
-Shen Hao, kowe goroh.
+Shen Hao, ko goroh.
 
 2626
 01:46:52,133 --> 01:46:53,300
@@ -10504,11 +10504,11 @@ Apa sejatine sing kok ndhelikke?
 
 2627
 01:46:56,866 --> 01:46:58,666
-Wiwit aku ketemu kowe nganti saiki.
+Wiwit aku ketemu ko nganti saiki.
 
 2628
 01:46:59,300 --> 01:47:00,966
-Kowe wis ndhelikake akeh banget rahasia.
+Ko wis ndhelikake akeh banget rahasia.
 
 2629
 01:47:02,000 --> 01:47:03,433
@@ -10544,7 +10544,7 @@ Aku kudu mikir apa-apa.
 
 2637
 01:47:19,800 --> 01:47:21,666
-Saktemene, aku wis kepingin ngandhani kowe wiwit biyen.
+Saktemene, aku wis kepingin ngandhani ko wiwit biyen.
 
 2638
 01:47:22,366 --> 01:47:23,466
@@ -10572,7 +10572,7 @@ Ko ora nate nggatekake klambiku.
 
 2644
 01:47:32,266 --> 01:47:33,666
-Aku sejatine wis suwe kepengin ngandhani kowe.
+Aku sejatine wis suwe kepengin ngandhani ko.
 
 2645
 01:47:33,933 --> 01:47:35,100
@@ -10620,7 +10620,7 @@ Ing gudang.
 
 2656
 01:47:51,600 --> 01:47:52,666
-Apa kowe ora kandha yen kowe wis rampung mindhah kabeh?
+Apa ko ora kandha yen ko wis rampung mindhah kabeh?
 
 2657
 01:47:53,800 --> 01:47:54,233
@@ -10784,11 +10784,11 @@ Ayo.
 
 2697
 01:48:58,400 --> 01:48:59,433
-Aku bakal menehi kowe kesempatan.
+Aku bakal menehi ko kesempatan.
 
 2698
 01:49:00,800 --> 01:49:01,266
-Kowe menang.
+Ko menang.
 
 2699
 01:49:01,866 --> 01:49:02,500
@@ -10808,7 +10808,7 @@ Bakal mbukak dhewe.
 
 2703
 01:49:07,200 --> 01:49:08,833
-Paduka, para prajurit kowe luwih milih mati perang.
+Paduka, para prajurit ko luwih milih mati perang.
 
 2704
 01:49:09,000 --> 01:49:10,700
@@ -10824,7 +10824,7 @@ Pangeran Katelu.
 
 2707
 01:49:37,033 --> 01:49:37,966
-Sing paling kuat ing pihak kowe.
+Sing paling kuat ing pihak ko.
 
 2708
 01:49:38,000 --> 01:49:39,033
@@ -10832,7 +10832,7 @@ Saiki wis ana ing tangan aku.
 
 2709
 01:49:39,533 --> 01:49:40,633
-Sapa maneh ing antarane kowe sing wani perang?
+Sapa maneh ing antarane ko sing wani perang?
 
 2710
 01:49:41,200 --> 01:49:41,633
@@ -10844,7 +10844,7 @@ Aku bakal ngetung nganti telu.
 
 2712
 01:49:42,900 --> 01:49:43,533
-Yen kowe ora mbukak gapura kutha...
+Yen ko ora mbukak gapura kutha...
 
 2713
 01:49:43,800 --> 01:49:45,266
@@ -10860,11 +10860,11 @@ Tuan enom.
 
 2716
 01:49:51,300 --> 01:49:51,966
-Pungkasane kowe iyane.
+Pungkasane ko iyane.
 
 2717
 01:49:52,500 --> 01:49:52,866
-Nyuwun pangapunten.
+Njaluk pangapunten.
 
 2718
 01:49:53,000 --> 01:49:54,833
@@ -10904,7 +10904,7 @@ Huyan Shuo wis mati.
 
 2727
 01:51:40,300 --> 01:51:41,033
-Kenapa kowe ora gelem mundur?
+Kenapa ko ora gelem mundur?
 
 2728
 01:51:49,400 --> 01:51:50,966
@@ -10968,7 +10968,7 @@ Siap-siap nyerang!
 
 2743
 01:52:53,266 --> 01:52:56,433
-Tuan enom, tanpa kowe ing perang iki dina iki.
+Tuan enom, tanpa ko ing perang iki dina iki.
 
 2744
 01:52:56,566 --> 01:52:57,900
@@ -10976,15 +10976,15 @@ Kutha Yangguan mesthi wis kalah.
 
 2745
 01:52:58,100 --> 01:53:00,033
-Mangkok iki minangka roti panggangku kanggo kowe.
+Mangkok iki minangka roti panggangku kanggo ko.
 
 2746
 01:53:02,033 --> 01:53:04,366
-Pak Shen, bali ing tembok kutha, kowe iyane kasep.
+Pak Shen, bali ing tembok kutha, ko iyane kasep.
 
 2747
 01:53:04,400 --> 01:53:05,566
-Lan_lan aku nyebut kowe penipu.
+Lan_lan aku nyebut ko penipu.
 
 2748
 01:53:05,600 --> 01:53:06,233
@@ -10996,7 +10996,7 @@ Aku mesthi wis dipenggal sirahku karo anak buahé Huyan Shuo saiki.
 
 2750
 01:53:08,400 --> 01:53:10,166
-Mangkuk anggur iki minangka pangapuraku marang kowe. Tangia.
+Mangkuk anggur iki minangka pangapuraku marang ko. Tangia.
 
 2751
 01:53:10,533 --> 01:53:11,366
@@ -11008,7 +11008,7 @@ Aku ora duwe hubungan karo pangeranmu. Wajar wae yen.
 
 2753
 01:53:14,700 --> 01:53:15,766
-Kowe curiga karo aku.
+Ko curiga karo aku.
 
 2754
 01:53:16,233 --> 01:53:17,200
@@ -11096,15 +11096,15 @@ Tuan enom.
 
 2775
 01:53:51,433 --> 01:53:53,333
-Kowe nylametake kabeh wong ing Kutha Yangguan dina iki.
+Ko nylametake kabeh wong ing Kutha Yangguan dina iki.
 
 2776
 01:53:53,466 --> 01:53:54,500
-Lan_lan kowe uga nylametake nyawaku.
+Lan_lan ko uga nylametake nyawaku.
 
 2777
 01:53:54,566 --> 01:53:55,566
-Jabatan resmi apa sing kowe karepake,?
+Jabatan resmi apa sing ko karepake,?
 
 2778
 01:53:55,900 --> 01:53:57,066
@@ -11140,11 +11140,11 @@ Tuan Muda.
 
 2786
 01:54:17,333 --> 01:54:19,200
-Kowe wis nylametake kabeh wong ing Kutha Yangguan dina iki.
+Ko wis nylametake kabeh wong ing Kutha Yangguan dina iki.
 
 2787
 01:54:19,500 --> 01:54:20,300
-Lan_lan kowe uga nylametake nyawaku.
+Lan_lan ko uga nylametake nyawaku.
 
 2788
 01:54:20,800 --> 01:54:21,466

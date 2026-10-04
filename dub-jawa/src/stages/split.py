@@ -60,14 +60,63 @@ def _load_kamus(kamus_path: Path) -> tuple[dict, dict]:
     return ngoko_to_krama, krama_to_ngoko
 
 
+def _normalize_accent(w: str) -> str:
+    """Normalize accent untuk matching. e.g., 'é' -> 'e', 'è' -> 'e'.
+    
+    Javanese sering pakai accent di atas e (é, è). Untuk matching kamus yang 
+    menggunakan 'e' polos, kita normalize dulu.
+    """
+    if not w:
+        return w
+    # Map: é è ê -> e, É È Ê -> E, dan lainnya
+    return w.translate(str.maketrans({
+        'é': 'e', 'è': 'e', 'ê': 'e', 'ë': 'e',
+        'É': 'E', 'È': 'E', 'Ê': 'E', 'Ë': 'E',
+        'á': 'a', 'à': 'a', 'â': 'a', 'ä': 'a',
+        'Á': 'A', 'À': 'A', 'Â': 'A', 'Ä': 'A',
+        'í': 'i', 'ì': 'i', 'î': 'i', 'ï': 'i',
+        'Í': 'I', 'Ì': 'I', 'Î': 'I', 'Ï': 'I',
+        'ó': 'o', 'ò': 'o', 'ô': 'o', 'ö': 'o',
+        'Ó': 'O', 'Ò': 'O', 'Ô': 'O', 'Ö': 'O',
+        'ú': 'u', 'ù': 'u', 'û': 'u', 'ü': 'u',
+        'Ú': 'U', 'Ù': 'U', 'Û': 'U', 'Ü': 'U',
+        'ñ': 'n', 'Ñ': 'N',
+    }))
+
+
+def _build_accent_insensitive_mapping(mapping: dict) -> dict:
+    """Build mapping dengan key yang sudah di-normalize accent.
+    
+    Jika original mapping punya {"kowe": "panjenengan"}, hasil mapping juga akan punya
+    {"kowé": "panjenengan"} (dengan accent) sebagai key.
+    """
+    result = {}
+    for src, tgt in mapping.items():
+        if not src or not tgt or src == tgt:
+            continue
+        # original key
+        result[src] = tgt
+        # normalized key (kalau beda dengan original, tambahkan)
+        normalized = _normalize_accent(src)
+        if normalized != src:
+            # hanya tambah kalau belum ada di result
+            if normalized not in result:
+                result[normalized] = tgt
+    return result
+
+
 def _substitute_with_case(text: str, mapping: dict) -> tuple[str, int]:
-    """Substitusi kata dengan case preservation.
+    """Substitusi kata dengan case preservation & accent-insensitive matching.
 
     Kalau kata asli di-kapital (mis. "Kula"), replacement juga di-kapital ("Aku").
     Word boundary pakai r"\\b" supaya tidak partial-match.
+    Accent (é, è, ê) di-normalize ke 'e' supaya "kowé" match "kowe".
     """
+    # Build accent-insensitive mapping sekali per call
+    extended_mapping = _build_accent_insensitive_mapping(mapping)
+    
     count_total = 0
-    for src, tgt in mapping.items():
+    for src, tgt in extended_mapping.items():
         if not src or not tgt or src == tgt:
             continue
         pattern = r"\b" + re.escape(src) + r"\b"

@@ -3,10 +3,10 @@
   "ngoko_out_path": "output/ngoko.srt",
   "krama_out_path": "output/krama.srt",
   "total_subs": 2831,
-  "ngoko_substitutions": 849,
-  "krama_substitutions": 4760,
-  "subs_with_ngoko_changes": 718,
-  "subs_with_krama_changes": 2112,
+  "ngoko_substitutions": 1110,
+  "krama_substitutions": 6432,
+  "subs_with_ngoko_changes": 885,
+  "subs_with_krama_changes": 2323,
   "sample_diffs": [
     {
       "i": 1,
@@ -21,6 +21,12 @@
       "krama": "Menapa punika masih negara kita?"
     },
     {
+      "i": 3,
+      "original": "Muncul saka awang-awang.",
+      "ngoko": "Muncul saka awang-awang.",
+      "krama": "Muncul saking awang-awang."
+    },
+    {
       "i": 4,
       "original": "Ngalahake ahli Body Tempering Realm tahap pungkasan mung nganggo siji gerakan.",
       "ngoko": "Ngalahake ahli Body Tempering Realm tahap pungkasan mung nganggo siji gerakan.",
@@ -31,12 +37,6 @@
       "original": "Apa iki saged dadi master kultivasi sing nyendiri?",
       "ngoko": "Apa iki bisa dadi master kultivasi sing nyendiri?",
       "krama": "Menapa punika saged dados master kultivasi ingkang nyendiri?"
-    },
-    {
-      "i": 6,
-      "original": "Kowé—.",
-      "ngoko": "Ko—.",
-      "krama": "Kowé—."
     }
   ]
 }
