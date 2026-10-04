@@ -1,0 +1,42 @@
+{
+  "srt_in_path": "work/grammar_fixed.srt",
+  "ngoko_out_path": "output/ngoko.srt",
+  "krama_out_path": "output/krama.srt",
+  "total_subs": 2877,
+  "ngoko_substitutions": 5,
+  "krama_substitutions": 26,
+  "subs_with_ngoko_changes": 3,
+  "subs_with_krama_changes": 20,
+  "sample_diffs": [
+    {
+      "i": 2,
+      "original": "Kowe teko saka ngendi?",
+      "ngoko": "Kowe teko saka ngendi?",
+      "krama": "Panjenengan teko saka pundi?"
+    },
+    {
+      "i": 7,
+      "original": "Kowe.",
+      "ngoko": "Kowe.",
+      "krama": "Panjenengan."
+    },
+    {
+      "i": 8,
+      "original": "Mangga pitulungku.",
+      "ngoko": "Mangga pitulungku.",
+      "krama": "Mugi pitulungku."
+    },
+    {
+      "i": 9,
+      "original": "Aku ora ngerti kawasa sampeyan.",
+      "ngoko": "Aku ora ngerti kawasa sampeyan.",
+      "krama": "Kula boten sumerep kawasa sampeyan."
+    },
+    {
+      "i": 10,
+      "original": "Aku nglanggar sampeyan.",
+      "ngoko": "Aku nglanggar sampeyan.",
+      "krama": "Kula nglanggar sampeyan."
+    }
+  ]
+}

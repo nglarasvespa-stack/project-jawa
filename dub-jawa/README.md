@@ -5,9 +5,9 @@ TUI Python ringan untuk dubbing film/drama internasional ke **Bahasa Jawa** (ver
 ## Status
 - **Tahap 1**: Stage 1 Fetch berfungsi (3 mode), TUI 6-tab jalan, voice Jawa terdeteksi.
 - **Tahap 2**: Stage 2 Translate berfungsi (LLM GLM via z-ai CLI, auto-detect source, batching 20/batch).
-- **Tahap 3** (saat ini): Stage 3 Grammar fix berfungsi (regex + kamus_jawa.json, no LLM, fast).
-- Tahap 4: Stage 4 Split ngoko/krama
-- Tahap 5: Stage 5 TTS + output
+- **Tahap 3**: Stage 3 Grammar fix berfungsi (regex + kamus_jawa.json, no LLM, fast).
+- **Tahap 4** (saat ini): Stage 4 Split ngoko/krama berfungsi (dictionary-only, case preserved, no LLM).
+- Tahap 5: Stage 5 TTS + output (edge-tts Dimas/Siti)
 
 ## Install
 ```bash
@@ -28,10 +28,12 @@ python main.py --srt /path/to/file.srt                          # mode 3: SRT on
 # Stage 2 - translate via LLM GLM
 python main.py --translate                              # translate semua
 python main.py --translate --limit 50                  # testing: 50 baris pertama
-python main.py --translate --limit 100 --batch-size 10 # batch lebih kecil kalau error
 
 # Stage 3 - grammar fix (no LLM, fast)
 python main.py --grammar
+
+# Stage 4 - split ngoko/krama (dictionary-only, fast)
+python main.py --split
 
 # list voice Edge-TTS untuk jv/id/su
 python main.py --list-voices

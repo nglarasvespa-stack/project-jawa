@@ -423,11 +423,94 @@ class GrammarPane(StagePane):
 
 
 class SplitPane(StagePane):
+    """Stage 4: Split SRT jadi ngoko + krama (dictionary-only)."""
+
     def __init__(self):
         super().__init__("4", "Split ngoko/krama")
+
     def compose(self) -> ComposeResult:
-        yield Static("Stage 4: Pisahkan jadi 2 file - ngoko.srt + krama.srt", classes="stage-title")
-        yield Static("Coming in Tahap 4.", classes="stage-placeholder")
+        yield Static("Stage 4: Split jadi output/ngoko.srt + output/krama.srt", classes="stage-title")
+        yield Static(
+            "Dictionary-only (no LLM). Pakai kamus_jawa.json[ngoko_to_krama]. "
+            "Case preserved: 'Kula' -> 'Aku' di awal kalimat. "
+            "Word boundary regex supaya tidak partial-match.",
+            classes="hint",
+        )
+        yield Horizontal(
+            Button("Run Split", id="split-btn", variant="primary"),
+            Button("Approve (Y)", id="approve-btn", variant="success"),
+            Button("Reject (N)", id="reject-btn", variant="error"),
+            Button("View report", id="view-report-btn", variant="default"),
+            Button("Edit kamus", id="edit-kamus-btn", variant="default"),
+            classes="row",
+        )
+        yield Label("Log:")
+        yield Log(id="split-log", max_lines=200, classes="log")
+        yield Label("Report:")
+        yield Static(id="split-report", classes="report-box")
+
+    def on_button_pressed(self, event: Button.Pressed) -> None:
+        if event.button.id == "split-btn":
+            asyncio.run(self._do_split())
+        elif event.button.id == "approve-btn":
+            self.query_one("#split-log", Log).write_line("[Y] Stage 4 approved. Lanjut ke Stage 5 (TTS).")
+        elif event.button.id == "reject-btn":
+            self.query_one("#split-log", Log).write_line("[N] Stage 4 ditolak. Edit kamus lalu retry.")
+        elif event.button.id == "view-report-btn":
+            self._view_report()
+        elif event.button.id == "edit-kamus-btn":
+            self._edit_kamus()
+
+    async def _do_split(self) -> None:
+        log_widget = self.query_one("#split-log", Log)
+        log_widget.write_line("[+] Stage 4: split ngoko/krama (dictionary-only, fast)")
+        import threading
+
+        def _run():
+            from src.stages.split import split_levels
+            try:
+                result = split_levels(
+                    WORK_DIR,
+                    OUTPUT_DIR,
+                    kamus_path=ROOT / "kamus_jawa.json",
+                    log=lambda m: log_widget.write_line(m),
+                )
+                log_widget.write_line(f"[+] Done. {result.total_subs} subs processed.")
+                log_widget.write_line(f"[+] Ngoko subs: {result.ngoko_substitutions} (di {result.subs_with_ngoko_changes} subs)")
+                log_widget.write_line(f"[+] Krama subs: {result.krama_substitutions} (di {result.subs_with_krama_changes} subs)")
+                log_widget.write_line(f"[+] Ngoko out: {result.ngoko_out_path}")
+                log_widget.write_line(f"[+] Krama out: {result.krama_out_path}")
+                # tampilkan report
+                report_path = WORK_DIR / "reports" / "stage4_report.md"
+                if report_path.exists():
+                    self.query_one("#split-report", Static).update(
+                        report_path.read_text(encoding="utf-8")
+                    )
+            except Exception as e:
+                log_widget.write_line(f"[!] ERROR: {e}")
+
+        t = threading.Thread(target=_run, daemon=True)
+        t.start()
+
+    def _view_report(self) -> None:
+        report_path = WORK_DIR / "reports" / "stage4_report.md"
+        if report_path.exists():
+            self.query_one("#split-report", Static).update(
+                report_path.read_text(encoding="utf-8")
+            )
+        else:
+            self.query_one("#split-log", Log).write_line("[!] Report belum ada. Run split dulu.")
+
+    def _edit_kamus(self) -> None:
+        kamus_path = ROOT / "kamus_jawa.json"
+        if not kamus_path.exists():
+            self.query_one("#split-log", Log).write_line(f"[!] {kamus_path} tidak ada.")
+            return
+        editor = os.environ.get("EDITOR", "nano")
+        try:
+            subprocess.run([editor, str(kamus_path)], check=False)
+        except Exception as e:
+            self.query_one("#split-log", Log).write_line(f"[!] Tidak bisa buka editor: {e}")
 
 
 class TTSPane(StagePane):

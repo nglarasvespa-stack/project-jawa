@@ -72,6 +72,27 @@ def cmd_fetch(url: str, srt_path: Optional[str] = None) -> int:
     return 0
 
 
+def cmd_split() -> int:
+    """CLI mode: jalankan stage 4 split ngoko/krama."""
+    from src.stages.split import split_levels
+    work_dir = Path("work")
+    output_dir = Path("output")
+    kamus = Path("kamus_jawa.json")
+    print(f"[+] Stage 4: split ngoko/krama (kamus: {kamus})")
+    try:
+        r = split_levels(work_dir, output_dir, kamus_path=kamus, log=lambda m: print(m))
+    except Exception as e:
+        print(f"[!] ERROR: {e}")
+        return 1
+    print()
+    print(f"[+] Done. {r.total_subs} subs processed.")
+    print(f"[+] Ngoko subs: {r.ngoko_substitutions} (di {r.subs_with_ngoko_changes} subs)")
+    print(f"[+] Krama subs: {r.krama_substitutions} (di {r.subs_with_krama_changes} subs)")
+    print(f"[+] Ngoko out: {r.ngoko_out_path}")
+    print(f"[+] Krama out: {r.krama_out_path}")
+    return 0
+
+
 def cmd_grammar() -> int:
     """CLI mode: jalankan stage 3 grammar fix."""
     from src.stages.grammar import fix_grammar
@@ -133,6 +154,7 @@ def main() -> int:
     parser.add_argument("--srt", metavar="PATH", help="Path SRT lokal (downsub.com). Pakai dengan --fetch, atau sendiri untuk mode SRT-only")
     parser.add_argument("--translate", action="store_true", help="CLI mode: jalankan stage 2 translate")
     parser.add_argument("--grammar", action="store_true", help="CLI mode: jalankan stage 3 grammar fix")
+    parser.add_argument("--split", action="store_true", help="CLI mode: jalankan stage 4 split ngoko/krama")
     parser.add_argument("--limit", type=int, help="Untuk --translate: hanya N baris pertama (testing)")
     parser.add_argument("--batch-size", type=int, default=20, help="Untuk --translate: ukuran batch (default 20)")
     parser.add_argument("--list-voices", action="store_true", help="List voice Edge-TTS jv/id/su")
@@ -141,6 +163,8 @@ def main() -> int:
 
     if args.list_voices:
         return cmd_list_voices()
+    if args.split:
+        return cmd_split()
     if args.grammar:
         return cmd_grammar()
     if args.translate:
