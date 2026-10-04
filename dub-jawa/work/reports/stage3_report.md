@@ -3,7 +3,7 @@
 ## Summary
 - **Total subtitles**: 2877
 - **Subs with changes**: 2875 (99.9%)
-- **Total typos fixed**: 0
+- **Total typos fixed**: 3
 - **Punctuation added**: 2873
 - **Capitalized**: 21
 - **Whitespace stripped**: 1

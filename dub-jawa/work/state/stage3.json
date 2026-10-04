@@ -3,7 +3,7 @@
   "srt_out_path": "work/grammar_fixed.srt",
   "total_subs": 2877,
   "subs_with_changes": 2875,
-  "total_typos_fixed": 0,
+  "total_typos_fixed": 3,
   "total_punct_added": 2873,
   "total_capitalized": 21,
   "total_whitespace_stripped": 1,

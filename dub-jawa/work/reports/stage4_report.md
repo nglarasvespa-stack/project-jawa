@@ -2,8 +2,8 @@
 
 ## Summary
 - **Total subtitles**: 2877
-- **Ngoko substitutions**: 5 (di 3 subs)
-- **Krama substitutions**: 26 (di 20 subs)
+- **Ngoko substitutions**: 8 (di 6 subs)
+- **Krama substitutions**: 54 (di 33 subs)
 
 ## Files
 - Input: `work/grammar_fixed.srt`
@@ -15,22 +15,22 @@
     - Original: `Kowe teko saka ngendi?`
     - Ngoko:    `Kowe teko saka ngendi?`
     - Krama:    `Panjenengan teko saka pundi?`
+  - **#3**
+    - Original: `Iki ing nagara maneh?`
+    - Ngoko:    `Iki ing nagara maneh?`
+    - Krama:    `Punika ing nagara malih?`
+  - **#5**
+    - Original: `Satoe gerak ngalahaken wong kuwat.`
+    - Ngoko:    `Satoe gerak ngalahaken wong kuwat.`
+    - Krama:    `Satoe gerak ngalahaken wong kukuwat.`
   - **#7**
     - Original: `Kowe.`
     - Ngoko:    `Kowe.`
     - Krama:    `Panjenengan.`
-  - **#8**
-    - Original: `Mangga pitulungku.`
-    - Ngoko:    `Mangga pitulungku.`
-    - Krama:    `Mugi pitulungku.`
   - **#9**
     - Original: `Aku ora ngerti kawasa sampeyan.`
     - Ngoko:    `Aku ora ngerti kawasa sampeyan.`
     - Krama:    `Kula boten sumerep kawasa sampeyan.`
-  - **#10**
-    - Original: `Aku nglanggar sampeyan.`
-    - Ngoko:    `Aku nglanggar sampeyan.`
-    - Krama:    `Kula nglanggar sampeyan.`
 
 
 ## Limitasi dictionary-only
