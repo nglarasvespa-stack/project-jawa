@@ -1,0 +1,33 @@
+{
+  "version": "0.1.0",
+  "project_name": "dub-jawa",
+  "work_dir": "work",
+  "output_dir": "output",
+  "kamus_path": "kamus_jawa.json",
+  "voices": {
+    "jawa_male":   "jv-ID-DimasNeural",
+    "jawa_female": "jv-ID-SitiNeural",
+    "id_male":     "id-ID-ArdiNeural",
+    "id_female":   "id-ID-GadisNeural",
+    "sunda_male":   "su-ID-JajangNeural",
+    "sunda_female": "su-ID-TutiNeural",
+    "default_ngoko": "jv-ID-DimasNeural",
+    "default_krama": "jv-ID-SitiNeural"
+  },
+  "subtitle_langs": ["zh-Hans", "zh", "zh-Hans-original", "en", "id", "ms"],
+  "video_format": "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
+  "cookies_from_browser": "chrome",
+  "cookies_note": "Pilihan: 'chrome' / 'firefox' / 'edge' / 'opera' / 'brave' / null. Jika video minta sign-in, set salah satu browser tempat kamu login YouTube. Set null untuk matikan.",
+  "stages": {
+    "1_fetch":     {"enabled": true,  "auto_run": false},
+    "2_translate": {"enabled": true,  "auto_run": false},
+    "3_grammar":   {"enabled": true,  "auto_run": false},
+    "4_split":     {"enabled": true,  "auto_run": false},
+    "5_tts":       {"enabled": true,  "auto_run": false}
+  },
+  "review_gate": {
+    "require_approval_before_next": true,
+    "save_diff_report": true,
+    "report_format": "markdown"
+  }
+}

@@ -1,0 +1,6 @@
+# Dub-Jawa dependencies (ringan)
+textual>=0.50.0      # TUI framework
+yt-dlp>=2024.0.0     # YouTube fetch
+edge-tts>=6.1.0      # TTS (Jawa/Indonesia/Sunda)
+pysrt>=1.1.0         # SRT parser
+rapidfuzz>=3.0.0     # Fuzzy matching untuk kamus
