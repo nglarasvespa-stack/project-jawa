@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "0.5.0",
-    "note": "Kamus dari Wiktionary + manual + LLM-generated inflected forms (V2 dengan filter hyphen).",
+    "version": "0.6.0",
+    "note": "Kamus dari Wiktionary + manual + LLM-generated. Bentuk impolite krama imperatives (-na suffix) sudah di-remove.",
     "sources": [
       "https://kaikki.org/dictionary/Javanese/ (Wiktionary Javanese, CC BY-SA)",
       "Manual curation (~430 entries, mungkin masih banyak noise)",
@@ -11,7 +11,11 @@
     ],
     "schema": "ngoko_to_krama: forward map (ngoko -> krama)",
     "last_updated": "2026-10-04",
-    "total_entries": 1198
+    "total_entries": 1198,
+    "linguistic_rules": {
+      "impolite_forms": "Krama imperatives (-na suffix) dihapus karena tidak sopan secara kultural",
+      "context_aware": "Untuk perintah sopan, gunakan krama inggil dengan struktur berbeda (bukan imperative)"
+    }
   },
   "ngoko_to_krama": {
     "gedhang": "pisang",
@@ -396,7 +400,6 @@
     "manganan": "nedhan",
     "mangani": "nedhi",
     "manganne": "nedhane",
-    "manganna": "nedhana",
     "dipangan": "dinedha",
     "kepangan": "kenedha",
     "pamangan": "panedha",
@@ -422,13 +425,11 @@
     "amargaan": "amargian",
     "amargai": "amargii",
     "amargane": "amargine",
-    "amarganna": "amargina",
     "ndhahare": "nedhane",
     "ndhaharake": "nedhaake",
     "ndhaharan": "nedhaan",
     "ndhahari": "nedhai",
     "ndhaharne": "nedhane",
-    "ndhaharna": "nedhana",
     "abange": "abrite",
     "abangan": "abritan",
     "abang-abang": "abrit-abrit",
@@ -437,13 +438,11 @@
     "amergaan": "amergian",
     "amergai": "amergii",
     "amergane": "amergine",
-    "amerganna": "amergina",
     "amêrgae": "amêrgie",
     "amêrgaake": "amêrgiake",
     "amêrgaan": "amêrgian",
     "amêrgai": "amêrgii",
     "amêrgane": "amêrgine",
-    "amêrganna": "amêrgina",
     "plandhungane": "konthole",
     "plandhunganane": "kontholane",
     "plandhunganan": "kontholan",
