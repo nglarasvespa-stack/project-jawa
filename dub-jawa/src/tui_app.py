@@ -241,11 +241,96 @@ class FetchPane(StagePane):
 
 
 class TranslatePane(StagePane):
+    """Stage 2: Translate SRT ke Jawa standar via LLM."""
+
     def __init__(self):
         super().__init__("2", "Translate to Jawa")
+
     def compose(self) -> ComposeResult:
         yield Static("Stage 2: Translate SRT (auto-detect source lang -> Jawa standar)", classes="stage-title")
-        yield Static("Coming in Tahap 2. Akan pakai LLM (GLM) untuk translate multi-source.", classes="stage-placeholder")
+        yield Static(
+            "Pakai LLM GLM (z-ai CLI). Batching otomatis (default 20 baris/batch). "
+            "Failed batch -> fallback ke text asli + tag [untranslated].",
+            classes="hint",
+        )
+        yield Horizontal(
+            Label("Limit:", classes="field-label"),
+            Input(placeholder="(opsional) berapa baris pertama yang mau ditranslate. Kosongkan = semua", id="translate-limit"),
+            classes="row",
+        )
+        yield Horizontal(
+            Label("Batch:", classes="field-label"),
+            Input(value="20", id="translate-batch-size"),
+            classes="row",
+        )
+        yield Horizontal(
+            Button("Run Translate", id="translate-btn", variant="primary"),
+            Button("Approve (Y)", id="approve-btn", variant="success"),
+            Button("Reject (N)", id="reject-btn", variant="error"),
+            Button("View report", id="view-report-btn", variant="default"),
+            classes="row",
+        )
+        yield Label("Log:")
+        yield Log(id="translate-log", max_lines=200, classes="log")
+        yield Label("Report:")
+        yield Static(id="translate-report", classes="report-box")
+
+    def on_button_pressed(self, event: Button.Pressed) -> None:
+        if event.button.id == "translate-btn":
+            asyncio.run(self._do_translate())
+        elif event.button.id == "approve-btn":
+            self.query_one("#translate-log", Log).write_line("[Y] Stage 2 approved. Lanjut ke Stage 3 (Grammar).")
+        elif event.button.id == "reject-btn":
+            self.query_one("#translate-log", Log).write_line("[N] Stage 2 ditolak. Perbaiki limit/batch_size lalu retry.")
+        elif event.button.id == "view-report-btn":
+            self._view_report()
+
+    async def _do_translate(self) -> None:
+        log_widget = self.query_one("#translate-log", Log)
+        limit_str = self.query_one("#translate-limit", Input).value.strip()
+        batch_str = self.query_one("#translate-batch-size", Input).value.strip()
+
+        limit = int(limit_str) if limit_str.isdigit() else None
+        try:
+            batch_size = int(batch_str) if batch_str else 20
+        except ValueError:
+            batch_size = 20
+
+        log_widget.write_line(f"[+] Stage 2: translate (limit={limit}, batch={batch_size})")
+        import threading
+
+        def _run():
+            from src.stages.translate import translate_srt
+            try:
+                result = translate_srt(
+                    WORK_DIR,
+                    batch_size=batch_size,
+                    limit=limit,
+                    log=lambda m: log_widget.write_line(m),
+                )
+                log_widget.write_line(f"[+] Done. {result.successful_batches}/{result.total_batches} batches sukses, {result.failed_batches} gagal.")
+                log_widget.write_line(f"[+] Elapsed: {result.elapsed_sec:.1f}s")
+                log_widget.write_line(f"[+] Output: {result.srt_out_path}")
+                # tampilkan report
+                report_path = WORK_DIR / "reports" / "stage2_report.md"
+                if report_path.exists():
+                    self.query_one("#translate-report", Static).update(
+                        report_path.read_text(encoding="utf-8")
+                    )
+            except Exception as e:
+                log_widget.write_line(f"[!] ERROR: {e}")
+
+        t = threading.Thread(target=_run, daemon=True)
+        t.start()
+
+    def _view_report(self) -> None:
+        report_path = WORK_DIR / "reports" / "stage2_report.md"
+        if report_path.exists():
+            self.query_one("#translate-report", Static).update(
+                report_path.read_text(encoding="utf-8")
+            )
+        else:
+            self.query_one("#translate-log", Log).write_line("[!] Report belum ada. Run translate dulu.")
 
 
 class GrammarPane(StagePane):

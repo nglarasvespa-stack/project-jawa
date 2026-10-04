@@ -1,0 +1,63 @@
+{
+  "srt_in_path": "work/source_video.zh-Hant.srt",
+  "srt_out_path": "work/translated.srt",
+  "source_lang": "zh-Hant",
+  "total_subs": 2877,
+  "total_batches": 3,
+  "successful_batches": 3,
+  "failed_batches": 0,
+  "failed_indices": [],
+  "elapsed_sec": 14.10009241104126,
+  "sample_before_after": [
+    {
+      "i": 1,
+      "before": "啊",
+      "after": "ah"
+    },
+    {
+      "i": 2,
+      "before": "給我幹哪來了",
+      "after": "kowe teko saka ngendi"
+    },
+    {
+      "i": 3,
+      "before": "這還是國內嗎",
+      "after": "iki ing nagara maneh?"
+    },
+    {
+      "i": 4,
+      "before": "憑空出現",
+      "after": "muncul tanpa jejak"
+    },
+    {
+      "i": 5,
+      "before": "一招制服鍛體境後期",
+      "after": "satoe gerak ngalahaken wong kuwat"
+    },
+    {
+      "i": 46,
+      "before": "那豈不是遍地都是",
+      "after": "Apa ora kabeh ana"
+    },
+    {
+      "i": 47,
+      "before": "好幾個幾十萬",
+      "after": "Puluhan ewu"
+    },
+    {
+      "i": 48,
+      "before": "大仙",
+      "after": "Dewa"
+    },
+    {
+      "i": 49,
+      "before": "天色不早",
+      "after": "Wanci wis mbengi"
+    },
+    {
+      "i": 50,
+      "before": "我得趕緊下山了",
+      "after": "Kudu turun gunung cepet"
+    }
+  ]
+}

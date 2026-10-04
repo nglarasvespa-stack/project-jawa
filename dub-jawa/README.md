@@ -3,8 +3,8 @@
 TUI Python ringan untuk dubbing film/drama internasional ke **Bahasa Jawa** (versi ngoko + krama), dengan **review gate** tiap stage dan **Edge-TTS** untuk audio.
 
 ## Status
-- **Tahap 1** (saat ini): Stage 1 Fetch berfungsi (3 mode), TUI 6-tab jalan, voice Jawa terdeteksi.
-- Tahap 2: Stage 2 Translate (LLM GLM)
+- **Tahap 1**: Stage 1 Fetch berfungsi (3 mode), TUI 6-tab jalan, voice Jawa terdeteksi.
+- **Tahap 2** (saat ini): Stage 2 Translate berfungsi (LLM GLM via z-ai CLI, auto-detect source, batching 20/batch).
 - Tahap 3: Stage 3 Grammar fix (kamus JSON)
 - Tahap 4: Stage 4 Split ngoko/krama
 - Tahap 5: Stage 5 TTS + output
@@ -20,14 +20,26 @@ pip install -r requirements.txt
 # mode TUI (default)
 python main.py
 
-# CLI - 3 mode input:
+# Stage 1 - 3 mode input:
 python main.py --fetch https://www.youtube.com/watch?v=XXXX    # mode 1: URL only
 python main.py --fetch URL --srt /path/to/file.srt              # mode 2: URL + SRT lokal
 python main.py --srt /path/to/file.srt                          # mode 3: SRT only (testing)
 
+# Stage 2 - translate via LLM GLM
+python main.py --translate                              # translate semua
+python main.py --translate --limit 50                  # testing: 50 baris pertama
+python main.py --translate --limit 100 --batch-size 10 # batch lebih kecil kalau error
+
 # list voice Edge-TTS untuk jv/id/su
 python main.py --list-voices
 ```
+
+## Estimasi Stage 2 (LLM translate)
+| Baris | Batch (size=20) | Estimasi waktu |
+|-------|----------------|----------------|
+| 50    | 3              | ~15 detik |
+| 500   | 25             | ~2 menit |
+| 2877  | 144            | ~12 menit |
 
 ## Mode Input Stage 1
 | Mode | URL | SRT lokal | Hasil |

@@ -72,6 +72,28 @@ def cmd_fetch(url: str, srt_path: Optional[str] = None) -> int:
     return 0
 
 
+def cmd_translate(limit: Optional[int] = None, batch_size: int = 20) -> int:
+    """CLI mode: jalankan stage 2 translate."""
+    from src.stages.translate import translate_srt
+    work_dir = Path("work")
+    print(f"[+] Stage 2: translate (limit={limit}, batch_size={batch_size})")
+    try:
+        r = translate_srt(
+            work_dir,
+            batch_size=batch_size,
+            limit=limit,
+            log=lambda m: print(m),
+        )
+    except Exception as e:
+        print(f"[!] ERROR: {e}")
+        return 1
+    print()
+    print(f"[+] Done. {r.successful_batches}/{r.total_batches} batches sukses, {r.failed_batches} gagal.")
+    print(f"[+] Elapsed: {r.elapsed_sec:.1f}s")
+    print(f"[+] Output: {r.srt_out_path}")
+    return 0
+
+
 def cmd_list_voices() -> int:
     """List voice Edge-TTS yang tersedia untuk jv/id/su."""
     import subprocess
@@ -91,12 +113,17 @@ def main() -> int:
     )
     parser.add_argument("--fetch", metavar="URL", help="CLI mode: langsung fetch URL tanpa TUI")
     parser.add_argument("--srt", metavar="PATH", help="Path SRT lokal (downsub.com). Pakai dengan --fetch, atau sendiri untuk mode SRT-only")
+    parser.add_argument("--translate", action="store_true", help="CLI mode: jalankan stage 2 translate")
+    parser.add_argument("--limit", type=int, help="Untuk --translate: hanya N baris pertama (testing)")
+    parser.add_argument("--batch-size", type=int, default=20, help="Untuk --translate: ukuran batch (default 20)")
     parser.add_argument("--list-voices", action="store_true", help="List voice Edge-TTS jv/id/su")
     parser.add_argument("--tui", action="store_true", help="Jalankan TUI (default)")
     args = parser.parse_args()
 
     if args.list_voices:
         return cmd_list_voices()
+    if args.translate:
+        return cmd_translate(limit=args.limit, batch_size=args.batch_size)
     if args.fetch or args.srt:
         return cmd_fetch(args.fetch or "", args.srt)
     # default: TUI
