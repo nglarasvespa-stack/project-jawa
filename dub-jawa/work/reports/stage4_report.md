@@ -3,7 +3,7 @@
 ## Summary
 - **Total subtitles**: 2831
 - **Ngoko substitutions**: 849 (di 718 subs)
-- **Krama substitutions**: 4757 (di 2112 subs)
+- **Krama substitutions**: 4760 (di 2112 subs)
 
 ## Files
 - Input: `work/grammar_fixed.srt`

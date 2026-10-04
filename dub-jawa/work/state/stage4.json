@@ -4,7 +4,7 @@
   "krama_out_path": "output/krama.srt",
   "total_subs": 2831,
   "ngoko_substitutions": 849,
-  "krama_substitutions": 4757,
+  "krama_substitutions": 4760,
   "subs_with_ngoko_changes": 718,
   "subs_with_krama_changes": 2112,
   "sample_diffs": [
