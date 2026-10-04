@@ -87,28 +87,33 @@ class StagePane(Vertical):
 
 
 class FetchPane(StagePane):
-    """Stage 1: Fetch YouTube video + SRT."""
+    """Stage 1: Fetch YouTube video + SRT (atau SRT lokal)."""
 
     def __init__(self):
         super().__init__("1", "Fetch YouTube")
 
     def compose(self) -> ComposeResult:
-        yield Static("Stage 1: Fetch YouTube Video + Subtitle", classes="stage-title")
+        yield Static("Stage 1: Fetch Video + Subtitle", classes="stage-title")
         yield Static(
-            "Masukkan URL YouTube (multi-bahasa). Durasi panjang OK, "
-            "tapi proses download bisa lama.",
+            "3 mode input:\n"
+            "  1. URL saja -> yt-dlp download video + subtitle\n"
+            "  2. URL + SRT lokal -> yt-dlp download video saja, subtitle dari lokal\n"
+            "  3. SRT lokal saja -> skip video, untuk testing stage 2+\n"
+            "Mode 3 paling cepat untuk coba pipeline tanpa download video besar.",
             classes="hint",
         )
         yield Horizontal(
             Label("URL:", classes="field-label"),
-            Input(
-                placeholder="https://www.youtube.com/watch?v=...",
-                id="yt-url",
-            ),
+            Input(placeholder="(opsional) https://www.youtube.com/watch?v=...", id="yt-url"),
             classes="row",
         )
         yield Horizontal(
-            Button("Fetch", id="fetch-btn", variant="primary"),
+            Label("SRT:", classes="field-label"),
+            Input(placeholder="(opsional) /path/ke/file.srt dari downsub.com", id="srt-path"),
+            classes="row",
+        )
+        yield Horizontal(
+            Button("Fetch / Load", id="fetch-btn", variant="primary"),
             Button("Approve (Y)", id="approve-btn", variant="success"),
             Button("Reject (N)", id="reject-btn", variant="error"),
             Button("Edit info.json", id="edit-btn", variant="default"),
@@ -131,17 +136,42 @@ class FetchPane(StagePane):
 
     async def _do_fetch(self) -> None:
         url_input = self.query_one("#yt-url", Input)
+        srt_input = self.query_one("#srt-path", Input)
         log_widget = self.query_one("#fetch-log", Log)
         url = url_input.value.strip()
-        if not url or "youtube.com" not in url and "youtu.be" not in url:
-            log_widget.write_line("[!] URL YouTube tidak valid.")
+        srt_path_str = srt_input.value.strip()
+
+        if not url and not srt_path_str:
+            log_widget.write_line("[!] Isi minimal salah satu: URL atau path SRT.")
             return
 
-        log_widget.write_line(f"[+] Fetching: {url}")
+        # deteksi mode
+        if srt_path_str and not url:
+            mode = "3 (SRT only)"
+        elif srt_path_str and url:
+            mode = "2 (URL + local SRT)"
+        else:
+            mode = "1 (URL only - yt-dlp)"
+
+        if url and "youtube.com" not in url and "youtu.be" not in url:
+            log_widget.write_line("[!] URL tidak valid (harus youtube.com atau youtu.be).")
+            return
+
+        srt_path = Path(srt_path_str) if srt_path_str else None
+        if srt_path and not srt_path.exists():
+            log_widget.write_line(f"[!] File SRT tidak ditemukan: {srt_path}")
+            return
+
+        log_widget.write_line(f"[+] Mode: {mode}")
+        if url:
+            log_widget.write_line(f"    URL: {url}")
+        if srt_path:
+            log_widget.write_line(f"    SRT: {srt_path}")
+
         cookies = CONFIG.get("cookies_from_browser")
-        if cookies:
+        if cookies and url:
             log_widget.write_line(f"    (pakai cookies dari browser: {cookies})")
-        # jalankan di thread supaya TUI tidak freeze
+
         import threading
 
         def _run():
@@ -153,13 +183,17 @@ class FetchPane(StagePane):
                         pct = d.get("_percent_str", "").strip()
                         speed = d.get("_speed_str", "").strip()
                         eta = d.get("_eta_str", "").strip()
-                        log_widget.write_line(
-                            f"  ... {pct} {speed} eta {eta}"
-                        )
+                        log_widget.write_line(f"  ... {pct} {speed} eta {eta}")
                     elif status == "finished":
                         log_widget.write_line(f"  [done] {d.get('filename','')}")
 
-                result = fetch_video(url, WORK_DIR, progress_callback=cb, cookies_from_browser=cookies)
+                result = fetch_video(
+                    url,
+                    WORK_DIR,
+                    progress_callback=cb,
+                    cookies_from_browser=cookies,
+                    local_srt_path=srt_path,
+                )
                 log_widget.write_line(f"[+] Title: {result.title}")
                 log_widget.write_line(f"[+] Duration: {result.duration_sec}s")
                 log_widget.write_line(f"[+] Video: {result.video_path}")
@@ -174,11 +208,12 @@ class FetchPane(StagePane):
                     )
             except Exception as e:
                 log_widget.write_line(f"[!] ERROR: {e}")
-                if "Sign in to confirm" in str(e) or "cookies" in str(e).lower():
+                err_msg = str(e)
+                if "Sign in to confirm" in err_msg or "cookies" in err_msg.lower():
                     log_widget.write_line(
                         "[i] YouTube minta sign-in. Edit config.json, "
                         "set 'cookies_from_browser' ke 'chrome' atau 'firefox' "
-                        "(browser tempat kamu login YouTube)."
+                        "(browser tempat kamu login YouTube). Atau gunakan mode 3 (SRT only)."
                     )
 
         t = threading.Thread(target=_run, daemon=True)

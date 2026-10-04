@@ -3,7 +3,7 @@
 TUI Python ringan untuk dubbing film/drama internasional ke **Bahasa Jawa** (versi ngoko + krama), dengan **review gate** tiap stage dan **Edge-TTS** untuk audio.
 
 ## Status
-- **Tahap 1** (saat ini): Stage 1 Fetch berfungsi, TUI 6-tab jalan, voice Jawa terdeteksi.
+- **Tahap 1** (saat ini): Stage 1 Fetch berfungsi (3 mode), TUI 6-tab jalan, voice Jawa terdeteksi.
 - Tahap 2: Stage 2 Translate (LLM GLM)
 - Tahap 3: Stage 3 Grammar fix (kamus JSON)
 - Tahap 4: Stage 4 Split ngoko/krama
@@ -20,12 +20,23 @@ pip install -r requirements.txt
 # mode TUI (default)
 python main.py
 
-# CLI mode: langsung fetch tanpa TUI
-python main.py --fetch https://www.youtube.com/watch?v=XXXX
+# CLI - 3 mode input:
+python main.py --fetch https://www.youtube.com/watch?v=XXXX    # mode 1: URL only
+python main.py --fetch URL --srt /path/to/file.srt              # mode 2: URL + SRT lokal
+python main.py --srt /path/to/file.srt                          # mode 3: SRT only (testing)
 
 # list voice Edge-TTS untuk jv/id/su
 python main.py --list-voices
 ```
+
+## Mode Input Stage 1
+| Mode | URL | SRT lokal | Hasil |
+|------|-----|-----------|-------|
+| 1 | ya | tidak | yt-dlp download video + subtitle |
+| 2 | ya | ya | yt-dlp download video saja, SRT pakai file lokal (downsub.com) |
+| 3 | tidak | ya | skip video, cuma proses SRT (mode testing cepat) |
+
+Mode 3 paling cepat untuk coba pipeline tanpa download video besar.
 
 ## Hotkeys TUI
 | Key | Aksi |
