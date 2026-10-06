@@ -1,25 +1,24 @@
-"""Stage 4: Split SRT jadi versi ngoko + krama (dictionary-only, FAST combined regex)."""
+"""Stage 4: Split SRT jadi versi ngoko + krama (dictionary-only, FAST combined regex).
+
+Kamus values bisa BAKU (with ê, à, etc.) — output SRT di-strip accent untuk TTS.
+"""
 from __future__ import annotations
 import json, re
+import unicodedata
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Callable, Optional
 import pysrt
 
 
-_ACCENT_MAP = str.maketrans({
-    'e': 'e', 'e': 'e', 'e': 'e', 'e': 'e',
-    'E': 'E', 'E': 'E', 'E': 'E', 'E': 'E',
-    'a': 'a', 'a': 'a', 'a': 'a',
-    'A': 'A', 'A': 'A', 'A': 'A',
-    'i': 'i', 'i': 'i', 'i': 'i',
-    'I': 'I', 'I': 'I', 'I': 'I',
-    'o': 'o', 'o': 'o', 'o': 'o',
-    'O': 'O', 'O': 'O', 'O': 'O',
-    'u': 'u', 'u': 'u', 'u': 'u',
-    'U': 'U', 'U': 'U', 'U': 'U',
-    'n': 'n', 'N': 'N',
-})
+def _strip_accents(s: str) -> str:
+    """Strip diacritics dari string (comprehensive, pakai unicodedata)."""
+    nfkd = unicodedata.normalize('NFKD', s)
+    return ''.join(c for c in nfkd if not unicodedata.combining(c))
+
+
+# Legacy _ACCENT_MAP — keep for backward compat, but use _strip_accents everywhere
+_ACCENT_MAP = str.maketrans({})
 
 
 @dataclass
@@ -44,7 +43,9 @@ def _load_kamus(kamus_path: Path) -> tuple[dict, dict]:
     for n, k in raw_n2k.items():
         if n.startswith("_") or not n or not k or n == k:
             continue
-        n2k[n] = k.translate(_ACCENT_MAP)
+        # Strip accent dari krama value sebelum simpan ke lookup
+        # (output juga akan di-strip, so consistent)
+        n2k[_strip_accents(n.lower())] = _strip_accents(k.lower())
     k2n = {}
     for ngoko, krama in n2k.items():
         if krama not in k2n:
@@ -65,22 +66,28 @@ def _build_combined_pattern(mapping: dict):
 
 
 def _substitute(text: str, pattern, lookup: dict) -> tuple[str, int]:
-    """Substitusi pakai pre-built pattern. 1 pass, O(N)."""
+    """Substitusi pakai pre-built pattern. 1 pass, O(N).
+    
+    Output di-strip accent (baku → normalized) untuk TTS-friendly SRT.
+    """
     if pattern is None:
         return text, 0
     count = [0]
     def _replace(match):
         word = match.group(0)
-        target = lookup.get(word.lower())
+        # Normalize input word (strip accent) before lookup
+        word_norm = _strip_accents(word.lower())
+        target = lookup.get(word_norm)
         if target is None:
             return word
         count[0] += 1
+        # Target sudah di-strip accent di _load_kamus
         if word[:1].isupper():
             return target[:1].upper() + target[1:]
         return target
     new_text = pattern.sub(_replace, text)
-    # Strip accent dari output
-    new_text = new_text.translate(_ACCENT_MAP)
+    # Final defensive accent strip on entire output
+    new_text = _strip_accents(new_text)
     return new_text, count[0]
 
 

@@ -10,6 +10,7 @@ Aturan fix:
   2. Typo: substitusi kata dari kamus_jawa.json["typo_corrections"].
            (mis. "yang"->"kang", "udah"->"wis", "ga"->"ora", "gak"->"ora")
            Pakai word boundary regex supaya tidak partial-match.
+           KAMUS VALUES BAKU (with ê, à, etc.) — output di-strip accent untuk TTS.
   3. Tanda baca akhir: kalau tidak ada . ? !, tambahkan.
      - Kalimat tanya (mengandung kata "apa", "ngendi", "sapa", "pira", dst.) -> ?
      - Kalimat biasa -> .
@@ -22,11 +23,18 @@ from __future__ import annotations
 
 import json
 import re
+import unicodedata
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Callable, Optional
 
 import pysrt
+
+
+def _strip_accents(s: str) -> str:
+    """Strip diacritics dari string (untuk TTS-friendly output)."""
+    nfkd = unicodedata.normalize('NFKD', s)
+    return ''.join(c for c in nfkd if not unicodedata.combining(c))
 
 
 # Kata tanya Jawa untuk deteksi kalimat tanya
@@ -74,6 +82,8 @@ def _fix_typos(text: str, typo_corrections: dict) -> tuple[str, int]:
     
     Jauh lebih cepat: O(N) per subtitle, bukan O(N*M).
     Multi-word entries (dengan spasi) diproses duluan supaya tidak konflik.
+    
+    Kamus values bisa BAKU (with ê, à, etc.) — output di-strip accent untuk TTS.
     """
     if not typo_corrections:
         return text, 0
@@ -88,15 +98,6 @@ def _fix_typos(text: str, typo_corrections: dict) -> tuple[str, int]:
     pattern = re.compile(combined, re.IGNORECASE)
     # Build lookup (lowercase)
     lookup = {k.lower(): v for k, v in typo_corrections.items()}
-    # Strip accent for matching
-    accent_map = str.maketrans({
-        'e': 'e', 'e': 'e', 'e': 'e', 'e': 'e',
-        'a': 'a', 'a': 'a', 'a': 'a',
-        'i': 'i', 'i': 'i', 'i': 'i',
-        'o': 'o', 'o': 'o', 'o': 'o',
-        'u': 'u', 'u': 'u', 'u': 'u',
-        'n': 'n',
-    })
     count = [0]
     def _replace(match):
         word = match.group(0)
@@ -105,6 +106,8 @@ def _fix_typos(text: str, typo_corrections: dict) -> tuple[str, int]:
         if target is None:
             return word
         count[0] += 1
+        # STRIP ACCENT dari kamus value (baku -> normalized) untuk TTS-friendly output
+        target = _strip_accents(target)
         if word[:1].isupper():
             return target[:1].upper() + target[1:]
         return target
