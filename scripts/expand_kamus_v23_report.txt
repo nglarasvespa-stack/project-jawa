@@ -1,0 +1,135 @@
+Kamus Expansion v2.3.0 Report
+Date: 2026-10-06
+============================================================
+
+BEFORE:
+  typo_corrections: 4283
+  n2k: 1979
+
+ADDED typo_corrections (76):
+  aduh -> aduh
+  apakah -> apa
+  ayo -> ayo
+  barang -> barang
+  beberapa -> pirang-pirang
+  berdua -> loro
+  bergerak -> obah
+  bertahan -> tahan
+  bertarung -> tarung
+  bertempur -> tempur
+  demi -> amargi
+  gaji -> gaji
+  gugur -> gugur
+  gunung -> gunung
+  hadiah -> hadiah
+  hal -> bab
+  ikut -> melu
+  jadi -> dadi
+  jantung -> jantung
+  kali -> kali
+  kuda -> jaran
+  kulit -> kulit
+  lain -> liyan
+  lainnya -> liyane
+  langsung -> langsung
+  latihan -> latihan
+  layak -> layak
+  maju -> maju
+  masa -> masa
+  mati -> mati
+  memberi -> maringi
+  memimpin -> mimpin
+  menikah -> nikah
+  menjadi -> dadi
+  menjaga -> jaga
+  menyelamatkan -> nylametake
+  mohon -> nyuwun
+  mu -> mu
+  mundur -> mundur
+  nama -> nama
+  nggak -> ora
+  obat -> obat
+  orang-orang -> wong-wong
+  otot -> otot
+  pahlawan -> pahlawan
+  paling -> paling
+  paman -> paman
+  panah -> panah
+  pejabat -> pejabat
+  pemerintah -> pamarentah
+  penduduk -> penduduk
+  penting -> penting
+  penyerbu -> panyerang
+  perintah -> prentah
+  petugas -> petugas
+  pindah -> pindah
+  puluh -> puluh
+  rakyat -> rakyat
+  sebagai -> minangka
+  secara -> secara
+  seratus -> satus
+  seribu -> sewu
+  sesuai -> cocog
+  soal -> bab
+  takut -> wedi
+  tempat -> panggonan
+  terjadi -> kelakon
+  terluka -> luka
+  tersisa -> kasisa
+  tetap -> tetep
+  ujian -> ujian
+  umum -> umum
+  umur -> umur
+  urat -> urat
+  utama -> utama
+  wanita -> wadon
+
+ADDED n2k (28):
+  amargi -> amargi
+  bab -> bab
+  cocog -> cocog
+  jaga -> jagi
+  jaran -> turangga
+  kasisa -> kasisa
+  liyan -> sanes
+  liyane -> sanesipun
+  luka -> luka
+  maringi -> maringi
+  mimpin -> mimpin
+  minangka -> minangka
+  nikah -> nikah
+  nyuwun -> nyuwun
+  obah -> obah
+  pamarentah -> pamarentah
+  panggonan -> panggenan
+  panyerang -> panyerang
+  pirang-pirang -> sawetara
+  prentah -> pratitah
+  satus -> satus
+  tahan -> tahan
+  tarung -> tarung
+  tempur -> tempur
+  tetep -> tetep
+  wadon -> estri
+  wedi -> ajrih
+  wong-wong -> tiyang-tiyang
+
+SKIPPED (conflict in typo):
+  musuh: existing=mungsuh, proposed=musuh
+  hidung: existing=irung, proposed=hidung
+  mata: existing=mripat, proposed=mata
+  tangan: existing=asta, proposed=tangan
+  kaki: existing=suku, proposed=kaki
+  rambut: existing=rikma, proposed=rambut
+  tulang: existing=balung, proposed=tulang
+  darah: existing=getih, proposed=darah
+
+SKIPPED (conflict in n2k):
+  ora: existing=boten, proposed=mboten
+  apa: existing=menapa, proposed=punapa
+  sewu: existing=sautus ewu, proposed=sewu
+
+MISSING KRAMA for new ngoko words:
+  menyelamatkan -> nylametake
+  terjadi -> kelakon
+  ikut -> melu
