@@ -1,45 +1,34 @@
-# Stage 4: Split ngoko/krama Report
+# Stage 4: Split Report
 
 ## Summary
-- **Total subtitles**: 2831
-- **Ngoko substitutions**: 1110 (di 885 subs)
-- **Krama substitutions**: 6432 (di 2323 subs)
+- Total: 5233
+- Ngoko subs: 1829 (di 1571 subs)
+- Krama subs: 9225 (di 4122 subs)
 
 ## Files
 - Input: `work/grammar_fixed.srt`
-- Output ngoko: `output/ngoko.srt`
-- Output krama: `output/krama.srt`
+- Ngoko: `output/ngoko.srt`
+- Krama: `output/krama.srt`
 
-## Sample Diffs (first 5 with changes)
+## Sample Diffs
   - **#1**
-    - Original: `Aku iki tekan ngendi?`
-    - Ngoko:    `Aku iki tekan ngendi?`
-    - Krama:    `Kula punika tekan pundi?`
+    - Original: `Mlebu saka lawang kulon luwih tentrem.`
+    - Ngoko: `Mlebu saka lawang kulon luwih tentrem.`
+    - Krama: `Mlebet saking pintu kulon langkung tentrem.`
   - **#2**
-    - Original: `Apa iki isih negara kita?`
-    - Ngoko:    `Apa iki isih negara kita?`
-    - Krama:    `Menapa punika masih negara kita?`
+    - Original: `Ing kana luwih sepi.`
+    - Ngoko: `Ing kana luwih sepi.`
+    - Krama: `Wonten kapunten langkung sepi.`
   - **#3**
-    - Original: `Muncul saka awang-awang.`
-    - Ngoko:    `Muncul saka awang-awang.`
-    - Krama:    `Muncul saking awang-awang.`
+    - Original: `Ing balik lawang iki iku pelataran sisih.`
+    - Ngoko: `Ing balik lawang iki iku pelataran sisih.`
+    - Krama: `Wonten balik pintu punika wau pelataran sisih.`
   - **#4**
-    - Original: `Ngalahake ahli Body Tempering Realm tahap pungkasan mung nganggo siji gerakan.`
-    - Ngoko:    `Ngalahake ahli Body Tempering Realm tahap pungkasan mung nganggo siji gerakan.`
-    - Krama:    `Ngalahake ahli Body Tempering Realm tahap pungkasan namung ngginakaken setunggal gerakan.`
-  - **#5**
-    - Original: `Apa iki saged dadi master kultivasi sing nyendiri?`
-    - Ngoko:    `Apa iki bisa dadi master kultivasi sing nyendiri?`
-    - Krama:    `Menapa punika saged dados master kultivasi ingkang nyendiri?`
+    - Original: `Swara petok lawang ngarepe.`
+    - Ngoko: `Swara petok lawang ngarepe.`
+    - Krama: `Swara petok pintu ngarepe.`
+  - **#6**
+    - Original: `Aku arep papatut Pangarsa Klan.`
+    - Ngoko: `Aku arep papatut Pangarsa Klan.`
+    - Krama: `Kula badhe papatut Pangarsa Klan.`
 
-
-## Limitasi dictionary-only
-- Hanya kata yang ada di `kamus_jawa.json["ngoko_to_krama"]` yang bisa di-substitusi.
-- Kata dengan imbuhan, dwilingga, atau bentuk elision tidak ditangkap.
-- Untuk kualitas tinggi, bisa upgrade ke LLM-based split (Tahap 5+).
-
-## Next step
-User review: cek sample di atas. Kalau substitusi terlalu sedikit, edit `kamus_jawa.json`
-tambah lebih banyak entry ngoko<->krama. Kalau sudah OK, lanjut ke Stage 5 (TTS).
-
-Klik **[Y] Approve** di TUI untuk lanjut ke Stage 5 (TTS - edge-tts Dimas/Siti).

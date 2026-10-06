@@ -2,41 +2,41 @@
   "srt_in_path": "work/grammar_fixed.srt",
   "ngoko_out_path": "output/ngoko.srt",
   "krama_out_path": "output/krama.srt",
-  "total_subs": 2831,
-  "ngoko_substitutions": 1110,
-  "krama_substitutions": 6432,
-  "subs_with_ngoko_changes": 885,
-  "subs_with_krama_changes": 2323,
+  "total_subs": 5233,
+  "ngoko_substitutions": 1829,
+  "krama_substitutions": 9225,
+  "subs_with_ngoko_changes": 1571,
+  "subs_with_krama_changes": 4122,
   "sample_diffs": [
     {
       "i": 1,
-      "original": "Aku iki tekan ngendi?",
-      "ngoko": "Aku iki tekan ngendi?",
-      "krama": "Kula punika tekan pundi?"
+      "original": "Mlebu saka lawang kulon luwih tentrem.",
+      "ngoko": "Mlebu saka lawang kulon luwih tentrem.",
+      "krama": "Mlebet saking pintu kulon langkung tentrem."
     },
     {
       "i": 2,
-      "original": "Apa iki isih negara kita?",
-      "ngoko": "Apa iki isih negara kita?",
-      "krama": "Menapa punika masih negara kita?"
+      "original": "Ing kana luwih sepi.",
+      "ngoko": "Ing kana luwih sepi.",
+      "krama": "Wonten kapunten langkung sepi."
     },
     {
       "i": 3,
-      "original": "Muncul saka awang-awang.",
-      "ngoko": "Muncul saka awang-awang.",
-      "krama": "Muncul saking awang-awang."
+      "original": "Ing balik lawang iki iku pelataran sisih.",
+      "ngoko": "Ing balik lawang iki iku pelataran sisih.",
+      "krama": "Wonten balik pintu punika wau pelataran sisih."
     },
     {
       "i": 4,
-      "original": "Ngalahake ahli Body Tempering Realm tahap pungkasan mung nganggo siji gerakan.",
-      "ngoko": "Ngalahake ahli Body Tempering Realm tahap pungkasan mung nganggo siji gerakan.",
-      "krama": "Ngalahake ahli Body Tempering Realm tahap pungkasan namung ngginakaken setunggal gerakan."
+      "original": "Swara petok lawang ngarepe.",
+      "ngoko": "Swara petok lawang ngarepe.",
+      "krama": "Swara petok pintu ngarepe."
     },
     {
-      "i": 5,
-      "original": "Apa iki saged dadi master kultivasi sing nyendiri?",
-      "ngoko": "Apa iki bisa dadi master kultivasi sing nyendiri?",
-      "krama": "Menapa punika saged dados master kultivasi ingkang nyendiri?"
+      "i": 6,
+      "original": "Aku arep papatut Pangarsa Klan.",
+      "ngoko": "Aku arep papatut Pangarsa Klan.",
+      "krama": "Kula badhe papatut Pangarsa Klan."
     }
   ]
 }

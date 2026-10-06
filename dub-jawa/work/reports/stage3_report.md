@@ -1,50 +1,48 @@
 # Stage 3: Grammar Fix Report
 
 ## Summary
-- **Total subtitles**: 2831
-- **Subs with changes**: 1997 (70.5%)
-- **Total typos fixed**: 166
-- **Punctuation added**: 1374
-- **Capitalized**: 810
-- **Whitespace stripped**: 225
+- **Total subtitles**: 5233
+- **Subs with changes**: 5210 (99.6%)
+- **Total typos fixed**: 16270
+- **Punctuation added**: 4759
+- **Capitalized**: 832
+- **Whitespace stripped**: 150
 
 ## Files
-- Input: `work/source_video.jv.srt`
+- Input: `work/source_video.id.srt`
 - Output: `work/grammar_fixed.srt`
 
 ## Sample Diffs (first 5 + last 5 changed)
+  - **#1**
+    - Before: `Masuk dari gerbang barat lebih aman`
+    - After:  `Mlebu saka lawang kulon luwih tentrem.`
+  - **#2**
+    - Before: `Di sana lebih sepi`
+    - After:  `Ing kana luwih sepi.`
   - **#3**
-    - Before: `Muncul saka awang-awang,`
-    - After:  `Muncul saka awang-awang.`
+    - Before: `Di balik pintu ini adalah halaman samping`
+    - After:  `Ing balik lawang iki iku pelataran sisih.`
   - **#4**
-    - Before: `ngalahake
-ahli Body Tempering Realm tahap pungkasan mung nganggo siji gerakan,`
-    - After:  `Ngalahake ahli Body Tempering Realm tahap pungkasan mung nganggo siji gerakan.`
+    - Before: `Ketuk pintu depannya`
+    - After:  `Swara petok lawang ngarepe.`
   - **#5**
-    - Before: `apa iki bisa dadi master kultivasi sing nyendiri?`
-    - After:  `Apa iki saged dadi master kultivasi sing nyendiri?`
-  - **#6**
-    - Before: `Kowé—`
-    - After:  `Kowé—.`
-  - **#8**
-    - Before: `Aku ora ngakoni kaluhuranmu`
-    - After:  `Aku ora ngakoni kaluhuranmu.`
-  - **#2826**
-    - Before: `Prentahake Song Yi supaya nggawa keluargane menyang
-ibukutha kanggo ketemu langsung.`
-    - After:  `Prentahake Song Yi supaya nggawa keluargane menyang ibukutha kanggo ketemu langsung.`
-  - **#2827**
-    - Before: `Miturut dekrit kekaisaran`
-    - After:  `Miturut dekrit kekaisaran.`
-  - **#2829**
-    - Before: `Wong tuwa,`
-    - After:  `Wong tuwa.`
-  - **#2830**
-    - Before: `kemasi barang-barangmu,`
-    - After:  `Kemasi barang-barangmu.`
-  - **#2831**
-    - Before: `kita arep menyang ibukutha.`
-    - After:  `Kita arep menyang ibukutha.`
+    - Before: `Nona`
+    - After:  `Ndoro.`
+  - **#5229**
+    - Before: `Huchen`
+    - After:  `Huchen.`
+  - **#5230**
+    - Before: `Busur silang tangan biasa untuk Baturu`
+    - After:  `Gendhewa tumpang-tumpangan mrapat asta lumrah kanggo Baturu.`
+  - **#5231**
+    - Before: `Bungkus dengan peti`
+    - After:  `Bungkus karo peti.`
+  - **#5232**
+    - Before: `Jangan lupa`
+    - After:  `Aja lali.`
+  - **#5233**
+    - Before: `Bayar dulu hutang budi itu`
+    - After:  `Mbayar biyen utang budi iku.`
 
 
 ## Next step

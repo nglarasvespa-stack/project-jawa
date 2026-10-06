@@ -5,9 +5,9 @@
 
 ## Output Files
 - Video: `(skipped - SRT only mode)`
-- Subtitle: `work/source_video.jv.srt`
-- Subtitle language: `jv` (source: local (filename))
-- Available subtitles: jv
+- Subtitle: `work/source_video.id.srt`
+- Subtitle language: `id` (source: local (filename))
+- Available subtitles: id
 
 ## Status
 - [ ] Video skipped (SRT-only mode)
@@ -20,6 +20,6 @@ User review: apakah subtitle yang dipilih sudah benar? Jika ada bahasa lain yang
 Klik **[Y] Approve** di TUI untuk lanjut ke Stage 2 (Translate).
 
 ## SRT Detection Detail
-- Filename match: `jv`
-- Subtitle count: 2831
+- Filename match: `id`
+- Subtitle count: 5233
 - Encoding used: `utf-8-sig`

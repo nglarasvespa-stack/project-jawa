@@ -1,12 +1,12 @@
 {
   "video_path": "(skipped - SRT only mode)",
-  "srt_path": "work/source_video.jv.srt",
-  "subtitle_lang": "jv",
-  "title": "[Javanese] 新剧首发！📢送外卖的穷小伙，穿越古代意外获得百年人参，不断穿越两界，卖人参逆袭成为千亿富翁！#aivideo #穿越 [DownSub.com]",
-  "duration_sec": 6974,
+  "srt_path": "work/source_video.id.srt",
+  "subtitle_lang": "id",
+  "title": "[Indonesian] 第二季首映！📢特殊小队意外坠入时空隧道，穿越到古代，上演现代和古代的文化冲突！#aivideo #穿越 #ai    提示：未观看第一季，建议优先去看第一季，剧情连接起...",
+  "duration_sec": 8914,
   "uploader": "(local file)",
   "original_url": "(local file)",
   "available_subs": [
-    "jv"
+    "id"
   ]
 }

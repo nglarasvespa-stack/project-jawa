@@ -70,16 +70,46 @@ def _fix_whitespace(text: str) -> tuple[str, bool]:
 
 
 def _fix_typos(text: str, typo_corrections: dict) -> tuple[str, int]:
-    """Substitusi kata salah dari kamus. Pakai word boundary."""
-    count_total = 0
-    for wrong, right in typo_corrections.items():
-        # word boundary di sekitar "wrong" supaya tidak partial-match
-        pattern = r"\b" + re.escape(wrong) + r"\b"
-        new_text, count = re.subn(pattern, right, text, flags=re.IGNORECASE)
-        if count:
-            text = new_text
-            count_total += count
-    return text, count_total
+    """Substitusi kata dari kamus. Pakai COMBINED regex pattern (1 pass, bukan loop per-entry).
+    
+    Jauh lebih cepat: O(N) per subtitle, bukan O(N*M).
+    Multi-word entries (dengan spasi) diproses duluan supaya tidak konflik.
+    """
+    if not typo_corrections:
+        return text, 0
+    # Sort: multi-word dulu (lebih panjang), lalu single-word terpanjang
+    sorted_entries = sorted(
+        typo_corrections.items(),
+        key=lambda kv: (-(len(kv[0].split()) if " " in kv[0] else 0), -len(kv[0]))
+    )
+    # Build 1 combined pattern
+    escaped = [re.escape(k) for k, _ in sorted_entries]
+    combined = r"\b(?:" + "|".join(escaped) + r")\b"
+    pattern = re.compile(combined, re.IGNORECASE)
+    # Build lookup (lowercase)
+    lookup = {k.lower(): v for k, v in typo_corrections.items()}
+    # Strip accent for matching
+    accent_map = str.maketrans({
+        'e': 'e', 'e': 'e', 'e': 'e', 'e': 'e',
+        'a': 'a', 'a': 'a', 'a': 'a',
+        'i': 'i', 'i': 'i', 'i': 'i',
+        'o': 'o', 'o': 'o', 'o': 'o',
+        'u': 'u', 'u': 'u', 'u': 'u',
+        'n': 'n',
+    })
+    count = [0]
+    def _replace(match):
+        word = match.group(0)
+        normalized = word.lower()
+        target = lookup.get(normalized)
+        if target is None:
+            return word
+        count[0] += 1
+        if word[:1].isupper():
+            return target[:1].upper() + target[1:]
+        return target
+    new_text = pattern.sub(_replace, text)
+    return new_text, count[0]
 
 
 def _is_question(text: str) -> bool:

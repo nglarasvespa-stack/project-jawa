@@ -1,62 +1,62 @@
 {
-  "srt_in_path": "work/source_video.jv.srt",
+  "srt_in_path": "work/source_video.id.srt",
   "srt_out_path": "work/grammar_fixed.srt",
-  "total_subs": 2831,
-  "subs_with_changes": 1997,
-  "total_typos_fixed": 166,
-  "total_punct_added": 1374,
-  "total_capitalized": 810,
-  "total_whitespace_stripped": 225,
+  "total_subs": 5233,
+  "subs_with_changes": 5210,
+  "total_typos_fixed": 16270,
+  "total_punct_added": 4759,
+  "total_capitalized": 832,
+  "total_whitespace_stripped": 150,
   "sample_diffs": [
     {
+      "i": 1,
+      "before": "Masuk dari gerbang barat lebih aman",
+      "after": "Mlebu saka lawang kulon luwih tentrem."
+    },
+    {
+      "i": 2,
+      "before": "Di sana lebih sepi",
+      "after": "Ing kana luwih sepi."
+    },
+    {
       "i": 3,
-      "before": "Muncul saka awang-awang,",
-      "after": "Muncul saka awang-awang."
+      "before": "Di balik pintu ini adalah halaman samping",
+      "after": "Ing balik lawang iki iku pelataran sisih."
     },
     {
       "i": 4,
-      "before": "ngalahake\nahli Body Tempering Realm tahap pungkasan mung nganggo siji gerakan,",
-      "after": "Ngalahake ahli Body Tempering Realm tahap pungkasan mung nganggo siji gerakan."
+      "before": "Ketuk pintu depannya",
+      "after": "Swara petok lawang ngarepe."
     },
     {
       "i": 5,
-      "before": "apa iki bisa dadi master kultivasi sing nyendiri?",
-      "after": "Apa iki saged dadi master kultivasi sing nyendiri?"
+      "before": "Nona",
+      "after": "Ndoro."
     },
     {
-      "i": 6,
-      "before": "Kowé—",
-      "after": "Kowé—."
+      "i": 5229,
+      "before": "Huchen",
+      "after": "Huchen."
     },
     {
-      "i": 8,
-      "before": "Aku ora ngakoni kaluhuranmu",
-      "after": "Aku ora ngakoni kaluhuranmu."
+      "i": 5230,
+      "before": "Busur silang tangan biasa untuk Baturu",
+      "after": "Gendhewa tumpang-tumpangan mrapat asta lumrah kanggo Baturu."
     },
     {
-      "i": 2826,
-      "before": "Prentahake Song Yi supaya nggawa keluargane menyang\nibukutha kanggo ketemu langsung.",
-      "after": "Prentahake Song Yi supaya nggawa keluargane menyang ibukutha kanggo ketemu langsung."
+      "i": 5231,
+      "before": "Bungkus dengan peti",
+      "after": "Bungkus karo peti."
     },
     {
-      "i": 2827,
-      "before": "Miturut dekrit kekaisaran",
-      "after": "Miturut dekrit kekaisaran."
+      "i": 5232,
+      "before": "Jangan lupa",
+      "after": "Aja lali."
     },
     {
-      "i": 2829,
-      "before": "Wong tuwa,",
-      "after": "Wong tuwa."
-    },
-    {
-      "i": 2830,
-      "before": "kemasi barang-barangmu,",
-      "after": "Kemasi barang-barangmu."
-    },
-    {
-      "i": 2831,
-      "before": "kita arep menyang ibukutha.",
-      "after": "Kita arep menyang ibukutha."
+      "i": 5233,
+      "before": "Bayar dulu hutang budi itu",
+      "after": "Mbayar biyen utang budi iku."
     }
   ]
 }
