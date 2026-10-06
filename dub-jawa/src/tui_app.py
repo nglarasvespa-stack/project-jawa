@@ -56,6 +56,9 @@ from textual.widgets import (
 )
 from textual.reactive import reactive
 
+# Import 3 pane baru dari tui_panes_extra (Review, Uncovered, KamusStats)
+from src.tui_panes_extra import ReviewPane, UncoveredPane, KamusStatsPane
+
 
 # Project root (file ini ada di src/)
 ROOT = Path(__file__).resolve().parent.parent
@@ -584,6 +587,18 @@ class DubJawaApp(App):
         max-height: 20;
         overflow: auto;
     }
+    .subtitle-list {
+        height: 12;
+        border: solid $primary;
+        padding: 0 1;
+        overflow: auto;
+    }
+    .word-list {
+        height: 10;
+        border: solid $primary;
+        padding: 0 1;
+        overflow: auto;
+    }
     TabbedContent {
         height: 1fr;
     }
@@ -599,7 +614,7 @@ class DubJawaApp(App):
     ]
 
     TITLE = "Dub-Jawa"
-    SUB_TITLE = f"v0.1 - Jawa Dubbing Pipeline"
+    SUB_TITLE = f"v2.3.2 - Jawa Dubbing Pipeline (+ Review/Uncovered/Kamus tabs)"
 
     def compose(self) -> ComposeResult:
         yield Header()
@@ -616,15 +631,42 @@ class DubJawaApp(App):
                 yield TTSPane()
             with TabPane("6. Done", id="done-tab"):
                 yield DonePane()
+            with TabPane("7. Review", id="review-tab"):
+                yield ReviewPane()
+            with TabPane("8. Uncovered", id="uncovered-tab"):
+                yield UncoveredPane()
+            with TabPane("9. Kamus", id="kamus-tab"):
+                yield KamusStatsPane()
         yield Footer()
 
     def action_next_tab(self) -> None:
         tc = self.query_one(TabbedContent)
-        tc.next_tab()
+        # Textual 8.x: enumerate TabPane children, cycle to next
+        from textual.widgets import TabPane
+        tab_panes = list(self.query(TabPane))
+        if not tab_panes:
+            return
+        current_id = tc.active
+        current_idx = next(
+            (i for i, p in enumerate(tab_panes) if p.id == current_id),
+            0,
+        )
+        next_idx = (current_idx + 1) % len(tab_panes)
+        tc.active = tab_panes[next_idx].id
 
     def action_prev_tab(self) -> None:
         tc = self.query_one(TabbedContent)
-        tc.previous_tab()
+        from textual.widgets import TabPane
+        tab_panes = list(self.query(TabPane))
+        if not tab_panes:
+            return
+        current_id = tc.active
+        current_idx = next(
+            (i for i, p in enumerate(tab_panes) if p.id == current_id),
+            0,
+        )
+        prev_idx = (current_idx - 1) % len(tab_panes)
+        tc.active = tab_panes[prev_idx].id
 
     def action_approve(self) -> None:
         # cari pane aktif, panggil _approve kalau ada
