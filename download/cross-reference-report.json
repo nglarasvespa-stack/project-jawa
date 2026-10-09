@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "description": "Cross-reference report: duplikat + sinonim by ngoko + sinonim by id",
+    "lengkap_count": 2917,
+    "netral_count": 18904,
+    "duplicates_filled": 0,
+    "synonym_groups_by_ngoko": 5345,
+    "synonym_groups_by_id": 7689
+  },
+  "duplicates_filled": [],
+  "synonym_by_ngoko_top20": [
+    {
+      "ngoko": "wit",
+      "entry_count": 131,
+      "indonesians": [
+        "mengkerang",
+        "japa",
+        "merbatu",
+        "jeluh",
+        "merbulan",
+        "metigi",
+        "merlimau",
+        "merkunyit",
+        "dangku",
+        "gandarokam"
+      ]
+    },
+    {
+      "ngoko": "iwak sagara",
+      "entry_count": 62,
+      "indonesians": [
+        "tekuk",
+        "anjang-anjang",
+        "dingkis",
+        "senunggang",
+        "suma",
+        "talang",
+        "rapang",
+        "malum",
+        "kalat",
+        "belontok"
+      ]
+    },
+    {
+      "ngoko": "têtuwuhan",
+      "entry_count": 43,
+      "indonesians": [
+        "mumba",
+        "seputih",
+        "mesirah",
+        "tempuyung",
+        "nabati",
+        "menjarum",
+        "jerimbing",
+        "hantai",
+        "sulih",
+        "ketumbit"
+      ]
+    },
+    {
+      "ngoko": "iwak loh",
+      "entry_count": 30,
+      "indonesians": [
+        "siakap",
+        "seludu",
+        "sengarat",
+        "sendocong",
+        "jebuh",
+        "sumpit-sumpit",
+        "pidang",
+        "pelata",
+        "tuka-tuka",
+        "pemping"
+      ]
+    },
+    {
+      "ngoko": "prau",
+      "entry_count": 26,
+      "indonesians": [
+        "pencalang",
+        "bintak",
+        "melawah",
+        "ludang",
+        "bahtera",
+        "gorab",
+        "lanca",
+        "penayap",
+        "jalai",
+        "bidar"
+      ]
+    },
+    {
+      "ngoko": "manuk",
+      "entry_count": 21,
+      "indonesians": [
+        "tiku",
+        "limbuk",
+        "ruk",
+        "jeladan",
+        "kuaran",
+        "sikikih",
+        "barau-barau",
+        "cipai",
+        "paksi",
+        "cenderasari"
+      ]
+    },
+    {
+      "ngoko": "panganan",
+      "entry_count": 17,
+      "indonesians": [
+        "penganan",
+        "serawa",
+        "lempuk",
+        "araskerdan",
+        "celakuti",
+        "caca",
+        "ladu",
+        "jelurai",
+        "dangai",
+        "keria"
+      ]
+    },
+    {
+      "ngoko": "prau cilik",
+      "entry_count": 14,
+      "indonesians": [
+        "setak",
+        "lelaian",
+        "belongkang",
+        "baluk",
+        "cunia",
+        "sampan",
+        "gobang",
+        "lopek",
+        "sumbuk",
+        "ibar-ibar"
+      ]
+    },
+    {
+      "ngoko": "iwak kali",
+      "entry_count": 13,
+      "indonesians": [
+        "sengungut",
+        "serendang",
+        "sianang",
+        "biawan",
+        "seluang",
+        "kelabau",
+        "limbat",
+        "lundu",
+        "tapah",
+        "baung"
+      ]
+    },
+    {
+      "ngoko": "sêdhih",
+      "entry_count": 10,
+      "indonesians": [
+        "sedih",
+        "gelabah",
+        "sendu",
+        "lara",
+        "gelana",
+        "murung",
+        "cinta",
+        "nestapa",
+        "gulana",
+        "gaulana"
+      ]
+    }
+  ],
+  "synonym_by_id_top20": [
+    {
+      "id": "kamu",
+      "entry_count": 10,
+      "ngokos": [
+        "sira",
+        "koen/kon",
+        "kowe kabèh",
+        "dika",
+        "rika",
+        "riko",
+        "kowe kabeh",
+        "kowen/koen/kon",
+        "awakmu",
+        "rika/ko"
+      ]
+    },
+    {
+      "id": "pelit",
+      "entry_count": 7,
+      "ngokos": [
+        "cethil",
+        "ukil",
+        "cupar",
+        "craki",
+        "medhit",
+        "pelit",
+        "cêthil"
+      ]
+    },
+    {
+      "id": "rumah",
+      "entry_count": 7,
+      "ngokos": [
+        "wisma",
+        "dalem",
+        "omah",
+        "dhalem",
+        "rumah",
+        "umah"
+      ]
+    },
+    {
+      "id": "saya",
+      "entry_count": 7,
+      "ngokos": [
+        "nyong",
+        "inyong",
+        "kula",
+        "ingsun",
+        "isun",
+        "inyong/enyong"
+      ]
+    },
+    {
+      "id": "selamat",
+      "entry_count": 7,
+      "ngokos": [
+        "yuwana",
+        "harja",
+        "slamet",
+        "widada",
+        "wilujeng",
+        "rahayu",
+        "slamêt"
+      ]
+    },
+    {
+      "id": "bagaimana",
+      "entry_count": 7,
+      "ngokos": [
+        "keprige",
+        "kepriben",
+        "kapriyé",
+        "kapriye",
+        "gimana",
+        "kepriye/piye",
+        "yok opo / yo'opo"
+      ]
+    },
+    {
+      "id": "jatuh",
+      "entry_count": 6,
+      "ngokos": [
+        "lugur",
+        "tiba",
+        "gigal",
+        "dhawah",
+        "luruh"
+      ]
+    },
+    {
+      "id": "melihat",
+      "entry_count": 6,
+      "ngokos": [
+        "mulat",
+        "ndeleng",
+        "ndelok",
+        "nyawang",
+        "tumon"
+      ]
+    },
+    {
+      "id": "teman",
+      "entry_count": 6,
+      "ngokos": [
+        "kanca",
+        "batir",
+        "batur",
+        "teman",
+        "rencang"
+      ]
+    },
+    {
+      "id": "tempat",
+      "entry_count": 6,
+      "ngokos": [
+        "tempat",
+        "anggon",
+        "enggon",
+        "ênggon",
+        "panti",
+        "enggen"
+      ]
+    }
+  ]
+}
