@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "description": "Lookup pasangan ngoko+krama untuk 20 Indonesian entries pertama.",
+    "methods": [
+      "1. Search kamus_draft Lengkap entries dengan same Indonesian",
+      "2. Search jvwiktionary_ngoko_krama.json (word as ngoko OR word as krama reverse)"
+    ],
+    "total_processed": 20,
+    "found_pairs": 0,
+    "no_pair": 20
+  },
+  "entries": [
+    {
+      "input": {
+        "indonesian": "100 m2",
+        "word": "bahu",
+        "row_id": 179974,
+        "source": "alias"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "100 m2",
+        "word": "bahu",
+        "row_id": 168314,
+        "source": "id-wiktionary-lampiran"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "aam",
+        "word": "umum",
+        "row_id": 168315,
+        "source": "sastra.org"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "aam",
+        "word": "umum",
+        "row_id": 179975,
+        "source": "alias"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "aba",
+        "word": "bapa",
+        "row_id": 179976,
+        "source": "alias"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "aba-aba",
+        "word": "aba-aba",
+        "row_id": 168316,
+        "source": "id-wiktionary-lampiran"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "aba-aba",
+        "word": "aba-aba",
+        "row_id": 179977,
+        "source": "alias"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "abad",
+        "word": "langgêng",
+        "row_id": 179978,
+        "source": "alias"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "abad",
+        "word": "langgeng",
+        "row_id": 168317,
+        "source": "sastra.org,kamus-api-n2k,dasanama"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "abadi",
+        "word": "langgêng",
+        "row_id": 179979,
+        "source": "alias"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "abadiat",
+        "word": "langgêng",
+        "row_id": 179980,
+        "source": "alias"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "abah",
+        "word": "ênêr",
+        "row_id": 179981,
+        "source": "alias"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "abah",
+        "word": "ener",
+        "row_id": 168318,
+        "source": "sastra.org"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "abah-abah",
+        "word": "abah-abah",
+        "row_id": 168319,
+        "source": "sastra.org"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "abah-abah",
+        "word": "abah-abah (prabot",
+        "row_id": 179982,
+        "source": "alias"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "abai",
+        "word": "diabaikan: dirèmèhake",
+        "row_id": 179983,
+        "source": "alias"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "abaimana",
+        "word": "wewadining manungsa",
+        "row_id": 168321,
+        "source": "sastra.org"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "abaimana",
+        "word": "wêwadining manungsa",
+        "row_id": 179984,
+        "source": "alias"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "abang",
+        "word": "kakang",
+        "row_id": 179985,
+        "source": "alias"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    },
+    {
+      "input": {
+        "indonesian": "abantara",
+        "word": "bêntara",
+        "row_id": 179986,
+        "source": "alias"
+      },
+      "found_pair": null,
+      "method": "NO PAIR FOUND"
+    }
+  ]
+}
