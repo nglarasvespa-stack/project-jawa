@@ -75,30 +75,48 @@ def main():
     entries = d['entries']
     print(f"Loaded: {len(entries):,} entries (before cleanup)")
     
-    # Clean each field
+    # Clean each field — PRESERVE entry walaupun field aneh, fallback ke original
     cleaned = []
     for e in entries:
-        id_items = split_and_dedup(clean_field(e.get('id')))
-        ngoko_items = split_and_dedup(clean_field(e.get('ngoko')))
-        krama_items = split_and_dedup(clean_field(e.get('krama')))
-        # Also clean keterangan
+        id_orig = e.get('id', '')
+        ngoko_orig = e.get('ngoko', '')
+        krama_orig = e.get('krama', '')
         ket = e.get('keterangan')
+        
+        # Try clean each field
+        id_clean = clean_field(id_orig)
+        ngoko_clean = clean_field(ngoko_orig)
+        krama_clean = clean_field(krama_orig)
+        
+        # Fallback: kalau clean bikin kosong, pakai original (data tetap dipertahankan)
+        if not id_clean:
+            id_clean = id_orig
+        if not ngoko_clean:
+            ngoko_clean = ngoko_orig
+        if not krama_clean:
+            krama_clean = krama_orig
+        
+        id_items = split_and_dedup(id_clean)
+        ngoko_items = split_and_dedup(ngoko_clean)
+        krama_items = split_and_dedup(krama_clean)
+        
+        # Clean keterangan
         if ket:
-            # Clean keterangan but keep | separator
             ket_parts = []
             for p in ket.split(' | '):
                 cp = clean_field(p)
                 if cp:
                     ket_parts.append(cp)
+                else:
+                    # Fallback: keep original part
+                    ket_parts.append(p.strip())
             ket = ' | '.join(ket_parts) if ket_parts else None
         
-        if not id_items or not ngoko_items or not krama_items:
-            continue  # skip entries with empty fields after cleanup
-        
+        # JANGAN skip entry, walaupun ada field kosong — keep with what we have
         cleaned.append({
-            'id_items': id_items,
-            'ngoko_items': ngoko_items,
-            'krama_items': krama_items,
+            'id_items': id_items if id_items else [id_orig],  # fallback ke original kalau kosong
+            'ngoko_items': ngoko_items if ngoko_items else [ngoko_orig],
+            'krama_items': krama_items if krama_items else [krama_orig],
             'ket': ket,
         })
     
