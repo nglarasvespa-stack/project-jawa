@@ -1,12 +1,11 @@
 {
   "meta": {
     "name": "kamus-draft-jawa",
-    "version": "2.0",
-    "description": "Kamus Jawa clean dengan sinonim per field. Entries di-MERGE by ngoko (synonym groups). krama_inggil di-merge ke krama.",
+    "version": "2.1",
+    "description": "Kamus Jawa clean dengan sinonim per field. Entries di-MERGE by Indonesian (case-insensitive). krama_inggil di-merge ke krama. v2.1: cleanup karakter aneh (:, (), {{, etc) + re-merge.",
     "format": "id, ngoko, krama (comma-separated sinonim per field)",
-    "total_entries": 1386,
-    "source": "Supabase kamus_draft (Lengkap entries, merged by ngoko)",
-    "merge_strategy": "Group by ngoko (case-insensitive). Union all indonesian + id_synonyms → id. Union all ngoko + dasanama → ngoko. Union all krama + krama_inggil → krama."
+    "total_entries": 1351,
+    "source": "Supabase kamus_draft (Lengkap entries, cleaned + merged)"
   },
   "entries": [
     {
@@ -30,14 +29,9 @@
       "krama": "prakawis"
     },
     {
-      "id": "ada",
-      "ngoko": "ana, wonten, enek/ana",
+      "id": "ada, terdapat anane",
+      "ngoko": "ana, wonten, enek",
       "krama": "wonten, tên"
-    },
-    {
-      "id": "ada, terdapat anane: adanya",
-      "ngoko": "ana",
-      "krama": "wonten"
     },
     {
       "id": "adang-adang, kadang-kadang",
@@ -55,17 +49,12 @@
       "krama": "rayi estri"
     },
     {
-      "id": "adu",
-      "ngoko": "adu",
-      "krama": "aben"
-    },
-    {
       "id": "adu, dipertarungkan",
       "ngoko": "adu",
       "krama": "aben"
     },
     {
-      "id": "aduh, wah (seru)",
+      "id": "aduh, wah",
       "ngoko": "duh",
       "krama": "duh"
     },
@@ -146,8 +135,8 @@
     },
     {
       "id": "akan, bakal, caul, cele, cuani, gerim",
-      "ngoko": "bakal, kate/kape",
-      "krama": "badhé, arep/ajeng"
+      "ngoko": "bakal, kate, kape",
+      "krama": "badhé, arep, ajeng"
     },
     {
       "id": "akar",
@@ -237,7 +226,7 @@
     {
       "id": "anak, budak",
       "ngoko": "bocah, rarya, wala, larya, walaka, rare, lare, arek",
-      "krama": "laré, bocah/lare"
+      "krama": "laré, bocah, lare"
     },
     {
       "id": "anak-anak",
@@ -260,7 +249,7 @@
       "krama": "kilen"
     },
     {
-      "id": "angka (varian)",
+      "id": "angka",
       "ngoko": "ongko",
       "krama": "ongko"
     },
@@ -442,7 +431,7 @@
     {
       "id": "ayo",
       "ngoko": "ayo, ayuh, yuk",
-      "krama": "mangga, sumangga, ayo/mangga"
+      "krama": "mangga, sumangga, ayo"
     },
     {
       "id": "ba, penaka, sebagai, seperti",
@@ -470,7 +459,7 @@
       "krama": "maos"
     },
     {
-      "id": "badan (kawi)",
+      "id": "badan",
       "ngoko": "rogo",
       "krama": "rogo"
     },
@@ -481,13 +470,8 @@
     },
     {
       "id": "bagaimana",
-      "ngoko": "kapriyé, gimana, kepriben, keprige, kepriye/piye, yok opo / yo'opo",
-      "krama": "kadospundi, kados pundi, piye/kados pundi"
-    },
-    {
-      "id": "bagaimana (dialek tengger, bromo)",
-      "ngoko": "jare",
-      "krama": "piye/kados pundi"
+      "ngoko": "kapriyé, gimana, kepriben, keprige, kepriye, piye, yok opo, yo'opo, jare",
+      "krama": "kadospundi, kados pundi, piye"
     },
     {
       "id": "bagia, bahagia, beruntung, daulat, mubarak, tuah, untung",
@@ -510,12 +494,7 @@
       "krama": "bena"
     },
     {
-      "id": "bahagia, senang hati, gembira mbungahi: gembira berlebihan",
-      "ngoko": "bungah",
-      "krama": "bingah"
-    },
-    {
-      "id": "bahagia, senang, sukacita",
+      "id": "bahagia, senang hati, gembira mbungahi, senang, sukacita",
       "ngoko": "bungah, harsana, arsaya, tustha, arsa, wijah, gambira, lalita, girang, enggar",
       "krama": "bingah"
     },
@@ -798,7 +777,7 @@
       "id": "bekerja untuk orang lain, buruh",
       "ngoko": "buruh",
       "krama": "berah",
-      "keterangan": "definisi: bekerja untuk orang lain"
+      "keterangan": "definisi"
     },
     {
       "id": "belaga",
@@ -827,12 +806,7 @@
     },
     {
       "id": "belanja",
-      "ngoko": "blanja",
-      "krama": "blonjo"
-    },
-    {
-      "id": "belanja (krama)",
-      "ngoko": "blonjo",
+      "ngoko": "blanja, blonjo",
       "krama": "blonjo"
     },
     {
@@ -853,10 +827,10 @@
     {
       "id": "belum",
       "ngoko": "durung, hurung, urung",
-      "krama": "dèrèng, durung/dereng, dereng"
+      "krama": "dèrèng, durung, dereng"
     },
     {
-      "id": "benar bebener: kebenaran, asi, benar, betul, lurus, tepat",
+      "id": "benar bebener",
       "ngoko": "bener",
       "krama": "leres"
     },
@@ -898,7 +872,7 @@
     {
       "id": "berangkat",
       "ngoko": "budhal, budal, bidhal",
-      "krama": "bidhal, tindak, mangkat/bidhal, budhal"
+      "krama": "bidhal, tindak, mangkat, budhal"
     },
     {
       "id": "berani",
@@ -1003,7 +977,7 @@
     {
       "id": "beri",
       "ngoko": "kek",
-      "krama": "wenehi/paringi"
+      "krama": "wenehi, paringi"
     },
     {
       "id": "berikhtiar",
@@ -1013,7 +987,7 @@
     {
       "id": "beristirahat",
       "ngoko": "liren",
-      "krama": "leren/ngaso"
+      "krama": "leren, ngaso"
     },
     {
       "id": "berita kematian",
@@ -1106,13 +1080,8 @@
       "krama": "resik"
     },
     {
-      "id": "bersolek, berdandan",
+      "id": "bersolek, berdandan, merias diri",
       "ngoko": "dandan, ngadiraga, mandara, busana, tata",
-      "krama": "dandos"
-    },
-    {
-      "id": "bersolek, merias diri",
-      "ngoko": "dandan",
       "krama": "dandos"
     },
     {
@@ -1178,7 +1147,7 @@
     {
       "id": "besok, esok",
       "ngoko": "mene, sesuk",
-      "krama": "sesuk/mbenjang, mbenjang"
+      "krama": "sesuk, mbenjang"
     },
     {
       "id": "betah",
@@ -1208,7 +1177,7 @@
     {
       "id": "biarkan",
       "ngoko": "jarke",
-      "krama": "benke/tinggal"
+      "krama": "benke, tinggal"
     },
     {
       "id": "biasa",
@@ -1221,7 +1190,7 @@
       "krama": "ragad"
     },
     {
-      "id": "bibi (kakak ibu/bapak)",
+      "id": "bibi",
       "ngoko": "budhe",
       "krama": "budhe"
     },
@@ -1263,7 +1232,7 @@
     {
       "id": "bingit, sedih",
       "ngoko": "ngenes",
-      "krama": "sedhih/prihatos"
+      "krama": "sedhih, prihatos"
     },
     {
       "id": "bingka",
@@ -1277,11 +1246,11 @@
     },
     {
       "id": "bisa",
-      "ngoko": "hisa, isa, teyeng/bisa",
-      "krama": "bisa/saged, saged"
+      "ngoko": "hisa, isa, teyeng, bisa",
+      "krama": "bisa, saged"
     },
     {
-      "id": "bisu (krama)",
+      "id": "bisu",
       "ngoko": "ruthu",
       "krama": "ruthu"
     },
@@ -1309,11 +1278,6 @@
       "id": "buah tangan, ompang-ompang",
       "ngoko": "olèh-olèh",
       "krama": "angsal-angsal"
-    },
-    {
-      "id": "buat",
-      "ngoko": "kanggo",
-      "krama": "kanggé, kagem"
     },
     {
       "id": "buat, untuk, terpakai",
@@ -1358,7 +1322,7 @@
     {
       "id": "bukan",
       "ngoko": "dudu, gudhuk, hudu",
-      "krama": "dédé, dudu/sanes"
+      "krama": "dédé, dudu, sanes"
     },
     {
       "id": "buku tulis",
@@ -1378,7 +1342,7 @@
     {
       "id": "buluh kerongkong, belum, gurung, kerongkong",
       "ngoko": "gurung",
-      "krama": "durung/dereng"
+      "krama": "durung, dereng"
     },
     {
       "id": "bunga, kesuma, kumayan, melang, puspa, sari, seridewa, zahar",
@@ -1511,7 +1475,7 @@
       "krama": "peksi"
     },
     {
-      "id": "cerek, cerek",
+      "id": "cerek",
       "ngoko": "cere",
       "krama": "cere"
     },
@@ -1597,15 +1561,10 @@
       "krama": "njiwit"
     },
     {
-      "id": "cuci uwos-uwos  : mencuci pakaian, beras",
+      "id": "cuci uwos-uwos",
       "ngoko": "uwos",
       "krama": "beras",
-      "keterangan": "definisi: cuci uwos-uwos  : mencuci pakaian"
-    },
-    {
-      "id": "cuci uwos-uwos (k) (t.k.): mencuci pakaian",
-      "ngoko": "uwos",
-      "krama": "beras"
+      "keterangan": "definisi"
     },
     {
       "id": "cucu, cucung, waktu",
@@ -1618,14 +1577,9 @@
       "krama": "paos"
     },
     {
-      "id": "cukup (bhs jawa halus)",
-      "ngoko": "cekap",
-      "krama": "cukup"
-    },
-    {
       "id": "cukup, lacur, sedang",
-      "ngoko": "sedheng, cukup, cekap",
-      "krama": "cekap, cukup"
+      "ngoko": "cekap, sedheng, cukup",
+      "krama": "cukup, cekap"
     },
     {
       "id": "culik, menculik",
@@ -1649,13 +1603,8 @@
     },
     {
       "id": "dahulu, dulu",
-      "ngoko": "biyen",
-      "krama": "riyin"
-    },
-    {
-      "id": "dahulu, dulu",
-      "ngoko": "dhisik, biyèn, dhihin, dhingin",
-      "krama": "rumiyin"
+      "ngoko": "biyen, dhisik, biyèn, dhihin, dhingin",
+      "krama": "riyin, rumiyin"
     },
     {
       "id": "daim",
@@ -1774,8 +1723,8 @@
     },
     {
       "id": "dengan",
-      "ngoko": "kanthi, mawi, mbek, mbek/bek",
-      "krama": "kaliyan, karo/kaliyan, karo"
+      "ngoko": "kanthi, mawi, mbek, bek",
+      "krama": "kaliyan, karo"
     },
     {
       "id": "dengar",
@@ -1808,11 +1757,6 @@
       "krama": "mrono"
     },
     {
-      "id": "di- (awalan)",
-      "ngoko": "dipun",
-      "krama": "di-"
-    },
-    {
       "id": "di-, imbuhan pasif krama",
       "ngoko": "dipun",
       "krama": "di-"
@@ -1823,15 +1767,10 @@
       "krama": "piyambakipun, panjenenganipun"
     },
     {
-      "id": "diam",
-      "ngoko": "meneng, minggu, rêgu, mona, kapinêng",
-      "krama": "kèndel",
-      "keterangan": "ora obah"
-    },
-    {
       "id": "diam, hening",
-      "ngoko": "eneng",
-      "krama": "eneng"
+      "ngoko": "meneng, minggu, rêgu, mona, kapinêng, eneng",
+      "krama": "kèndel, eneng",
+      "keterangan": "ora obah"
     },
     {
       "id": "diangkat",
@@ -1961,7 +1900,7 @@
     {
       "id": "duduk",
       "ngoko": "linggih, lungguh, lênggah, sila, satata, pinarak, jagong, lenggah",
-      "krama": "lenggah, pinarak, lungguh/lenggah, linggih"
+      "krama": "lenggah, pinarak, lungguh, linggih"
     },
     {
       "id": "duduk-duduk sambil ngrumpi, nongkrong",
@@ -1996,7 +1935,7 @@
     {
       "id": "dulu",
       "ngoko": "dhisit, sik, dhisik",
-      "krama": "dhisik/rumiyin, rumiyin"
+      "krama": "dhisik, rumiyin"
     },
     {
       "id": "dura",
@@ -2181,7 +2120,7 @@
     {
       "id": "gigi",
       "ngoko": "untu, waja, danta, denta, udaka, untau",
-      "krama": "waja, untu/waja"
+      "krama": "waja, untu"
     },
     {
       "id": "gigit",
@@ -2241,7 +2180,7 @@
     {
       "id": "habis",
       "ngoko": "entèk, entong, habis",
-      "krama": "telas, entek/telas"
+      "krama": "telas, entek"
     },
     {
       "id": "habis-habisan",
@@ -2269,7 +2208,7 @@
       "krama": "ngaji, ngaos"
     },
     {
-      "id": "halang aling-aling :, menutup",
+      "id": "halang aling-aling",
       "ngoko": "aling",
       "krama": "tutup"
     },
@@ -2374,7 +2313,7 @@
       "krama": "gesang"
     },
     {
-      "id": "hendak/mau, mau, nak",
+      "id": "hendak, mau, nak",
       "ngoko": "arep, arsa, apti, ayun, arsi, yun, hyun",
       "krama": "ngajeng, kersa, ajeng"
     },
@@ -2521,7 +2460,7 @@
     {
       "id": "ikut, turut",
       "ngoko": "mèlu, nut, anut, tumuntur, dumulur, umiring, tutwuri, tutwuntat, milu",
-      "krama": "tumut, ndhèrèk, melu/tumut"
+      "krama": "tumut, ndhèrèk, melu"
     },
     {
       "id": "ilalang, alang-alang",
@@ -2604,18 +2543,13 @@
       "krama": "kraton"
     },
     {
-      "id": "istri",
-      "ngoko": "isteri",
-      "krama": "garwa"
-    },
-    {
       "id": "istri pertama",
       "ngoko": "bojo tuwa",
       "krama": "garwa sepuh"
     },
     {
-      "id": "Istri/Suami, istri",
-      "ngoko": "semah, sémah",
+      "id": "istri, Suami",
+      "ngoko": "isteri, semah, sémah",
       "krama": "garwa, somah"
     },
     {
@@ -2624,14 +2558,9 @@
       "krama": "bebek"
     },
     {
-      "id": "itu",
-      "ngoko": "kuwi, kuwé, iku",
-      "krama": "punika, puniku"
-    },
-    {
-      "id": "itu/ini",
-      "ngoko": "punika",
-      "krama": "ika"
+      "id": "itu, ini",
+      "ngoko": "kuwi, kuwé, iku, punika",
+      "krama": "punika, puniku, ika"
     },
     {
       "id": "iya",
@@ -2676,7 +2605,7 @@
     {
       "id": "jalan, muzahab",
       "ngoko": "dalan, marga, sopana, ênu, lêbuh, lurung, yana, hawan, gili",
-      "krama": "margi, dalan/margi"
+      "krama": "margi, dalan"
     },
     {
       "id": "jalang, jangla",
@@ -2716,7 +2645,7 @@
     {
       "id": "jarang, langka, nadir, tidak ada",
       "ngoko": "arang, laka, langka",
-      "krama": "awis, arang/langka, ora ana"
+      "krama": "awis, arang, langka, ora ana"
     },
     {
       "id": "jarum",
@@ -2726,7 +2655,7 @@
     {
       "id": "jatuh",
       "ngoko": "gigal, lugur, tiba",
-      "krama": "tiba/dhawah, dhawah"
+      "krama": "tiba, dhawah"
     },
     {
       "id": "jauh, abad, baid, dura",
@@ -2734,12 +2663,7 @@
       "krama": "tebih"
     },
     {
-      "id": "jejaka, pemuda",
-      "ngoko": "jaka",
-      "krama": "jaki"
-    },
-    {
-      "id": "jejaka, perjaka",
+      "id": "jejaka, pemuda, perjaka",
       "ngoko": "jaka",
       "krama": "jaki"
     },
@@ -2836,7 +2760,7 @@
     {
       "id": "juga, pun",
       "ngoko": "uga, paha",
-      "krama": "ugi, uga/ugi"
+      "krama": "ugi, uga"
     },
     {
       "id": "jujat",
@@ -2879,15 +2803,10 @@
       "krama": "kakang"
     },
     {
-      "id": "kakek/nenek",
-      "ngoko": "eya, simbah",
-      "krama": "eyang"
-    },
-    {
-      "id": "kakek/nenek mbah kakung: kakek",
-      "ngoko": "mbah",
+      "id": "kakek, nenek, nenek mbah kakung",
+      "ngoko": "eya, simbah, mbah",
       "krama": "eyang",
-      "keterangan": "definisi: kakek/nenek mbah kakung: kakek"
+      "keterangan": "definisi"
     },
     {
       "id": "kaki",
@@ -2956,8 +2875,8 @@
     },
     {
       "id": "kamu",
-      "ngoko": "awakmu, koen/kon, kowen/koen/kon, rika, rika/ko, riko, sira",
-      "krama": "sampeyan, kowe/sampeyan"
+      "ngoko": "awakmu, koen, kon, kowen, rika, ko, riko, sira",
+      "krama": "sampeyan, kowe"
     },
     {
       "id": "kanak-kanak, anak kecil",
@@ -3000,19 +2919,14 @@
       "krama": "welas"
     },
     {
-      "id": "kata, bagaimana",
+      "id": "kata, bagaimana, ucap",
       "ngoko": "tutur, jaré",
       "krama": "sanjang, criyosipun"
     },
     {
-      "id": "kata, ucap",
-      "ngoko": "jaré",
-      "krama": "criyosipun"
-    },
-    {
       "id": "katai, akan, katik",
       "ngoko": "kate",
-      "krama": "arep/ajeng"
+      "krama": "arep, ajeng"
     },
     {
       "id": "kati",
@@ -3031,8 +2945,8 @@
     },
     {
       "id": "ke",
-      "ngoko": "menyang, nyang/maring, dhateng",
-      "krama": "dhateng, menyang/dhateng, teka"
+      "ngoko": "menyang, nyang, maring, dhateng",
+      "krama": "dhateng, menyang, teka"
     },
     {
       "id": "ke sana",
@@ -3115,7 +3029,7 @@
       "krama": "klapa, kambil"
     },
     {
-      "id": "kelelawar (pemakan buah)",
+      "id": "kelelawar",
       "ngoko": "codot",
       "krama": "codot"
     },
@@ -3143,7 +3057,7 @@
       "id": "Kelompok masyarakat di bawah desa",
       "ngoko": "dhusun",
       "krama": "désa",
-      "keterangan": "definisi: Kelompok masyarakat di bawah desa"
+      "keterangan": "definisi"
     },
     {
       "id": "keluar",
@@ -3191,10 +3105,10 @@
       "krama": "wangsul"
     },
     {
-      "id": "kembali angsul-angsul : pengembalian, kembali",
+      "id": "kembali angsul-angsul",
       "ngoko": "angsul",
       "krama": "wangsul",
-      "keterangan": "definisi: kembali angsul-angsul : pengembalian"
+      "keterangan": "definisi"
     },
     {
       "id": "kembali ke",
@@ -3294,7 +3208,7 @@
     {
       "id": "keren",
       "ngoko": "mbois",
-      "krama": "bagus/sae"
+      "krama": "bagus, sae"
     },
     {
       "id": "keria",
@@ -3435,7 +3349,7 @@
       "id": "kita",
       "ngoko": "awaké dhewe, kita",
       "krama": "panjenengan sedaya dalasan kula",
-      "keterangan": "User: Jawa tidak mengenal \"kita\" sebagai pronoun tunggal. Ngoko: awaké dhewe. Krama: panjenengan sedaya dalasan kula (multi-word). | Indonesian loanword \"kita\" yang bocor ke SRT Jawa. Krama: panjenengan sedaya dalasan kula. Untuk ngoko correction, ganti dengan \"awaké dhewe\"."
+      "keterangan": "User | Indonesian loanword \"kita\" yang bocor ke SRT Jawa. Krama"
     },
     {
       "id": "kokoh, kukuh, pagan, teguh",
@@ -3545,7 +3459,7 @@
     {
       "id": "lagi",
       "ngoko": "maning, isih",
-      "krama": "maneh/malih, taksih"
+      "krama": "maneh, malih, taksih"
     },
     {
       "id": "lahir",
@@ -3615,7 +3529,7 @@
     {
       "id": "lapar",
       "ngoko": "kencot, ngelih",
-      "krama": "luwe/ngelih, luwe"
+      "krama": "luwe, ngelih"
     },
     {
       "id": "lari, jawi",
@@ -3638,12 +3552,7 @@
       "krama": "mungsuh"
     },
     {
-      "id": "lebar",
-      "ngoko": "amba",
-      "krama": "wiyar"
-    },
-    {
-      "id": "lebar/luas, lebar",
+      "id": "lebar, luas",
       "ngoko": "amba",
       "krama": "wiyar"
     },
@@ -3795,7 +3704,7 @@
     {
       "id": "Lupa",
       "ngoko": "lali, klalen",
-      "krama": "supé, lali/kesupen"
+      "krama": "supé, lali, kesupen"
     },
     {
       "id": "luput",
@@ -3888,7 +3797,7 @@
       "krama": "kalingseman, lingsem"
     },
     {
-      "id": "malu ngisin-ngisini (t.k.): membuat malu, malu-maluin",
+      "id": "malu ngisin-ngisini",
       "ngoko": "isin",
       "krama": "lingsem"
     },
@@ -3930,7 +3839,7 @@
     {
       "id": "marah",
       "ngoko": "bendu, kesus",
-      "krama": "duka, nesu/duka"
+      "krama": "duka, nesu"
     },
     {
       "id": "marhum, surga",
@@ -4203,14 +4112,9 @@
       "krama": "ngwur-wuri"
     },
     {
-      "id": "menanak nasi",
+      "id": "menanak nasi, menanak dengan menggunakan dandang",
       "ngoko": "adang, ngliwet, adang sega",
       "krama": "betak, bethak, bethak sekul"
-    },
-    {
-      "id": "menanak nasi, menanak dengan menggunakan dandang",
-      "ngoko": "adang",
-      "krama": "betak"
     },
     {
       "id": "menanam",
@@ -4235,7 +4139,7 @@
     {
       "id": "mencari",
       "ngoko": "amèk, goleti, ngluru",
-      "krama": "mendhet, golek/madosi, madosi"
+      "krama": "mendhet, golek, madosi"
     },
     {
       "id": "mencari untuk",
@@ -4359,8 +4263,8 @@
     },
     {
       "id": "mengambil",
-      "ngoko": "njupuk, jukut, jupuk/jipik",
-      "krama": "mendhet, mundhut, njupuk/mendhet"
+      "ngoko": "njupuk, jukut, jupuk, jipik",
+      "krama": "mendhet, mundhut, njupuk"
     },
     {
       "id": "mengambil secara acak, mengambil, mengambil makanan",
@@ -4523,11 +4427,6 @@
       "krama": "gesang-gesang"
     },
     {
-      "id": "menghina",
-      "ngoko": "maido",
-      "krama": "maiben"
-    },
-    {
       "id": "menghina, mencerca",
       "ngoko": "maido",
       "krama": "maiben"
@@ -4626,11 +4525,6 @@
       "id": "menjahit",
       "ngoko": "jahit",
       "krama": "njait"
-    },
-    {
-      "id": "menjalani",
-      "ngoko": "nglakoni",
-      "krama": "nglampahi"
     },
     {
       "id": "menjalani, melakukan",
@@ -4845,7 +4739,7 @@
     {
       "id": "moncong, hidung",
       "ngoko": "cungur",
-      "krama": "irung/grana"
+      "krama": "irung, grana"
     },
     {
       "id": "monyet",
@@ -4931,7 +4825,7 @@
       "id": "nama rempah untuk jamu",
       "ngoko": "cabe",
       "krama": "lombok, cengeh",
-      "keterangan": "definisi: nama rempah untuk jamu"
+      "keterangan": "definisi"
     },
     {
       "id": "nama, ism",
@@ -5014,11 +4908,6 @@
       "krama": "gusti putri"
     },
     {
-      "id": "obat tradisional jawa, jamu",
-      "ngoko": "jamu",
-      "krama": "jampi, loloh"
-    },
-    {
       "id": "obat tradisional jawa, jamu, jejamu",
       "ngoko": "jamu",
       "krama": "jampi, loloh"
@@ -5076,7 +4965,7 @@
     {
       "id": "pagi",
       "ngoko": "ésuk, isuk, pagi",
-      "krama": "énjing, esuk/enjing, enjing"
+      "krama": "énjing, esuk, enjing"
     },
     {
       "id": "pagi-pagi",
@@ -5144,7 +5033,7 @@
       "krama": "ibu"
     },
     {
-      "id": "panggilan kakak/pria",
+      "id": "panggilan kakak, pria",
       "ngoko": "cak",
       "krama": "mas"
     },
@@ -5152,7 +5041,7 @@
       "id": "panggilan untuk kakak perempuan, di, panggilan kakak perempuan",
       "ngoko": "ning",
       "krama": "ing",
-      "keterangan": "definisi: panggilan untuk kakak perempuan"
+      "keterangan": "definisi"
     },
     {
       "id": "pangking",
@@ -5180,11 +5069,6 @@
       "krama": "radin"
     },
     {
-      "id": "paruh",
-      "ngoko": "paro",
-      "krama": "palih"
-    },
-    {
       "id": "paruh, separuh",
       "ngoko": "paro",
       "krama": "palih"
@@ -5196,7 +5080,7 @@
     },
     {
       "id": "pasaran",
-      "ngoko": "pasaran, Kl-Kasih, L-Manis, P-Paing (pêthakan), Pn-Pon, (kuningan, kêlabêt), W-Cêmêngan",
+      "ngoko": "pasaran, Kl-Kasih, L-Manis, P-Paing, Pn-Pon, W-Cêmêngan",
       "krama": "pekenan"
     },
     {
@@ -5275,7 +5159,7 @@
       "krama": "pacambeng"
     },
     {
-      "id": "pelupa/gampang lupa",
+      "id": "pelupa, gampang lupa",
       "ngoko": "lalèn",
       "krama": "kesupènan"
     },
@@ -5346,13 +5230,8 @@
     },
     {
       "id": "perang",
-      "ngoko": "yuda",
-      "krama": "perang"
-    },
-    {
-      "id": "perang (varian)",
-      "ngoko": "yudha",
-      "krama": "yudha"
+      "ngoko": "yuda, yudha",
+      "krama": "perang, yudha"
     },
     {
       "id": "percaya",
@@ -5365,14 +5244,9 @@
       "krama": "sêtri, putri"
     },
     {
-      "id": "pergi (ke luar)",
-      "ngoko": "medal",
-      "krama": "metu"
-    },
-    {
       "id": "pergi, enyah",
-      "ngoko": "lunga, alès, lès, anis, linggar, wisata, mentar, mandra, layat, lungan, medal",
-      "krama": "késah, tindak, késahan, tindakan, metu"
+      "ngoko": "medal, lunga, alès, lès, anis, linggar, wisata, mentar, mandra, layat, lungan",
+      "krama": "metu, késah, tindak, késahan, tindakan"
     },
     {
       "id": "perincit",
@@ -5380,12 +5254,7 @@
       "krama": "peksi"
     },
     {
-      "id": "perjalanan hidup/cobaan yang harus dilalui",
-      "ngoko": "laku",
-      "krama": "lampah, tindak"
-    },
-    {
-      "id": "perjalanan hidup/cobaan yang, berjalan, laku",
+      "id": "perjalanan hidup, cobaan yang harus dilalui, cobaan yang, berjalan, laku",
       "ngoko": "laku, lakwa, laksa, laksana, laksita, caraka, laris, lintang",
       "krama": "lampah, tindak"
     },
@@ -5415,7 +5284,7 @@
       "krama": "padharan"
     },
     {
-      "id": "perwira (serapan)",
+      "id": "perwira",
       "ngoko": "projo",
       "krama": "projo"
     },
@@ -5450,11 +5319,6 @@
       "krama": "rembatan"
     },
     {
-      "id": "pinang (tanaman)",
-      "ngoko": "jambé",
-      "krama": "wohan"
-    },
-    {
       "id": "pinang, jambe",
       "ngoko": "jambé",
       "krama": "wohan"
@@ -5487,7 +5351,7 @@
     {
       "id": "pitis, uang",
       "ngoko": "picis",
-      "krama": "dhuwit/yatra"
+      "krama": "dhuwit, yatra"
     },
     {
       "id": "polisi",
@@ -5512,12 +5376,7 @@
     {
       "id": "pula, lagi",
       "ngoko": "maneh, malih, manih, maning, muwah",
-      "krama": "maneh/malih"
-    },
-    {
-      "id": "pulang, kembali",
-      "ngoko": "bali",
-      "krama": "wangsul"
+      "krama": "maneh, malih"
     },
     {
       "id": "pulang, kembali, maad, marja",
@@ -5575,7 +5434,7 @@
       "krama": "ical"
     },
     {
-      "id": "raja (kawi)",
+      "id": "raja",
       "ngoko": "narendra",
       "krama": "narendra"
     },
@@ -5651,14 +5510,9 @@
       "krama": "kera"
     },
     {
-      "id": "repot",
-      "ngoko": "éwuh",
-      "krama": "èwed"
-    },
-    {
       "id": "repot, sibuk",
-      "ngoko": "ewuh",
-      "krama": "ewuh"
+      "ngoko": "éwuh, ewuh",
+      "krama": "èwed, ewuh"
     },
     {
       "id": "resmi, dinas",
@@ -5708,7 +5562,7 @@
     {
       "id": "rumah, khanah",
       "ngoko": "omah, griya, wisma, dalêm, suyasa, graha, bale, panti, rumah, umah",
-      "krama": "griya, dalem, omah/griya"
+      "krama": "griya, dalem, omah"
     },
     {
       "id": "rusa",
@@ -5748,7 +5602,7 @@
     {
       "id": "sakti, bisa",
       "ngoko": "ampuh",
-      "krama": "bisa/saged"
+      "krama": "bisa, saged"
     },
     {
       "id": "salat, solat",
@@ -5783,7 +5637,7 @@
     {
       "id": "sampai",
       "ngoko": "tekan, kasi, kongsi",
-      "krama": "dugi, nganti/ngantos, ngantos"
+      "krama": "dugi, nganti, ngantos"
     },
     {
       "id": "sana",
@@ -5808,12 +5662,12 @@
     {
       "id": "sarwa, serba",
       "ngoko": "sarwa",
-      "krama": "sarwi{{engg"
+      "krama": "sarwi"
     },
     {
       "id": "satu",
       "ngoko": "tunggal, sijai, siji",
-      "krama": "tunggil, siji/setunggal, satunggal"
+      "krama": "tunggil, siji, setunggal, satunggal"
     },
     {
       "id": "saudara satu kakek",
@@ -5832,8 +5686,8 @@
     },
     {
       "id": "saya",
-      "ngoko": "inyong, inyong/enyong, isun, nyong",
-      "krama": "aku/kula"
+      "ngoko": "inyong, enyong, isun, nyong",
+      "krama": "aku, kula"
     },
     {
       "id": "saya baca",
@@ -5856,7 +5710,7 @@
       "krama": "tresna"
     },
     {
-      "id": "sayur  jangan, kuah, sayur",
+      "id": "sayur jangan, kuah, sayur",
       "ngoko": "jangan",
       "krama": "janganan"
     },
@@ -5873,12 +5727,12 @@
     {
       "id": "sebentar, sejurus",
       "ngoko": "sadhéla, sedhéla, dhéla",
-      "krama": "sakedhap, sekedhap, sedhela/sakedhap"
+      "krama": "sakedhap, sekedhap, sedhela"
     },
     {
       "id": "sedikit, sikit",
       "ngoko": "sathithik, sapala, samatra, alpa, sithik, thithik",
-      "krama": "sakedhik, sithik/sakedhik"
+      "krama": "sakedhik, sithik"
     },
     {
       "id": "segala",
@@ -5953,7 +5807,7 @@
     {
       "id": "selesai",
       "ngoko": "lebar",
-      "krama": "bar/rampung"
+      "krama": "bar, rampung"
     },
     {
       "id": "selimut",
@@ -5992,8 +5846,8 @@
     },
     {
       "id": "semua, segala, sekalian",
-      "ngoko": "kabèh, pwa, sakèh, sanggya, sadarum, sagung, salir, sawegung, sakalir, sakwèh, kapwa, samanta, kapya, kabeh/kabyeh",
-      "krama": "sedaya, kabeh/sedaya"
+      "ngoko": "kabèh, pwa, sakèh, sanggya, sadarum, sagung, salir, sawegung, sakalir, sakwèh, kapwa, samanta, kapya, kabeh, kabyeh",
+      "krama": "sedaya, kabeh"
     },
     {
       "id": "senang",
@@ -6058,7 +5912,7 @@
     {
       "id": "serba",
       "ngoko": "sarwa",
-      "krama": "sarwi{{engg"
+      "krama": "sarwi"
     },
     {
       "id": "seronok",
@@ -6157,7 +6011,7 @@
       "krama": "abenajeng"
     },
     {
-      "id": "suami/istri, bini, isteri, suami",
+      "id": "suami, istri, bini, isteri",
       "ngoko": "bojo, somah, suwami, garwa, grha, kalulut, kucumbi",
       "krama": "garwa"
     },
@@ -6185,7 +6039,7 @@
       "id": "sudah lama tidak bertemu",
       "ngoko": "wis suwe ora ketemu",
       "krama": "sampun dangu mboten kepanggih",
-      "keterangan": "definisi: sudah lama tidak bertemu"
+      "keterangan": "definisi"
     },
     {
       "id": "sudah makan belum",
@@ -6235,7 +6089,7 @@
     {
       "id": "supaya",
       "ngoko": "cek, mrih",
-      "krama": "ben/supados, supados"
+      "krama": "ben, supados"
     },
     {
       "id": "supaya baik",
@@ -6310,7 +6164,7 @@
     {
       "id": "takut",
       "ngoko": "gocik",
-      "krama": "wedi/ajrih"
+      "krama": "wedi, ajrih"
     },
     {
       "id": "tamasya",
@@ -6339,7 +6193,7 @@
     },
     {
       "id": "tanah, bentala, zamin",
-      "ngoko": "lemah, (idêm bumi) siti, kisma, kismaka, pratiwi, bantala, bumija, pratala, maitala, buh, tanah",
+      "ngoko": "lemah, siti, kisma, kismaka, pratiwi, bantala, bumija, pratala, maitala, buh, tanah",
       "krama": "siti"
     },
     {
@@ -6383,14 +6237,9 @@
       "krama": "tawi"
     },
     {
-      "id": "tebu",
+      "id": "tebu, bambu",
       "ngoko": "tebu, rosan",
       "krama": "rosan, tebu"
-    },
-    {
-      "id": "tebu, bambu",
-      "ngoko": "rosan",
-      "krama": "tebu"
     },
     {
       "id": "teguh",
@@ -6493,13 +6342,8 @@
       "krama": "matur nuwun"
     },
     {
-      "id": "terjadi",
-      "ngoko": "kedadéyan, dumadi",
-      "krama": "kedadosan"
-    },
-    {
       "id": "terjadi, kejadian",
-      "ngoko": "kedadeyan",
+      "ngoko": "kedadéyan, dumadi, kedadeyan",
       "krama": "kedadosan"
     },
     {
@@ -6543,14 +6387,9 @@
       "krama": "mesem-mesem"
     },
     {
-      "id": "tertawa",
+      "id": "tertawa, tawa",
       "ngoko": "guyu, ngguyu",
       "krama": "gujeng, gumujeng"
-    },
-    {
-      "id": "tertawa, tawa",
-      "ngoko": "guyu",
-      "krama": "gujeng"
     },
     {
       "id": "tertimpa",
@@ -6563,12 +6402,7 @@
       "krama": "lajeng kados pundi"
     },
     {
-      "id": "terus, hatta, lalu, lantas",
-      "ngoko": "banjur",
-      "krama": "lajeng"
-    },
-    {
-      "id": "terus, kemudian",
+      "id": "terus, hatta, lalu, lantas, kemudian",
       "ngoko": "banjur",
       "krama": "lajeng"
     },
@@ -6589,8 +6423,8 @@
     },
     {
       "id": "tetapi, tapi",
-      "ngoko": "naming/ningan, nanging, anging, anapi, mapan",
-      "krama": "nanging/ananging, ananging"
+      "ngoko": "naming, ningan, nanging, anging, anapi, mapan",
+      "krama": "nanging, ananging"
     },
     {
       "id": "tiang, orang",
@@ -6605,7 +6439,7 @@
     {
       "id": "tidak",
       "ngoko": "gak, boten",
-      "krama": "ora/mboten, ora"
+      "krama": "ora, mboten"
     },
     {
       "id": "tidak ada",
@@ -6629,7 +6463,7 @@
     },
     {
       "id": "tidak tahu",
-      "ngoko": "gak eroh / gak ngerti, mberuh, embuh",
+      "ngoko": "gak eroh, gak ngerti, mberuh, embuh",
       "krama": "ora ngertos, ora ngerti, kilap, duka-dalem"
     },
     {
@@ -6675,7 +6509,7 @@
     {
       "id": "tinggi",
       "ngoko": "dhuwur, bentar, luhur, punjung, dhukur",
-      "krama": "inggil, dhuwur/inggil"
+      "krama": "inggil, dhuwur"
     },
     {
       "id": "tingging",
@@ -6793,12 +6627,7 @@
       "krama": "pangawon-awon"
     },
     {
-      "id": "umum, biasa, jamak",
-      "ngoko": "lumrah",
-      "krama": "limrah"
-    },
-    {
-      "id": "umum, wajar, biasa",
+      "id": "umum, biasa, jamak, wajar",
       "ngoko": "lumrah",
       "krama": "limrah"
     },
@@ -6849,7 +6678,7 @@
     },
     {
       "id": "utara, paksina",
-      "ngoko": "lor, utara, untara, nurwitri (lor wetan), [9] narasunya (lor wetan)",
+      "ngoko": "lor, utara, untara, nurwitri, [9] narasunya",
       "krama": "lèr"
     },
     {
@@ -6893,13 +6722,8 @@
       "krama": "wangi"
     },
     {
-      "id": "warna (krama)",
-      "ngoko": "werni",
-      "krama": "werni"
-    },
-    {
       "id": "warna, dondon, rona, urna",
-      "ngoko": "wêrna, warna, rupa, aneka",
+      "ngoko": "werni, wêrna, warna, rupa, aneka",
       "krama": "werni, warni"
     },
     {
