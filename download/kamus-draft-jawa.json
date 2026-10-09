@@ -1,0 +1,9251 @@
+{
+  "meta": {
+    "name": "kamus-draft-jawa",
+    "version": "1.0",
+    "description": "Kamus Jawa clean dengan sinonim per field. krama_inggil di-merge ke krama. Hanya entries Lengkap (id+ngoko+krama semua terisi).",
+    "format": "id, ngoko, krama (comma-separated sinonim per field)",
+    "total_entries": 1845,
+    "source": "Supabase kamus_draft (Lengkap entries)"
+  },
+  "entries": [
+    {
+      "id": "abulhayat",
+      "ngoko": "udan",
+      "krama": "jawah"
+    },
+    {
+      "id": "abulhayat, hujan",
+      "ngoko": "udan, wrêsthi, jawah, jawuh, jawèh, riris, warsa, wrêsti, truh, ratacap, taracah, sra, rarabi, rêrêb, krêmun, darsa, surur",
+      "krama": "jawah"
+    },
+    {
+      "id": "abyad, putih, utih",
+      "ngoko": "putih, seta, pingul, dawala, kapila, pinge",
+      "krama": "pethak"
+    },
+    {
+      "id": "acang",
+      "ngoko": "kongkonan",
+      "krama": "kèngkènan, utusan"
+    },
+    {
+      "id": "acang",
+      "ngoko": "kongkonan, utusan, duta, caraka, sagnyana, cundhaka, gandhèk, wimbasara",
+      "krama": "kèngkènan, utusan"
+    },
+    {
+      "id": "acara, perkara",
+      "ngoko": "prakara",
+      "krama": "prakawis"
+    },
+    {
+      "id": "ada",
+      "ngoko": "ana",
+      "krama": "wonten"
+    },
+    {
+      "id": "ada",
+      "ngoko": "wonten",
+      "krama": "tên"
+    },
+    {
+      "id": "ada",
+      "ngoko": "ana",
+      "krama": "wonten"
+    },
+    {
+      "id": "ada",
+      "ngoko": "enek/ana",
+      "krama": "wonten"
+    },
+    {
+      "id": "ada, terdapat anane: adanya",
+      "ngoko": "ana",
+      "krama": "wonten"
+    },
+    {
+      "id": "adang-adang, kadang-kadang",
+      "ngoko": "terkadhang",
+      "krama": "terkaos"
+    },
+    {
+      "id": "adik",
+      "ngoko": "adhik",
+      "krama": "rayi"
+    },
+    {
+      "id": "adik perempuan",
+      "ngoko": "adhik wadon",
+      "krama": "rayi estri"
+    },
+    {
+      "id": "adu",
+      "ngoko": "adu",
+      "krama": "aben"
+    },
+    {
+      "id": "adu, dipertarungkan",
+      "ngoko": "adu",
+      "krama": "aben"
+    },
+    {
+      "id": "aduh, wah (seru)",
+      "ngoko": "duh",
+      "krama": "duh"
+    },
+    {
+      "id": "agama",
+      "ngoko": "agama",
+      "krama": "agami"
+    },
+    {
+      "id": "agar",
+      "ngoko": "amrih",
+      "krama": "supados"
+    },
+    {
+      "id": "agar, supaya",
+      "ngoko": "supaya, darapon, supadya, maran, darapwan",
+      "krama": "supados"
+    },
+    {
+      "id": "agung, akbar, besar, gedang, raya",
+      "ngoko": "gedhé, agung, gora, dhakah, raya, sigrong, murda",
+      "krama": "ageng"
+    },
+    {
+      "id": "ahad",
+      "ngoko": "siji",
+      "krama": "satunggal"
+    },
+    {
+      "id": "ahad, sa, satu, suatu, tunggal, wahid",
+      "ngoko": "siji",
+      "krama": "satunggal"
+    },
+    {
+      "id": "ahmar",
+      "ngoko": "abang",
+      "krama": "abrit"
+    },
+    {
+      "id": "ain, mata",
+      "ngoko": "mata, aksa, aksi, èksi, tingal, soca, caksu",
+      "krama": "mripat"
+    },
+    {
+      "id": "air",
+      "ngoko": "banyu",
+      "krama": "toya"
+    },
+    {
+      "id": "air bah",
+      "ngoko": "banjir",
+      "krama": "bena"
+    },
+    {
+      "id": "air jernih",
+      "ngoko": "banyu bening",
+      "krama": "toya bening"
+    },
+    {
+      "id": "air kelapa",
+      "ngoko": "banyu krambil",
+      "krama": "toya kambil"
+    },
+    {
+      "id": "air panas, jarang",
+      "ngoko": "jarang",
+      "krama": "arang"
+    },
+    {
+      "id": "air raksa, engkah",
+      "ngoko": "ancur",
+      "krama": "remuk"
+    },
+    {
+      "id": "air rasa",
+      "ngoko": "banyu rasa",
+      "krama": "toyarasa"
+    },
+    {
+      "id": "air rasa",
+      "ngoko": "banyu rasa",
+      "krama": "toyarasa"
+    },
+    {
+      "id": "air, ayar, ma",
+      "ngoko": "banyu, we, tirta, warih, har, sindu, wayi, tuban, hèr, amêrta, arjuna, udaka, sangara, jala, jahni, jahnawi, jahning",
+      "krama": "toya"
+    },
+    {
+      "id": "ajar, belajar",
+      "ngoko": "ajar",
+      "krama": "sinau"
+    },
+    {
+      "id": "ajujah",
+      "ngoko": "ngala-ala",
+      "krama": "ngawon-awon"
+    },
+    {
+      "id": "ajujah, jujat",
+      "ngoko": "ngala-ala",
+      "krama": "ngawon-awon"
+    },
+    {
+      "id": "akan",
+      "ngoko": "kate/kape",
+      "krama": "arep/ajeng"
+    },
+    {
+      "id": "akan, bakal, caul, cele, cuani, gerim",
+      "ngoko": "bakal",
+      "krama": "badhé"
+    },
+    {
+      "id": "akar",
+      "ngoko": "oyot",
+      "krama": "oyod"
+    },
+    {
+      "id": "akas, cekatan, cerkas, jeraus, langkas, pantas, sari, tangkas",
+      "ngoko": "cukat",
+      "krama": "cekat"
+    },
+    {
+      "id": "akhbar, berita, kabar, khabar, warta",
+      "ngoko": "kabar",
+      "krama": "wartos"
+    },
+    {
+      "id": "aku",
+      "ngoko": "aku",
+      "krama": "kula, abdi-dalem"
+    },
+    {
+      "id": "aku, ingsun, saya",
+      "ngoko": "aku, amba, nyong, inyong, ingwang, ulun, patikbra, katengong, ingsun, kawula, manira, robaya, abdi, dalem",
+      "krama": "kula"
+    },
+    {
+      "id": "al-quran",
+      "ngoko": "quran",
+      "krama": "Al-Quran"
+    },
+    {
+      "id": "alah",
+      "ngoko": "kalah",
+      "krama": "kawon"
+    },
+    {
+      "id": "alah, kalah, kecundang",
+      "ngoko": "kalah, asor, kasor, kandhah, kandhih, katitih",
+      "krama": "kawon"
+    },
+    {
+      "id": "alang, belintang, lintang, melintang",
+      "ngoko": "alang",
+      "krama": "dipun-pambengi"
+    },
+    {
+      "id": "alang-alang",
+      "ngoko": "alang-alang",
+      "krama": "kambengan"
+    },
+    {
+      "id": "almari, lemari",
+      "ngoko": "lemari",
+      "krama": "lemantun"
+    },
+    {
+      "id": "alus, halus",
+      "ngoko": "halus",
+      "krama": "alus"
+    },
+    {
+      "id": "amanat",
+      "ngoko": "kaslametan",
+      "krama": "kawilujengan"
+    },
+    {
+      "id": "ambil",
+      "ngoko": "jupuk",
+      "krama": "mendhet, mundhut"
+    },
+    {
+      "id": "ampang, gampang, mudah, suang",
+      "ngoko": "gampang",
+      "krama": "gampil"
+    },
+    {
+      "id": "ampat",
+      "ngoko": "papat",
+      "krama": "kawan"
+    },
+    {
+      "id": "anak",
+      "ngoko": "arek",
+      "krama": "bocah/lare"
+    },
+    {
+      "id": "anak",
+      "ngoko": "lare",
+      "krama": "bocah/lare"
+    },
+    {
+      "id": "anak anak, anak, bin, jadah, zadah",
+      "ngoko": "anak, suta, putra, sunu, yoga, siwi, wêka, tanaya, atmaja, siwaya, ja, patut, banu",
+      "krama": "lare, putra"
+    },
+    {
+      "id": "anak angkat",
+      "ngoko": "anak angkat",
+      "krama": "lare angkat"
+    },
+    {
+      "id": "anak muda",
+      "ngoko": "nom-noman",
+      "krama": "nomo-nomo"
+    },
+    {
+      "id": "anak, budak",
+      "ngoko": "bocah, rarya, wala, larya, walaka, rare, lare",
+      "krama": "laré"
+    },
+    {
+      "id": "anak-anak",
+      "ngoko": "bocah-bocah",
+      "krama": "lare-lare"
+    },
+    {
+      "id": "anakan",
+      "ngoko": "anakan",
+      "krama": "sareman"
+    },
+    {
+      "id": "anakan",
+      "ngoko": "anakan",
+      "krama": "sareman"
+    },
+    {
+      "id": "Anda, engkau, kamu, kau, lu, mika",
+      "ngoko": "kowé, andika, rika, ta, kita, pakênira, sira, pukulun, paduka, pêna, dika, pantèn",
+      "krama": "panjenengan"
+    },
+    {
+      "id": "angin, barat",
+      "ngoko": "barat, angin, anila, bajra, maruta, pawana, samirana, bayu, sindhung, panca-ura, prabancana, pracandha, prahara, ata, gati, indri, margana, lesus, erawati, pratipa",
+      "krama": "kilen"
+    },
+    {
+      "id": "angka (varian)",
+      "ngoko": "ongko",
+      "krama": "ongko"
+    },
+    {
+      "id": "angkeruh",
+      "ngoko": "kesusu",
+      "krama": "kesesa"
+    },
+    {
+      "id": "angkuh, rangah",
+      "ngoko": "angkuh",
+      "krama": "sombong"
+    },
+    {
+      "id": "angsur, mencicil",
+      "ngoko": "cicil",
+      "krama": "nyicil"
+    },
+    {
+      "id": "anjing",
+      "ngoko": "asu",
+      "krama": "segawon"
+    },
+    {
+      "id": "Anjing",
+      "ngoko": "segawon",
+      "krama": "asu"
+    },
+    {
+      "id": "anjing, koyok",
+      "ngoko": "asu, sona, srênggala, basu, anjing, swa, kuwaka, cêmêra, kicika, purisika, calura",
+      "krama": "segawon"
+    },
+    {
+      "id": "antap, mantap",
+      "ngoko": "anteb",
+      "krama": "mantep"
+    },
+    {
+      "id": "antara",
+      "ngoko": "antara",
+      "krama": "antawis"
+    },
+    {
+      "id": "antara",
+      "ngoko": "antara",
+      "krama": "antawis"
+    },
+    {
+      "id": "antero, segenap, sekotah, selurah, semata, semesta, semista",
+      "ngoko": "sakabèhé",
+      "krama": "samudayanipun"
+    },
+    {
+      "id": "anum",
+      "ngoko": "anom",
+      "krama": "anèm"
+    },
+    {
+      "id": "apa",
+      "ngoko": "apa",
+      "krama": "punapa"
+    },
+    {
+      "id": "apa",
+      "ngoko": "apa",
+      "krama": "punapa"
+    },
+    {
+      "id": "apa",
+      "ngoko": "paran",
+      "krama": "purug"
+    },
+    {
+      "id": "apa kabar",
+      "ngoko": "kepriwe kabare",
+      "krama": "pripun kabaripun"
+    },
+    {
+      "id": "apa kabar",
+      "ngoko": "piye",
+      "krama": "pripun"
+    },
+    {
+      "id": "apa kabar",
+      "ngoko": "piye kabare",
+      "krama": "pripun kabaripun"
+    },
+    {
+      "id": "apa lagi",
+      "ngoko": "apa dene",
+      "krama": "menapa malih"
+    },
+    {
+      "id": "apa saja",
+      "ngoko": "apa wae",
+      "krama": "menapa kemawon"
+    },
+    {
+      "id": "apa-apa",
+      "ngoko": "apa-apa",
+      "krama": "menapa-menapa"
+    },
+    {
+      "id": "apabila, apakala, bilakala, bilamana, kapan, manakala",
+      "ngoko": "kapan",
+      "krama": "kala menapa"
+    },
+    {
+      "id": "apal, hafal, mahful",
+      "ngoko": "apal",
+      "krama": "apil"
+    },
+    {
+      "id": "api, pawaka",
+      "ngoko": "geni, agni, api, bahni, dahana, brama, pawaka, siking, guna, mrêta, brahma, puyika, latu, puya, jata",
+      "krama": "latu"
+    },
+    {
+      "id": "apik",
+      "ngoko": "apik",
+      "krama": "sae"
+    },
+    {
+      "id": "arah",
+      "ngoko": "arah",
+      "krama": "angkah"
+    },
+    {
+      "id": "arakian",
+      "ngoko": "nuli",
+      "krama": "nunten"
+    },
+    {
+      "id": "arakian, kalakian",
+      "ngoko": "nuli, nuntên, tandya, nulya, dan, adan, saksana, wawang, rêke, samantara, manêhêr, wangwang",
+      "krama": "nunten"
+    },
+    {
+      "id": "araskerdan",
+      "ngoko": "panganan",
+      "krama": "tetedhan, dhaharan"
+    },
+    {
+      "id": "araskerdan, bingka, caca, celakuti, dangai, jelurai, jeradik, karas-karas, keria, ladu, lempuk, megan, molong, nikbak, penganan, serawa",
+      "ngoko": "panganan",
+      "krama": "tetedhan, dhaharan"
+    },
+    {
+      "id": "arit",
+      "ngoko": "tumuli",
+      "krama": "tumunten"
+    },
+    {
+      "id": "arit, arkian, rancap, serta-merta",
+      "ngoko": "tumuli",
+      "krama": "tumunten"
+    },
+    {
+      "id": "arkian",
+      "ngoko": "tumuli",
+      "krama": "tumunten"
+    },
+    {
+      "id": "arti kiasan",
+      "ngoko": "arti kiasan",
+      "krama": "teges entar"
+    },
+    {
+      "id": "asa, harap",
+      "ngoko": "pangarep-arep",
+      "krama": "pangajeng-ajeng"
+    },
+    {
+      "id": "asalnya",
+      "ngoko": "asale",
+      "krama": "saking"
+    },
+    {
+      "id": "atap",
+      "ngoko": "atap",
+      "krama": "payon"
+    },
+    {
+      "id": "atas",
+      "ngoko": "ndhuwur",
+      "krama": "nginggil"
+    },
+    {
+      "id": "atau",
+      "ngoko": "utawa",
+      "krama": "utawi"
+    },
+    {
+      "id": "atau",
+      "ngoko": "utawa, atawa, atanapi, nguniwèh",
+      "krama": "utawi"
+    },
+    {
+      "id": "aturan",
+      "ngoko": "aturan",
+      "krama": "pranatan"
+    },
+    {
+      "id": "awak",
+      "ngoko": "awak",
+      "krama": "badan, slira"
+    },
+    {
+      "id": "awak, badan, batang tubuh",
+      "ngoko": "awak, wak, lingga, dhiri, raga, angga, deha, badan, tubuh, sulaksana",
+      "krama": "badan, slira"
+    },
+    {
+      "id": "ayah",
+      "ngoko": "ayah",
+      "krama": "rama"
+    },
+    {
+      "id": "ayahnya",
+      "ngoko": "bapakne",
+      "krama": "ramanipun"
+    },
+    {
+      "id": "ayam",
+      "ngoko": "pitik",
+      "krama": "ayam"
+    },
+    {
+      "id": "ayam jago",
+      "ngoko": "jago",
+      "krama": "sawung"
+    },
+    {
+      "id": "ayam, mandung",
+      "ngoko": "pitik",
+      "krama": "ayam"
+    },
+    {
+      "id": "ayar",
+      "ngoko": "banyu",
+      "krama": "toya"
+    },
+    {
+      "id": "ayo",
+      "ngoko": "ayo",
+      "krama": "mangga, sumangga"
+    },
+    {
+      "id": "ayo",
+      "ngoko": "ayuh",
+      "krama": "ayo/mangga"
+    },
+    {
+      "id": "ayo",
+      "ngoko": "yuk",
+      "krama": "mangga"
+    },
+    {
+      "id": "ba, penaka, sebagai, seperti",
+      "ngoko": "kaya, kadya, kadi, lir, anglir, lwir, tulya, pinda, [6] yayah, pendah, asawang, sasat, saksat, saprati",
+      "krama": "kados"
+    },
+    {
+      "id": "babat, menimbang",
+      "ngoko": "timbang",
+      "krama": "nimbang"
+    },
+    {
+      "id": "babi hutan",
+      "ngoko": "cèlèng, waraha, wêgang, durgangsa",
+      "krama": "andhapan"
+    },
+    {
+      "id": "babi, bedul",
+      "ngoko": "babi",
+      "krama": "celeng"
+    },
+    {
+      "id": "baca, membaca",
+      "ngoko": "waca",
+      "krama": "maos"
+    },
+    {
+      "id": "badan (kawi)",
+      "ngoko": "rogo",
+      "krama": "rogo"
+    },
+    {
+      "id": "badan basah",
+      "ngoko": "badan basah",
+      "krama": "salira teles"
+    },
+    {
+      "id": "bagaimana",
+      "ngoko": "kapriyé",
+      "krama": "kadospundi"
+    },
+    {
+      "id": "bagaimana",
+      "ngoko": "gimana",
+      "krama": "kados pundi"
+    },
+    {
+      "id": "bagaimana",
+      "ngoko": "kepriben",
+      "krama": "piye/kados pundi"
+    },
+    {
+      "id": "bagaimana",
+      "ngoko": "keprige",
+      "krama": "piye/kados pundi"
+    },
+    {
+      "id": "bagaimana",
+      "ngoko": "kepriye/piye",
+      "krama": "kados pundi"
+    },
+    {
+      "id": "bagaimana",
+      "ngoko": "yok opo / yo'opo",
+      "krama": "piye/kados pundi"
+    },
+    {
+      "id": "bagaimana (dialek tengger, bromo)",
+      "ngoko": "jare",
+      "krama": "piye/kados pundi"
+    },
+    {
+      "id": "bagia, bahagia, beruntung, daulat, mubarak, tuah, untung",
+      "ngoko": "begja",
+      "krama": "beja"
+    },
+    {
+      "id": "bagian",
+      "ngoko": "bagian",
+      "krama": "perangan"
+    },
+    {
+      "id": "bagur",
+      "ngoko": "gedhé dhuwur",
+      "krama": "ageng inggil"
+    },
+    {
+      "id": "bah",
+      "ngoko": "banjir",
+      "krama": "bena"
+    },
+    {
+      "id": "bahagia, senang hati, gembira mbungahi: gembira berlebihan",
+      "ngoko": "bungah",
+      "krama": "bingah"
+    },
+    {
+      "id": "bahagia, senang, sukacita",
+      "ngoko": "bungah, harsana, arsaya, tustha, arsa, wijah, gambira, lalita, girang, enggar",
+      "krama": "bingah"
+    },
+    {
+      "id": "bahan campuran",
+      "ngoko": "adon-adon",
+      "krama": "aben-abenan"
+    },
+    {
+      "id": "bahan pakaian",
+      "ngoko": "bakal",
+      "krama": "badhé"
+    },
+    {
+      "id": "bahar, jeladeri, laut, segara",
+      "ngoko": "segara",
+      "krama": "seganten, samodra"
+    },
+    {
+      "id": "bahara",
+      "ngoko": "bobot",
+      "krama": "wawrat"
+    },
+    {
+      "id": "bahara, berat",
+      "ngoko": "bobot",
+      "krama": "wawrat"
+    },
+    {
+      "id": "baharu",
+      "ngoko": "anyar",
+      "krama": "énggal"
+    },
+    {
+      "id": "baharu, baru",
+      "ngoko": "anyar",
+      "krama": "énggal"
+    },
+    {
+      "id": "bahasa jawa halus, menikah",
+      "ngoko": "krama",
+      "krama": "krami"
+    },
+    {
+      "id": "bahaya air",
+      "ngoko": "kebanjiran",
+      "krama": "kebenan"
+    },
+    {
+      "id": "bahaya api",
+      "ngoko": "kobongan",
+      "krama": "kebesmèn"
+    },
+    {
+      "id": "bahaya api",
+      "ngoko": "kobongan",
+      "krama": "kebesmèn"
+    },
+    {
+      "id": "baid",
+      "ngoko": "adoh",
+      "krama": "tebih"
+    },
+    {
+      "id": "baik budi",
+      "ngoko": "becik budi",
+      "krama": "sae budi"
+    },
+    {
+      "id": "baik, molek, tampan",
+      "ngoko": "becik, adi, adya, ayu, sae, tama, ajêng, yogya, darma, arja, pênêt, santa, pelag, suba, tulyasri, yoga",
+      "krama": "saé"
+    },
+    {
+      "id": "baik-baik",
+      "ngoko": "apik-apik",
+      "krama": "sae-sae"
+    },
+    {
+      "id": "baja",
+      "ngoko": "waja",
+      "krama": "waos"
+    },
+    {
+      "id": "baja, gigi, kangsa, keluli, waja",
+      "ngoko": "waja",
+      "krama": "waos"
+    },
+    {
+      "id": "baju",
+      "ngoko": "klambi",
+      "krama": "rasukan"
+    },
+    {
+      "id": "baju",
+      "ngoko": "klambi",
+      "krama": "rasukan, ageman"
+    },
+    {
+      "id": "baju",
+      "ngoko": "baju",
+      "krama": "rasukan, ageman"
+    },
+    {
+      "id": "bakal",
+      "ngoko": "bakal",
+      "krama": "badhé"
+    },
+    {
+      "id": "baksis",
+      "ngoko": "opah",
+      "krama": "épah"
+    },
+    {
+      "id": "baksis, upah",
+      "ngoko": "opah",
+      "krama": "épah"
+    },
+    {
+      "id": "bakti, kademat, khidmad, taslim",
+      "ngoko": "bekti",
+      "krama": "ngabekti"
+    },
+    {
+      "id": "baktinya",
+      "ngoko": "bektine",
+      "krama": "bektinipun"
+    },
+    {
+      "id": "baku",
+      "ngoko": "baku",
+      "krama": "baken"
+    },
+    {
+      "id": "balai desa",
+      "ngoko": "balai desa",
+      "krama": "balai dhusun"
+    },
+    {
+      "id": "balik",
+      "ngoko": "balik",
+      "krama": "wangsul"
+    },
+    {
+      "id": "bambu runcing",
+      "ngoko": "bambu runcing",
+      "krama": "pring lancip"
+    },
+    {
+      "id": "bambu, buluh",
+      "ngoko": "pring",
+      "krama": "bambu"
+    },
+    {
+      "id": "bancuh, kacau",
+      "ngoko": "carub",
+      "krama": "campur"
+    },
+    {
+      "id": "bangun",
+      "ngoko": "tangi, bangun, wungu, manindawa, manandra",
+      "krama": "wungu"
+    },
+    {
+      "id": "bangun",
+      "ngoko": "bangun",
+      "krama": "wungu"
+    },
+    {
+      "id": "bani, turun, zurriat",
+      "ngoko": "turun",
+      "krama": "mudhun, tumurun"
+    },
+    {
+      "id": "banjir",
+      "ngoko": "banjir",
+      "krama": "bena"
+    },
+    {
+      "id": "banjir",
+      "ngoko": "bena",
+      "krama": "banjir"
+    },
+    {
+      "id": "banjir bandang",
+      "ngoko": "banjir bandang",
+      "krama": "bajir bandhang"
+    },
+    {
+      "id": "banjir, air bah, ampuh, bah",
+      "ngoko": "banjir",
+      "krama": "bena"
+    },
+    {
+      "id": "bantah, membantah",
+      "ngoko": "bantah",
+      "krama": "mbantah"
+    },
+    {
+      "id": "bantal, masnad",
+      "ngoko": "bantal, karangulu, lêmpir, kajangsirah, suraga",
+      "krama": "kajangsirah"
+    },
+    {
+      "id": "banteng",
+      "ngoko": "banteng",
+      "krama": "bantheng"
+    },
+    {
+      "id": "banyak",
+      "ngoko": "akèh",
+      "krama": "kathah"
+    },
+    {
+      "id": "banyak",
+      "ngoko": "akèh, akwèh, kèh, kwèh, ripah, gung, agung, waha",
+      "krama": "kathah"
+    },
+    {
+      "id": "banyak",
+      "ngoko": "sakeh",
+      "krama": "kathah"
+    },
+    {
+      "id": "bapak ibu",
+      "ngoko": "bapak ibu",
+      "krama": "rama ibu"
+    },
+    {
+      "id": "bapak, aba, bapa",
+      "ngoko": "bapa",
+      "krama": "rama"
+    },
+    {
+      "id": "bapak, ayah, pa",
+      "ngoko": "bapak",
+      "krama": "rama"
+    },
+    {
+      "id": "barang bukti",
+      "ngoko": "barang bukti",
+      "krama": "bukti"
+    },
+    {
+      "id": "barangkali",
+      "ngoko": "bilih-bilih",
+      "krama": "menawi"
+    },
+    {
+      "id": "barat",
+      "ngoko": "kulon",
+      "krama": "kilèn"
+    },
+    {
+      "id": "barat, magrib",
+      "ngoko": "kulon",
+      "krama": "kilèn"
+    },
+    {
+      "id": "barat-laut",
+      "ngoko": "lor-kulon",
+      "krama": "lèr-kilèn"
+    },
+    {
+      "id": "barat-laut",
+      "ngoko": "lor-kulon",
+      "krama": "lèr-kilèn"
+    },
+    {
+      "id": "barau-barau",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "barusan",
+      "ngoko": "lagi",
+      "krama": "saweg"
+    },
+    {
+      "id": "bata, batu bata",
+      "ngoko": "bata",
+      "krama": "banon"
+    },
+    {
+      "id": "batang leher, leher",
+      "ngoko": "gulu, tênggak, jangga, lungayan, lungkaya, lèhèr, lungaya",
+      "krama": "jangga"
+    },
+    {
+      "id": "batang tubuh",
+      "ngoko": "awak",
+      "krama": "badan, slira"
+    },
+    {
+      "id": "batin",
+      "ngoko": "batin",
+      "krama": "batos"
+    },
+    {
+      "id": "batu bata",
+      "ngoko": "bata",
+      "krama": "banon"
+    },
+    {
+      "id": "batu bata",
+      "ngoko": "banon",
+      "krama": "bata"
+    },
+    {
+      "id": "bau",
+      "ngoko": "ambu",
+      "krama": "ambet"
+    },
+    {
+      "id": "bau",
+      "ngoko": "ambu",
+      "krama": "ambet, ganda"
+    },
+    {
+      "id": "bau",
+      "ngoko": "bau",
+      "krama": "ambet, ganda"
+    },
+    {
+      "id": "bawah",
+      "ngoko": "ngisor",
+      "krama": "ngandhap"
+    },
+    {
+      "id": "bawang goreng",
+      "ngoko": "bawang goreng",
+      "krama": "brambang goreng"
+    },
+    {
+      "id": "bayam",
+      "ngoko": "bayam",
+      "krama": "bayem"
+    },
+    {
+      "id": "bayar, gaji, membayar",
+      "ngoko": "bayar",
+      "krama": "mbayar"
+    },
+    {
+      "id": "begini, demikian",
+      "ngoko": "mangkéné, nihan, kadyeka, nono, ya ta, samangkana",
+      "krama": "makaten"
+    },
+    {
+      "id": "begitu",
+      "ngoko": "mangkono",
+      "krama": "makaten"
+    },
+    {
+      "id": "begitu",
+      "ngoko": "mangkono",
+      "krama": "makaten"
+    },
+    {
+      "id": "bekas",
+      "ngoko": "bekas",
+      "krama": "tilas"
+    },
+    {
+      "id": "bekas luka",
+      "ngoko": "bekas luka",
+      "krama": "tilas tatu"
+    },
+    {
+      "id": "bekerja",
+      "ngoko": "nyambut gawé",
+      "krama": "nyambut damel"
+    },
+    {
+      "id": "bekerja",
+      "ngoko": "ngodé",
+      "krama": "nyambut gawe"
+    },
+    {
+      "id": "bekerja untuk orang lain",
+      "ngoko": "buruh",
+      "krama": "berah"
+    },
+    {
+      "id": "bekerja untuk orang lain, buruh",
+      "ngoko": "buruh",
+      "krama": "berah",
+      "keterangan": "definisi: bekerja untuk orang lain"
+    },
+    {
+      "id": "belaga",
+      "ngoko": "tarung",
+      "krama": "tangled"
+    },
+    {
+      "id": "belah",
+      "ngoko": "belah",
+      "krama": "pecah"
+    },
+    {
+      "id": "belakang",
+      "ngoko": "buri",
+      "krama": "wingking"
+    },
+    {
+      "id": "belakang sekali",
+      "ngoko": "buri-buri",
+      "krama": "wingking"
+    },
+    {
+      "id": "belanda",
+      "ngoko": "walanda",
+      "krama": "Walandi"
+    },
+    {
+      "id": "belanda",
+      "ngoko": "Walanda",
+      "krama": "Walandi"
+    },
+    {
+      "id": "belanja",
+      "ngoko": "blanja",
+      "krama": "blonjo"
+    },
+    {
+      "id": "belanja (krama)",
+      "ngoko": "blonjo",
+      "krama": "blonjo"
+    },
+    {
+      "id": "belanjaan",
+      "ngoko": "belanjaan",
+      "krama": "blonjo"
+    },
+    {
+      "id": "belanjaan",
+      "ngoko": "tukon",
+      "krama": "tumbasan"
+    },
+    {
+      "id": "beli, membeli",
+      "ngoko": "tumbas",
+      "krama": "tuku, mundhut"
+    },
+    {
+      "id": "beli, membeli",
+      "ngoko": "tuku",
+      "krama": "tumbas, mundhut"
+    },
+    {
+      "id": "belintang",
+      "ngoko": "alang",
+      "krama": "dipun-pambengi"
+    },
+    {
+      "id": "belum",
+      "ngoko": "durung",
+      "krama": "dèrèng"
+    },
+    {
+      "id": "belum",
+      "ngoko": "durung",
+      "krama": "dèrèng"
+    },
+    {
+      "id": "belum",
+      "ngoko": "hurung",
+      "krama": "durung/dereng"
+    },
+    {
+      "id": "belum",
+      "ngoko": "urung",
+      "krama": "dereng"
+    },
+    {
+      "id": "benar bebener: kebenaran",
+      "ngoko": "bener",
+      "krama": "leres"
+    },
+    {
+      "id": "benar bebener: kebenaran, asi, benar, betul, lurus, tepat",
+      "ngoko": "bener",
+      "krama": "leres"
+    },
+    {
+      "id": "benar-benar",
+      "ngoko": "bener-bener",
+      "krama": "saestu"
+    },
+    {
+      "id": "bencana",
+      "ngoko": "bencana",
+      "krama": "bilahi"
+    },
+    {
+      "id": "bencana alam",
+      "ngoko": "bencana alam",
+      "krama": "bilahi alam"
+    },
+    {
+      "id": "bengkeng",
+      "ngoko": "cugêtan atèn",
+      "krama": "cugetan manah"
+    },
+    {
+      "id": "benteng, kota, tir",
+      "ngoko": "beteng",
+      "krama": "benteng"
+    },
+    {
+      "id": "berakah",
+      "ngoko": "kumawani",
+      "krama": "kamipurun"
+    },
+    {
+      "id": "berakah",
+      "ngoko": "kumawani",
+      "krama": "kamipurun"
+    },
+    {
+      "id": "beralih",
+      "ngoko": "ngalih",
+      "krama": "pindhah"
+    },
+    {
+      "id": "beralih",
+      "ngoko": "ngalih",
+      "krama": "pindhah"
+    },
+    {
+      "id": "berangkat",
+      "ngoko": "budhal",
+      "krama": "bidhal, tindak"
+    },
+    {
+      "id": "berangkat",
+      "ngoko": "budal",
+      "krama": "mangkat/bidhal"
+    },
+    {
+      "id": "berangkat",
+      "ngoko": "bidhal",
+      "krama": "budhal, tindak"
+    },
+    {
+      "id": "berani",
+      "ngoko": "wani",
+      "krama": "purun"
+    },
+    {
+      "id": "berani",
+      "ngoko": "wani, sura, darna, guragadha",
+      "krama": "purun"
+    },
+    {
+      "id": "beranjak",
+      "ngoko": "alihan",
+      "krama": "pindhah"
+    },
+    {
+      "id": "beranjak",
+      "ngoko": "alihan",
+      "krama": "pindhah"
+    },
+    {
+      "id": "berapa",
+      "ngoko": "pira",
+      "krama": "pinten"
+    },
+    {
+      "id": "berapa",
+      "ngoko": "ponten",
+      "krama": "pinten"
+    },
+    {
+      "id": "berapa",
+      "ngoko": "pinten",
+      "krama": "pira"
+    },
+    {
+      "id": "berapa lagi",
+      "ngoko": "luwih-luwih",
+      "krama": "langkung-langkung"
+    },
+    {
+      "id": "berapa lagi",
+      "ngoko": "luwih-luwih",
+      "krama": "langkung-langkung"
+    },
+    {
+      "id": "beras",
+      "ngoko": "beras",
+      "krama": "uwos"
+    },
+    {
+      "id": "berasa",
+      "ngoko": "krasa",
+      "krama": "kraos"
+    },
+    {
+      "id": "berasa",
+      "ngoko": "krasa",
+      "krama": "kraos"
+    },
+    {
+      "id": "berasian",
+      "ngoko": "ngimpi",
+      "krama": "supena"
+    },
+    {
+      "id": "berasian, bermimpi",
+      "ngoko": "ngimpi",
+      "krama": "supena"
+    },
+    {
+      "id": "berat",
+      "ngoko": "abot",
+      "krama": "awrat"
+    },
+    {
+      "id": "berat",
+      "ngoko": "abot",
+      "krama": "awrat"
+    },
+    {
+      "id": "berat",
+      "ngoko": "ebot",
+      "krama": "awrat"
+    },
+    {
+      "id": "berbagi",
+      "ngoko": "andum",
+      "krama": "mbagi"
+    },
+    {
+      "id": "berbakti kepada",
+      "ngoko": "bekti marang",
+      "krama": "ngabekti dhateng"
+    },
+    {
+      "id": "berbicara",
+      "ngoko": "ngomong",
+      "krama": "wicanten"
+    },
+    {
+      "id": "berbicara",
+      "ngoko": "wicara",
+      "krama": "wicanten, ngendika"
+    },
+    {
+      "id": "berbicara, catur, permainan catur",
+      "ngoko": "catur",
+      "krama": "wicanten, ngendika"
+    },
+    {
+      "id": "berbunyi",
+      "ngoko": "muni",
+      "krama": "mungel"
+    },
+    {
+      "id": "bercakap-cakap",
+      "ngoko": "gunem, wacana, ujar, wicara, dêlêng, [4] wiwaksita, ling",
+      "krama": "ginem"
+    },
+    {
+      "id": "berdamai",
+      "ngoko": "akur",
+      "krama": "rukun"
+    },
+    {
+      "id": "berenti",
+      "ngoko": "lèrèn",
+      "krama": "kèndel"
+    },
+    {
+      "id": "berenti",
+      "ngoko": "lèrèn",
+      "krama": "kèndel"
+    },
+    {
+      "id": "berganti",
+      "ngoko": "genti",
+      "krama": "gentos"
+    },
+    {
+      "id": "berganti",
+      "ngoko": "genti",
+      "krama": "gentos"
+    },
+    {
+      "id": "bergantung, pepaya",
+      "ngoko": "gandhul",
+      "krama": "kates"
+    },
+    {
+      "id": "bergerak",
+      "ngoko": "obah",
+      "krama": "ébah"
+    },
+    {
+      "id": "berhati-hati",
+      "ngoko": "awat-awat",
+      "krama": "ngatos-atos"
+    },
+    {
+      "id": "berhenti",
+      "ngoko": "mandheg",
+      "krama": "kèndel"
+    },
+    {
+      "id": "berhenti",
+      "ngoko": "mandheg",
+      "krama": "kèndel"
+    },
+    {
+      "id": "berhenti",
+      "ngoko": "èndhèk",
+      "krama": "andhap"
+    },
+    {
+      "id": "beri",
+      "ngoko": "kek",
+      "krama": "wenehi/paringi"
+    },
+    {
+      "id": "berikhtiar",
+      "ngoko": "ikhtiar",
+      "krama": "ikhtiyar"
+    },
+    {
+      "id": "beristirahat",
+      "ngoko": "liren",
+      "krama": "leren/ngaso"
+    },
+    {
+      "id": "berita kematian",
+      "ngoko": "lelayu",
+      "krama": "lelajeng"
+    },
+    {
+      "id": "berita, warta",
+      "ngoko": "warta",
+      "krama": "wartos"
+    },
+    {
+      "id": "berjabat",
+      "ngoko": "jabat",
+      "krama": "nggandheng"
+    },
+    {
+      "id": "berjalan",
+      "ngoko": "mlaku",
+      "krama": "mlampah"
+    },
+    {
+      "id": "berjalan",
+      "ngoko": "mlaku",
+      "krama": "mlampah"
+    },
+    {
+      "id": "berjualan",
+      "ngoko": "dodolan",
+      "krama": "sadéan"
+    },
+    {
+      "id": "berjualan",
+      "ngoko": "dodol",
+      "krama": "sadé"
+    },
+    {
+      "id": "berjualan, jualan",
+      "ngoko": "dodolan",
+      "krama": "wadean"
+    },
+    {
+      "id": "berkata",
+      "ngoko": "celathu",
+      "krama": "wicanten, ngendika"
+    },
+    {
+      "id": "berkumpul",
+      "ngoko": "ngumpul",
+      "krama": "ngempal"
+    },
+    {
+      "id": "berlatih",
+      "ngoko": "latih",
+      "krama": "gladhi"
+    },
+    {
+      "id": "berlik",
+      "ngoko": "sengadi",
+      "krama": "sengados"
+    },
+    {
+      "id": "berma",
+      "ngoko": "abang",
+      "krama": "abrit"
+    },
+    {
+      "id": "bermimpi",
+      "ngoko": "ngimpi",
+      "krama": "supena"
+    },
+    {
+      "id": "beroleh",
+      "ngoko": "olèh",
+      "krama": "angsal"
+    },
+    {
+      "id": "berpesan dengan sangat",
+      "ngoko": "wanti-wanti",
+      "krama": "wantos-wantos"
+    },
+    {
+      "id": "berpesan dengan sangat",
+      "ngoko": "wanti-wanti",
+      "krama": "wantos-wantos"
+    },
+    {
+      "id": "berpikir",
+      "ngoko": "mikir",
+      "krama": "manah, menggalih"
+    },
+    {
+      "id": "berpikir",
+      "ngoko": "mikir",
+      "krama": "manah, menggalih"
+    },
+    {
+      "id": "bersembunyi",
+      "ngoko": "ndelik",
+      "krama": "ndhelik"
+    },
+    {
+      "id": "berserah",
+      "ngoko": "pasrah",
+      "krama": "sumarah"
+    },
+    {
+      "id": "bersiap-siap",
+      "ngoko": "cepak-cepak",
+      "krama": "cawis"
+    },
+    {
+      "id": "bersih",
+      "ngoko": "rijig",
+      "krama": "resik"
+    },
+    {
+      "id": "bersolek, berdandan",
+      "ngoko": "dandan, ngadiraga, mandara, busana, tata",
+      "krama": "dandos"
+    },
+    {
+      "id": "bersolek, merias diri",
+      "ngoko": "dandan",
+      "krama": "dandos"
+    },
+    {
+      "id": "bertambah",
+      "ngoko": "wuwuh",
+      "krama": "wewah"
+    },
+    {
+      "id": "bertanya",
+      "ngoko": "takon",
+      "krama": "ndangu"
+    },
+    {
+      "id": "berteduh",
+      "ngoko": "ngadem",
+      "krama": "ngaso"
+    },
+    {
+      "id": "bertempat",
+      "ngoko": "manggon",
+      "krama": "manggèn"
+    },
+    {
+      "id": "bertempat tinggal",
+      "ngoko": "manggon",
+      "krama": "manggèn"
+    },
+    {
+      "id": "bertempat tinggal, bertempat",
+      "ngoko": "manggon",
+      "krama": "manggèn"
+    },
+    {
+      "id": "bertemu",
+      "ngoko": "temu",
+      "krama": "panggih"
+    },
+    {
+      "id": "bertengkar",
+      "ngoko": "padu",
+      "krama": "paben"
+    },
+    {
+      "id": "bertengkar, tengkar",
+      "ngoko": "padu",
+      "krama": "paben"
+    },
+    {
+      "id": "berubah",
+      "ngoko": "owah",
+      "krama": "éwah"
+    },
+    {
+      "id": "berubah",
+      "ngoko": "owah",
+      "krama": "éwah, ebah"
+    },
+    {
+      "id": "berubah",
+      "ngoko": "ubah",
+      "krama": "owah, ebah"
+    },
+    {
+      "id": "berulang kali memerintah",
+      "ngoko": "dawuh-dawuh",
+      "krama": "dhawuh-dhawuh"
+    },
+    {
+      "id": "berunding",
+      "ngoko": "rembuk",
+      "krama": "rembag"
+    },
+    {
+      "id": "besar",
+      "ngoko": "badag",
+      "krama": "ageng"
+    },
+    {
+      "id": "besar, agama, din, igama, ugama",
+      "ngoko": "agama",
+      "krama": "agami"
+    },
+    {
+      "id": "besi tua",
+      "ngoko": "besi tuwa",
+      "krama": "wesi tuwa"
+    },
+    {
+      "id": "besok",
+      "ngoko": "mene",
+      "krama": "sesuk/mbenjang"
+    },
+    {
+      "id": "besok, esok",
+      "ngoko": "sesuk",
+      "krama": "mbenjang"
+    },
+    {
+      "id": "betah",
+      "ngoko": "krasan",
+      "krama": "kraos"
+    },
+    {
+      "id": "betapa",
+      "ngoko": "kepriyé",
+      "krama": "kados-pundi"
+    },
+    {
+      "id": "betul",
+      "ngoko": "butul",
+      "krama": "leres"
+    },
+    {
+      "id": "betul-betul",
+      "ngoko": "betul-betul",
+      "krama": "leres-leres"
+    },
+    {
+      "id": "biar",
+      "ngoko": "karebèn",
+      "krama": "kajengipun"
+    },
+    {
+      "id": "biar",
+      "ngoko": "ben",
+      "krama": "supados"
+    },
+    {
+      "id": "biarkan",
+      "ngoko": "jarke",
+      "krama": "benke/tinggal"
+    },
+    {
+      "id": "biasa",
+      "ngoko": "lumrah",
+      "krama": "limrah"
+    },
+    {
+      "id": "biaya, bea, bia",
+      "ngoko": "beya",
+      "krama": "ragad"
+    },
+    {
+      "id": "bibi (kakak ibu/bapak)",
+      "ngoko": "budhe",
+      "krama": "budhe"
+    },
+    {
+      "id": "bibir",
+      "ngoko": "lambe, lathi, bibir, talawya, dukara, kalpija, wiwitra, wiruca",
+      "krama": "lathi"
+    },
+    {
+      "id": "bicara",
+      "ngoko": "rembug, wuwus, ujar, ucap, ling, wacana, wicara, wursita, ngling, gusthi",
+      "krama": "rêmbag"
+    },
+    {
+      "id": "biji",
+      "ngoko": "wiji",
+      "krama": "wiyos"
+    },
+    {
+      "id": "bikin, buat, memakai, membuat",
+      "ngoko": "gawé, makirtya, ambangun, karya, kardi, karti, yasa",
+      "krama": "damêl"
+    },
+    {
+      "id": "bila, jika, namun",
+      "ngoko": "yèn, yan, mênawa, bilih, upama, upami, lamun, kalamun",
+      "krama": "bilih"
+    },
+    {
+      "id": "bimbang",
+      "ngoko": "kèwuhan, èmêng, kawêkèn, kepyan, kepon, keron, kewran, wagugên",
+      "krama": "kèwedan"
+    },
+    {
+      "id": "binasa",
+      "ngoko": "binasa",
+      "krama": "rusak"
+    },
+    {
+      "id": "bingit, sedih",
+      "ngoko": "ngenes",
+      "krama": "sedhih/prihatos"
+    },
+    {
+      "id": "bingka",
+      "ngoko": "panganan",
+      "krama": "tetedhan, dhaharan"
+    },
+    {
+      "id": "biram",
+      "ngoko": "gajah",
+      "krama": "liman"
+    },
+    {
+      "id": "biram, gajah",
+      "ngoko": "gajah, asti, dirada, èsthi, dwipangga, liman, matêngga, waniti, gajahmuka, angga",
+      "krama": "liman"
+    },
+    {
+      "id": "bisa",
+      "ngoko": "hisa",
+      "krama": "bisa/saged"
+    },
+    {
+      "id": "bisa",
+      "ngoko": "isa",
+      "krama": "saged"
+    },
+    {
+      "id": "bisa",
+      "ngoko": "teyeng/bisa",
+      "krama": "saged"
+    },
+    {
+      "id": "bisu (krama)",
+      "ngoko": "ruthu",
+      "krama": "ruthu"
+    },
+    {
+      "id": "bohong",
+      "ngoko": "goroh",
+      "krama": "dora"
+    },
+    {
+      "id": "bohong, dusta, justa, kazab",
+      "ngoko": "goroh",
+      "krama": "dora"
+    },
+    {
+      "id": "bolak",
+      "ngoko": "luput",
+      "krama": "lepat"
+    },
+    {
+      "id": "bolak, luput",
+      "ngoko": "luput",
+      "krama": "lepat"
+    },
+    {
+      "id": "boleh",
+      "ngoko": "olèh",
+      "krama": "angsal"
+    },
+    {
+      "id": "boleh, beroleh, mendapat",
+      "ngoko": "olèh, antuk, molih, pakantuk",
+      "krama": "angsal, pikantuk"
+    },
+    {
+      "id": "buah pikiran",
+      "ngoko": "panemu",
+      "krama": "pamanggih"
+    },
+    {
+      "id": "buah tangan",
+      "ngoko": "olèh-olèh",
+      "krama": "angsal-angsal"
+    },
+    {
+      "id": "buah tangan, ompang-ompang",
+      "ngoko": "olèh-olèh",
+      "krama": "angsal-angsal"
+    },
+    {
+      "id": "buat",
+      "ngoko": "kanggo",
+      "krama": "kanggé, kagem"
+    },
+    {
+      "id": "buat, untuk, terpakai",
+      "ngoko": "kanggo",
+      "krama": "kanggé, kagem"
+    },
+    {
+      "id": "buatan",
+      "ngoko": "bikinan",
+      "krama": "damelan"
+    },
+    {
+      "id": "buaya",
+      "ngoko": "buaya",
+      "krama": "baya"
+    },
+    {
+      "id": "buaya",
+      "ngoko": "byajul",
+      "krama": "baya"
+    },
+    {
+      "id": "bubar",
+      "ngoko": "bubar",
+      "krama": "bibar"
+    },
+    {
+      "id": "bubar",
+      "ngoko": "bubar",
+      "krama": "bibar"
+    },
+    {
+      "id": "bubur",
+      "ngoko": "bubur",
+      "krama": "jenang"
+    },
+    {
+      "id": "budak",
+      "ngoko": "bocah",
+      "krama": "laré"
+    },
+    {
+      "id": "bugar",
+      "ngoko": "saras",
+      "krama": "waras"
+    },
+    {
+      "id": "bugar",
+      "ngoko": "saras",
+      "krama": "waras"
+    },
+    {
+      "id": "bujang",
+      "ngoko": "bujang",
+      "krama": "lajang"
+    },
+    {
+      "id": "bujang",
+      "ngoko": "jomblo",
+      "krama": "lajang"
+    },
+    {
+      "id": "bukan",
+      "ngoko": "dudu",
+      "krama": "dédé"
+    },
+    {
+      "id": "bukan",
+      "ngoko": "dudu",
+      "krama": "dédé"
+    },
+    {
+      "id": "bukan",
+      "ngoko": "gudhuk",
+      "krama": "dudu/sanes"
+    },
+    {
+      "id": "bukan",
+      "ngoko": "hudu",
+      "krama": "dudu/sanes"
+    },
+    {
+      "id": "buku tulis",
+      "ngoko": "buku tulis",
+      "krama": "buku serat"
+    },
+    {
+      "id": "bulan",
+      "ngoko": "bulan",
+      "krama": "wulan"
+    },
+    {
+      "id": "bulan purnama",
+      "ngoko": "bulan purnama",
+      "krama": "wulan purnama"
+    },
+    {
+      "id": "buluh kerongkong, belum, gurung, kerongkong",
+      "ngoko": "gurung",
+      "krama": "durung/dereng"
+    },
+    {
+      "id": "bunga",
+      "ngoko": "sekar",
+      "krama": "kembang"
+    },
+    {
+      "id": "bunga",
+      "ngoko": "bunga",
+      "krama": "sekar"
+    },
+    {
+      "id": "bunga, kesuma, kumayan, melang, puspa, sari, seridewa, zahar",
+      "ngoko": "kembang, sêkar, sari, puspa, puspita, kusuma, kumala, padma",
+      "krama": "sekar"
+    },
+    {
+      "id": "bunyi",
+      "ngoko": "uni",
+      "krama": "ungêl"
+    },
+    {
+      "id": "buronan",
+      "ngoko": "buron",
+      "krama": "bujengan"
+    },
+    {
+      "id": "buronan",
+      "ngoko": "buron",
+      "krama": "bujengan"
+    },
+    {
+      "id": "buruh",
+      "ngoko": "buruh",
+      "krama": "berah"
+    },
+    {
+      "id": "buruk, jahat, jelek, jendala, keji, odoh, papakerma",
+      "ngoko": "ala, dur, durta, juti, durstha, dusta, kunjana, durniti, durlaksana",
+      "krama": "awon"
+    },
+    {
+      "id": "burung",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "burung pipit",
+      "ngoko": "glatik",
+      "krama": "glathik"
+    },
+    {
+      "id": "burung, barau-barau, cencawi, cenderasari, cepu-cepu, cipai, jeladan, kancur, kuaran, limbuk, meragai, paksi, pekaka, perincit, reng, ruk, selempukau, sikikih, sikudidi, tiku",
+      "ngoko": "manuk, kaga, paksi, kukila",
+      "krama": "peksi, paksi"
+    },
+    {
+      "id": "butuh",
+      "ngoko": "buthuh",
+      "krama": "perlu"
+    },
+    {
+      "id": "cabai",
+      "ngoko": "cili",
+      "krama": "lombok"
+    },
+    {
+      "id": "cabang",
+      "ngoko": "cabang",
+      "krama": "pang"
+    },
+    {
+      "id": "cabar, gamang, takut",
+      "ngoko": "wedi, jrih, três, takut, wiwrin, giris, girisa, ulap",
+      "krama": "ajrih"
+    },
+    {
+      "id": "caca",
+      "ngoko": "panganan",
+      "krama": "tetedhan, dhaharan"
+    },
+    {
+      "id": "cakap",
+      "ngoko": "bisa",
+      "krama": "saged"
+    },
+    {
+      "id": "cakap, bisa, dapat, mampu",
+      "ngoko": "bisa",
+      "krama": "saged"
+    },
+    {
+      "id": "cantik",
+      "ngoko": "ayu",
+      "krama": "endah"
+    },
+    {
+      "id": "cari, mencari",
+      "ngoko": "golèk",
+      "krama": "ngupados"
+    },
+    {
+      "id": "catatan",
+      "ngoko": "cathetan",
+      "krama": "pémutan"
+    },
+    {
+      "id": "caul",
+      "ngoko": "bakal",
+      "krama": "badhé"
+    },
+    {
+      "id": "cekal",
+      "ngoko": "kuwat",
+      "krama": "kiyat"
+    },
+    {
+      "id": "celah, lubang",
+      "ngoko": "ruwung",
+      "krama": "ruwung"
+    },
+    {
+      "id": "celakuti",
+      "ngoko": "panganan",
+      "krama": "tetedhan, dhaharan"
+    },
+    {
+      "id": "cele",
+      "ngoko": "bakal",
+      "krama": "badhé"
+    },
+    {
+      "id": "celik, jaga",
+      "ngoko": "melèk",
+      "krama": "wungu"
+    },
+    {
+      "id": "cencawi",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "cenderasari",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "cepat",
+      "ngoko": "cepet",
+      "krama": "enggal"
+    },
+    {
+      "id": "cepat",
+      "ngoko": "gelis",
+      "krama": "enggal"
+    },
+    {
+      "id": "cepu-cepu",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "cerek, cerek",
+      "ngoko": "cere",
+      "krama": "cere"
+    },
+    {
+      "id": "cerita hidup",
+      "ngoko": "lelakon",
+      "krama": "lelampahan"
+    },
+    {
+      "id": "cerita hidup, peristiwa, persetua",
+      "ngoko": "lelakon",
+      "krama": "lelampahan"
+    },
+    {
+      "id": "cerita, hikayat, kissah, riwayat, seturi",
+      "ngoko": "crita",
+      "krama": "criyos"
+    },
+    {
+      "id": "cermat",
+      "ngoko": "ngati-ati",
+      "krama": "ngatos-atos",
+      "keterangan": "setiti"
+    },
+    {
+      "id": "cermin",
+      "ngoko": "cermin",
+      "krama": "pengilon"
+    },
+    {
+      "id": "cicak",
+      "ngoko": "cicak",
+      "krama": "cecak"
+    },
+    {
+      "id": "cikar, gerobak, kahar",
+      "ngoko": "cikar",
+      "krama": "pandhatos"
+    },
+    {
+      "id": "cincin",
+      "ngoko": "ali-ali",
+      "krama": "sesupé"
+    },
+    {
+      "id": "cincin",
+      "ngoko": "ali-ali",
+      "krama": "sesupé"
+    },
+    {
+      "id": "cincin",
+      "ngoko": "cincin",
+      "krama": "ali-ali"
+    },
+    {
+      "id": "cinta, gaulana, gelabah, gelana, gulana, lara, mas, murung, nestapa, sedih, sendu",
+      "ngoko": "sedhih, wyung, wulangun, anglês, duhkita, dukacipta, giyuh, katrêsnan, kung, manastapa, manonbawa, mangunêng, mèpu, margiyuh, rancaka, rimang, turida, èmêng",
+      "krama": "prihatos"
+    },
+    {
+      "id": "cipai",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "cirit, tahi",
+      "ngoko": "tai",
+      "krama": "tinja"
+    },
+    {
+      "id": "citarasa, rasa",
+      "ngoko": "rasa",
+      "krama": "raos"
+    },
+    {
+      "id": "cium",
+      "ngoko": "ambung",
+      "krama": "sun"
+    },
+    {
+      "id": "cium, mencium",
+      "ngoko": "ambung",
+      "krama": "sun"
+    },
+    {
+      "id": "coba",
+      "ngoko": "jajal",
+      "krama": "nyobi"
+    },
+    {
+      "id": "coban",
+      "ngoko": "coba",
+      "krama": "nyobi"
+    },
+    {
+      "id": "cuani",
+      "ngoko": "bakal",
+      "krama": "badhé"
+    },
+    {
+      "id": "cubit, mencubit",
+      "ngoko": "jiwit",
+      "krama": "njiwit"
+    },
+    {
+      "id": "cuci uwos-uwos  : mencuci pakaian, beras",
+      "ngoko": "uwos",
+      "krama": "beras",
+      "keterangan": "definisi: cuci uwos-uwos  : mencuci pakaian"
+    },
+    {
+      "id": "cuci uwos-uwos (k) (t.k.): mencuci pakaian",
+      "ngoko": "uwos",
+      "krama": "beras"
+    },
+    {
+      "id": "cucu, cucung",
+      "ngoko": "putu, wayah, putraka, wancala",
+      "krama": "wayah"
+    },
+    {
+      "id": "cucu, waktu",
+      "ngoko": "wayah",
+      "krama": "wanci"
+    },
+    {
+      "id": "cukai, kharaj",
+      "ngoko": "pajeg",
+      "krama": "paos"
+    },
+    {
+      "id": "cukup",
+      "ngoko": "cukup",
+      "krama": "cekap"
+    },
+    {
+      "id": "cukup",
+      "ngoko": "cekap",
+      "krama": "cukup"
+    },
+    {
+      "id": "cukup (bhs jawa halus)",
+      "ngoko": "cekap",
+      "krama": "cukup"
+    },
+    {
+      "id": "cukup, lacur, sedang",
+      "ngoko": "sedheng",
+      "krama": "cekap"
+    },
+    {
+      "id": "culik, menculik",
+      "ngoko": "culik",
+      "krama": "nyulik"
+    },
+    {
+      "id": "cuman, mengambil dengan ujung jari",
+      "ngoko": "jumput",
+      "krama": "njumput"
+    },
+    {
+      "id": "dahi",
+      "ngoko": "bathuk",
+      "krama": "palarapan"
+    },
+    {
+      "id": "dahsat, takut",
+      "ngoko": "giris",
+      "krama": "ajrih"
+    },
+    {
+      "id": "dahulu",
+      "ngoko": "dhisik",
+      "krama": "rumiyin"
+    },
+    {
+      "id": "dahulu",
+      "ngoko": "biyèn, dhihin, dhingin",
+      "krama": "rumiyin"
+    },
+    {
+      "id": "dahulu, dulu",
+      "ngoko": "biyen",
+      "krama": "riyin"
+    },
+    {
+      "id": "dahulu, dulu",
+      "ngoko": "dhisik",
+      "krama": "rumiyin"
+    },
+    {
+      "id": "daim",
+      "ngoko": "lestari",
+      "krama": "lestantun"
+    },
+    {
+      "id": "dakwah",
+      "ngoko": "dhakwah",
+      "krama": "dakwah"
+    },
+    {
+      "id": "dalam",
+      "ngoko": "lebet",
+      "krama": "jero"
+    },
+    {
+      "id": "dalam",
+      "ngoko": "jero",
+      "krama": "lebet"
+    },
+    {
+      "id": "dalil",
+      "ngoko": "panuduh",
+      "krama": "panedah"
+    },
+    {
+      "id": "dan",
+      "ngoko": "tuwin",
+      "krama": "lan"
+    },
+    {
+      "id": "dandanan",
+      "ngoko": "dandanan",
+      "krama": "dandosan"
+    },
+    {
+      "id": "dangai",
+      "ngoko": "panganan",
+      "krama": "tetedhan, dhaharan"
+    },
+    {
+      "id": "dapat",
+      "ngoko": "bisa",
+      "krama": "saged"
+    },
+    {
+      "id": "dapat",
+      "ngoko": "ulih",
+      "krama": "antuk, kondur"
+    },
+    {
+      "id": "dapur, keran",
+      "ngoko": "kèrèn",
+      "krama": "kantunan"
+    },
+    {
+      "id": "darah",
+      "ngoko": "getih",
+      "krama": "rah"
+    },
+    {
+      "id": "darah",
+      "ngoko": "ludira",
+      "krama": "getih"
+    },
+    {
+      "id": "Dari",
+      "ngoko": "saka",
+      "krama": "saking"
+    },
+    {
+      "id": "dari",
+      "ngoko": "soko",
+      "krama": "saking"
+    },
+    {
+      "id": "darurat, gelorat",
+      "ngoko": "kebutuh",
+      "krama": "kebetah"
+    },
+    {
+      "id": "dasal",
+      "ngoko": "kayu",
+      "krama": "kajeng"
+    },
+    {
+      "id": "dasal, gamai",
+      "ngoko": "kayu",
+      "krama": "kajeng"
+    },
+    {
+      "id": "dasun, bawang",
+      "ngoko": "bawang",
+      "krama": "brambang"
+    },
+    {
+      "id": "datang dengan tiba-tiba, tiba-tiba",
+      "ngoko": "ujug-ujug",
+      "krama": "dumadakan"
+    },
+    {
+      "id": "datang, tiba",
+      "ngoko": "teka",
+      "krama": "dhateng, rawuh"
+    },
+    {
+      "id": "datuk",
+      "ngoko": "kaki",
+      "krama": "suku, sampeyan"
+    },
+    {
+      "id": "daun",
+      "ngoko": "godhong",
+      "krama": "ron"
+    },
+    {
+      "id": "daun",
+      "ngoko": "godhong, ron, rondhan, [5] patra, taru, dhahon, parna",
+      "krama": "ujungan"
+    },
+    {
+      "id": "daun sirih",
+      "ngoko": "sedhah",
+      "krama": "suruh"
+    },
+    {
+      "id": "daun sirih",
+      "ngoko": "sedhah",
+      "krama": "suruh"
+    },
+    {
+      "id": "daun sirih, kaduk, sirih",
+      "ngoko": "suruh",
+      "krama": "sesah"
+    },
+    {
+      "id": "debu, lebu",
+      "ngoko": "lebu",
+      "krama": "lebet"
+    },
+    {
+      "id": "dekak-dekak",
+      "ngoko": "ketekan",
+      "krama": "kedumugèn"
+    },
+    {
+      "id": "dekat, hampir",
+      "ngoko": "cedhak",
+      "krama": "calek"
+    },
+    {
+      "id": "demi, bersama",
+      "ngoko": "bareng",
+      "krama": "sareng"
+    },
+    {
+      "id": "dengan",
+      "ngoko": "kanthi",
+      "krama": "kaliyan"
+    },
+    {
+      "id": "dengan",
+      "ngoko": "mawi",
+      "krama": "kaliyan"
+    },
+    {
+      "id": "dengan",
+      "ngoko": "mbek",
+      "krama": "karo/kaliyan"
+    },
+    {
+      "id": "dengan",
+      "ngoko": "mbek/bek",
+      "krama": "karo"
+    },
+    {
+      "id": "dengar",
+      "ngoko": "rungu, piyarsa, rêngên, piyarsi",
+      "krama": "mireng, midhanget"
+    },
+    {
+      "id": "depan",
+      "ngoko": "ngarep",
+      "krama": "ngajêng, ngarsa"
+    },
+    {
+      "id": "depu",
+      "ngoko": "iwak",
+      "krama": "ulam"
+    },
+    {
+      "id": "di",
+      "ngoko": "nang",
+      "krama": "ing"
+    },
+    {
+      "id": "di",
+      "ngoko": "neng",
+      "krama": "ing"
+    },
+    {
+      "id": "di mana",
+      "ngoko": "neng ngendi",
+      "krama": "wonten pundi"
+    },
+    {
+      "id": "di situ",
+      "ngoko": "mriku",
+      "krama": "mrono"
+    },
+    {
+      "id": "di situ",
+      "ngoko": "mriku",
+      "krama": "mrono"
+    },
+    {
+      "id": "di- (awalan)",
+      "ngoko": "dipun",
+      "krama": "di-"
+    },
+    {
+      "id": "di-, imbuhan pasif krama",
+      "ngoko": "dipun",
+      "krama": "di-"
+    },
+    {
+      "id": "dia, patiktu",
+      "ngoko": "dhèwèké",
+      "krama": "piyambakipun, panjenenganipun"
+    },
+    {
+      "id": "diam",
+      "ngoko": "meneng, minggu, rêgu, mona, kapinêng",
+      "krama": "kèndel"
+    },
+    {
+      "id": "diam",
+      "ngoko": "meneng",
+      "krama": "kèndel",
+      "keterangan": "ora obah"
+    },
+    {
+      "id": "diam, hening",
+      "ngoko": "eneng",
+      "krama": "eneng"
+    },
+    {
+      "id": "diangkat",
+      "ngoko": "diangkat",
+      "krama": "dipun angkat"
+    },
+    {
+      "id": "dibawa",
+      "ngoko": "digawa",
+      "krama": "dipun bekta"
+    },
+    {
+      "id": "dibeli",
+      "ngoko": "dituku",
+      "krama": "dipun tumbas"
+    },
+    {
+      "id": "diberi",
+      "ngoko": "diwènèhi",
+      "krama": "dipun-sukani, diparingi"
+    },
+    {
+      "id": "diberi tahu",
+      "ngoko": "dikandhani",
+      "krama": "dipun-criyosi, diandikani"
+    },
+    {
+      "id": "diberi tahu",
+      "ngoko": "dikandhani",
+      "krama": "dipun-criyosi, diandikani"
+    },
+    {
+      "id": "dibersihkan",
+      "ngoko": "diresiki",
+      "krama": "dipun resikaken"
+    },
+    {
+      "id": "dijual",
+      "ngoko": "didol",
+      "krama": "dipun-sadé"
+    },
+    {
+      "id": "dijual",
+      "ngoko": "didol",
+      "krama": "dipun-sadé"
+    },
+    {
+      "id": "dikarenakan",
+      "ngoko": "awit saking",
+      "krama": "amargi"
+    },
+    {
+      "id": "dimakan",
+      "ngoko": "dipangan",
+      "krama": "dipun-tedha"
+    },
+    {
+      "id": "diminta",
+      "ngoko": "disuwun",
+      "krama": "dipun suwun"
+    },
+    {
+      "id": "diminum",
+      "ngoko": "diombé",
+      "krama": "diinum, diunjuk"
+    },
+    {
+      "id": "din",
+      "ngoko": "agama",
+      "krama": "agami"
+    },
+    {
+      "id": "dinamakan",
+      "ngoko": "dikarani",
+      "krama": "dipun wastani"
+    },
+    {
+      "id": "dingin",
+      "ngoko": "adem",
+      "krama": "asrep"
+    },
+    {
+      "id": "dingin, sejuk",
+      "ngoko": "adhem",
+      "krama": "asrêp"
+    },
+    {
+      "id": "dipandang",
+      "ngoko": "disawang",
+      "krama": "dipun tingali"
+    },
+    {
+      "id": "dipercaya",
+      "ngoko": "dipercaya",
+      "krama": "dipun pitados"
+    },
+    {
+      "id": "diselamati",
+      "ngoko": "dislameti",
+      "krama": "dipun slameti"
+    },
+    {
+      "id": "disiksa",
+      "ngoko": "disiksa",
+      "krama": "dipun siksa"
+    },
+    {
+      "id": "disuruh",
+      "ngoko": "dikon",
+      "krama": "dipun utus"
+    },
+    {
+      "id": "ditarik telinganya, menjewer",
+      "ngoko": "jewer",
+      "krama": "njewer"
+    },
+    {
+      "id": "ditemukan",
+      "ngoko": "tinemu",
+      "krama": "pinanggih"
+    },
+    {
+      "id": "ditulis",
+      "ngoko": "ditulis",
+      "krama": "dipun-serat"
+    },
+    {
+      "id": "dituliskan",
+      "ngoko": "ditulisake",
+      "krama": "dipun serataken"
+    },
+    {
+      "id": "dosa",
+      "ngoko": "doso",
+      "krama": "dosa"
+    },
+    {
+      "id": "dua",
+      "ngoko": "loro",
+      "krama": "kalih"
+    },
+    {
+      "id": "dua",
+      "ngoko": "rong",
+      "krama": "kalih"
+    },
+    {
+      "id": "dua",
+      "ngoko": "dwi",
+      "krama": "kalih"
+    },
+    {
+      "id": "dua",
+      "ngoko": "loro",
+      "krama": "kalih"
+    },
+    {
+      "id": "duduk",
+      "ngoko": "linggih",
+      "krama": "lenggah, pinarak"
+    },
+    {
+      "id": "duduk",
+      "ngoko": "lungguh, lênggah, linggih, sila, satata, pinarak",
+      "krama": "lenggah, pinarak"
+    },
+    {
+      "id": "duduk",
+      "ngoko": "jagong",
+      "krama": "lungguh/lenggah"
+    },
+    {
+      "id": "duduk",
+      "ngoko": "linggih",
+      "krama": "lenggah, pinarak"
+    },
+    {
+      "id": "duduk",
+      "ngoko": "lenggah",
+      "krama": "linggih, pinarak"
+    },
+    {
+      "id": "duduk-duduk sambil ngrumpi, nongkrong",
+      "ngoko": "cangkruk",
+      "krama": "nongkrong"
+    },
+    {
+      "id": "duhung, keris, sodok bikang",
+      "ngoko": "keris, dhuwung, wangkingan, katga, curiga, suduk, sundhapa",
+      "krama": "dhuwung, wangkingan"
+    },
+    {
+      "id": "duit",
+      "ngoko": "duit",
+      "krama": "yatra"
+    },
+    {
+      "id": "duit",
+      "ngoko": "dhuwit",
+      "krama": "yatra"
+    },
+    {
+      "id": "duka, sugul, susah",
+      "ngoko": "susah, rudita, manastapa, mirong, turida, ruwida, duhka, wirangrong, wingit, rudah, wigêna, kung, kingkin, sungkawa, sêkêl, wuyung, galana, bunêk, wiyadi, wiyoga",
+      "krama": "prihatos"
+    },
+    {
+      "id": "dukungan",
+      "ngoko": "dhukungan",
+      "krama": "panyengkuyung"
+    },
+    {
+      "id": "dukut, ekor kucing, kemuncup, riung, rumput, sambau",
+      "ngoko": "suket, dhukut, kalang-kalang, trena",
+      "krama": "rumput"
+    },
+    {
+      "id": "dulu",
+      "ngoko": "dhisit",
+      "krama": "dhisik/rumiyin"
+    },
+    {
+      "id": "dulu",
+      "ngoko": "sik",
+      "krama": "dhisik/rumiyin"
+    },
+    {
+      "id": "dulu",
+      "ngoko": "dhisik",
+      "krama": "rumiyin"
+    },
+    {
+      "id": "dura",
+      "ngoko": "adoh",
+      "krama": "tebih"
+    },
+    {
+      "id": "durian",
+      "ngoko": "durèn",
+      "krama": "careman"
+    },
+    {
+      "id": "durja, muka, paras, wajah",
+      "ngoko": "rai, muka, waktra, wadana, surya, pasuryan, swa",
+      "krama": "pasuryan"
+    },
+    {
+      "id": "dusta",
+      "ngoko": "goroh",
+      "krama": "dora"
+    },
+    {
+      "id": "elat, jarak, lat, selang",
+      "ngoko": "let",
+      "krama": "antawis"
+    },
+    {
+      "id": "emas, kencana, mas",
+      "ngoko": "emas, jêne, kancana, kanaka, rukma, rukmi, rikma, lancana, suwarna, iradya",
+      "krama": "jené"
+    },
+    {
+      "id": "emat, mampus, mati, maut",
+      "ngoko": "mati, lalis, ngajal, lampus, lena, palastra, antaka, ngêmasi, antu, seda, surud, pralaya, padhêm, murud",
+      "krama": "pejah, seda"
+    },
+    {
+      "id": "embuh, mahu",
+      "ngoko": "gelem",
+      "krama": "purun, kersa"
+    },
+    {
+      "id": "empat",
+      "ngoko": "papat",
+      "krama": "kawan"
+    },
+    {
+      "id": "empat, ampat",
+      "ngoko": "papat",
+      "krama": "kawan"
+    },
+    {
+      "id": "enak, lazat, lezat, sedap",
+      "ngoko": "énak",
+      "krama": "éca"
+    },
+    {
+      "id": "enggan, tidak mau",
+      "ngoko": "emoh",
+      "krama": "wegah"
+    },
+    {
+      "id": "entah",
+      "ngoko": "embuh",
+      "krama": "kilap, duka-dalem"
+    },
+    {
+      "id": "entah, tah, tidak tahu",
+      "ngoko": "embuh",
+      "krama": "kilap, duka-dalem"
+    },
+    {
+      "id": "enyah",
+      "ngoko": "lunga",
+      "krama": "késah, tindak"
+    },
+    {
+      "id": "faal, fiil, paal, piil",
+      "ngoko": "panggawé, pakêrti, kirta, kirti, kirtya",
+      "krama": "pandamel"
+    },
+    {
+      "id": "fidah",
+      "ngoko": "slaka",
+      "krama": "pethakan"
+    },
+    {
+      "id": "foto",
+      "ngoko": "foto",
+      "krama": "poto"
+    },
+    {
+      "id": "fuad, hati, kalbu, kulub, pelih, poad, puad",
+      "ngoko": "ati, budi, ambêk, manah, galih, driya, praya, budaya, nala, prana, drana, tyas, wardaya, angên-angên, cita, sangka",
+      "krama": "manah, penggalih"
+    },
+    {
+      "id": "fulus",
+      "ngoko": "dhuwit",
+      "krama": "yatra"
+    },
+    {
+      "id": "gadai",
+      "ngoko": "gadhé",
+      "krama": "gantos"
+    },
+    {
+      "id": "gagasan",
+      "ngoko": "gagasan",
+      "krama": "pamanggih"
+    },
+    {
+      "id": "gaib",
+      "ngoko": "ilang",
+      "krama": "ical"
+    },
+    {
+      "id": "gaib, hilang, lelap, lenyap, lesap, musna, penyap, raib",
+      "ngoko": "ilang",
+      "krama": "ical"
+    },
+    {
+      "id": "gajah",
+      "ngoko": "gajah",
+      "krama": "liman"
+    },
+    {
+      "id": "gajah",
+      "ngoko": "liman",
+      "krama": "gajah"
+    },
+    {
+      "id": "galat, hilap, ikhtilaf, salah",
+      "ngoko": "salah",
+      "krama": "klentu"
+    },
+    {
+      "id": "gamai",
+      "ngoko": "kayu",
+      "krama": "kajeng"
+    },
+    {
+      "id": "gampang",
+      "ngoko": "gampang",
+      "krama": "gampil"
+    },
+    {
+      "id": "gandar",
+      "ngoko": "pikulan",
+      "krama": "rembatan"
+    },
+    {
+      "id": "gandar, pikulan",
+      "ngoko": "pikulan",
+      "krama": "rembatan"
+    },
+    {
+      "id": "garam",
+      "ngoko": "uyah",
+      "krama": "sarem"
+    },
+    {
+      "id": "garis, mencari rumput",
+      "ngoko": "garit",
+      "krama": "nggarit"
+    },
+    {
+      "id": "gembala",
+      "ngoko": "pangon",
+      "krama": "pangèn"
+    },
+    {
+      "id": "gembala",
+      "ngoko": "pangon",
+      "krama": "pangèn"
+    },
+    {
+      "id": "gembes, dompet",
+      "ngoko": "dompet",
+      "krama": "dhompet"
+    },
+    {
+      "id": "gemuk",
+      "ngoko": "lemu",
+      "krama": "lema, gemdhong"
+    },
+    {
+      "id": "genap, lengkap, pepak",
+      "ngoko": "ganep",
+      "krama": "jangkep"
+    },
+    {
+      "id": "gerak",
+      "ngoko": "obah",
+      "krama": "ébah"
+    },
+    {
+      "id": "gerak, bergerak",
+      "ngoko": "obah",
+      "krama": "ébah"
+    },
+    {
+      "id": "gerak, mengolah",
+      "ngoko": "olah",
+      "krama": "ngolah"
+    },
+    {
+      "id": "gerim",
+      "ngoko": "bakal",
+      "krama": "badhé"
+    },
+    {
+      "id": "getah, lendir",
+      "ngoko": "rawe",
+      "krama": "rawe"
+    },
+    {
+      "id": "getak",
+      "ngoko": "puyuh",
+      "krama": "gemak"
+    },
+    {
+      "id": "getak",
+      "ngoko": "puyuh",
+      "krama": "gemak"
+    },
+    {
+      "id": "gigi",
+      "ngoko": "untu, waja, danta, denta, udaka",
+      "krama": "waja"
+    },
+    {
+      "id": "gigi",
+      "ngoko": "untau",
+      "krama": "untu/waja"
+    },
+    {
+      "id": "gigit",
+      "ngoko": "cakot",
+      "krama": "nyakot"
+    },
+    {
+      "id": "gigit",
+      "ngoko": "cokot",
+      "krama": "nyakot"
+    },
+    {
+      "id": "giliran",
+      "ngoko": "giliran",
+      "krama": "gantosipun"
+    },
+    {
+      "id": "goda, beda, beza, furak, pewat, telingkah",
+      "ngoko": "beda, pae, wanèh, bènèh",
+      "krama": "benten"
+    },
+    {
+      "id": "gores api, korek, panggilan akrab teman",
+      "ngoko": "rek",
+      "krama": "-"
+    },
+    {
+      "id": "goyang",
+      "ngoko": "goyang",
+      "krama": "nggoyang"
+    },
+    {
+      "id": "gula",
+      "ngoko": "gula",
+      "krama": "gendhis"
+    },
+    {
+      "id": "gula, sakar",
+      "ngoko": "gula",
+      "krama": "gendhis"
+    },
+    {
+      "id": "gulat, bergulat, galut, kusti",
+      "ngoko": "gelut",
+      "krama": "ngelut"
+    },
+    {
+      "id": "gulung, menggulung",
+      "ngoko": "gulung",
+      "krama": "nggulung"
+    },
+    {
+      "id": "guntur",
+      "ngoko": "gledheg",
+      "krama": "gludhug"
+    },
+    {
+      "id": "gunung",
+      "ngoko": "gunung",
+      "krama": "redi"
+    },
+    {
+      "id": "gunung, jabal",
+      "ngoko": "gunung, adri, aldaka, ancala, ardi, arga, giri, parwata, wukir, enadra, mèru, parbata",
+      "krama": "rêdi"
+    },
+    {
+      "id": "gurun",
+      "ngoko": "alas",
+      "krama": "wana"
+    },
+    {
+      "id": "habis",
+      "ngoko": "entèk",
+      "krama": "telas"
+    },
+    {
+      "id": "habis",
+      "ngoko": "entong",
+      "krama": "entek/telas"
+    },
+    {
+      "id": "habis",
+      "ngoko": "habis",
+      "krama": "telas"
+    },
+    {
+      "id": "habis-habisan",
+      "ngoko": "entek-entek",
+      "krama": "telas-telas"
+    },
+    {
+      "id": "hadap, menghadap",
+      "ngoko": "adhep",
+      "krama": "ajeng"
+    },
+    {
+      "id": "hadiah",
+      "ngoko": "hadiah",
+      "krama": "bebungah"
+    },
+    {
+      "id": "hafal",
+      "ngoko": "hafal",
+      "krama": "apal"
+    },
+    {
+      "id": "hafal",
+      "ngoko": "hapal",
+      "krama": "apal"
+    },
+    {
+      "id": "haji, mengaji",
+      "ngoko": "kaji",
+      "krama": "ngaji, ngaos"
+    },
+    {
+      "id": "halang aling-aling :, menutup",
+      "ngoko": "aling",
+      "krama": "tutup"
+    },
+    {
+      "id": "halangan, bencana, gendala, ilat, illah, suntuk, uzur",
+      "ngoko": "alangan",
+      "krama": "pambêng"
+    },
+    {
+      "id": "halilintar",
+      "ngoko": "halilintar",
+      "krama": "bledheg"
+    },
+    {
+      "id": "hamba",
+      "ngoko": "hamba",
+      "krama": "kawula, abdidalem"
+    },
+    {
+      "id": "hancur, cerna, larut",
+      "ngoko": "ajur",
+      "krama": "remuk"
+    },
+    {
+      "id": "hangat",
+      "ngoko": "panas",
+      "krama": "bentèr"
+    },
+    {
+      "id": "hangat, panas, suh",
+      "ngoko": "panas",
+      "krama": "bentèr"
+    },
+    {
+      "id": "hantu, ngiang-ngiang, suangi, suir",
+      "ngoko": "memedi",
+      "krama": "memedos"
+    },
+    {
+      "id": "hanya, kara, sahaja, semaja, semanja",
+      "ngoko": "mung, anging, juga, kêwala, muhung, lêhêng",
+      "krama": "namong"
+    },
+    {
+      "id": "harap",
+      "ngoko": "harap",
+      "krama": "pengajeng"
+    },
+    {
+      "id": "harapan",
+      "ngoko": "arep-arep",
+      "krama": "pengajeng-ajeng"
+    },
+    {
+      "id": "Harga",
+      "ngoko": "rega",
+      "krama": "rêgi"
+    },
+    {
+      "id": "harganya berapa",
+      "ngoko": "regane pira",
+      "krama": "pinten reginipun"
+    },
+    {
+      "id": "hari",
+      "ngoko": "dina, A-Dite, S-Soma, S-Anggara, R-Buda, K-Rêspati, J-Sukra, St-Tumpak",
+      "krama": "dinten"
+    },
+    {
+      "id": "hari",
+      "ngoko": "yaum",
+      "krama": "dinten"
+    },
+    {
+      "id": "hari",
+      "ngoko": "dina",
+      "krama": "dinten"
+    },
+    {
+      "id": "hari raya",
+      "ngoko": "riyadin",
+      "krama": "riyadi"
+    },
+    {
+      "id": "harimau",
+      "ngoko": "macan",
+      "krama": "sima"
+    },
+    {
+      "id": "harimau, macan, rimau",
+      "ngoko": "macan, mong, arimo, sima, singa, sardula, pragalba",
+      "krama": "sima"
+    },
+    {
+      "id": "harta",
+      "ngoko": "bondo",
+      "krama": "bandha"
+    },
+    {
+      "id": "harta",
+      "ngoko": "harta",
+      "krama": "bandha"
+    },
+    {
+      "id": "harus",
+      "ngoko": "kudu",
+      "krama": "kedah"
+    },
+    {
+      "id": "hati",
+      "ngoko": "hati",
+      "krama": "manah, penggalih"
+    },
+    {
+      "id": "hati tenang",
+      "ngoko": "ayem ati",
+      "krama": "tentrem"
+    },
+    {
+      "id": "hatta",
+      "ngoko": "banjur",
+      "krama": "lajeng"
+    },
+    {
+      "id": "hayat",
+      "ngoko": "hayat",
+      "krama": "gesang"
+    },
+    {
+      "id": "hayat",
+      "ngoko": "urip",
+      "krama": "gesang"
+    },
+    {
+      "id": "hayat, hidup",
+      "ngoko": "urip, gêsang, hidhup, atma, juwita, tuwuh, jiwana, kayun, satmaka",
+      "krama": "gesang"
+    },
+    {
+      "id": "hendak/mau",
+      "ngoko": "arep",
+      "krama": "ajeng, kersa"
+    },
+    {
+      "id": "hendak/mau, mau, nak",
+      "ngoko": "arep, arsa, apti, ayun, arsi, yun, hyun",
+      "krama": "ngajeng, kersa"
+    },
+    {
+      "id": "heran",
+      "ngoko": "heran",
+      "krama": "gumun"
+    },
+    {
+      "id": "hewan peliharaan",
+      "ngoko": "ingon-ingon",
+      "krama": "ingahan"
+    },
+    {
+      "id": "hewan peliharaan, ternak peliharaan",
+      "ngoko": "ingon-ingon",
+      "krama": "ingahan"
+    },
+    {
+      "id": "hiasan",
+      "ngoko": "hiasan",
+      "krama": "rerenggan"
+    },
+    {
+      "id": "hiburan",
+      "ngoko": "hiburan",
+      "krama": "pahargyan"
+    },
+    {
+      "id": "hidangan",
+      "ngoko": "hidangan",
+      "krama": "suguhan"
+    },
+    {
+      "id": "hidung",
+      "ngoko": "irung, grana, parsana, nasika",
+      "krama": "grana"
+    },
+    {
+      "id": "hidup",
+      "ngoko": "urip",
+      "krama": "gesang"
+    },
+    {
+      "id": "hijau",
+      "ngoko": "ijo",
+      "krama": "ijem"
+    },
+    {
+      "id": "hijau",
+      "ngoko": "ijem",
+      "krama": "ijo"
+    },
+    {
+      "id": "hijau, khadir",
+      "ngoko": "ijo",
+      "krama": "ijem"
+    },
+    {
+      "id": "hilang",
+      "ngoko": "ilang",
+      "krama": "ical"
+    },
+    {
+      "id": "hina",
+      "ngoko": "paido",
+      "krama": "paiben"
+    },
+    {
+      "id": "hisap, menghisap",
+      "ngoko": "isep",
+      "krama": "ngisep"
+    },
+    {
+      "id": "hitam, aswad",
+      "ngoko": "ireng",
+      "krama": "cemeng"
+    },
+    {
+      "id": "hiu, panggilan kakak perempuan",
+      "ngoko": "yu",
+      "krama": "mbakyu"
+    },
+    {
+      "id": "hubaya-hubaya",
+      "ngoko": "poma",
+      "krama": "péma"
+    },
+    {
+      "id": "hujan",
+      "ngoko": "udan",
+      "krama": "jawah"
+    },
+    {
+      "id": "hukuman",
+      "ngoko": "hukuman",
+      "krama": "paukuman"
+    },
+    {
+      "id": "hulu, kepala, tendas",
+      "ngoko": "endhas, sirah, mustaka, mastaka, murda, utamangga, kumba, sidhira, ulu, mudangkara",
+      "krama": "sirah, mustaka"
+    },
+    {
+      "id": "hulur, mengulur",
+      "ngoko": "ulur",
+      "krama": "ngulur"
+    },
+    {
+      "id": "hutan",
+      "ngoko": "alas",
+      "krama": "wana"
+    },
+    {
+      "id": "hutan",
+      "ngoko": "wana",
+      "krama": "alas"
+    },
+    {
+      "id": "hutan, gurun",
+      "ngoko": "alas, wana, bana, tarataban, girang, lirang, utan, baga, wulusan, wêlahan, wanawasa, wanadri, jênggala, kênana",
+      "krama": "wana"
+    },
+    {
+      "id": "ibu",
+      "ngoko": "ibu",
+      "krama": "embok"
+    },
+    {
+      "id": "ibu, biang, ma, mak, umm",
+      "ngoko": "biyung, babu, biyang, rena, ibu, umi, wibi, indhung, darani, puyêngan, bibi",
+      "krama": "ibu"
+    },
+    {
+      "id": "ibu, unda",
+      "ngoko": "ibu",
+      "krama": "embok"
+    },
+    {
+      "id": "ibu-bapa, ayah ibu",
+      "ngoko": "bapa biyung",
+      "krama": "rama ibu"
+    },
+    {
+      "id": "idil fitri, lebaran",
+      "ngoko": "lebaran",
+      "krama": "riyadi"
+    },
+    {
+      "id": "igama",
+      "ngoko": "agama",
+      "krama": "agami"
+    },
+    {
+      "id": "ikan",
+      "ngoko": "ulam",
+      "krama": "iwak"
+    },
+    {
+      "id": "ikan",
+      "ngoko": "iwak",
+      "krama": "ulam"
+    },
+    {
+      "id": "ikan asin",
+      "ngoko": "iwak asin",
+      "krama": "ulam asin"
+    },
+    {
+      "id": "ikan bandeng",
+      "ngoko": "iwak bandeng",
+      "krama": "ulam bandeng"
+    },
+    {
+      "id": "ikan, depu, nasak, pedukang, sebarau, tingging",
+      "ngoko": "iwak, mina, jita, matswa, oti, wiyangga, mira, maswa",
+      "krama": "ulam"
+    },
+    {
+      "id": "ikat kepala",
+      "ngoko": "udheng",
+      "krama": "iket"
+    },
+    {
+      "id": "ikat kepala, destar, mengikat",
+      "ngoko": "iket",
+      "krama": "ngiket"
+    },
+    {
+      "id": "ikhlas",
+      "ngoko": "iklas",
+      "krama": "lila"
+    },
+    {
+      "id": "ikut",
+      "ngoko": "milu",
+      "krama": "melu/tumut"
+    },
+    {
+      "id": "ikut, turut",
+      "ngoko": "mèlu, nut, anut, tumuntur, dumulur, umiring, tutwuri, tutwuntat",
+      "krama": "tumut, ndhèrèk"
+    },
+    {
+      "id": "ilalang",
+      "ngoko": "alang-alang",
+      "krama": "kambengan"
+    },
+    {
+      "id": "ilalang, alang-alang",
+      "ngoko": "alang-alang",
+      "krama": "kambengan"
+    },
+    {
+      "id": "ilmu",
+      "ngoko": "ngèlmu",
+      "krama": "ngèlmi"
+    },
+    {
+      "id": "ilmu",
+      "ngoko": "ilmu",
+      "krama": "ilmi"
+    },
+    {
+      "id": "ilmu",
+      "ngoko": "ngèlmu",
+      "krama": "ngèlmi"
+    },
+    {
+      "id": "imbalan, upah",
+      "ngoko": "upah",
+      "krama": "opah"
+    },
+    {
+      "id": "imbuhan aku",
+      "ngoko": "dak",
+      "krama": "kula"
+    },
+    {
+      "id": "imbuhan pasif krama",
+      "ngoko": "dipun",
+      "krama": "di-"
+    },
+    {
+      "id": "impian",
+      "ngoko": "impèn",
+      "krama": "supena"
+    },
+    {
+      "id": "incar, mengincar",
+      "ngoko": "incer",
+      "krama": "ngincer"
+    },
+    {
+      "id": "indah",
+      "ngoko": "indah",
+      "krama": "endah"
+    },
+    {
+      "id": "ingat",
+      "ngoko": "éling",
+      "krama": "ènget"
+    },
+    {
+      "id": "ingat",
+      "ngoko": "eleng",
+      "krama": "eling"
+    },
+    {
+      "id": "ingat kepada",
+      "ngoko": "eling marang",
+      "krama": "eling dhateng"
+    },
+    {
+      "id": "ingin",
+      "ngoko": "kajeng",
+      "krama": "kayu"
+    },
+    {
+      "id": "ingsun",
+      "ngoko": "aku",
+      "krama": "kula, abdi-dalem"
+    },
+    {
+      "id": "ini",
+      "ngoko": "kiyé",
+      "krama": "punika"
+    },
+    {
+      "id": "ini",
+      "ngoko": "iki",
+      "krama": "punika"
+    },
+    {
+      "id": "ini, nin",
+      "ngoko": "iki",
+      "krama": "punika"
+    },
+    {
+      "id": "insan, manusia",
+      "ngoko": "manungsa",
+      "krama": "tiyang, manungsa"
+    },
+    {
+      "id": "iris, mengiris",
+      "ngoko": "iris",
+      "krama": "ngiris"
+    },
+    {
+      "id": "istana",
+      "ngoko": "istana",
+      "krama": "kraton"
+    },
+    {
+      "id": "istri",
+      "ngoko": "isteri",
+      "krama": "garwa"
+    },
+    {
+      "id": "istri pertama",
+      "ngoko": "bojo tuwa",
+      "krama": "garwa sepuh"
+    },
+    {
+      "id": "istri/suami",
+      "ngoko": "sémah",
+      "krama": "somah"
+    },
+    {
+      "id": "Istri/Suami, istri",
+      "ngoko": "semah",
+      "krama": "garwa"
+    },
+    {
+      "id": "itik",
+      "ngoko": "itik",
+      "krama": "bebek"
+    },
+    {
+      "id": "itu",
+      "ngoko": "kuwi",
+      "krama": "punika"
+    },
+    {
+      "id": "itu",
+      "ngoko": "kuwé",
+      "krama": "punika"
+    },
+    {
+      "id": "itu",
+      "ngoko": "iku",
+      "krama": "puniku"
+    },
+    {
+      "id": "itu/ini",
+      "ngoko": "punika",
+      "krama": "ika"
+    },
+    {
+      "id": "iya",
+      "ngoko": "iya",
+      "krama": "inggih"
+    },
+    {
+      "id": "iya",
+      "ngoko": "nggin",
+      "krama": "inggih"
+    },
+    {
+      "id": "jabal",
+      "ngoko": "gunung",
+      "krama": "redi"
+    },
+    {
+      "id": "jadi",
+      "ngoko": "sida",
+      "krama": "saèstu"
+    },
+    {
+      "id": "jadi",
+      "ngoko": "dadi",
+      "krama": "dados"
+    },
+    {
+      "id": "jadi, menjadi",
+      "ngoko": "dadi",
+      "krama": "dados"
+    },
+    {
+      "id": "jadinya",
+      "ngoko": "dadine",
+      "krama": "dadosipun"
+    },
+    {
+      "id": "jaga",
+      "ngoko": "jaga",
+      "krama": "jagi, ngreksa"
+    },
+    {
+      "id": "jago",
+      "ngoko": "jago",
+      "krama": "sawung"
+    },
+    {
+      "id": "jago, ayam jago",
+      "ngoko": "jago",
+      "krama": "sawung"
+    },
+    {
+      "id": "jahat",
+      "ngoko": "ala",
+      "krama": "awon"
+    },
+    {
+      "id": "jajan, makanan ringan",
+      "ngoko": "jajanan",
+      "krama": "jajanan"
+    },
+    {
+      "id": "jalan",
+      "ngoko": "gili",
+      "krama": "dalan/margi"
+    },
+    {
+      "id": "jalan",
+      "ngoko": "dalan",
+      "krama": "margi"
+    },
+    {
+      "id": "jalan, muzahab",
+      "ngoko": "dalan, marga, sopana, ênu, lêbuh, lurung, yana, hawan",
+      "krama": "margi"
+    },
+    {
+      "id": "jalang",
+      "ngoko": "alasan",
+      "krama": "wanan"
+    },
+    {
+      "id": "jalang, jangla",
+      "ngoko": "alasan",
+      "krama": "wanan"
+    },
+    {
+      "id": "jamak",
+      "ngoko": "lumrah",
+      "krama": "limrah"
+    },
+    {
+      "id": "jamu",
+      "ngoko": "dhayoh",
+      "krama": "tamu"
+    },
+    {
+      "id": "jamu, tamu, tetamu",
+      "ngoko": "dhayoh",
+      "krama": "tamu"
+    },
+    {
+      "id": "jangan",
+      "ngoko": "aja",
+      "krama": "sampun, ampun"
+    },
+    {
+      "id": "jangan",
+      "ngoko": "aja",
+      "krama": "sampun"
+    },
+    {
+      "id": "jangan khawatir",
+      "ngoko": "aja kuwatir",
+      "krama": "ampun kuwatos"
+    },
+    {
+      "id": "jangla",
+      "ngoko": "alasan",
+      "krama": "wanan"
+    },
+    {
+      "id": "jaran, kuda",
+      "ngoko": "turangga",
+      "krama": "jaran"
+    },
+    {
+      "id": "jarang",
+      "ngoko": "arang",
+      "krama": "awis"
+    },
+    {
+      "id": "jarang",
+      "ngoko": "laka",
+      "krama": "arang/langka"
+    },
+    {
+      "id": "jarang",
+      "ngoko": "arang",
+      "krama": "awis"
+    },
+    {
+      "id": "jarang, langka, nadir, tidak ada",
+      "ngoko": "langka",
+      "krama": "ora ana"
+    },
+    {
+      "id": "jarum",
+      "ngoko": "jarum",
+      "krama": "dom"
+    },
+    {
+      "id": "jatuh",
+      "ngoko": "gigal",
+      "krama": "tiba/dhawah"
+    },
+    {
+      "id": "jatuh",
+      "ngoko": "lugur",
+      "krama": "tiba/dhawah"
+    },
+    {
+      "id": "jatuh",
+      "ngoko": "tiba",
+      "krama": "dhawah"
+    },
+    {
+      "id": "jauh",
+      "ngoko": "adoh",
+      "krama": "tebih"
+    },
+    {
+      "id": "jauh, abad, baid, dura",
+      "ngoko": "adoh",
+      "krama": "tebih"
+    },
+    {
+      "id": "jejaka, pemuda",
+      "ngoko": "jaka",
+      "krama": "jaki"
+    },
+    {
+      "id": "jejaka, perjaka",
+      "ngoko": "jaka",
+      "krama": "jaki"
+    },
+    {
+      "id": "jejamu",
+      "ngoko": "jamu",
+      "krama": "jampi, loloh"
+    },
+    {
+      "id": "jeladan",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "jelek",
+      "ngoko": "ala",
+      "krama": "awon"
+    },
+    {
+      "id": "jelurai",
+      "ngoko": "panganan",
+      "krama": "tetedhan, dhaharan"
+    },
+    {
+      "id": "jendala",
+      "ngoko": "ala",
+      "krama": "awon"
+    },
+    {
+      "id": "jenderal, jeneral",
+      "ngoko": "jendral",
+      "krama": "jenderal"
+    },
+    {
+      "id": "jepit, menjepit",
+      "ngoko": "jepit",
+      "krama": "njepit"
+    },
+    {
+      "id": "jeradik",
+      "ngoko": "panganan",
+      "krama": "tetedhan, dhaharan"
+    },
+    {
+      "id": "jerat, menjerat",
+      "ngoko": "jiret",
+      "krama": "njiret"
+    },
+    {
+      "id": "jereng",
+      "ngoko": "kera",
+      "krama": "kuru"
+    },
+    {
+      "id": "jereng",
+      "ngoko": "kera",
+      "krama": "kuru"
+    },
+    {
+      "id": "jeruk",
+      "ngoko": "jeram",
+      "krama": "jeruk"
+    },
+    {
+      "id": "jika",
+      "ngoko": "menawa",
+      "krama": "menawi"
+    },
+    {
+      "id": "jinak",
+      "ngoko": "jinak",
+      "krama": "manut"
+    },
+    {
+      "id": "jua, saja",
+      "ngoko": "baé",
+      "krama": "kémawon"
+    },
+    {
+      "id": "jual",
+      "ngoko": "adol",
+      "krama": "sadé"
+    },
+    {
+      "id": "jual, menjual",
+      "ngoko": "adol",
+      "krama": "sadé"
+    },
+    {
+      "id": "jualan",
+      "ngoko": "dodolan",
+      "krama": "sadéan"
+    },
+    {
+      "id": "juara, jagoan",
+      "ngoko": "jawara",
+      "krama": "jawara"
+    },
+    {
+      "id": "judul",
+      "ngoko": "judul",
+      "krama": "judhul"
+    },
+    {
+      "id": "juga",
+      "ngoko": "paha",
+      "krama": "uga/ugi"
+    },
+    {
+      "id": "juga, pun",
+      "ngoko": "uga",
+      "krama": "ugi"
+    },
+    {
+      "id": "jujat",
+      "ngoko": "ngala-ala",
+      "krama": "ngawon-awon"
+    },
+    {
+      "id": "justa",
+      "ngoko": "goroh",
+      "krama": "dora"
+    },
+    {
+      "id": "kabut",
+      "ngoko": "kabut",
+      "krama": "halimun"
+    },
+    {
+      "id": "kada hajat",
+      "ngoko": "bebanyu",
+      "krama": "tetoya"
+    },
+    {
+      "id": "kadipaten",
+      "ngoko": "kadipatèn",
+      "krama": "kadospatèn"
+    },
+    {
+      "id": "kaga",
+      "ngoko": "ora",
+      "krama": "boten"
+    },
+    {
+      "id": "kaga, la, ta, tak, tida, tidak",
+      "ngoko": "ora, tan, tar, datan, datar, taman",
+      "krama": "boten"
+    },
+    {
+      "id": "kaifiat",
+      "ngoko": "kaanan",
+      "krama": "kawontenan"
+    },
+    {
+      "id": "kaifiat",
+      "ngoko": "kaanan",
+      "krama": "kawontenan"
+    },
+    {
+      "id": "kakak laki-laki, kakak",
+      "ngoko": "raka",
+      "krama": "kakang"
+    },
+    {
+      "id": "kakek/nenek",
+      "ngoko": "eya",
+      "krama": "eyang"
+    },
+    {
+      "id": "kakek/nenek",
+      "ngoko": "simbah",
+      "krama": "eyang"
+    },
+    {
+      "id": "kakek/nenek mbah kakung: kakek",
+      "ngoko": "mbah",
+      "krama": "eyang",
+      "keterangan": "definisi: kakek/nenek mbah kakung: kakek"
+    },
+    {
+      "id": "kaki",
+      "ngoko": "sikil, suku, pada, sampeyan, paduka, samparan",
+      "krama": "suku"
+    },
+    {
+      "id": "kaku",
+      "ngoko": "kaku",
+      "krama": "kaken"
+    },
+    {
+      "id": "kaku",
+      "ngoko": "kaku",
+      "krama": "kaken"
+    },
+    {
+      "id": "kala",
+      "ngoko": "wektu",
+      "krama": "wekdal"
+    },
+    {
+      "id": "kalah",
+      "ngoko": "alah",
+      "krama": "kalah"
+    },
+    {
+      "id": "kalah",
+      "ngoko": "kalah",
+      "krama": "kawon"
+    },
+    {
+      "id": "kalakian",
+      "ngoko": "nuli",
+      "krama": "nunten"
+    },
+    {
+      "id": "kalap",
+      "ngoko": "kesurupan",
+      "krama": "keserapan"
+    },
+    {
+      "id": "kalau",
+      "ngoko": "nek",
+      "krama": "menawi"
+    },
+    {
+      "id": "kalau",
+      "ngoko": "manawa",
+      "krama": "manawi"
+    },
+    {
+      "id": "kalau di sana",
+      "ngoko": "nek kono",
+      "krama": "menawi mrika"
+    },
+    {
+      "id": "kalau, lamun",
+      "ngoko": "manawa",
+      "krama": "manawi"
+    },
+    {
+      "id": "kalbu",
+      "ngoko": "kalbu",
+      "krama": "manah, penggalih"
+    },
+    {
+      "id": "kali",
+      "ngoko": "ping",
+      "krama": "kaping"
+    },
+    {
+      "id": "kambing",
+      "ngoko": "wedhus, kambing, dumba, padrawana, medaka, menda",
+      "krama": "ménda"
+    },
+    {
+      "id": "kambuh",
+      "ngoko": "kumat",
+      "krama": "imat"
+    },
+    {
+      "id": "kampung",
+      "ngoko": "kumpul",
+      "krama": "kempal"
+    },
+    {
+      "id": "kampung, kumpul",
+      "ngoko": "kumpul",
+      "krama": "kempal"
+    },
+    {
+      "id": "kamu",
+      "ngoko": "awakmu",
+      "krama": "sampeyan"
+    },
+    {
+      "id": "kamu",
+      "ngoko": "koen/kon",
+      "krama": "sampeyan"
+    },
+    {
+      "id": "kamu",
+      "ngoko": "kowen/koen/kon",
+      "krama": "kowe/sampeyan"
+    },
+    {
+      "id": "kamu",
+      "ngoko": "rika",
+      "krama": "kowe/sampeyan"
+    },
+    {
+      "id": "kamu",
+      "ngoko": "rika/ko",
+      "krama": "kowe/sampeyan"
+    },
+    {
+      "id": "kamu",
+      "ngoko": "riko",
+      "krama": "kowe/sampeyan"
+    },
+    {
+      "id": "kamu",
+      "ngoko": "sira",
+      "krama": "kowe/sampeyan"
+    },
+    {
+      "id": "kanak-kanak, anak kecil",
+      "ngoko": "bocah cilik",
+      "krama": "lare alit"
+    },
+    {
+      "id": "kancur",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "kandang",
+      "ngoko": "kandang",
+      "krama": "kandhang"
+    },
+    {
+      "id": "kandil",
+      "ngoko": "diyan",
+      "krama": "dilah"
+    },
+    {
+      "id": "kandil, lampu, misbah, pelita",
+      "ngoko": "diyan",
+      "krama": "dilah"
+    },
+    {
+      "id": "kangsa",
+      "ngoko": "waja",
+      "krama": "waos"
+    },
+    {
+      "id": "karas-karas",
+      "ngoko": "panganan",
+      "krama": "tetedhan, dhaharan"
+    },
+    {
+      "id": "karena",
+      "ngoko": "amarga",
+      "krama": "amargi"
+    },
+    {
+      "id": "kasihan",
+      "ngoko": "belas",
+      "krama": "welas"
+    },
+    {
+      "id": "kasihan",
+      "ngoko": "melas",
+      "krama": "welas"
+    },
+    {
+      "id": "kata",
+      "ngoko": "tutur",
+      "krama": "sanjang"
+    },
+    {
+      "id": "kata, bagaimana",
+      "ngoko": "jaré",
+      "krama": "criyosipun"
+    },
+    {
+      "id": "kata, ucap",
+      "ngoko": "jaré",
+      "krama": "criyosipun"
+    },
+    {
+      "id": "katai, akan, katik",
+      "ngoko": "kate",
+      "krama": "arep/ajeng"
+    },
+    {
+      "id": "kati",
+      "ngoko": "kati",
+      "krama": "katos"
+    },
+    {
+      "id": "kaya raya",
+      "ngoko": "hartawan",
+      "krama": "sugih"
+    },
+    {
+      "id": "kazab",
+      "ngoko": "goroh",
+      "krama": "dora"
+    },
+    {
+      "id": "ke",
+      "ngoko": "menyang",
+      "krama": "dhateng"
+    },
+    {
+      "id": "ke",
+      "ngoko": "nyang/maring",
+      "krama": "menyang/dhateng"
+    },
+    {
+      "id": "ke",
+      "ngoko": "dhateng",
+      "krama": "teka"
+    },
+    {
+      "id": "ke sana",
+      "ngoko": "mrono",
+      "krama": "mrika"
+    },
+    {
+      "id": "ke warung",
+      "ngoko": "nyang warung",
+      "krama": "dhateng warung"
+    },
+    {
+      "id": "kebanyakan",
+      "ngoko": "akeh-akehe",
+      "krama": "kathah-kathahipun"
+    },
+    {
+      "id": "kebanyakan, terlalu banyak",
+      "ngoko": "kakéhan",
+      "krama": "kekathahen"
+    },
+    {
+      "id": "kebenaran",
+      "ngoko": "bebener",
+      "krama": "leres"
+    },
+    {
+      "id": "kecil, cekel, demit",
+      "ngoko": "cilik",
+      "krama": "alit"
+    },
+    {
+      "id": "kecuali, merahat",
+      "ngoko": "kejaba",
+      "krama": "kejawi"
+    },
+    {
+      "id": "kecundang",
+      "ngoko": "kalah",
+      "krama": "kawon"
+    },
+    {
+      "id": "kedinginan",
+      "ngoko": "kathuken",
+      "krama": "kadhemen"
+    },
+    {
+      "id": "kehendak, keinginan",
+      "ngoko": "karep, abipraya, sadya, kapti, arah, angkah, praya, parasdya, kedah, dwistha",
+      "krama": "kajeng, karsa"
+    },
+    {
+      "id": "kehidupan",
+      "ngoko": "kauripan",
+      "krama": "gesang"
+    },
+    {
+      "id": "keinginan",
+      "ngoko": "karep",
+      "krama": "kajeng, karsa"
+    },
+    {
+      "id": "kejar, mengejar",
+      "ngoko": "buru",
+      "krama": "mburu"
+    },
+    {
+      "id": "kejar, mengejar",
+      "ngoko": "oyak",
+      "krama": "ngoyak"
+    },
+    {
+      "id": "kejauhan",
+      "ngoko": "kadohan",
+      "krama": "katebihan"
+    },
+    {
+      "id": "kejauhan",
+      "ngoko": "kadohan",
+      "krama": "katebihan"
+    },
+    {
+      "id": "kejer",
+      "ngoko": "dhuwit",
+      "krama": "yatra"
+    },
+    {
+      "id": "keji",
+      "ngoko": "ala",
+      "krama": "awon"
+    },
+    {
+      "id": "kelapa",
+      "ngoko": "klapa",
+      "krama": "kambil"
+    },
+    {
+      "id": "kelapa",
+      "ngoko": "krambil",
+      "krama": "klapa"
+    },
+    {
+      "id": "kelapa, kerambil, nyiur",
+      "ngoko": "krambil",
+      "krama": "klapa"
+    },
+    {
+      "id": "kelelawar (pemakan buah)",
+      "ngoko": "codot",
+      "krama": "codot"
+    },
+    {
+      "id": "kelentit",
+      "ngoko": "itil",
+      "krama": "klentit, prana"
+    },
+    {
+      "id": "kelentit",
+      "ngoko": "itil",
+      "krama": "klentit, prana"
+    },
+    {
+      "id": "kelihatannya",
+      "ngoko": "sajak",
+      "krama": "saestu"
+    },
+    {
+      "id": "keliru",
+      "ngoko": "klèru",
+      "krama": "klèntu"
+    },
+    {
+      "id": "keliru, khilaf, kilap",
+      "ngoko": "klèru",
+      "krama": "klèntu"
+    },
+    {
+      "id": "kelompok",
+      "ngoko": "klumpuk",
+      "krama": "klempak"
+    },
+    {
+      "id": "kelompok",
+      "ngoko": "klumpuk",
+      "krama": "klempak"
+    },
+    {
+      "id": "Kelompok masyarakat di bawah desa",
+      "ngoko": "dhusun",
+      "krama": "désa",
+      "keterangan": "definisi: Kelompok masyarakat di bawah desa"
+    },
+    {
+      "id": "kelompok masyarakat di bawah desa",
+      "ngoko": "dhusun",
+      "krama": "désa"
+    },
+    {
+      "id": "keluar",
+      "ngoko": "wetu, wijil, wiyos, wahya, wimba, ja, wurya",
+      "krama": "wedal, wiyos"
+    },
+    {
+      "id": "keluar",
+      "ngoko": "metu",
+      "krama": "medal"
+    },
+    {
+      "id": "keluarga",
+      "ngoko": "keluwarga",
+      "krama": "kulawarga"
+    },
+    {
+      "id": "keluarga",
+      "ngoko": "kluwarga",
+      "krama": "kulawarga"
+    },
+    {
+      "id": "keluli",
+      "ngoko": "waja",
+      "krama": "waos"
+    },
+    {
+      "id": "kemanakan, keponakan",
+      "ngoko": "keponakan",
+      "krama": "kepénakan"
+    },
+    {
+      "id": "kemari",
+      "ngoko": "mriki",
+      "krama": "mréné"
+    },
+    {
+      "id": "kemari, mari",
+      "ngoko": "mréné",
+      "krama": "mriki"
+    },
+    {
+      "id": "kemarin, kelamarin, kelemarin",
+      "ngoko": "wingi",
+      "krama": "kala wingi"
+    },
+    {
+      "id": "kemasukan",
+      "ngoko": "klebon",
+      "krama": "klebetan"
+    },
+    {
+      "id": "kemasukan",
+      "ngoko": "klebon",
+      "krama": "klebetan"
+    },
+    {
+      "id": "kematian, mati",
+      "ngoko": "pati, antaka, pralaya, lena, surud, ngêmasi",
+      "krama": "pejah, seda"
+    },
+    {
+      "id": "kembali",
+      "ngoko": "bali",
+      "krama": "wangsul"
+    },
+    {
+      "id": "kembali angsul-angsul : pengembalian, kembali",
+      "ngoko": "angsul",
+      "krama": "wangsul",
+      "keterangan": "definisi: kembali angsul-angsul : pengembalian"
+    },
+    {
+      "id": "kembali ke",
+      "ngoko": "bali ing",
+      "krama": "wangsul dhateng"
+    },
+    {
+      "id": "kembiri",
+      "ngoko": "gebiri",
+      "krama": "gebincik"
+    },
+    {
+      "id": "kena",
+      "ngoko": "kena",
+      "krama": "kénging"
+    },
+    {
+      "id": "kenal",
+      "ngoko": "tepung",
+      "krama": "tepang"
+    },
+    {
+      "id": "kenapa",
+      "ngoko": "lapo",
+      "krama": "menapa"
+    },
+    {
+      "id": "kenapa",
+      "ngoko": "ngopo",
+      "krama": "menapa"
+    },
+    {
+      "id": "kenapa",
+      "ngoko": "nyapo",
+      "krama": "menapa"
+    },
+    {
+      "id": "kencana",
+      "ngoko": "emas",
+      "krama": "jené"
+    },
+    {
+      "id": "kendaga",
+      "ngoko": "kendhaga",
+      "krama": "kendhagi"
+    },
+    {
+      "id": "kendi",
+      "ngoko": "kendhi",
+      "krama": "lantingan"
+    },
+    {
+      "id": "kenohong, penyakit",
+      "ngoko": "lelara",
+      "krama": "sesakit"
+    },
+    {
+      "id": "kentara, ketara",
+      "ngoko": "ketara",
+      "krama": "ketawis"
+    },
+    {
+      "id": "kenyang",
+      "ngoko": "tuwuk",
+      "krama": "wareg"
+    },
+    {
+      "id": "kenyang, jenuh",
+      "ngoko": "wareg",
+      "krama": "tuwuk"
+    },
+    {
+      "id": "kepada",
+      "ngoko": "marang",
+      "krama": "dhateng"
+    },
+    {
+      "id": "kepala, batu kepala",
+      "ngoko": "sirah",
+      "krama": "mustaka"
+    },
+    {
+      "id": "kepiran",
+      "ngoko": "kapiran",
+      "krama": "kapinten"
+    },
+    {
+      "id": "kepiran, terlantar",
+      "ngoko": "kapiran",
+      "krama": "kapinten"
+    },
+    {
+      "id": "keponakan",
+      "ngoko": "keponakan",
+      "krama": "kepénakan"
+    },
+    {
+      "id": "keputusan",
+      "ngoko": "keputusan",
+      "krama": "kaputusan"
+    },
+    {
+      "id": "kerambil",
+      "ngoko": "krambil",
+      "krama": "klapa"
+    },
+    {
+      "id": "kerap, lelar, ratib, sering",
+      "ngoko": "kerep",
+      "krama": "asring"
+    },
+    {
+      "id": "kerbau, mahisa",
+      "ngoko": "kebo, mundhing, wrasaba, misa, andhanu, srawana, andhana, maesa",
+      "krama": "maésa"
+    },
+    {
+      "id": "keren",
+      "ngoko": "mbois",
+      "krama": "bagus/sae"
+    },
+    {
+      "id": "keria",
+      "ngoko": "panganan",
+      "krama": "tetedhan, dhaharan"
+    },
+    {
+      "id": "kerincing, madali",
+      "ngoko": "tetabuhan",
+      "krama": "tetangledan"
+    },
+    {
+      "id": "kering",
+      "ngoko": "garing",
+      "krama": "asat"
+    },
+    {
+      "id": "kering-kering",
+      "ngoko": "garing-garing",
+      "krama": "asat-asat"
+    },
+    {
+      "id": "keristam, moga, mori",
+      "ngoko": "mori",
+      "krama": "monten"
+    },
+    {
+      "id": "kerna, sebab",
+      "ngoko": "sabab, karana, niwanda, nimita",
+      "krama": "amargi"
+    },
+    {
+      "id": "kertas",
+      "ngoko": "dluwang",
+      "krama": "dlancang"
+    },
+    {
+      "id": "kertas",
+      "ngoko": "dluwang",
+      "krama": "dlancang"
+    },
+    {
+      "id": "kertu",
+      "ngoko": "kertu",
+      "krama": "kertos"
+    },
+    {
+      "id": "keruan",
+      "ngoko": "karuwan",
+      "krama": "kantenan"
+    },
+    {
+      "id": "keruan",
+      "ngoko": "karuwan",
+      "krama": "kantenan"
+    },
+    {
+      "id": "ketan",
+      "ngoko": "ketan",
+      "krama": "ketos"
+    },
+    {
+      "id": "ketawa",
+      "ngoko": "ngguyu",
+      "krama": "gumujeng"
+    },
+    {
+      "id": "ketawa, tertawa",
+      "ngoko": "ngguyu",
+      "krama": "gumujeng"
+    },
+    {
+      "id": "ketemu dan cocok, cantum, cocok",
+      "ngoko": "gathuk",
+      "krama": "nggathukake"
+    },
+    {
+      "id": "ketentuan takdir",
+      "ngoko": "pepesthi",
+      "krama": "pepesthen"
+    },
+    {
+      "id": "ketiga",
+      "ngoko": "katelu",
+      "krama": "kaping tiga"
+    },
+    {
+      "id": "ketika",
+      "ngoko": "dhek",
+      "krama": "kala"
+    },
+    {
+      "id": "khadir",
+      "ngoko": "ijo",
+      "krama": "ijem"
+    },
+    {
+      "id": "khasam",
+      "ngoko": "mungsuh",
+      "krama": "mengsah"
+    },
+    {
+      "id": "khasam, musuh",
+      "ngoko": "mungsuh, satru, ripu, lawan, parangmuka, wèri, durniti",
+      "krama": "mengsah"
+    },
+    {
+      "id": "khawatir",
+      "ngoko": "kuwatir",
+      "krama": "kuwatos"
+    },
+    {
+      "id": "khawatir, kuatir",
+      "ngoko": "kuwatir, sumêlang, sandeya, waswita, wancakdriya, mamang, walangati, ganggam, walangkayun, walangkapti, kapita",
+      "krama": "kuwatos"
+    },
+    {
+      "id": "khilaf",
+      "ngoko": "klèru",
+      "krama": "klèntu"
+    },
+    {
+      "id": "kiai",
+      "ngoko": "kyai",
+      "krama": "kiai"
+    },
+    {
+      "id": "kiblat",
+      "ngoko": "qiblat",
+      "krama": "kiblat"
+    },
+    {
+      "id": "kini, sekarang",
+      "ngoko": "saiki",
+      "krama": "sapunika"
+    },
+    {
+      "id": "kintar, mengelilingi",
+      "ngoko": "kubeng",
+      "krama": "ngubengi"
+    },
+    {
+      "id": "kira",
+      "ngoko": "kira",
+      "krama": "kinten"
+    },
+    {
+      "id": "kira, mengira",
+      "ngoko": "kira",
+      "krama": "kinten"
+    },
+    {
+      "id": "kira-kira",
+      "ngoko": "watara",
+      "krama": "watawis"
+    },
+    {
+      "id": "kira-kira",
+      "ngoko": "antawis",
+      "krama": "antara"
+    },
+    {
+      "id": "kira-kira, antara",
+      "ngoko": "antawis",
+      "krama": "antara"
+    },
+    {
+      "id": "kiri",
+      "ngoko": "kiri",
+      "krama": "kiwa"
+    },
+    {
+      "id": "kiryat",
+      "ngoko": "kutha",
+      "krama": "kitha"
+    },
+    {
+      "id": "kita",
+      "ngoko": "awaké dhewe",
+      "krama": "panjenengan sedaya dalasan kula",
+      "keterangan": "User: Jawa tidak mengenal \"kita\" sebagai pronoun tunggal. Ngoko: awaké dhewe. Krama: panjenengan sedaya dalasan kula (multi-word)."
+    },
+    {
+      "id": "kita",
+      "ngoko": "kita",
+      "krama": "panjenengan sedaya dalasan kula",
+      "keterangan": "Indonesian loanword \"kita\" yang bocor ke SRT Jawa. Krama: panjenengan sedaya dalasan kula. Untuk ngoko correction, ganti dengan \"awaké dhewe\"."
+    },
+    {
+      "id": "kokoh",
+      "ngoko": "kukuh",
+      "krama": "kekah"
+    },
+    {
+      "id": "kokoh, kukuh, pagan, teguh",
+      "ngoko": "kukuh",
+      "krama": "kekah"
+    },
+    {
+      "id": "kota, kiryat, pura, puri",
+      "ngoko": "kutha",
+      "krama": "kitha, nagara"
+    },
+    {
+      "id": "koyok",
+      "ngoko": "asu",
+      "krama": "segawon"
+    },
+    {
+      "id": "kuaran",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "kuasa",
+      "ngoko": "kuwasa",
+      "krama": "kuwaos"
+    },
+    {
+      "id": "kuasa",
+      "ngoko": "kuwasa",
+      "krama": "kuwaos"
+    },
+    {
+      "id": "kuat",
+      "ngoko": "kuwat",
+      "krama": "kiyat"
+    },
+    {
+      "id": "kuat, cekal, sali",
+      "ngoko": "kuwat",
+      "krama": "kiyat"
+    },
+    {
+      "id": "kuatir",
+      "ngoko": "kuwatir",
+      "krama": "kuwatos"
+    },
+    {
+      "id": "kubur, mengubur",
+      "ngoko": "kubur",
+      "krama": "ngubur"
+    },
+    {
+      "id": "kuda",
+      "ngoko": "jaran, swa, aswa, turangga, wajik, undhakan, kalangkya",
+      "krama": "kapal, titihan"
+    },
+    {
+      "id": "kukuh",
+      "ngoko": "kukuh",
+      "krama": "kekah"
+    },
+    {
+      "id": "kumpul",
+      "ngoko": "kumpul",
+      "krama": "kempal"
+    },
+    {
+      "id": "kuning",
+      "ngoko": "kuning, pita, jênar, gadhing",
+      "krama": "jené"
+    },
+    {
+      "id": "kuning",
+      "ngoko": "jené",
+      "krama": "kuning"
+    },
+    {
+      "id": "kuno, kadim",
+      "ngoko": "kuna",
+      "krama": "kina"
+    },
+    {
+      "id": "kurang",
+      "ngoko": "kurang",
+      "krama": "kirang"
+    },
+    {
+      "id": "kurang",
+      "ngoko": "kurang",
+      "krama": "kirang"
+    },
+    {
+      "id": "kurban",
+      "ngoko": "qurban",
+      "krama": "kurban"
+    },
+    {
+      "id": "kurung",
+      "ngoko": "kurungan",
+      "krama": "sengkeran"
+    },
+    {
+      "id": "kurung",
+      "ngoko": "kurungan",
+      "krama": "sengkeran"
+    },
+    {
+      "id": "kurus",
+      "ngoko": "kuru",
+      "krama": "kera"
+    },
+    {
+      "id": "kurus, rengkeh",
+      "ngoko": "kuru",
+      "krama": "kera"
+    },
+    {
+      "id": "la",
+      "ngoko": "ora",
+      "krama": "boten"
+    },
+    {
+      "id": "laba",
+      "ngoko": "laba",
+      "krama": "bathi"
+    },
+    {
+      "id": "ladang",
+      "ngoko": "huma",
+      "krama": "tegal"
+    },
+    {
+      "id": "ladu",
+      "ngoko": "panganan",
+      "krama": "tetedhan, dhaharan"
+    },
+    {
+      "id": "lagi",
+      "ngoko": "maning",
+      "krama": "maneh/malih"
+    },
+    {
+      "id": "lagi",
+      "ngoko": "isih",
+      "krama": "taksih"
+    },
+    {
+      "id": "lahir",
+      "ngoko": "lair",
+      "krama": "wiyos"
+    },
+    {
+      "id": "lain",
+      "ngoko": "liya, lèn, liyan, beda, manèh, pae",
+      "krama": "sanès"
+    },
+    {
+      "id": "lain",
+      "ngoko": "liya",
+      "krama": "sanès"
+    },
+    {
+      "id": "laki-laki",
+      "ngoko": "lanang",
+      "krama": "jaler, kakung"
+    },
+    {
+      "id": "Laki-Laki, lelaki, muzakar",
+      "ngoko": "lanang, jalêr, jalu, priya, purusa, kakung",
+      "krama": "jaler, kakung"
+    },
+    {
+      "id": "lakon",
+      "ngoko": "lakon",
+      "krama": "lampahan"
+    },
+    {
+      "id": "lakon",
+      "ngoko": "lakon",
+      "krama": "lampahan"
+    },
+    {
+      "id": "laku",
+      "ngoko": "payu",
+      "krama": "pajeng"
+    },
+    {
+      "id": "laku",
+      "ngoko": "laku",
+      "krama": "lampah, tindak"
+    },
+    {
+      "id": "lalu",
+      "ngoko": "liwat",
+      "krama": "langkung"
+    },
+    {
+      "id": "lalu, lampau, lewat",
+      "ngoko": "liwat",
+      "krama": "langkung"
+    },
+    {
+      "id": "lama",
+      "ngoko": "suwe",
+      "krama": "dangu"
+    },
+    {
+      "id": "lampau",
+      "ngoko": "liwat",
+      "krama": "langkung"
+    },
+    {
+      "id": "lampu",
+      "ngoko": "diyan",
+      "krama": "dilah"
+    },
+    {
+      "id": "lamun",
+      "ngoko": "manawa",
+      "krama": "manawi"
+    },
+    {
+      "id": "langsung menuju, menuju langsung",
+      "ngoko": "jujug",
+      "krama": "njujug"
+    },
+    {
+      "id": "lanjut",
+      "ngoko": "dawa",
+      "krama": "panjang"
+    },
+    {
+      "id": "lantas",
+      "ngoko": "banjur",
+      "krama": "lajeng"
+    },
+    {
+      "id": "lapar",
+      "ngoko": "kencot",
+      "krama": "luwe/ngelih"
+    },
+    {
+      "id": "lapar",
+      "ngoko": "ngelih",
+      "krama": "luwe"
+    },
+    {
+      "id": "lari",
+      "ngoko": "playu",
+      "krama": "plajeng"
+    },
+    {
+      "id": "lari",
+      "ngoko": "mlajar",
+      "krama": "mluku"
+    },
+    {
+      "id": "lari, jawi",
+      "ngoko": "mlayu",
+      "krama": "mlajeng"
+    },
+    {
+      "id": "lauk",
+      "ngoko": "lawuh",
+      "krama": "lauk"
+    },
+    {
+      "id": "lawah",
+      "ngoko": "geguyon",
+      "krama": "gegujengan"
+    },
+    {
+      "id": "lawan",
+      "ngoko": "lawan",
+      "krama": "mungsuh"
+    },
+    {
+      "id": "lebar",
+      "ngoko": "amba",
+      "krama": "wiyar"
+    },
+    {
+      "id": "lebar/luas",
+      "ngoko": "amba",
+      "krama": "wiyar"
+    },
+    {
+      "id": "lebar/luas, lebar",
+      "ngoko": "amba",
+      "krama": "wiyar"
+    },
+    {
+      "id": "lebih",
+      "ngoko": "luwih, langkung, kalangkung, wi, ti, di, su, kamantyan, dibya, maha, nin, prama, nindya, kamayangan",
+      "krama": "langkung"
+    },
+    {
+      "id": "lebih",
+      "ngoko": "luwih",
+      "krama": "langkung"
+    },
+    {
+      "id": "lega, lapang",
+      "ngoko": "ombo",
+      "krama": "ombo"
+    },
+    {
+      "id": "lekas",
+      "ngoko": "lekas",
+      "krama": "enggal"
+    },
+    {
+      "id": "lelaki",
+      "ngoko": "lanang",
+      "krama": "jaler, kakung"
+    },
+    {
+      "id": "lelap",
+      "ngoko": "ilang",
+      "krama": "ical"
+    },
+    {
+      "id": "lembu, sapi",
+      "ngoko": "sapi, lêmbana, andini, andana",
+      "krama": "lembu"
+    },
+    {
+      "id": "lempar",
+      "ngoko": "balang",
+      "krama": "nguncal"
+    },
+    {
+      "id": "lempuk",
+      "ngoko": "panganan",
+      "krama": "tetedhan, dhaharan"
+    },
+    {
+      "id": "lengang, senyak, sepi",
+      "ngoko": "sepi, sunja, sunya, samun",
+      "krama": "sepen"
+    },
+    {
+      "id": "lengkuas",
+      "ngoko": "lengkuas",
+      "krama": "laos"
+    },
+    {
+      "id": "lenyap",
+      "ngoko": "ilang",
+      "krama": "ical"
+    },
+    {
+      "id": "lesap",
+      "ngoko": "ilang",
+      "krama": "ical"
+    },
+    {
+      "id": "lewat",
+      "ngoko": "liwat",
+      "krama": "langkung"
+    },
+    {
+      "id": "lihat 'rumangsa'",
+      "ngoko": "rumaos",
+      "krama": "rumasa"
+    },
+    {
+      "id": "lihat 'rumangsa'",
+      "ngoko": "rumaos",
+      "krama": "rumasa"
+    },
+    {
+      "id": "lihat rekasa",
+      "ngoko": "rekaos",
+      "krama": "rekasa"
+    },
+    {
+      "id": "lihat rekasa",
+      "ngoko": "rekaos",
+      "krama": "rekasa"
+    },
+    {
+      "id": "lilin",
+      "ngoko": "malam",
+      "krama": "lilin"
+    },
+    {
+      "id": "lilin",
+      "ngoko": "malam",
+      "krama": "lilin"
+    },
+    {
+      "id": "lima",
+      "ngoko": "lima",
+      "krama": "gangsal"
+    },
+    {
+      "id": "lima, panca",
+      "ngoko": "lima",
+      "krama": "gangsal"
+    },
+    {
+      "id": "limau, jeruk, kedangsa",
+      "ngoko": "jeruk",
+      "krama": "jeram"
+    },
+    {
+      "id": "limbuk",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "linggam",
+      "ngoko": "abang",
+      "krama": "abrit"
+    },
+    {
+      "id": "lintang",
+      "ngoko": "alang",
+      "krama": "dipun-pambengi"
+    },
+    {
+      "id": "loba, marah, tama",
+      "ngoko": "murka",
+      "krama": "duka"
+    },
+    {
+      "id": "lokat, mencopot",
+      "ngoko": "copot",
+      "krama": "nyopot"
+    },
+    {
+      "id": "lokos, botak, pepaya",
+      "ngoko": "gundhul",
+      "krama": "kates"
+    },
+    {
+      "id": "lompat",
+      "ngoko": "lumpat",
+      "krama": "mlumpat"
+    },
+    {
+      "id": "loyang",
+      "ngoko": "kuningan",
+      "krama": "jenéan"
+    },
+    {
+      "id": "luar",
+      "ngoko": "jaba",
+      "krama": "jawi"
+    },
+    {
+      "id": "luar",
+      "ngoko": "jaba",
+      "krama": "jawi"
+    },
+    {
+      "id": "luas, lapang",
+      "ngoko": "jembar",
+      "krama": "wiyar"
+    },
+    {
+      "id": "luntur, layu",
+      "ngoko": "lungse",
+      "krama": "lungse"
+    },
+    {
+      "id": "Lupa",
+      "ngoko": "lali",
+      "krama": "supé"
+    },
+    {
+      "id": "lupa",
+      "ngoko": "klalen",
+      "krama": "lali/kesupen"
+    },
+    {
+      "id": "lupa",
+      "ngoko": "lali",
+      "krama": "supé"
+    },
+    {
+      "id": "luput",
+      "ngoko": "luput",
+      "krama": "lepat"
+    },
+    {
+      "id": "maad",
+      "ngoko": "bali",
+      "krama": "wangsul"
+    },
+    {
+      "id": "maaf",
+      "ngoko": "pangapura",
+      "krama": "pangapunten"
+    },
+    {
+      "id": "maaf",
+      "ngoko": "pangapura",
+      "krama": "pangapunten"
+    },
+    {
+      "id": "macam, roman, rupa",
+      "ngoko": "rupa",
+      "krama": "wujud, warna"
+    },
+    {
+      "id": "macan",
+      "ngoko": "macan",
+      "krama": "sima"
+    },
+    {
+      "id": "magrib",
+      "ngoko": "kulon",
+      "krama": "kilèn"
+    },
+    {
+      "id": "mahal",
+      "ngoko": "larang",
+      "krama": "awis"
+    },
+    {
+      "id": "mahal sekali",
+      "ngoko": "larang banget",
+      "krama": "awis sanget"
+    },
+    {
+      "id": "mahal-mahal",
+      "ngoko": "awis-awis",
+      "krama": "ara-ara"
+    },
+    {
+      "id": "maju",
+      "ngoko": "maju",
+      "krama": "majeng"
+    },
+    {
+      "id": "maju",
+      "ngoko": "maju",
+      "krama": "majeng"
+    },
+    {
+      "id": "maka",
+      "ngoko": "mula",
+      "krama": "pramila"
+    },
+    {
+      "id": "makan",
+      "ngoko": "madhang",
+      "krama": "nedha, dhahar"
+    },
+    {
+      "id": "makan",
+      "ngoko": "mangan, bukti, nadhah, boja, bojana, baksa, dhahar",
+      "krama": "nedha, dhahar"
+    },
+    {
+      "id": "makan",
+      "ngoko": "mangan",
+      "krama": "nedha, dhahar"
+    },
+    {
+      "id": "makan di warung, makan di tempat lain",
+      "ngoko": "andhok",
+      "krama": "mangan ing warung"
+    },
+    {
+      "id": "makanan",
+      "ngoko": "pangan, bukti, boja, baksa, boga",
+      "krama": "patedhan, dhahar"
+    },
+    {
+      "id": "maksud",
+      "ngoko": "angkah",
+      "krama": "arah"
+    },
+    {
+      "id": "mala, musibah",
+      "ngoko": "bilai",
+      "krama": "bilahi"
+    },
+    {
+      "id": "malam",
+      "ngoko": "bengi",
+      "krama": "dalu"
+    },
+    {
+      "id": "malam, lail",
+      "ngoko": "wengi",
+      "krama": "dalu"
+    },
+    {
+      "id": "malu",
+      "ngoko": "kisinan",
+      "krama": "kalingseman"
+    },
+    {
+      "id": "malu",
+      "ngoko": "isin",
+      "krama": "lingsem"
+    },
+    {
+      "id": "malu ngisin-ngisini (t.k.): membuat malu, malu-maluin",
+      "ngoko": "isin",
+      "krama": "lingsem"
+    },
+    {
+      "id": "mamluk",
+      "ngoko": "batur tukon",
+      "krama": "réncangtumbasan"
+    },
+    {
+      "id": "mamluk",
+      "ngoko": "batur tukon",
+      "krama": "réncangtumbasan"
+    },
+    {
+      "id": "mampir",
+      "ngoko": "ampir",
+      "krama": "dhateng"
+    },
+    {
+      "id": "mampu",
+      "ngoko": "bisa",
+      "krama": "saged"
+    },
+    {
+      "id": "mandi",
+      "ngoko": "adus",
+      "krama": "adus, siram"
+    },
+    {
+      "id": "mandi",
+      "ngoko": "adus",
+      "krama": "adus, siram"
+    },
+    {
+      "id": "mandung",
+      "ngoko": "pitik",
+      "krama": "ayam"
+    },
+    {
+      "id": "manja",
+      "ngoko": "manja",
+      "krama": "aleman"
+    },
+    {
+      "id": "manjur, mujarrab",
+      "ngoko": "mandi",
+      "krama": "mandos"
+    },
+    {
+      "id": "marah",
+      "ngoko": "bendu",
+      "krama": "duka"
+    },
+    {
+      "id": "marah",
+      "ngoko": "kesus",
+      "krama": "nesu/duka"
+    },
+    {
+      "id": "marhum",
+      "ngoko": "swarga",
+      "krama": "swargi"
+    },
+    {
+      "id": "marhum, surga",
+      "ngoko": "swarga",
+      "krama": "swargi"
+    },
+    {
+      "id": "marja",
+      "ngoko": "bali",
+      "krama": "wangsul"
+    },
+    {
+      "id": "maruf",
+      "ngoko": "kawruhan",
+      "krama": "kasumerekan"
+    },
+    {
+      "id": "maruf",
+      "ngoko": "kawruhan",
+      "krama": "kasumerekan"
+    },
+    {
+      "id": "masiat",
+      "ngoko": "piala",
+      "krama": "piawon"
+    },
+    {
+      "id": "masiat, piala",
+      "ngoko": "piala",
+      "krama": "piawon"
+    },
+    {
+      "id": "masih",
+      "ngoko": "isih",
+      "krama": "taksih"
+    },
+    {
+      "id": "masih, lagi, misih",
+      "ngoko": "isih",
+      "krama": "taksih"
+    },
+    {
+      "id": "masjid",
+      "ngoko": "masjid",
+      "krama": "mesjid"
+    },
+    {
+      "id": "masuk",
+      "ngoko": "mlebu",
+      "krama": "mlebet"
+    },
+    {
+      "id": "masuk",
+      "ngoko": "klebu",
+      "krama": "klebet"
+    },
+    {
+      "id": "masuk",
+      "ngoko": "mlebet",
+      "krama": "mlebu"
+    },
+    {
+      "id": "masuk-masuk",
+      "ngoko": "mlebu-mlebu",
+      "krama": "mlebet-mlebet"
+    },
+    {
+      "id": "mata",
+      "ngoko": "mripat",
+      "krama": "mata, soca"
+    },
+    {
+      "id": "mata-jalan",
+      "ngoko": "pacalang",
+      "krama": "pacambeng"
+    },
+    {
+      "id": "mata-jalan, pelopor",
+      "ngoko": "pacalang",
+      "krama": "pacambeng"
+    },
+    {
+      "id": "mata-uang",
+      "ngoko": "dhuwit",
+      "krama": "yatra"
+    },
+    {
+      "id": "mau",
+      "ngoko": "purun",
+      "krama": "gelem"
+    },
+    {
+      "id": "megan",
+      "ngoko": "panganan",
+      "krama": "tetedhan, dhaharan"
+    },
+    {
+      "id": "melamar",
+      "ngoko": "lamar",
+      "krama": "nglamar"
+    },
+    {
+      "id": "meledak",
+      "ngoko": "jeblug",
+      "krama": "njeblug"
+    },
+    {
+      "id": "melempar",
+      "ngoko": "uncal",
+      "krama": "nguncal"
+    },
+    {
+      "id": "melihat",
+      "ngoko": "ndeleng",
+      "krama": "ningali"
+    },
+    {
+      "id": "melihat",
+      "ngoko": "tumon",
+      "krama": "tumingal"
+    },
+    {
+      "id": "melihat",
+      "ngoko": "ndelok",
+      "krama": "ningali, mirsani"
+    },
+    {
+      "id": "melimun",
+      "ngoko": "ngilang",
+      "krama": "ngical"
+    },
+    {
+      "id": "melintang",
+      "ngoko": "alang",
+      "krama": "dipun-pambengi"
+    },
+    {
+      "id": "melipat",
+      "ngoko": "lipet",
+      "krama": "nglipet"
+    },
+    {
+      "id": "memaafkan",
+      "ngoko": "ngapura",
+      "krama": "ngapunten"
+    },
+    {
+      "id": "memaafkan",
+      "ngoko": "ngapura",
+      "krama": "ngapunten"
+    },
+    {
+      "id": "memakai",
+      "ngoko": "anggo",
+      "krama": "ngagem"
+    },
+    {
+      "id": "memakai",
+      "ngoko": "enggo",
+      "krama": "ngagem"
+    },
+    {
+      "id": "memaksa",
+      "ngoko": "paksa",
+      "krama": "kepeksa"
+    },
+    {
+      "id": "memandang",
+      "ngoko": "sawang",
+      "krama": "nyawang"
+    },
+    {
+      "id": "memang",
+      "ngoko": "génah",
+      "krama": "memang"
+    },
+    {
+      "id": "memangku, merangkul",
+      "ngoko": "wengku",
+      "krama": "ngengkuni"
+    },
+    {
+      "id": "membagi",
+      "ngoko": "bagi",
+      "krama": "mbagi"
+    },
+    {
+      "id": "membakar",
+      "ngoko": "ngobong",
+      "krama": "mbesmi"
+    },
+    {
+      "id": "membakar",
+      "ngoko": "obar",
+      "krama": "ngobar"
+    },
+    {
+      "id": "membakar",
+      "ngoko": "ngobong",
+      "krama": "mbesmi"
+    },
+    {
+      "id": "membalas",
+      "ngoko": "balas",
+      "krama": "wangsul"
+    },
+    {
+      "id": "membangunkan",
+      "ngoko": "gugah",
+      "krama": "nggugah"
+    },
+    {
+      "id": "membantu",
+      "ngoko": "bantu",
+      "krama": "mbiyantu, paring pambiyantu"
+    },
+    {
+      "id": "membawa",
+      "ngoko": "nggawa",
+      "krama": "mbekta, ngampil"
+    },
+    {
+      "id": "membawa",
+      "ngoko": "nggawa",
+      "krama": "mbekta, ngampil"
+    },
+    {
+      "id": "membawa di pundak",
+      "ngoko": "othong",
+      "krama": "ngothong"
+    },
+    {
+      "id": "membela",
+      "ngoko": "bela",
+      "krama": "mbelani"
+    },
+    {
+      "id": "membelakangi",
+      "ngoko": "mungkur",
+      "krama": "mengker"
+    },
+    {
+      "id": "membeli",
+      "ngoko": "nuku",
+      "krama": "numbas"
+    },
+    {
+      "id": "memberi",
+      "ngoko": "weneh",
+      "krama": "nyukani, maringi"
+    },
+    {
+      "id": "memberi [eg. atur, menyampaikan",
+      "ngoko": "atur",
+      "krama": "ngaturaken"
+    },
+    {
+      "id": "membersihkan",
+      "ngoko": "ngresiki",
+      "krama": "ngresikaken"
+    },
+    {
+      "id": "membesarkan",
+      "ngoko": "gulawenthah",
+      "krama": "nggulawenthah"
+    },
+    {
+      "id": "membuang",
+      "ngoko": "buang",
+      "krama": "mbuwang"
+    },
+    {
+      "id": "membuat kerajinan",
+      "ngoko": "othèk",
+      "krama": "ngothèk"
+    },
+    {
+      "id": "membuka",
+      "ngoko": "bukak",
+      "krama": "bikak"
+    },
+    {
+      "id": "membuka",
+      "ngoko": "bukak",
+      "krama": "bikak"
+    },
+    {
+      "id": "membunuh",
+      "ngoko": "matèni",
+      "krama": "mejahi"
+    },
+    {
+      "id": "memegang",
+      "ngoko": "nyekel",
+      "krama": "nyepeng, ngasta"
+    },
+    {
+      "id": "memelihara",
+      "ngoko": "ingu",
+      "krama": "ngingah"
+    },
+    {
+      "id": "memelihara",
+      "ngoko": "miara",
+      "krama": "ngingah"
+    },
+    {
+      "id": "memerintah",
+      "ngoko": "dawuh",
+      "krama": "dhawuh"
+    },
+    {
+      "id": "memetik",
+      "ngoko": "undhuh",
+      "krama": "ngundhuh"
+    },
+    {
+      "id": "memikul",
+      "ngoko": "mikul",
+      "krama": "ngrembat"
+    },
+    {
+      "id": "memikul",
+      "ngoko": "mikul",
+      "krama": "ngrembat"
+    },
+    {
+      "id": "memilih",
+      "ngoko": "pilih",
+      "krama": "milih"
+    },
+    {
+      "id": "meminjam",
+      "ngoko": "nyilih",
+      "krama": "nyambut, ngampil"
+    },
+    {
+      "id": "meminjam",
+      "ngoko": "nyelang",
+      "krama": "nyambut"
+    },
+    {
+      "id": "memotret, mata",
+      "ngoko": "moto",
+      "krama": "mripat, soca"
+    },
+    {
+      "id": "memperhatikan",
+      "ngoko": "nggatekake",
+      "krama": "nggatekaken"
+    },
+    {
+      "id": "menabur",
+      "ngoko": "wur-wur",
+      "krama": "ngwur-wuri"
+    },
+    {
+      "id": "menanak nasi",
+      "ngoko": "adang",
+      "krama": "betak"
+    },
+    {
+      "id": "menanak nasi",
+      "ngoko": "ngliwet",
+      "krama": "bethak"
+    },
+    {
+      "id": "menanak nasi",
+      "ngoko": "adang sega",
+      "krama": "bethak sekul"
+    },
+    {
+      "id": "menanak nasi, menanak dengan menggunakan dandang",
+      "ngoko": "adang",
+      "krama": "betak"
+    },
+    {
+      "id": "menanam",
+      "ngoko": "nandur",
+      "krama": "nanem"
+    },
+    {
+      "id": "menanam",
+      "ngoko": "nandur",
+      "krama": "nanem"
+    },
+    {
+      "id": "menata",
+      "ngoko": "toto",
+      "krama": "tata"
+    },
+    {
+      "id": "menawari",
+      "ngoko": "nawani",
+      "krama": "nawèni"
+    },
+    {
+      "id": "menawari",
+      "ngoko": "nawani",
+      "krama": "nawèni"
+    },
+    {
+      "id": "mencabut",
+      "ngoko": "cabut",
+      "krama": "mbedhol"
+    },
+    {
+      "id": "mencari",
+      "ngoko": "amèk",
+      "krama": "mendhet"
+    },
+    {
+      "id": "mencari",
+      "ngoko": "goleti",
+      "krama": "golek/madosi"
+    },
+    {
+      "id": "mencari",
+      "ngoko": "ngluru",
+      "krama": "madosi"
+    },
+    {
+      "id": "mencari",
+      "ngoko": "amèk",
+      "krama": "mendhet"
+    },
+    {
+      "id": "mencari untuk",
+      "ngoko": "nggolèki",
+      "krama": "ngupadosi"
+    },
+    {
+      "id": "mencari-cari",
+      "ngoko": "golèk-golèk",
+      "krama": "madosi-madosi"
+    },
+    {
+      "id": "mencebur",
+      "ngoko": "cemplung",
+      "krama": "nyemplung"
+    },
+    {
+      "id": "mencegah",
+      "ngoko": "cegah",
+      "krama": "nyegah"
+    },
+    {
+      "id": "mencegat",
+      "ngoko": "cegat",
+      "krama": "nyegat"
+    },
+    {
+      "id": "mencekik",
+      "ngoko": "cekik",
+      "krama": "nyekik"
+    },
+    {
+      "id": "mencium",
+      "ngoko": "ambung",
+      "krama": "sun"
+    },
+    {
+      "id": "mencoba",
+      "ngoko": "nyoba",
+      "krama": "nyobi"
+    },
+    {
+      "id": "mencoba",
+      "ngoko": "nyoba",
+      "krama": "nyobi"
+    },
+    {
+      "id": "mencoba-coba",
+      "ngoko": "nyoba-nyoba",
+      "krama": "nyobi-nyobi"
+    },
+    {
+      "id": "mencoblos",
+      "ngoko": "coblos",
+      "krama": "nyoblos"
+    },
+    {
+      "id": "mencolek",
+      "ngoko": "colek",
+      "krama": "nyolek"
+    },
+    {
+      "id": "mencuci",
+      "ngoko": "nyuci",
+      "krama": "ngumbah"
+    },
+    {
+      "id": "mencuci piring",
+      "ngoko": "korah",
+      "krama": "ngumbah piring"
+    },
+    {
+      "id": "mencuri",
+      "ngoko": "curi",
+      "krama": "nyolong"
+    },
+    {
+      "id": "mendapa, pendopo",
+      "ngoko": "pendhapa",
+      "krama": "péndhapi"
+    },
+    {
+      "id": "mendapat",
+      "ngoko": "entok",
+      "krama": "angsal"
+    },
+    {
+      "id": "mendekat",
+      "ngoko": "nyedhak",
+      "krama": "celak"
+    },
+    {
+      "id": "mendengar",
+      "ngoko": "krungu",
+      "krama": "kepireng, midhanget"
+    },
+    {
+      "id": "mendengar",
+      "ngoko": "krungu",
+      "krama": "kepireng"
+    },
+    {
+      "id": "mendengar",
+      "ngoko": "mireng",
+      "krama": "ngrungu, midhanget"
+    },
+    {
+      "id": "mendengarkan",
+      "ngoko": "ngrungokake",
+      "krama": "midhangetaken"
+    },
+    {
+      "id": "mendorong",
+      "ngoko": "jor",
+      "krama": "nyor"
+    },
+    {
+      "id": "mendorong",
+      "ngoko": "jorog",
+      "krama": "nyorong"
+    },
+    {
+      "id": "menerima",
+      "ngoko": "narima",
+      "krama": "narimah, nampi"
+    },
+    {
+      "id": "menerima",
+      "ngoko": "tampa, sambut, tanggap, tarima",
+      "krama": "tampi"
+    },
+    {
+      "id": "menerima",
+      "ngoko": "trima",
+      "krama": "nampi"
+    },
+    {
+      "id": "menerima",
+      "ngoko": "narima",
+      "krama": "narimah"
+    },
+    {
+      "id": "mengajak",
+      "ngoko": "ngejak",
+      "krama": "ngajak"
+    },
+    {
+      "id": "mengajar",
+      "ngoko": "mucal",
+      "krama": "ngajar"
+    },
+    {
+      "id": "mengajar",
+      "ngoko": "wuruk",
+      "krama": "ngajar"
+    },
+    {
+      "id": "mengaku",
+      "ngoko": "ngaku",
+      "krama": "ngaken"
+    },
+    {
+      "id": "mengaku",
+      "ngoko": "aku-aku",
+      "krama": "ngaku, ngaken"
+    },
+    {
+      "id": "mengambil",
+      "ngoko": "njupuk",
+      "krama": "mendhet, mundhut"
+    },
+    {
+      "id": "mengambil",
+      "ngoko": "jukut",
+      "krama": "njupuk/mendhet"
+    },
+    {
+      "id": "mengambil",
+      "ngoko": "jupuk/jipik",
+      "krama": "njupuk/mendhet"
+    },
+    {
+      "id": "mengambil secara acak, mengambil, mengambil makanan",
+      "ngoko": "comot",
+      "krama": "nyomot"
+    },
+    {
+      "id": "mengangkat",
+      "ngoko": "angkat",
+      "krama": "ngangkat"
+    },
+    {
+      "id": "mengangkat dari air",
+      "ngoko": "entas",
+      "krama": "ngentas"
+    },
+    {
+      "id": "mengarang",
+      "ngoko": "karang",
+      "krama": "ngarang"
+    },
+    {
+      "id": "mengatakan",
+      "ngoko": "bilang",
+      "krama": "matur, ngendika"
+    },
+    {
+      "id": "mengayomi",
+      "ngoko": "hamengku",
+      "krama": "ngayomi"
+    },
+    {
+      "id": "mengejek",
+      "ngoko": "ejek",
+      "krama": "ngenyek"
+    },
+    {
+      "id": "mengelus",
+      "ngoko": "elus",
+      "krama": "ngelus"
+    },
+    {
+      "id": "mengelus-elus",
+      "ngoko": "elus-elus",
+      "krama": "nglus-elus"
+    },
+    {
+      "id": "mengembala",
+      "ngoko": "angon",
+      "krama": "angèn"
+    },
+    {
+      "id": "mengembala, menggembala",
+      "ngoko": "angon",
+      "krama": "angèn"
+    },
+    {
+      "id": "mengerjakan",
+      "ngoko": "garap",
+      "krama": "nggarap"
+    },
+    {
+      "id": "mengetuk kepala",
+      "ngoko": "jitak",
+      "krama": "njitak"
+    },
+    {
+      "id": "menggali",
+      "ngoko": "dhudhuk",
+      "krama": "ndhudhuk"
+    },
+    {
+      "id": "menggantung",
+      "ngoko": "gantung",
+      "krama": "nggantung"
+    },
+    {
+      "id": "menggapai",
+      "ngoko": "gayuh",
+      "krama": "nggayuh"
+    },
+    {
+      "id": "menggarang",
+      "ngoko": "garang",
+      "krama": "nggarang"
+    },
+    {
+      "id": "menggelar",
+      "ngoko": "gelar",
+      "krama": "nggelar"
+    },
+    {
+      "id": "menggendong",
+      "ngoko": "gendhong",
+      "krama": "nggendhong"
+    },
+    {
+      "id": "menggeser",
+      "ngoko": "geser",
+      "krama": "nggeser"
+    },
+    {
+      "id": "menggigit",
+      "ngoko": "gigit",
+      "krama": "nggigit"
+    },
+    {
+      "id": "menggiling",
+      "ngoko": "giling",
+      "krama": "nggiling"
+    },
+    {
+      "id": "menggoreng",
+      "ngoko": "goreng",
+      "krama": "nggoreng"
+    },
+    {
+      "id": "menggotong",
+      "ngoko": "gotong",
+      "krama": "nggotong"
+    },
+    {
+      "id": "menggoyang",
+      "ngoko": "oyog",
+      "krama": "ngoyog"
+    },
+    {
+      "id": "menggusur",
+      "ngoko": "gusur",
+      "krama": "nggusur"
+    },
+    {
+      "id": "menghadap",
+      "ngoko": "adhep",
+      "krama": "ajeng"
+    },
+    {
+      "id": "menghalangi",
+      "ngoko": "halang",
+      "krama": "ngalang-ngalangi"
+    },
+    {
+      "id": "menghapus",
+      "ngoko": "busek",
+      "krama": "mbusek"
+    },
+    {
+      "id": "mengharap",
+      "ngoko": "gadhang",
+      "krama": "pengajeng"
+    },
+    {
+      "id": "menghargai",
+      "ngoko": "ajen",
+      "krama": "aji"
+    },
+    {
+      "id": "menghias",
+      "ngoko": "rengga",
+      "krama": "ngrengga"
+    },
+    {
+      "id": "menghidupi",
+      "ngoko": "urip-urip",
+      "krama": "gesang-gesang"
+    },
+    {
+      "id": "menghina",
+      "ngoko": "maido",
+      "krama": "maiben"
+    },
+    {
+      "id": "menghina, mencerca",
+      "ngoko": "maido",
+      "krama": "maiben"
+    },
+    {
+      "id": "menghitung",
+      "ngoko": "itung",
+      "krama": "ngetang"
+    },
+    {
+      "id": "menghormati",
+      "ngoko": "ngajèni",
+      "krama": "ngaosi"
+    },
+    {
+      "id": "mengira",
+      "ngoko": "kira",
+      "krama": "kinten"
+    },
+    {
+      "id": "mengirim",
+      "ngoko": "kirim",
+      "krama": "kintun"
+    },
+    {
+      "id": "mengirim",
+      "ngoko": "kirim",
+      "krama": "kintun"
+    },
+    {
+      "id": "mengiring",
+      "ngoko": "irid",
+      "krama": "ngirid"
+    },
+    {
+      "id": "mengisap",
+      "ngoko": "cucup",
+      "krama": "nyucup"
+    },
+    {
+      "id": "mengisap",
+      "ngoko": "ondot",
+      "krama": "ngondhot"
+    },
+    {
+      "id": "mengobrol",
+      "ngoko": "rempon-rempon",
+      "krama": "rembugan"
+    },
+    {
+      "id": "mengoles",
+      "ngoko": "oles",
+      "krama": "ngolesi"
+    },
+    {
+      "id": "mengorek",
+      "ngoko": "cungkil",
+      "krama": "nyungkil"
+    },
+    {
+      "id": "mengotak-atik",
+      "ngoko": "othak",
+      "krama": "ngothak"
+    },
+    {
+      "id": "mengukir",
+      "ngoko": "ukir",
+      "krama": "ngukir"
+    },
+    {
+      "id": "mengulek",
+      "ngoko": "uleg",
+      "krama": "nguleg"
+    },
+    {
+      "id": "mengundang",
+      "ngoko": "undang",
+      "krama": "ngundang"
+    },
+    {
+      "id": "mengungsi",
+      "ngoko": "ungsi",
+      "krama": "ngungsi"
+    },
+    {
+      "id": "menimbun",
+      "ngoko": "urug",
+      "krama": "ngurug"
+    },
+    {
+      "id": "meningkat",
+      "ngoko": "mundhak",
+      "krama": "mindhak"
+    },
+    {
+      "id": "meninju",
+      "ngoko": "tonjok",
+      "krama": "njotos"
+    },
+    {
+      "id": "menjadi",
+      "ngoko": "dadas",
+      "krama": "dados"
+    },
+    {
+      "id": "menjahit",
+      "ngoko": "jahit",
+      "krama": "njait"
+    },
+    {
+      "id": "menjalani",
+      "ngoko": "nglakoni",
+      "krama": "nglampahi"
+    },
+    {
+      "id": "menjalani",
+      "ngoko": "nglakoni",
+      "krama": "nglampahi"
+    },
+    {
+      "id": "menjalani, melakukan",
+      "ngoko": "nglakoni",
+      "krama": "nglampahi"
+    },
+    {
+      "id": "menjawab",
+      "ngoko": "jawab",
+      "krama": "mangsuli"
+    },
+    {
+      "id": "menjelajah",
+      "ngoko": "rambah",
+      "krama": "ngrambah"
+    },
+    {
+      "id": "menjemur",
+      "ngoko": "jemur",
+      "krama": "njèmprèng"
+    },
+    {
+      "id": "menjenguk",
+      "ngoko": "tilik, tinjo, sambang, lawat",
+      "krama": "martuwi"
+    },
+    {
+      "id": "menjenguk",
+      "ngoko": "nyambangi",
+      "krama": "mriksani"
+    },
+    {
+      "id": "menjilat",
+      "ngoko": "jilat",
+      "krama": "njilat"
+    },
+    {
+      "id": "menjual",
+      "ngoko": "adol",
+      "krama": "sadé"
+    },
+    {
+      "id": "menoreh",
+      "ngoko": "toreh",
+      "krama": "noreh"
+    },
+    {
+      "id": "mentua",
+      "ngoko": "maratuwa",
+      "krama": "marasepuh"
+    },
+    {
+      "id": "mentua, mertua",
+      "ngoko": "maratuwa",
+      "krama": "marasepuh"
+    },
+    {
+      "id": "menuding",
+      "ngoko": "tuding",
+      "krama": "nuding"
+    },
+    {
+      "id": "menuduh",
+      "ngoko": "tutuh",
+      "krama": "tetah"
+    },
+    {
+      "id": "menuju ke barat",
+      "ngoko": "ngulon",
+      "krama": "ngilèn"
+    },
+    {
+      "id": "menuju ke utara",
+      "ngoko": "ngalor",
+      "krama": "ngalèr"
+    },
+    {
+      "id": "menuju ke utara",
+      "ngoko": "ngalor",
+      "krama": "ngalèr"
+    },
+    {
+      "id": "menundukkan kepala",
+      "ngoko": "jerum",
+      "krama": "njrum"
+    },
+    {
+      "id": "menunggu",
+      "ngoko": "tunggu",
+      "krama": "tengga"
+    },
+    {
+      "id": "menuntun",
+      "ngoko": "tuntun",
+      "krama": "nuntun"
+    },
+    {
+      "id": "menyakiti",
+      "ngoko": "nglarani",
+      "krama": "nyakiti"
+    },
+    {
+      "id": "menyambung",
+      "ngoko": "nyambung",
+      "krama": "nyambet"
+    },
+    {
+      "id": "menyambung",
+      "ngoko": "nyambung",
+      "krama": "nyambet"
+    },
+    {
+      "id": "menyampaikan hormat",
+      "ngoko": "atur-atur",
+      "krama": "ngaturaken, unjuk-unjuk"
+    },
+    {
+      "id": "menyanyi",
+      "ngoko": "nyanyi",
+      "krama": "nembang"
+    },
+    {
+      "id": "menyedot",
+      "ngoko": "nyedhot",
+      "krama": "ngisep"
+    },
+    {
+      "id": "menyuguhkan",
+      "ngoko": "suguh",
+      "krama": "segah"
+    },
+    {
+      "id": "menyuruh",
+      "ngoko": "ngakon",
+      "krama": "ngakèn"
+    },
+    {
+      "id": "menyuruh",
+      "ngoko": "ngakon",
+      "krama": "ngakèn"
+    },
+    {
+      "id": "meragai",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "merah",
+      "ngoko": "abang",
+      "krama": "abrit"
+    },
+    {
+      "id": "merasa",
+      "ngoko": "rumongsa",
+      "krama": "rumangsa"
+    },
+    {
+      "id": "merawat",
+      "ngoko": "rawat",
+      "krama": "ngrawat"
+    },
+    {
+      "id": "merebus",
+      "ngoko": "godhog",
+      "krama": "nggodhog"
+    },
+    {
+      "id": "merit",
+      "ngoko": "pari",
+      "krama": "pantun"
+    },
+    {
+      "id": "mertua",
+      "ngoko": "maratuwa",
+      "krama": "marasepuh"
+    },
+    {
+      "id": "merubah",
+      "ngoko": "ngowahi",
+      "krama": "ngéwahi"
+    },
+    {
+      "id": "merubah",
+      "ngoko": "ngowahi",
+      "krama": "ngéwahi"
+    },
+    {
+      "id": "milik, punya",
+      "ngoko": "darbé",
+      "krama": "kagungan"
+    },
+    {
+      "id": "mimpi",
+      "ngoko": "impèn",
+      "krama": "supena"
+    },
+    {
+      "id": "mimpi, impian, wahi",
+      "ngoko": "impèn",
+      "krama": "supena"
+    },
+    {
+      "id": "minta",
+      "ngoko": "njaluk",
+      "krama": "nedha, nyuwun"
+    },
+    {
+      "id": "minta",
+      "ngoko": "njaluk",
+      "krama": "nedha, nyuwun"
+    },
+    {
+      "id": "minum kopi",
+      "ngoko": "ngopi",
+      "krama": "ngunjuk kopi"
+    },
+    {
+      "id": "minum, sesap",
+      "ngoko": "ngombé",
+      "krama": "ngunjuk"
+    },
+    {
+      "id": "minum-minum",
+      "ngoko": "ngombe-ngombe",
+      "krama": "ngunjuk-ngunjuk"
+    },
+    {
+      "id": "minyak",
+      "ngoko": "lenga",
+      "krama": "lisah"
+    },
+    {
+      "id": "minyak",
+      "ngoko": "lisah",
+      "krama": "lenga"
+    },
+    {
+      "id": "misal",
+      "ngoko": "upama",
+      "krama": "upami"
+    },
+    {
+      "id": "misal, umpama, upama",
+      "ngoko": "upama",
+      "krama": "upami"
+    },
+    {
+      "id": "misbah",
+      "ngoko": "diyan",
+      "krama": "dilah"
+    },
+    {
+      "id": "misih",
+      "ngoko": "isih",
+      "krama": "taksih"
+    },
+    {
+      "id": "molong",
+      "ngoko": "panganan",
+      "krama": "tetedhan, dhaharan"
+    },
+    {
+      "id": "moncong, hidung",
+      "ngoko": "cungur",
+      "krama": "irung/grana"
+    },
+    {
+      "id": "monyet",
+      "ngoko": "bojog",
+      "krama": "kethek"
+    },
+    {
+      "id": "muda, anum",
+      "ngoko": "anom",
+      "krama": "anèm"
+    },
+    {
+      "id": "muda, teruna",
+      "ngoko": "enom",
+      "krama": "enèm"
+    },
+    {
+      "id": "mudah",
+      "ngoko": "gampang",
+      "krama": "gampil"
+    },
+    {
+      "id": "muhajat",
+      "ngoko": "prakaran",
+      "krama": "kawisan"
+    },
+    {
+      "id": "mulut",
+      "ngoko": "cangkem, lesan, nana, panglinga, dukara",
+      "krama": "tutuk"
+    },
+    {
+      "id": "mura, setiabu, ular",
+      "ngoko": "ula, sarpa, taksaka, naga, urar, ananta, wasu, basu, bujangga, ardawalika",
+      "krama": "sawer"
+    },
+    {
+      "id": "murah",
+      "ngoko": "murah",
+      "krama": "mirah"
+    },
+    {
+      "id": "musna",
+      "ngoko": "ilang",
+      "krama": "ical"
+    },
+    {
+      "id": "musuh",
+      "ngoko": "mungsuh",
+      "krama": "mengsah"
+    },
+    {
+      "id": "muzahab",
+      "ngoko": "dalan",
+      "krama": "margi"
+    },
+    {
+      "id": "muzakar",
+      "ngoko": "lanang",
+      "krama": "jaler, kakung"
+    },
+    {
+      "id": "nafsu",
+      "ngoko": "nafsu",
+      "krama": "hawa nepsu"
+    },
+    {
+      "id": "nagasari",
+      "ngoko": "nagasari",
+      "krama": "nagasantun"
+    },
+    {
+      "id": "nahi",
+      "ngoko": "larangan",
+      "krama": "awisan"
+    },
+    {
+      "id": "naik",
+      "ngoko": "unggah",
+      "krama": "inggah"
+    },
+    {
+      "id": "naik",
+      "ngoko": "munggah, sumêngka, nungsung",
+      "krama": "minggah"
+    },
+    {
+      "id": "naik",
+      "ngoko": "numpak",
+      "krama": "nitih"
+    },
+    {
+      "id": "naik",
+      "ngoko": "munggah",
+      "krama": "minggah"
+    },
+    {
+      "id": "nakal",
+      "ngoko": "mokong",
+      "krama": "nakal"
+    },
+    {
+      "id": "nama",
+      "ngoko": "wasta",
+      "krama": "aran"
+    },
+    {
+      "id": "nama",
+      "ngoko": "nama",
+      "krama": "jeneng, asma"
+    },
+    {
+      "id": "nama rempah untuk jamu",
+      "ngoko": "cabe",
+      "krama": "lombok, cengeh",
+      "keterangan": "definisi: nama rempah untuk jamu"
+    },
+    {
+      "id": "nama, ism",
+      "ngoko": "jeneng, bisikan, parab, juluk, têngran, sêbut, wêwangi, asma, sambat, têngêran",
+      "krama": "nama, asma"
+    },
+    {
+      "id": "nampak, malum, melihat, tahu",
+      "ngoko": "weruh, udani, upiksa, upaksi, wikan, wrin",
+      "krama": "sumerep, priksa"
+    },
+    {
+      "id": "nanas",
+      "ngoko": "nenas",
+      "krama": "nanas"
+    },
+    {
+      "id": "nanti",
+      "ngoko": "mengko",
+      "krama": "mangké"
+    },
+    {
+      "id": "nanti saja",
+      "ngoko": "mengko wae",
+      "krama": "mangke kemawon"
+    },
+    {
+      "id": "nasak",
+      "ngoko": "iwak",
+      "krama": "ulam"
+    },
+    {
+      "id": "nasi",
+      "ngoko": "sega",
+      "krama": "sekul"
+    },
+    {
+      "id": "nasihat",
+      "ngoko": "nasihat",
+      "krama": "pitutur"
+    },
+    {
+      "id": "nasir, pertolongan",
+      "ngoko": "pitulung",
+      "krama": "pitulungan"
+    },
+    {
+      "id": "negara, negeri",
+      "ngoko": "nagara, praja, kutha, radya, pura",
+      "krama": "nagari"
+    },
+    {
+      "id": "negeri",
+      "ngoko": "nagara",
+      "krama": "nagari"
+    },
+    {
+      "id": "nikah, menikah",
+      "ngoko": "rabi",
+      "krama": "nikah"
+    },
+    {
+      "id": "nikbak",
+      "ngoko": "panganan",
+      "krama": "tetedhan, dhaharan"
+    },
+    {
+      "id": "nin",
+      "ngoko": "iki",
+      "krama": "punika"
+    },
+    {
+      "id": "nyiur",
+      "ngoko": "krambil",
+      "krama": "klapa"
+    },
+    {
+      "id": "nyonya",
+      "ngoko": "bendara putri",
+      "krama": "gusti putri"
+    },
+    {
+      "id": "obat tradisional jawa, jamu",
+      "ngoko": "jamu",
+      "krama": "jampi, loloh"
+    },
+    {
+      "id": "obat tradisional jawa, jamu, jejamu",
+      "ngoko": "jamu",
+      "krama": "jampi, loloh"
+    },
+    {
+      "id": "odoh",
+      "ngoko": "ala",
+      "krama": "awon"
+    },
+    {
+      "id": "omong",
+      "ngoko": "omong",
+      "krama": "wicanten, ngendika"
+    },
+    {
+      "id": "ompang-ompang",
+      "ngoko": "olèh-olèh",
+      "krama": "angsal-angsal"
+    },
+    {
+      "id": "onar",
+      "ngoko": "isin",
+      "krama": "lingsem"
+    },
+    {
+      "id": "ongkos",
+      "ngoko": "ongkos",
+      "krama": "ragad"
+    },
+    {
+      "id": "orang",
+      "ngoko": "wong, wang, jana, janma, jalma",
+      "krama": "tiyang"
+    },
+    {
+      "id": "orang",
+      "ngoko": "uwong",
+      "krama": "tiyang"
+    },
+    {
+      "id": "orang",
+      "ngoko": "wong",
+      "krama": "tiyang"
+    },
+    {
+      "id": "orang tua",
+      "ngoko": "wong tuwa",
+      "krama": "tiyang sepuh"
+    },
+    {
+      "id": "padang",
+      "ngoko": "ara-ara",
+      "krama": "awis-awis"
+    },
+    {
+      "id": "padi, merit",
+      "ngoko": "pari",
+      "krama": "pantun"
+    },
+    {
+      "id": "pagan",
+      "ngoko": "kukuh",
+      "krama": "kekah"
+    },
+    {
+      "id": "pagi",
+      "ngoko": "ésuk",
+      "krama": "énjing"
+    },
+    {
+      "id": "pagi",
+      "ngoko": "isuk",
+      "krama": "esuk/enjing"
+    },
+    {
+      "id": "pagi",
+      "ngoko": "pagi",
+      "krama": "enjing"
+    },
+    {
+      "id": "pagi-pagi",
+      "ngoko": "esuk-esuk",
+      "krama": "enjing-enjing"
+    },
+    {
+      "id": "paham",
+      "ngoko": "paham",
+      "krama": "mangertos"
+    },
+    {
+      "id": "pakaian",
+      "ngoko": "pakaian",
+      "krama": "rasukan, ageman"
+    },
+    {
+      "id": "pakaian",
+      "ngoko": "rasukan",
+      "krama": "klambi, ageman"
+    },
+    {
+      "id": "paksi",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "paksina",
+      "ngoko": "lor",
+      "krama": "lèr"
+    },
+    {
+      "id": "palu, mengetuk",
+      "ngoko": "thuthuk",
+      "krama": "nuthuk"
+    },
+    {
+      "id": "panah",
+      "ngoko": "panah, astra, sara, braja, jêmparing, margana, bana, naraca, sayaka, warastra",
+      "krama": "jemparing"
+    },
+    {
+      "id": "panah",
+      "ngoko": "panah",
+      "krama": "jemparing"
+    },
+    {
+      "id": "panas",
+      "ngoko": "benter",
+      "krama": "benther"
+    },
+    {
+      "id": "panas",
+      "ngoko": "panas",
+      "krama": "bentèr"
+    },
+    {
+      "id": "panca",
+      "ngoko": "lima",
+      "krama": "gangsal"
+    },
+    {
+      "id": "pancabicara",
+      "ngoko": "lenga wangi",
+      "krama": "lisahwangi"
+    },
+    {
+      "id": "pandir, busuk",
+      "ngoko": "busuk",
+      "krama": "bosok"
+    },
+    {
+      "id": "panggilan adik",
+      "ngoko": "dhik",
+      "krama": "rayi"
+    },
+    {
+      "id": "panggilan ibu",
+      "ngoko": "bu",
+      "krama": "ibu"
+    },
+    {
+      "id": "panggilan kakak/pria",
+      "ngoko": "cak",
+      "krama": "mas"
+    },
+    {
+      "id": "panggilan untuk kakak perempuan, di, panggilan kakak perempuan",
+      "ngoko": "ning",
+      "krama": "ing",
+      "keterangan": "definisi: panggilan untuk kakak perempuan"
+    },
+    {
+      "id": "pangking",
+      "ngoko": "paturon, boma, pagulingan, paprêman, tilam, pajungutan, gupit, jinêm rum",
+      "krama": "patileman"
+    },
+    {
+      "id": "panjang",
+      "ngoko": "dawa",
+      "krama": "panjang"
+    },
+    {
+      "id": "panjang, lanjut",
+      "ngoko": "dawa",
+      "krama": "panjang"
+    },
+    {
+      "id": "papakerma",
+      "ngoko": "ala",
+      "krama": "awon"
+    },
+    {
+      "id": "papan tulis",
+      "ngoko": "papan tulis",
+      "krama": "papan serat"
+    },
+    {
+      "id": "papar",
+      "ngoko": "rata",
+      "krama": "radin"
+    },
+    {
+      "id": "paruh",
+      "ngoko": "paro",
+      "krama": "palih"
+    },
+    {
+      "id": "paruh, separuh",
+      "ngoko": "paro",
+      "krama": "palih"
+    },
+    {
+      "id": "pasar",
+      "ngoko": "pasar",
+      "krama": "peken"
+    },
+    {
+      "id": "pasar, pekan, rakan, rekan",
+      "ngoko": "pasar",
+      "krama": "peken"
+    },
+    {
+      "id": "pasaran",
+      "ngoko": "pasaran, Kl-Kasih, L-Manis, P-Paing (pêthakan), Pn-Pon, (kuningan, kêlabêt), W-Cêmêngan",
+      "krama": "pekenan"
+    },
+    {
+      "id": "pasti",
+      "ngoko": "pasti",
+      "krama": "mesthi"
+    },
+    {
+      "id": "pasung, berbelok, sengkela",
+      "ngoko": "belok",
+      "krama": "mbelok"
+    },
+    {
+      "id": "patuh",
+      "ngoko": "patuh",
+      "krama": "manut"
+    },
+    {
+      "id": "pedati",
+      "ngoko": "pedhati",
+      "krama": "pedhatos"
+    },
+    {
+      "id": "pedukang",
+      "ngoko": "iwak",
+      "krama": "ulam"
+    },
+    {
+      "id": "pekaka",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "pekan",
+      "ngoko": "pasar",
+      "krama": "peken"
+    },
+    {
+      "id": "pekarangan rumah",
+      "ngoko": "pomahan",
+      "krama": "pagriyan"
+    },
+    {
+      "id": "pekerjaan",
+      "ngoko": "pegaweyan",
+      "krama": "padamelan"
+    },
+    {
+      "id": "pelajaran",
+      "ngoko": "pelajaran",
+      "krama": "piwulang"
+    },
+    {
+      "id": "pelawa",
+      "ngoko": "pakéwuh, bancana, bêndana, pringga, walangsangkêr",
+      "krama": "pakèwed"
+    },
+    {
+      "id": "Pelihara, menjaga",
+      "ngoko": "reksa",
+      "krama": "ngreksa"
+    },
+    {
+      "id": "pelit",
+      "ngoko": "pelit",
+      "krama": "medhit"
+    },
+    {
+      "id": "pelita",
+      "ngoko": "diyan",
+      "krama": "dilah"
+    },
+    {
+      "id": "pelopor",
+      "ngoko": "pacalang",
+      "krama": "pacambeng"
+    },
+    {
+      "id": "pelupa/gampang lupa",
+      "ngoko": "lalèn",
+      "krama": "kesupènan"
+    },
+    {
+      "id": "pelupa/gampang lupa",
+      "ngoko": "lalèn",
+      "krama": "kesupènan"
+    },
+    {
+      "id": "pembesar",
+      "ngoko": "panggedhé",
+      "krama": "pangageng"
+    },
+    {
+      "id": "pembicaraan",
+      "ngoko": "ginem",
+      "krama": "wicanten"
+    },
+    {
+      "id": "pembukaan gending",
+      "ngoko": "bawa",
+      "krama": "mbekta, ngasta"
+    },
+    {
+      "id": "pemuka, penganjur",
+      "ngoko": "pangarep",
+      "krama": "pangajeng"
+    },
+    {
+      "id": "penduk, terapang",
+      "ngoko": "pendhok",
+      "krama": "kandelan"
+    },
+    {
+      "id": "penganan",
+      "ngoko": "panganan",
+      "krama": "tetedhan, dhaharan"
+    },
+    {
+      "id": "pengantin",
+      "ngoko": "anten",
+      "krama": "manten"
+    },
+    {
+      "id": "pengantin",
+      "ngoko": "penganten",
+      "krama": "manten, penganten"
+    },
+    {
+      "id": "pening, pusing",
+      "ngoko": "mumet",
+      "krama": "puyeng"
+    },
+    {
+      "id": "penting",
+      "ngoko": "penting",
+      "krama": "wigati"
+    },
+    {
+      "id": "penuh",
+      "ngoko": "kebeg",
+      "krama": "kebak"
+    },
+    {
+      "id": "penyap",
+      "ngoko": "ilang",
+      "krama": "ical"
+    },
+    {
+      "id": "perada",
+      "ngoko": "prada",
+      "krama": "praos"
+    },
+    {
+      "id": "peralatan, alat, pegawai",
+      "ngoko": "piranti, pandaya, wiyasa, wisaya",
+      "krama": "pirantos"
+    },
+    {
+      "id": "perang",
+      "ngoko": "yuda",
+      "krama": "perang"
+    },
+    {
+      "id": "perang (varian)",
+      "ngoko": "yudha",
+      "krama": "yudha"
+    },
+    {
+      "id": "percaya",
+      "ngoko": "pracaya",
+      "krama": "pracados"
+    },
+    {
+      "id": "percaya",
+      "ngoko": "percaya",
+      "krama": "pracaya"
+    },
+    {
+      "id": "percaya",
+      "ngoko": "pracaya",
+      "krama": "pracados"
+    },
+    {
+      "id": "perempuan, betina",
+      "ngoko": "wadon, èstri, dyah, wanita, juwita, wanudya, kani, waita, garini, wara, rèni, dayita, gini, rêtna",
+      "krama": "sêtri, putri"
+    },
+    {
+      "id": "pergi",
+      "ngoko": "lungan",
+      "krama": "késahan, tindakan"
+    },
+    {
+      "id": "pergi",
+      "ngoko": "lunga",
+      "krama": "késah, tindak"
+    },
+    {
+      "id": "pergi",
+      "ngoko": "medal",
+      "krama": "metu"
+    },
+    {
+      "id": "pergi (ke luar)",
+      "ngoko": "medal",
+      "krama": "metu"
+    },
+    {
+      "id": "pergi, enyah",
+      "ngoko": "lunga, alès, lès, anis, linggar, wisata, mentar, mandra, layat",
+      "krama": "késah, tindak"
+    },
+    {
+      "id": "perincit",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "perjalanan hidup/cobaan yang harus dilalui",
+      "ngoko": "laku",
+      "krama": "lampah, tindak"
+    },
+    {
+      "id": "perjalanan hidup/cobaan yang, berjalan, laku",
+      "ngoko": "laku, lakwa, laksa, laksana, laksita, caraka, laris, lintang",
+      "krama": "lampah, tindak"
+    },
+    {
+      "id": "permainan catur",
+      "ngoko": "catur",
+      "krama": "canten"
+    },
+    {
+      "id": "pernah",
+      "ngoko": "tau",
+      "krama": "naté"
+    },
+    {
+      "id": "pertanyaan",
+      "ngoko": "pitakon",
+      "krama": "pitakèn, pandangon"
+    },
+    {
+      "id": "pertanyaan",
+      "ngoko": "pitakon",
+      "krama": "pitakèn, pandangon"
+    },
+    {
+      "id": "pertemuan",
+      "ngoko": "patemon",
+      "krama": "pepanggihan"
+    },
+    {
+      "id": "pertemuan",
+      "ngoko": "patemon",
+      "krama": "pepanggihan"
+    },
+    {
+      "id": "perut",
+      "ngoko": "weteng, padharan, udara, garba",
+      "krama": "padharan"
+    },
+    {
+      "id": "perwira (serapan)",
+      "ngoko": "projo",
+      "krama": "projo"
+    },
+    {
+      "id": "pesan",
+      "ngoko": "pakon",
+      "krama": "pakèn, dhawuh"
+    },
+    {
+      "id": "pesan",
+      "ngoko": "pakon",
+      "krama": "pakèn, dhawuh"
+    },
+    {
+      "id": "petang, sore",
+      "ngoko": "soré",
+      "krama": "sonten"
+    },
+    {
+      "id": "petani",
+      "ngoko": "petani",
+      "krama": "tani"
+    },
+    {
+      "id": "pewarta",
+      "ngoko": "pawarta",
+      "krama": "pawartos"
+    },
+    {
+      "id": "pewarta",
+      "ngoko": "pawarta",
+      "krama": "pawartos"
+    },
+    {
+      "id": "pikul",
+      "ngoko": "pikul",
+      "krama": "rêmbat"
+    },
+    {
+      "id": "pikulan",
+      "ngoko": "pikulan",
+      "krama": "rembatan"
+    },
+    {
+      "id": "pinang (tanaman)",
+      "ngoko": "jambé",
+      "krama": "wohan"
+    },
+    {
+      "id": "pinang, jambe",
+      "ngoko": "jambé",
+      "krama": "wohan"
+    },
+    {
+      "id": "pindah, pindah rumah",
+      "ngoko": "boyong",
+      "krama": "pindhah"
+    },
+    {
+      "id": "pinjam",
+      "ngoko": "silih",
+      "krama": "nyilih, ngampil"
+    },
+    {
+      "id": "pintu",
+      "ngoko": "lawang, wiwara, dwara",
+      "krama": "konten"
+    },
+    {
+      "id": "pintu",
+      "ngoko": "lawang",
+      "krama": "konten"
+    },
+    {
+      "id": "pisang",
+      "ngoko": "pisang",
+      "krama": "gedhang, cau"
+    },
+    {
+      "id": "pisang, punti, serendah",
+      "ngoko": "gedhang",
+      "krama": "pisang"
+    },
+    {
+      "id": "pisau",
+      "ngoko": "lading",
+      "krama": "parisan"
+    },
+    {
+      "id": "pisau",
+      "ngoko": "piso",
+      "krama": "lading"
+    },
+    {
+      "id": "pitis, uang",
+      "ngoko": "picis",
+      "krama": "dhuwit/yatra"
+    },
+    {
+      "id": "polisi",
+      "ngoko": "polisi",
+      "krama": "pulisi"
+    },
+    {
+      "id": "puasa mutih",
+      "ngoko": "mutih",
+      "krama": "methak"
+    },
+    {
+      "id": "puasa mutih",
+      "ngoko": "mutih",
+      "krama": "methak"
+    },
+    {
+      "id": "puasa, saum",
+      "ngoko": "pasa",
+      "krama": "siyam"
+    },
+    {
+      "id": "puki",
+      "ngoko": "pawadonan",
+      "krama": "pawèstrèn"
+    },
+    {
+      "id": "puki",
+      "ngoko": "pawadonan",
+      "krama": "pawèstrèn"
+    },
+    {
+      "id": "pula, lagi",
+      "ngoko": "maneh, malih, manih, maning, muwah",
+      "krama": "maneh/malih"
+    },
+    {
+      "id": "pulang",
+      "ngoko": "pulang",
+      "krama": "wangsul, kondur"
+    },
+    {
+      "id": "pulang",
+      "ngoko": "bali",
+      "krama": "wangsul"
+    },
+    {
+      "id": "pulang, kembali",
+      "ngoko": "bali",
+      "krama": "wangsul"
+    },
+    {
+      "id": "pulang, kembali, maad, marja",
+      "ngoko": "bali",
+      "krama": "wangsul, kondur"
+    },
+    {
+      "id": "puluh, sepuluh",
+      "ngoko": "dasa",
+      "krama": "sedasa"
+    },
+    {
+      "id": "punya",
+      "ngoko": "gadhah",
+      "krama": "kagungan"
+    },
+    {
+      "id": "punya, empunya",
+      "ngoko": "duwé",
+      "krama": "gadhah"
+    },
+    {
+      "id": "pura",
+      "ngoko": "kutha",
+      "krama": "kitha"
+    },
+    {
+      "id": "pura-pura",
+      "ngoko": "api-api",
+      "krama": "pura-pura"
+    },
+    {
+      "id": "puri",
+      "ngoko": "kutha",
+      "krama": "kitha"
+    },
+    {
+      "id": "puteri, putri",
+      "ngoko": "putri, dèwi, duhita, wahini, rini",
+      "krama": "estri, putri"
+    },
+    {
+      "id": "putusan",
+      "ngoko": "putusan",
+      "krama": "kaputusan"
+    },
+    {
+      "id": "puyuh, selui",
+      "ngoko": "gemak",
+      "krama": "puyuh"
+    },
+    {
+      "id": "rahasia, rahsia, rusia",
+      "ngoko": "wadi",
+      "krama": "wados"
+    },
+    {
+      "id": "raib",
+      "ngoko": "ilang",
+      "krama": "ical"
+    },
+    {
+      "id": "raja (kawi)",
+      "ngoko": "narendra",
+      "krama": "narendra"
+    },
+    {
+      "id": "rakan",
+      "ngoko": "pasar",
+      "krama": "peken"
+    },
+    {
+      "id": "rakyat biasa",
+      "ngoko": "wong cilik",
+      "krama": "tiyang alit"
+    },
+    {
+      "id": "ralat",
+      "ngoko": "kliru",
+      "krama": "klintu"
+    },
+    {
+      "id": "ralat",
+      "ngoko": "kliru",
+      "krama": "klintu"
+    },
+    {
+      "id": "rambut",
+      "ngoko": "rambut, rema, roma, wèni, sinom, kesawa, jatha, kesa",
+      "krama": "rikma"
+    },
+    {
+      "id": "rasa malu",
+      "ngoko": "isin",
+      "krama": "lingsem"
+    },
+    {
+      "id": "rasa malu, malu, onar",
+      "ngoko": "isin",
+      "krama": "lingsem"
+    },
+    {
+      "id": "rawat, mengasuh",
+      "ngoko": "asuh",
+      "krama": "ngasuh"
+    },
+    {
+      "id": "rebah, roboh",
+      "ngoko": "rubuh",
+      "krama": "rêbah"
+    },
+    {
+      "id": "rebut",
+      "ngoko": "rebut",
+      "krama": "rêbat"
+    },
+    {
+      "id": "rebut",
+      "ngoko": "rebat",
+      "krama": "rebut"
+    },
+    {
+      "id": "reka, mengarang",
+      "ngoko": "anggit",
+      "krama": "nyerat"
+    },
+    {
+      "id": "rekan",
+      "ngoko": "pasar",
+      "krama": "peken"
+    },
+    {
+      "id": "rendah, dekat, pendek",
+      "ngoko": "cendhek",
+      "krama": "cendhak"
+    },
+    {
+      "id": "reng",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "rengges",
+      "ngoko": "arang",
+      "krama": "awis",
+      "keterangan": "tmr. godhong"
+    },
+    {
+      "id": "rengkeh",
+      "ngoko": "kuru",
+      "krama": "kera"
+    },
+    {
+      "id": "repot",
+      "ngoko": "éwuh",
+      "krama": "èwed"
+    },
+    {
+      "id": "repot, sibuk",
+      "ngoko": "ewuh",
+      "krama": "ewuh"
+    },
+    {
+      "id": "resmi, dinas",
+      "ngoko": "dhines",
+      "krama": "dinas"
+    },
+    {
+      "id": "restu, berkah",
+      "ngoko": "pangestu",
+      "krama": "pangestu"
+    },
+    {
+      "id": "rimau",
+      "ngoko": "macan",
+      "krama": "sima"
+    },
+    {
+      "id": "roboh",
+      "ngoko": "roboh",
+      "krama": "ambruk"
+    },
+    {
+      "id": "roboh",
+      "ngoko": "rebah",
+      "krama": "rubuh"
+    },
+    {
+      "id": "ronda",
+      "ngoko": "rondha",
+      "krama": "ronda"
+    },
+    {
+      "id": "rotan",
+      "ngoko": "penjalin",
+      "krama": "penjatos"
+    },
+    {
+      "id": "ruang tamu, gedung",
+      "ngoko": "bale",
+      "krama": "gedhong"
+    },
+    {
+      "id": "rujuk",
+      "ngoko": "balèn",
+      "krama": "wangsulan"
+    },
+    {
+      "id": "rujuk, mengulangi",
+      "ngoko": "balèn",
+      "krama": "wangsulan"
+    },
+    {
+      "id": "ruk",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "rumah",
+      "ngoko": "rumah",
+      "krama": "griya, dalem"
+    },
+    {
+      "id": "rumah",
+      "ngoko": "umah",
+      "krama": "omah/griya"
+    },
+    {
+      "id": "rumah, khanah",
+      "ngoko": "omah, griya, wisma, dalêm, suyasa, graha, bale, panti",
+      "krama": "griya, dalem"
+    },
+    {
+      "id": "rusa",
+      "ngoko": "menjangan, sangsam, krandhi, canggah, randhi, rusah, wrangga",
+      "krama": "sangsam"
+    },
+    {
+      "id": "rusak",
+      "ngoko": "bubrah",
+      "krama": "bibrah"
+    },
+    {
+      "id": "rusak",
+      "ngoko": "risak",
+      "krama": "rusak"
+    },
+    {
+      "id": "Rusak, binasa, kharab",
+      "ngoko": "rusak, ruksa, suh, brastha, rêmpak, prawasa, rabasa, nir, gêmpang, punah, rurah, rug",
+      "krama": "risak"
+    },
+    {
+      "id": "rusuh",
+      "ngoko": "rusuh",
+      "krama": "rêsah"
+    },
+    {
+      "id": "sa",
+      "ngoko": "siji",
+      "krama": "satunggal"
+    },
+    {
+      "id": "saja",
+      "ngoko": "wae",
+      "krama": "kemawon"
+    },
+    {
+      "id": "sakar",
+      "ngoko": "gula",
+      "krama": "gendhis"
+    },
+    {
+      "id": "sakit",
+      "ngoko": "lara, roga, agring, rapuh, angluh, grah, wikara, marana",
+      "krama": "sakit, gerah"
+    },
+    {
+      "id": "sakti, bisa",
+      "ngoko": "ampuh",
+      "krama": "bisa/saged"
+    },
+    {
+      "id": "salat, solat",
+      "ngoko": "salat",
+      "krama": "sembahyang"
+    },
+    {
+      "id": "sali",
+      "ngoko": "kuwat",
+      "krama": "kiyat"
+    },
+    {
+      "id": "saling membantu",
+      "ngoko": "bantu-mbantu",
+      "krama": "gotong royong"
+    },
+    {
+      "id": "sama",
+      "ngoko": "padha, samya, kapya, kapwa",
+      "krama": "sami"
+    },
+    {
+      "id": "sama",
+      "ngoko": "padha",
+      "krama": "sami"
+    },
+    {
+      "id": "sama-sama",
+      "ngoko": "padha-padha",
+      "krama": "sami-sami"
+    },
+    {
+      "id": "sambil",
+      "ngoko": "bari",
+      "krama": "sinambi"
+    },
+    {
+      "id": "sampai",
+      "ngoko": "tekan",
+      "krama": "dugi"
+    },
+    {
+      "id": "sampai",
+      "ngoko": "kasi",
+      "krama": "nganti/ngantos"
+    },
+    {
+      "id": "sampai",
+      "ngoko": "kongsi",
+      "krama": "ngantos"
+    },
+    {
+      "id": "sana",
+      "ngoko": "kana",
+      "krama": "ngrika"
+    },
+    {
+      "id": "sana",
+      "ngoko": "kana",
+      "krama": "ngrika"
+    },
+    {
+      "id": "sangat",
+      "ngoko": "sanget",
+      "krama": "banget"
+    },
+    {
+      "id": "sangat, terlalu",
+      "ngoko": "banget, antya, asru, arda, mandra, lwih, dahat, sakamantyan, tan sipi",
+      "krama": "sanget"
+    },
+    {
+      "id": "sangat-sangat",
+      "ngoko": "banget-banget",
+      "krama": "sanget-sanget"
+    },
+    {
+      "id": "sarana",
+      "ngoko": "srana",
+      "krama": "sarana"
+    },
+    {
+      "id": "sarwa",
+      "ngoko": "sarwa",
+      "krama": "sarwi{{engg"
+    },
+    {
+      "id": "sarwa, serba",
+      "ngoko": "sarwa",
+      "krama": "sarwi{{engg"
+    },
+    {
+      "id": "satu",
+      "ngoko": "tunggal",
+      "krama": "tunggil"
+    },
+    {
+      "id": "satu",
+      "ngoko": "sijai",
+      "krama": "siji/setunggal"
+    },
+    {
+      "id": "satu",
+      "ngoko": "siji",
+      "krama": "satunggal"
+    },
+    {
+      "id": "saudara",
+      "ngoko": "sadulur, kadang, sudara, sagarba, saringan, yadu, warga, wandawa",
+      "krama": "sadhèrèk"
+    },
+    {
+      "id": "saudara",
+      "ngoko": "sedulur",
+      "krama": "sedherek"
+    },
+    {
+      "id": "saudara satu kakek",
+      "ngoko": "nakdulur",
+      "krama": "sedherek"
+    },
+    {
+      "id": "saudara, kadang-kadang",
+      "ngoko": "kadang",
+      "krama": "kadhang"
+    },
+    {
+      "id": "sawah",
+      "ngoko": "sawah",
+      "krama": "sabin"
+    },
+    {
+      "id": "saya",
+      "ngoko": "inyong",
+      "krama": "aku/kula"
+    },
+    {
+      "id": "saya",
+      "ngoko": "inyong/enyong",
+      "krama": "aku/kula"
+    },
+    {
+      "id": "saya",
+      "ngoko": "isun",
+      "krama": "aku/kula"
+    },
+    {
+      "id": "saya",
+      "ngoko": "nyong",
+      "krama": "aku/kula"
+    },
+    {
+      "id": "saya baca",
+      "ngoko": "dakwaca",
+      "krama": "kula waos"
+    },
+    {
+      "id": "saya makan",
+      "ngoko": "dakpangan",
+      "krama": "kula nedha"
+    },
+    {
+      "id": "saya minta",
+      "ngoko": "aku jaluk",
+      "krama": "kula nyuwun"
+    },
+    {
+      "id": "sayang",
+      "ngoko": "sayang",
+      "krama": "tresna"
+    },
+    {
+      "id": "sayur  jangan, kuah, sayur",
+      "ngoko": "jangan",
+      "krama": "janganan"
+    },
+    {
+      "id": "sebarau",
+      "ngoko": "iwak",
+      "krama": "ulam"
+    },
+    {
+      "id": "sebelum",
+      "ngoko": "sadurunge",
+      "krama": "saderengipun"
+    },
+    {
+      "id": "sebentar",
+      "ngoko": "sedhéla",
+      "krama": "sekedhap"
+    },
+    {
+      "id": "sebentar",
+      "ngoko": "dhéla",
+      "krama": "sedhela/sakedhap"
+    },
+    {
+      "id": "sebentar, sejurus",
+      "ngoko": "sadhéla",
+      "krama": "sakedhap"
+    },
+    {
+      "id": "sedikit",
+      "ngoko": "sithik",
+      "krama": "sakedhik"
+    },
+    {
+      "id": "sedikit",
+      "ngoko": "thithik",
+      "krama": "sithik/sakedhik"
+    },
+    {
+      "id": "sedikit, sikit",
+      "ngoko": "sathithik, sapala, samatra, alpa",
+      "krama": "sakedhik"
+    },
+    {
+      "id": "segala",
+      "ngoko": "kabèh",
+      "krama": "sedaya"
+    },
+    {
+      "id": "segar",
+      "ngoko": "segar",
+      "krama": "seger"
+    },
+    {
+      "id": "sehat",
+      "ngoko": "sehat",
+      "krama": "waras"
+    },
+    {
+      "id": "sehat, afiat",
+      "ngoko": "waras",
+      "krama": "saras"
+    },
+    {
+      "id": "sehingga, singgan",
+      "ngoko": "nganti",
+      "krama": "ngantos"
+    },
+    {
+      "id": "sejak",
+      "ngoko": "awit",
+      "krama": "amargi"
+    },
+    {
+      "id": "sejuk",
+      "ngoko": "anyep",
+      "krama": "asrep"
+    },
+    {
+      "id": "sekali",
+      "ngoko": "sapisan",
+      "krama": "sapindhah"
+    },
+    {
+      "id": "sekalian",
+      "ngoko": "kabèh",
+      "krama": "sedaya"
+    },
+    {
+      "id": "sekarang",
+      "ngoko": "sakiki",
+      "krama": "sakmenika"
+    },
+    {
+      "id": "sekh, partikel penegas",
+      "ngoko": "seh",
+      "krama": "-"
+    },
+    {
+      "id": "selain, selain itu",
+      "ngoko": "saliyané",
+      "krama": "sanesipun"
+    },
+    {
+      "id": "selamat",
+      "ngoko": "wilujeng",
+      "krama": "slamet"
+    },
+    {
+      "id": "selamat, aman, salam",
+      "ngoko": "slamet, ayu, basuki, yuwana, swasta",
+      "krama": "wilujeng, sugeng"
+    },
+    {
+      "id": "selempukau",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "selendang",
+      "ngoko": "selendhang",
+      "krama": "slendhang"
+    },
+    {
+      "id": "selesai",
+      "ngoko": "lebar",
+      "krama": "bar/rampung"
+    },
+    {
+      "id": "selimut",
+      "ngoko": "selimut",
+      "krama": "kemul"
+    },
+    {
+      "id": "seliri",
+      "ngoko": "palinggihan",
+      "krama": "palenggahan"
+    },
+    {
+      "id": "sembuh",
+      "ngoko": "mantun",
+      "krama": "mari"
+    },
+    {
+      "id": "sembuh",
+      "ngoko": "mari",
+      "krama": "mantun"
+    },
+    {
+      "id": "sembuh, selesai",
+      "ngoko": "mari",
+      "krama": "mantun"
+    },
+    {
+      "id": "semoga",
+      "ngoko": "muga-muga",
+      "krama": "mugi-mugi"
+    },
+    {
+      "id": "semoga menjadi",
+      "ngoko": "dadya",
+      "krama": "dadosa"
+    },
+    {
+      "id": "sempit",
+      "ngoko": "sempit",
+      "krama": "ciyut"
+    },
+    {
+      "id": "semua",
+      "ngoko": "kabeh/kabyeh",
+      "krama": "kabeh/sedaya"
+    },
+    {
+      "id": "semua",
+      "ngoko": "kabèh",
+      "krama": "sedaya"
+    },
+    {
+      "id": "semua saja",
+      "ngoko": "kabeh wae",
+      "krama": "sedaya kemawon"
+    },
+    {
+      "id": "semua, segala, sekalian",
+      "ngoko": "kabèh, pwa, sakèh, sanggya, sadarum, sagung, salir, sawegung, sakalir, sakwèh, kapwa, samanta, kapya",
+      "krama": "sedaya"
+    },
+    {
+      "id": "senang",
+      "ngoko": "senang",
+      "krama": "bungah, bingah"
+    },
+    {
+      "id": "senang makan, doyan, suka",
+      "ngoko": "doyan",
+      "krama": "septa, kepareng"
+    },
+    {
+      "id": "senapan",
+      "ngoko": "bedhil",
+      "krama": "senjata"
+    },
+    {
+      "id": "senapan, bedil, senapang",
+      "ngoko": "bedhil, sanjata, saragni, brahmastra, mêrcukala, bahnija, warahas",
+      "krama": "senjata"
+    },
+    {
+      "id": "sendiri",
+      "ngoko": "dhéwé, priyangga, juga, gana, anggana, pribadi",
+      "krama": "piyambak"
+    },
+    {
+      "id": "sendirian",
+      "ngoko": "dhèwèkan",
+      "krama": "piyambakan"
+    },
+    {
+      "id": "sendirian",
+      "ngoko": "dhèwèkan",
+      "krama": "piyambakan"
+    },
+    {
+      "id": "seneng",
+      "ngoko": "remen",
+      "krama": "dhemen"
+    },
+    {
+      "id": "seneng, suka",
+      "ngoko": "remen",
+      "krama": "dhemen"
+    },
+    {
+      "id": "senja",
+      "ngoko": "surup",
+      "krama": "serep"
+    },
+    {
+      "id": "senjata",
+      "ngoko": "gegaman",
+      "krama": "dêdamêl"
+    },
+    {
+      "id": "senyum",
+      "ngoko": "esem",
+      "krama": "mesem"
+    },
+    {
+      "id": "sepuluh",
+      "ngoko": "sepuluh",
+      "krama": "sadasa"
+    },
+    {
+      "id": "serang, menggempur",
+      "ngoko": "gempur",
+      "krama": "nggempur"
+    },
+    {
+      "id": "serawa",
+      "ngoko": "panganan",
+      "krama": "tetedhan, dhaharan"
+    },
+    {
+      "id": "serba",
+      "ngoko": "sarwa",
+      "krama": "sarwi{{engg"
+    },
+    {
+      "id": "seronok",
+      "ngoko": "kepénak",
+      "krama": "sakéca"
+    },
+    {
+      "id": "serta-merta",
+      "ngoko": "tumuli",
+      "krama": "tumunten"
+    },
+    {
+      "id": "sesudah isya",
+      "ngoko": "bakda isya",
+      "krama": "sasampunipun isya"
+    },
+    {
+      "id": "sesudah subuh",
+      "ngoko": "bakda subuh",
+      "krama": "sasampunipun subuh"
+    },
+    {
+      "id": "setahuku",
+      "ngoko": "sak ngertiku",
+      "krama": "saking pangertosan kula"
+    },
+    {
+      "id": "setelah, bada, bakda, sesudah",
+      "ngoko": "bakda",
+      "krama": "sasampunipun"
+    },
+    {
+      "id": "si",
+      "ngoko": "si",
+      "krama": "pun"
+    },
+    {
+      "id": "Siang",
+      "ngoko": "rina",
+      "krama": "rintên"
+    },
+    {
+      "id": "siang",
+      "ngoko": "awan",
+      "krama": "siyang"
+    },
+    {
+      "id": "siap",
+      "ngoko": "cepak",
+      "krama": "cawis"
+    },
+    {
+      "id": "siapa",
+      "ngoko": "sapa",
+      "krama": "sinten"
+    },
+    {
+      "id": "siapa",
+      "ngoko": "sopo",
+      "krama": "sinten",
+      "keterangan": "pitakon bab wong sing nglakoni utawa sing diarah sapa jenengmu?"
+    },
+    {
+      "id": "siapa saja",
+      "ngoko": "sapa wae",
+      "krama": "sinten kemawon"
+    },
+    {
+      "id": "sida",
+      "ngoko": "kebirèn",
+      "krama": "kebincihan"
+    },
+    {
+      "id": "sikikih",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "sikudidi",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "silahkan, silakan",
+      "ngoko": "monggo",
+      "krama": "mangga"
+    },
+    {
+      "id": "singgah",
+      "ngoko": "mampir",
+      "krama": "kampir"
+    },
+    {
+      "id": "sini",
+      "ngoko": "kéné",
+      "krama": "riki"
+    },
+    {
+      "id": "situ",
+      "ngoko": "kono",
+      "krama": "riku"
+    },
+    {
+      "id": "situ",
+      "ngoko": "kono",
+      "krama": "riku"
+    },
+    {
+      "id": "sua",
+      "ngoko": "adu arep",
+      "krama": "abenajeng"
+    },
+    {
+      "id": "suami/istri, bini, isteri, suami",
+      "ngoko": "bojo, somah, suwami, garwa, grha, kalulut, kucumbi",
+      "krama": "garwa"
+    },
+    {
+      "id": "suang",
+      "ngoko": "gampang",
+      "krama": "gampil"
+    },
+    {
+      "id": "suara",
+      "ngoko": "swara, sraba, bawa, wakya",
+      "krama": "swanten"
+    },
+    {
+      "id": "suatu",
+      "ngoko": "siji",
+      "krama": "satunggal"
+    },
+    {
+      "id": "sudah",
+      "ngoko": "wes",
+      "krama": "sampun"
+    },
+    {
+      "id": "sudah lama tidak bertemu",
+      "ngoko": "wis suwe ora ketemu",
+      "krama": "sampun dangu mboten kepanggih",
+      "keterangan": "definisi: sudah lama tidak bertemu"
+    },
+    {
+      "id": "sudah makan belum",
+      "ngoko": "wis mangan durung",
+      "krama": "sampun dhahar?"
+    },
+    {
+      "id": "suh",
+      "ngoko": "panas",
+      "krama": "bentèr"
+    },
+    {
+      "id": "suka",
+      "ngoko": "dhemen",
+      "krama": "rêmên"
+    },
+    {
+      "id": "sukacita",
+      "ngoko": "bungah",
+      "krama": "bingah"
+    },
+    {
+      "id": "sukar, sulit",
+      "ngoko": "angel",
+      "krama": "awrat"
+    },
+    {
+      "id": "sulit",
+      "ngoko": "sulit",
+      "krama": "awrat"
+    },
+    {
+      "id": "sulung",
+      "ngoko": "barep",
+      "krama": "pambarep"
+    },
+    {
+      "id": "sungai, sungai besar",
+      "ngoko": "bengawan",
+      "krama": "benawi"
+    },
+    {
+      "id": "sungguh",
+      "ngoko": "temen",
+      "krama": "sayektos"
+    },
+    {
+      "id": "sungguh, nyata",
+      "ngoko": "yekti",
+      "krama": "yektos"
+    },
+    {
+      "id": "supaya",
+      "ngoko": "cek",
+      "krama": "ben/supados"
+    },
+    {
+      "id": "supaya",
+      "ngoko": "mrih",
+      "krama": "supados"
+    },
+    {
+      "id": "supaya baik",
+      "ngoko": "amrih becik",
+      "krama": "supados sae"
+    },
+    {
+      "id": "surat, warkah",
+      "ngoko": "layang, nawala, sêrat, pustaka, kintèki, walgita, wilapa, palupi, patra",
+      "krama": "serat"
+    },
+    {
+      "id": "surat-kabar",
+      "ngoko": "layang kabar",
+      "krama": "serat-kabar"
+    },
+    {
+      "id": "surat-kabar",
+      "ngoko": "layang kabar",
+      "krama": "serat-kabar"
+    },
+    {
+      "id": "surga",
+      "ngoko": "swarga",
+      "krama": "swargi"
+    },
+    {
+      "id": "suruh, menyuruh",
+      "ngoko": "akon",
+      "krama": "akèn, ngendikakaké"
+    },
+    {
+      "id": "susah, rimbit",
+      "ngoko": "rekasa",
+      "krama": "rêkaos"
+    },
+    {
+      "id": "susu, tetek",
+      "ngoko": "susu",
+      "krama": "dipun-sesa-sesa, prembayun"
+    },
+    {
+      "id": "ta",
+      "ngoko": "ora",
+      "krama": "boten"
+    },
+    {
+      "id": "tabir, menggubah",
+      "ngoko": "gubah",
+      "krama": "nggubah"
+    },
+    {
+      "id": "tadi",
+      "ngoko": "mau",
+      "krama": "wau"
+    },
+    {
+      "id": "tadi, tahadi",
+      "ngoko": "mau",
+      "krama": "wau"
+    },
+    {
+      "id": "tahadi",
+      "ngoko": "mau",
+      "krama": "wau"
+    },
+    {
+      "id": "tahun",
+      "ngoko": "tahun",
+      "krama": "taun"
+    },
+    {
+      "id": "tajam",
+      "ngoko": "tajam",
+      "krama": "landhep"
+    },
+    {
+      "id": "tak",
+      "ngoko": "ora",
+      "krama": "boten"
+    },
+    {
+      "id": "takut",
+      "ngoko": "gocik",
+      "krama": "wedi/ajrih"
+    },
+    {
+      "id": "tamasya",
+      "ngoko": "tontonan",
+      "krama": "tetingalan"
+    },
+    {
+      "id": "tamasya",
+      "ngoko": "tontonan",
+      "krama": "tetingalan"
+    },
+    {
+      "id": "tampak",
+      "ngoko": "katon, wuryan, kawangwang, kasatmata, kèksi, kèngis",
+      "krama": "kaot"
+    },
+    {
+      "id": "tampak",
+      "ngoko": "katon",
+      "krama": "kaot"
+    },
+    {
+      "id": "tampan",
+      "ngoko": "cakep",
+      "krama": "sae"
+    },
+    {
+      "id": "tampan",
+      "ngoko": "ganteng",
+      "krama": "sae"
+    },
+    {
+      "id": "tampan, bagus",
+      "ngoko": "bagus, sigit, pêkik, jênthara",
+      "krama": "sae"
+    },
+    {
+      "id": "tamu",
+      "ngoko": "tetamu",
+      "krama": "tamu, dhayoh"
+    },
+    {
+      "id": "tamu",
+      "ngoko": "dhayoh",
+      "krama": "tamu"
+    },
+    {
+      "id": "tanafus, bernapas",
+      "ngoko": "ambekan, napas, huswa, swasa, huswasa",
+      "krama": "ambegan"
+    },
+    {
+      "id": "tanah, bentala",
+      "ngoko": "lemah, (idêm bumi) siti, kisma, kismaka, pratiwi, bantala, bumija, pratala, maitala, buh",
+      "krama": "siti"
+    },
+    {
+      "id": "tanah, zamin",
+      "ngoko": "tanah",
+      "krama": "siti"
+    },
+    {
+      "id": "tanam, menanam",
+      "ngoko": "tandur",
+      "krama": "tanem"
+    },
+    {
+      "id": "tanda, semboyan",
+      "ngoko": "tengara",
+      "krama": "pratandha"
+    },
+    {
+      "id": "tandak, menari",
+      "ngoko": "joget",
+      "krama": "njoget"
+    },
+    {
+      "id": "tanduk, serangga",
+      "ngoko": "sungu",
+      "krama": "singat"
+    },
+    {
+      "id": "tangan",
+      "ngoko": "tangan, asta, lungia, lungiyan, sikara, bujaka",
+      "krama": "asta"
+    },
+    {
+      "id": "tanggung",
+      "ngoko": "tanggung",
+      "krama": "tanggel"
+    },
+    {
+      "id": "tari, menari",
+      "ngoko": "joged, baksa, ngibing, ngigêl, mataya, taya, patrayuda",
+      "krama": "njoged"
+    },
+    {
+      "id": "tawar",
+      "ngoko": "tawa",
+      "krama": "tawi"
+    },
+    {
+      "id": "tebu",
+      "ngoko": "tebu",
+      "krama": "rosan"
+    },
+    {
+      "id": "tebu",
+      "ngoko": "rosan",
+      "krama": "tebu"
+    },
+    {
+      "id": "tebu, bambu",
+      "ngoko": "rosan",
+      "krama": "tebu"
+    },
+    {
+      "id": "teguh",
+      "ngoko": "kukuh",
+      "krama": "kekah"
+    },
+    {
+      "id": "telampung, mengambang",
+      "ngoko": "kambang",
+      "krama": "ngambang"
+    },
+    {
+      "id": "telanjur",
+      "ngoko": "kebanjur",
+      "krama": "kelajeng"
+    },
+    {
+      "id": "telinga",
+      "ngoko": "kuping, talingan, padlingan, pangrênga, karana, karni, kenoh",
+      "krama": "talingan"
+    },
+    {
+      "id": "telur",
+      "ngoko": "endhog",
+      "krama": "tigan"
+    },
+    {
+      "id": "telur ayam",
+      "ngoko": "endhog pitik",
+      "krama": "tigan"
+    },
+    {
+      "id": "teman",
+      "ngoko": "batir",
+      "krama": "kanca"
+    },
+    {
+      "id": "teman",
+      "ngoko": "teman",
+      "krama": "kanca, rencang"
+    },
+    {
+      "id": "teman, hamba, kadam, khadam, sahaya, ulun",
+      "ngoko": "batur",
+      "krama": "réncang"
+    },
+    {
+      "id": "tembakau",
+      "ngoko": "tembakau",
+      "krama": "tembako"
+    },
+    {
+      "id": "tempat",
+      "ngoko": "enggon",
+      "krama": "enggèn"
+    },
+    {
+      "id": "tempat",
+      "ngoko": "anggon",
+      "krama": "anggèn"
+    },
+    {
+      "id": "tempat",
+      "ngoko": "enggen",
+      "krama": "papan"
+    },
+    {
+      "id": "tempat",
+      "ngoko": "tempat",
+      "krama": "papan"
+    },
+    {
+      "id": "tempatnya",
+      "ngoko": "papane",
+      "krama": "panggenanipun"
+    },
+    {
+      "id": "tempayan besar",
+      "ngoko": "gentong",
+      "krama": "genthong"
+    },
+    {
+      "id": "tempurung",
+      "ngoko": "tempurung",
+      "krama": "bathok"
+    },
+    {
+      "id": "tenaga",
+      "ngoko": "tenaga",
+      "krama": "daya"
+    },
+    {
+      "id": "tenang",
+      "ngoko": "tenang",
+      "krama": "tentrem"
+    },
+    {
+      "id": "tenggala, membajak",
+      "ngoko": "luku",
+      "krama": "ngluku"
+    },
+    {
+      "id": "tengkar",
+      "ngoko": "padu",
+      "krama": "paben"
+    },
+    {
+      "id": "tentang, bagian",
+      "ngoko": "babagan",
+      "krama": "bab"
+    },
+    {
+      "id": "tenteram",
+      "ngoko": "ayem tentrem",
+      "krama": "tentrem"
+    },
+    {
+      "id": "terbakar",
+      "ngoko": "kobong, gêsêng, basmi, kawêlagar, tunu",
+      "krama": "kebesmi"
+    },
+    {
+      "id": "terima kasih",
+      "ngoko": "suwun",
+      "krama": "matur nuwun"
+    },
+    {
+      "id": "terjadi",
+      "ngoko": "kedadéyan",
+      "krama": "kedadosan"
+    },
+    {
+      "id": "terjadi",
+      "ngoko": "dumadi",
+      "krama": "kedadosan"
+    },
+    {
+      "id": "terjadi, kejadian",
+      "ngoko": "kedadeyan",
+      "krama": "kedadosan"
+    },
+    {
+      "id": "terjaga",
+      "ngoko": "lilir",
+      "krama": "nglilir"
+    },
+    {
+      "id": "terkejut karena heran, terkejut",
+      "ngoko": "cingak",
+      "krama": "kaget"
+    },
+    {
+      "id": "terlaksana",
+      "ngoko": "kelakon",
+      "krama": "kelampahan"
+    },
+    {
+      "id": "terlaksana",
+      "ngoko": "kelakon",
+      "krama": "kelampahan"
+    },
+    {
+      "id": "terlantar",
+      "ngoko": "kapiran",
+      "krama": "kapinten"
+    },
+    {
+      "id": "terletak",
+      "ngoko": "dumunung",
+      "krama": "mapan"
+    },
+    {
+      "id": "terletak",
+      "ngoko": "dunung",
+      "krama": "mapan"
+    },
+    {
+      "id": "termasuk",
+      "ngoko": "kelebu",
+      "krama": "kelebet"
+    },
+    {
+      "id": "termasuk",
+      "ngoko": "kelebu",
+      "krama": "kelebet"
+    },
+    {
+      "id": "ternak peliharaan",
+      "ngoko": "ingon-ingon",
+      "krama": "ingahan"
+    },
+    {
+      "id": "tersenyum-senyum",
+      "ngoko": "esem-esem",
+      "krama": "mesem-mesem"
+    },
+    {
+      "id": "tertawa",
+      "ngoko": "guyu",
+      "krama": "gujeng"
+    },
+    {
+      "id": "tertawa",
+      "ngoko": "ngguyu",
+      "krama": "gumujeng"
+    },
+    {
+      "id": "tertawa, tawa",
+      "ngoko": "guyu",
+      "krama": "gujeng"
+    },
+    {
+      "id": "tertimpa",
+      "ngoko": "ketiban",
+      "krama": "kedhawahan"
+    },
+    {
+      "id": "tertimpa",
+      "ngoko": "ketiban",
+      "krama": "kedhawahan"
+    },
+    {
+      "id": "terus gimana",
+      "ngoko": "lha piye",
+      "krama": "lajeng kados pundi"
+    },
+    {
+      "id": "terus, hatta, lalu, lantas",
+      "ngoko": "banjur",
+      "krama": "lajeng"
+    },
+    {
+      "id": "terus, kemudian",
+      "ngoko": "banjur",
+      "krama": "lajeng"
+    },
+    {
+      "id": "tetamu",
+      "ngoko": "dhayoh",
+      "krama": "tamu"
+    },
+    {
+      "id": "tetangga, tangga",
+      "ngoko": "tangga",
+      "krama": "andha"
+    },
+    {
+      "id": "tetap",
+      "ngoko": "panggah",
+      "krama": "tetep"
+    },
+    {
+      "id": "tetapi",
+      "ngoko": "naming/ningan",
+      "krama": "nanging/ananging"
+    },
+    {
+      "id": "tetapi, tapi",
+      "ngoko": "nanging, anging, anapi, mapan",
+      "krama": "ananging"
+    },
+    {
+      "id": "tiang",
+      "ngoko": "tiyang",
+      "krama": "wong"
+    },
+    {
+      "id": "tiang, orang",
+      "ngoko": "tiyang",
+      "krama": "wong"
+    },
+    {
+      "id": "tida",
+      "ngoko": "ora",
+      "krama": "boten"
+    },
+    {
+      "id": "tidak",
+      "ngoko": "gak",
+      "krama": "ora/mboten"
+    },
+    {
+      "id": "tidak",
+      "ngoko": "boten",
+      "krama": "ora"
+    },
+    {
+      "id": "tidak ada",
+      "ngoko": "nana",
+      "krama": "ora ana"
+    },
+    {
+      "id": "tidak apa-apa",
+      "ngoko": "ora apa-apa",
+      "krama": "mboten menapa-menapa"
+    },
+    {
+      "id": "tidak laku",
+      "ngoko": "ora payu",
+      "krama": "mboten payu"
+    },
+    {
+      "id": "tidak mau",
+      "ngoko": "ogah",
+      "krama": "wegah"
+    },
+    {
+      "id": "tidak tahu",
+      "ngoko": "gak eroh / gak ngerti",
+      "krama": "ora ngertos"
+    },
+    {
+      "id": "tidak tahu",
+      "ngoko": "mberuh",
+      "krama": "ora ngerti"
+    },
+    {
+      "id": "tidak tahu",
+      "ngoko": "embuh",
+      "krama": "kilap, duka-dalem"
+    },
+    {
+      "id": "tidur, nidera",
+      "ngoko": "turu, tilêm, sare, guling, nendra, mrêm, supta",
+      "krama": "tilem, saré"
+    },
+    {
+      "id": "tiga",
+      "ngoko": "telu",
+      "krama": "tiga"
+    },
+    {
+      "id": "tikar",
+      "ngoko": "klasa",
+      "krama": "gelaran"
+    },
+    {
+      "id": "tikar",
+      "ngoko": "klasa",
+      "krama": "gelaran"
+    },
+    {
+      "id": "tiku",
+      "ngoko": "manuk",
+      "krama": "peksi"
+    },
+    {
+      "id": "timbangannya",
+      "ngoko": "timbangane",
+      "krama": "timbanganipun"
+    },
+    {
+      "id": "timpas",
+      "ngoko": "wrata",
+      "krama": "wradin"
+    },
+    {
+      "id": "tindakan",
+      "ngoko": "tindakan",
+      "krama": "tumindak"
+    },
+    {
+      "id": "tinggal",
+      "ngoko": "kari",
+      "krama": "kantun"
+    },
+    {
+      "id": "tinggal",
+      "ngoko": "kari",
+      "krama": "kantun"
+    },
+    {
+      "id": "tinggi",
+      "ngoko": "dhuwur, bentar, luhur, punjung",
+      "krama": "inggil"
+    },
+    {
+      "id": "tinggi",
+      "ngoko": "dhukur",
+      "krama": "dhuwur/inggil"
+    },
+    {
+      "id": "tinggi",
+      "ngoko": "dhuwur",
+      "krama": "inggil"
+    },
+    {
+      "id": "tingging",
+      "ngoko": "iwak",
+      "krama": "ulam"
+    },
+    {
+      "id": "tipu, menipu",
+      "ngoko": "apus",
+      "krama": "ngapusi"
+    },
+    {
+      "id": "tolong, menolong",
+      "ngoko": "tulung",
+      "krama": "pitulungan"
+    },
+    {
+      "id": "tongkat",
+      "ngoko": "tongkat",
+      "krama": "teken"
+    },
+    {
+      "id": "topi",
+      "ngoko": "tupi",
+      "krama": "topi"
+    },
+    {
+      "id": "tua",
+      "ngoko": "tua",
+      "krama": "sepuh"
+    },
+    {
+      "id": "tua, ua",
+      "ngoko": "tuwa, tuha, wrêdha, sêpuh, jimbun",
+      "krama": "sepuh"
+    },
+    {
+      "id": "tuan",
+      "ngoko": "tuan",
+      "krama": "bendara, gusti"
+    },
+    {
+      "id": "tujuan, maksud",
+      "ngoko": "ancas",
+      "krama": "tujuwan"
+    },
+    {
+      "id": "tukar",
+      "ngoko": "ijol",
+      "krama": "lintu"
+    },
+    {
+      "id": "tukar",
+      "ngoko": "liru",
+      "krama": "lintu"
+    },
+    {
+      "id": "tulung, tolong",
+      "ngoko": "tolong",
+      "krama": "nyuwun tulung"
+    },
+    {
+      "id": "tunggal",
+      "ngoko": "siji",
+      "krama": "satunggal"
+    },
+    {
+      "id": "tunggu",
+      "ngoko": "enteni",
+      "krama": "entosi"
+    },
+    {
+      "id": "turun",
+      "ngoko": "mudhun",
+      "krama": "mandhap, tumurun"
+    },
+    {
+      "id": "turun",
+      "ngoko": "mudhun",
+      "krama": "mandhap"
+    },
+    {
+      "id": "turut",
+      "ngoko": "mèlu",
+      "krama": "tumut, ndhèrèk"
+    },
+    {
+      "id": "tutup, menutup",
+      "ngoko": "tutup",
+      "krama": "nutup"
+    },
+    {
+      "id": "uang",
+      "ngoko": "yatra",
+      "krama": "dhuwit"
+    },
+    {
+      "id": "uang, duit, fulus, kejer, mata-uang, wang",
+      "ngoko": "dhuwit, arta, ardana, yatra, picis, kopang",
+      "krama": "yatra, arta"
+    },
+    {
+      "id": "udah",
+      "ngoko": "wis",
+      "krama": "sampun"
+    },
+    {
+      "id": "udah, sudah",
+      "ngoko": "wis",
+      "krama": "sampun"
+    },
+    {
+      "id": "udara",
+      "ngoko": "udara",
+      "krama": "hawa"
+    },
+    {
+      "id": "ugama",
+      "ngoko": "agama",
+      "krama": "agami"
+    },
+    {
+      "id": "ujar, ucapan",
+      "ngoko": "ujar",
+      "krama": "sabda"
+    },
+    {
+      "id": "ujrat",
+      "ngoko": "opahan",
+      "krama": "émbalan"
+    },
+    {
+      "id": "ulama",
+      "ngoko": "ngulama",
+      "krama": "ngulami"
+    },
+    {
+      "id": "ulama",
+      "ngoko": "ngulama",
+      "krama": "ngulami"
+    },
+    {
+      "id": "umpat",
+      "ngoko": "pangala-ala",
+      "krama": "pangawon-awon"
+    },
+    {
+      "id": "umpat",
+      "ngoko": "pangala-ala",
+      "krama": "pangawon-awon"
+    },
+    {
+      "id": "umum, biasa, jamak",
+      "ngoko": "lumrah",
+      "krama": "limrah"
+    },
+    {
+      "id": "umum, wajar, biasa",
+      "ngoko": "lumrah",
+      "krama": "limrah"
+    },
+    {
+      "id": "umur",
+      "ngoko": "yuswa",
+      "krama": "umur"
+    },
+    {
+      "id": "unda",
+      "ngoko": "ibu",
+      "krama": "embok"
+    },
+    {
+      "id": "untuk, bagi",
+      "ngoko": "tumrap",
+      "krama": "kagem"
+    },
+    {
+      "id": "upah",
+      "ngoko": "opah",
+      "krama": "épah"
+    },
+    {
+      "id": "upama",
+      "ngoko": "upama",
+      "krama": "upami"
+    },
+    {
+      "id": "urai, memaparkan",
+      "ngoko": "wedhar",
+      "krama": "ngedhar"
+    },
+    {
+      "id": "usir, mengusir",
+      "ngoko": "usir",
+      "krama": "ngusir"
+    },
+    {
+      "id": "usul",
+      "ngoko": "pamrayoga",
+      "krama": "pamrayogi"
+    },
+    {
+      "id": "utama",
+      "ngoko": "utama",
+      "krama": "utami"
+    },
+    {
+      "id": "utara",
+      "ngoko": "lor",
+      "krama": "lèr"
+    },
+    {
+      "id": "utara, paksina",
+      "ngoko": "lor, utara, untara, nurwitri (lor wetan), [9] narasunya (lor wetan)",
+      "krama": "lèr"
+    },
+    {
+      "id": "utuh",
+      "ngoko": "wutuh",
+      "krama": "wetah"
+    },
+    {
+      "id": "utuh",
+      "ngoko": "wetah",
+      "krama": "wutuh"
+    },
+    {
+      "id": "wadah, jambar",
+      "ngoko": "ajang",
+      "krama": "wadhah"
+    },
+    {
+      "id": "wadun",
+      "ngoko": "wong wadon",
+      "krama": "tiyangèstri"
+    },
+    {
+      "id": "wadun",
+      "ngoko": "wong wadon",
+      "krama": "tiyangèstri"
+    },
+    {
+      "id": "wahi",
+      "ngoko": "impèn",
+      "krama": "supena"
+    },
+    {
+      "id": "wahid",
+      "ngoko": "siji",
+      "krama": "satunggal"
+    },
+    {
+      "id": "waja",
+      "ngoko": "waja",
+      "krama": "waos"
+    },
+    {
+      "id": "wang",
+      "ngoko": "dhuwit",
+      "krama": "yatra"
+    },
+    {
+      "id": "wangi sedap, harum",
+      "ngoko": "arum",
+      "krama": "wangi"
+    },
+    {
+      "id": "warna",
+      "ngoko": "wêrna",
+      "krama": "werni"
+    },
+    {
+      "id": "warna (krama)",
+      "ngoko": "werni",
+      "krama": "werni"
+    },
+    {
+      "id": "warna, dondon, rona, urna",
+      "ngoko": "warna, rupa, aneka",
+      "krama": "warni"
+    },
+    {
+      "id": "warung",
+      "ngoko": "wandé",
+      "krama": "warung"
+    },
+    {
+      "id": "warung, dukan, kedai, lapau",
+      "ngoko": "warung",
+      "krama": "wandé"
+    },
+    {
+      "id": "wayang",
+      "ngoko": "wayang",
+      "krama": "ringgit"
+    },
+    {
+      "id": "wayang",
+      "ngoko": "wayang",
+      "krama": "ringgit"
+    },
+    {
+      "id": "ya",
+      "ngoko": "ya",
+      "krama": "inggih"
+    },
+    {
+      "id": "ya",
+      "ngoko": "ya",
+      "krama": "inggih"
+    },
+    {
+      "id": "yakin",
+      "ngoko": "yakin",
+      "krama": "manteb"
+    },
+    {
+      "id": "yang sabar",
+      "ngoko": "sing sabar",
+      "krama": "ingkang sabar"
+    },
+    {
+      "id": "yang, tidak",
+      "ngoko": "sing",
+      "krama": "ingkang"
+    },
+    {
+      "id": "zaman",
+      "ngoko": "zaman",
+      "krama": "jaman"
+    },
+    {
+      "id": "zina",
+      "ngoko": "zina",
+      "krama": "jina"
+    },
+    {
+      "id": "zuhur",
+      "ngoko": "zuhur",
+      "krama": "luhur"
+    },
+    {
+      "id": "zuriat",
+      "ngoko": "zuriat",
+      "krama": "turunan"
+    }
+  ]
+}
